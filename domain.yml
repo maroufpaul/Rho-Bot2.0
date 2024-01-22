@@ -3,31 +3,37 @@ version: "3.1"
 intents:
   - greet
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
+  - ask_faculty_specialization
+  - ask_major_requirements
+
+entities:
+  - specialization
+
+slots:
+  specialization:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: specialization
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
+    - text: "Hello there! How can I assist you with information on the Computer Science department?"
   utter_goodbye:
-  - text: "Bye"
-
+    - text: "Goodbye! If you have any more questions, feel free to ask."
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a chatbot designed to help you with information on the Computer Science department. How may I assist you?"
+  utter_ask_major_requirements:
+    - text: "The major requirements for computer science include 56 credits, with courses such as CS 141, CS 142, etc."
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_iamabot
+  - utter_ask_major_requirements
+  - action_faculty_specialization
 
 session_config:
   session_expiration_time: 60
