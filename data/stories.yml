@@ -2,29 +2,23 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: basic greeting
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
 
-- story: sad path 1
+- story: faculty specialization inquiry
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+  - intent: ask_faculty_specialization
+  - action: action_faculty_specialization
   - action: utter_goodbye
+
+- story: major requirements inquiry
+  steps:
+  - intent: ask_major_requirements
+  - action: utter_ask_major_requirements
+
+- story: bot challenge interaction
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
