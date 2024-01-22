@@ -1,0 +1,52 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_faculty_specialization
+  examples: |
+    - Who specializes in [computer graphics](specialization)?
+    - Tell me about professors who work on [machine learning](specialization).
+    - Which faculty member's expertise is in [network security](specialization)?
+    - Can you find someone in the [bioinformatics](specialization) area?
+    - I need information on [data analytics](specialization).
+    - Who should I talk to about [artificial intelligence](specialization)?
+    - Is there an expert in [parallel programming](specialization)?
+    - I’m looking for a professor who knows about [distributed systems](specialization).
+    - Who in the department is known for [formal verification](specialization)?
+    - Find me a faculty member with knowledge in [music informatics](specialization).
+- intent: ask_major_requirements
+  examples: |
+    - What are the major requirements for computer science?
+    - Can you list the courses needed for a computer science major?
+    - What classes do I need to take for the CS major?
+    - Could you inform me about the computer science degree requirements?
+    - What's needed to complete a major in computer science?
+    - Tell me about the course requirements for a CS degree.
+    - I'm interested in the CS major, what courses should I enroll in?
+    - What are the prerequisites for the computer science program?
+    - Could you help me understand the CS curriculum?
+    - What subjects are compulsory for a computer science major?

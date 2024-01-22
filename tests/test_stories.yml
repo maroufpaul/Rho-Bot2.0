@@ -1,0 +1,39 @@
+version: "3.1"
+
+stories:
+- story: Test greeting
+  steps:
+  - user: |
+      Hello!
+    intent: greet
+  - action: utter_greet
+
+- story: Test faculty specialization inquiry
+  steps:
+  - user: |
+      Who specializes in computer graphics?
+    intent: ask_faculty_specialization
+    entities:
+      - specialization: "computer graphics"
+  - action: action_faculty_specialization
+
+- story: Test major requirements inquiry
+  steps:
+  - user: |
+      What are the major requirements for computer science?
+    intent: ask_major_requirements
+  - action: utter_ask_major_requirements
+
+- story: Test bot challenge
+  steps:
+  - user: |
+      Are you a bot?
+    intent: bot_challenge
+  - action: utter_iamabot
+
+- story: Test conversation ending with goodbye
+  steps:
+  - user: |
+      Bye!
+    intent: goodbye
+  - action: utter_goodbye

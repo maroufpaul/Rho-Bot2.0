@@ -1,0 +1,24 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Provide major requirements
+  steps:
+  - intent: ask_major_requirements
+  - action: utter_ask_major_requirements
+
+- rule: Faculty specialization inquiry
+  steps:
+  - intent: ask_faculty_specialization
+  - action: action_faculty_specialization
+  - action: utter_goodbye

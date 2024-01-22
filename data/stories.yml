@@ -1,0 +1,24 @@
+version: "3.1"
+
+stories:
+
+- story: basic greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: faculty specialization inquiry
+  steps:
+  - intent: ask_faculty_specialization
+  - action: action_faculty_specialization
+  - action: utter_goodbye
+
+- story: major requirements inquiry
+  steps:
+  - intent: ask_major_requirements
+  - action: utter_ask_major_requirements
+
+- story: bot challenge interaction
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
