@@ -1,24 +1,40 @@
-version: "3.1"
+version: "3.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
-
-- rule: Provide major requirements
-  steps:
-  - intent: ask_major_requirements
-  - action: utter_ask_major_requirements
-
-- rule: Faculty specialization inquiry
+- rule: Handle faculty specialization inquiry
+  condition: 
+  - slot_was_set:
+    - department: computer science
   steps:
   - intent: ask_faculty_specialization
   - action: action_faculty_specialization
-  - action: utter_goodbye
+
+- rule: Retrieve department chair
+  condition: 
+  - slot_was_set:
+    - department: computer science
+  steps:
+  - intent: ask_department_chair
+  - action: action_retrieve_department_chair
+
+- rule: Provide feedback response
+  steps:
+  - intent: provide_feedback
+  - action: utter_thank_feedback
+
+- rule: Fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+

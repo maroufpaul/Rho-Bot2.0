@@ -6,34 +6,118 @@ intents:
   - bot_challenge
   - ask_faculty_specialization
   - ask_major_requirements
+  - ask_course_details
+  - ask_program_admissions
+  - ask_event_info
+  - ask_general_info
+  - provide_feedback
+  - affirm
+  - deny
+  - ask_about_department
+  - ask_department_chair
+  - specify_department
+  - ask_information
 
 entities:
   - specialization
+  - department
+  - topic
+  - subject
 
 slots:
+
   specialization:
     type: text
-    influence_conversation: false
+    influence_conversation: true
     mappings:
       - type: from_entity
         entity: specialization
+  topic:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: topic
+  department:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: department
+  subject:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: subject
+
+
 
 responses:
   utter_greet:
-    - text: "Hello there! How can I assist you with information on the Computer Science department?"
+    - text: "Hello there! How can I assist you today?"
   utter_goodbye:
-    - text: "Goodbye! If you have any more questions, feel free to ask."
+    - text: "Goodbye! Feel free to ask if you have more questions."
   utter_iamabot:
-    - text: "I am a chatbot designed to help you with information on the Computer Science department. How may I assist you?"
+    - text: "I am a bot programmed to assist you. How may I help you?"
   utter_ask_major_requirements:
-    - text: "The major requirements for computer science include 56 credits, with courses such as CS 141, CS 142, etc."
+    - text: "The major requirements for Computer Science include core courses such as CS 141 and CS 142, along with electives."
+  utter_fallback:
+    - text: "I'm sorry, I didn't understand that. Can you try rephrasing?"
+  utter_thank_feedback:
+    - text: "Thank you for your feedback!"
+  utter_how_can_i_help:
+    - text: "What else can I help you with?"
+  utter_thank_for_feedback:
+    - text: "Thanks for your feedback. How can I assist you further?"
+  utter_more_help:
+    - text: "Anything else you would like to know?"
+  utter_what_else_can_i_do:
+    - text: "Is there anything else I can do for you?"
+  utter_did_that_help:
+    - text: "Did that answer your question?"
+  utter_let_me_clarify:
+    - text: "Let me clarify that for you."
+  utter_can_i_help:
+    - text: "How can I assist you further?"
+  utter_ask_for_feedback:
+    - text: "I hope I was able to assist you. Could you provide some feedback on my assistance?"
+  utter_anything_else:
+    - text: "Is there anything else I can help with?"
+  utter_feedback_request:
+    - text: "We value your feedback. Please let us know how we did today."
+  utter_ask_department:
+    - text: "Which department are you inquiring about?"
+  utter_ask_course:
+    - text: "Which course would you like to know about?"
+  utter_ask_specialization:
+    - text: "What specialization are you interested in?"
 
 actions:
   - utter_greet
   - utter_goodbye
   - utter_iamabot
   - utter_ask_major_requirements
+  - utter_fallback
+  - utter_thank_feedback
+  - utter_how_can_i_help
+  - utter_more_help
+  - utter_what_else_can_i_do
+  - utter_did_that_help
+  - utter_let_me_clarify
+  - utter_can_i_help
+  - utter_ask_for_feedback
+  - utter_anything_else
+  - utter_feedback_request
+  - action_handle_and_analyze_feedback
   - action_faculty_specialization
+  - action_custom_fallback
+  - action_custom_classifier
+  - action_retrieve_department_chair  # Added
+  - action_retrieve_faculty_info
+  - action_provide_course_details
+  - action_retrieve_information
+  
 
 session_config:
   session_expiration_time: 60

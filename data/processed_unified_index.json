@@ -1,0 +1,125 @@
+{
+    "Computer Science": {
+        "faculty": [
+            {
+                "name": "Betsy Williams Sanders",
+                "specialization": [
+                    "computer graphics and animation"
+                ]
+            },
+            {
+                "name": "Phillip B. Kirlin",
+                "specialization": [
+                    "artificial intelligence",
+                    "machine learning",
+                    "music informatics"
+                ]
+            },
+            {
+                "name": "D. Brian Larkins",
+                "specialization": [
+                    "parallel programming",
+                    "programming languages",
+                    "network security"
+                ]
+            },
+            {
+                "name": "Catherine E. Welsh",
+                "specialization": [
+                    "bioinformatics",
+                    "computational genetics"
+                ]
+            },
+            {
+                "name": "Marion Lang",
+                "specialization": [
+                    "specification and verification of distributed systems",
+                    "large-scale distributed data processing and analytics systems"
+                ]
+            },
+            {
+                "name": "Matthew Superdock",
+                "specialization": [
+                    "type theory",
+                    "formal verification",
+                    "and automated reasoning"
+                ]
+            }
+        ],
+        "courses": [
+            "COMP 141",
+            "COMP 142",
+            "COMP 172",
+            "COMP 231",
+            "COMP 241",
+            "COMP 251",
+            "COMP 485",
+            "COMP 486"
+        ],
+        "programs": [
+            "b.s. in computer science"
+        ],
+        "additional_info": [
+            "fulfillment of the requirements for the major",
+            "honors tutorial: 495 and 496",
+            "approval by the department"
+        ]
+    },
+    "Physics": {
+        "faculty": [
+            {
+                "name": "Brent K. Hoffmeister",
+                "specialization": [
+                    "ultrasonics",
+                    "medical physics"
+                ]
+            },
+            {
+                "name": "Shubho Banerjee",
+                "specialization": [
+                    "electrostatics",
+                    "thermodynamics",
+                    "theoretical physics"
+                ]
+            },
+            {
+                "name": "Ann M. Viano",
+                "specialization": [
+                    "materials science",
+                    "solid-state physics",
+                    "medical imaging",
+                    "biophysics"
+                ]
+            },
+            {
+                "name": "David S. N. Rupke",
+                "specialization": [
+                    "observational and extragalactic astronomy"
+                ]
+            },
+            {
+                "name": "Gregory B. Vieira",
+                "specialization": [
+                    "magnetic materials and devices"
+                ]
+            }
+        ],
+        "courses": [
+            "111-112 (or 109-110 with departmental approval)",
+            "113-114",
+            "211 and 213",
+            "250",
+            "301, 305, 401, and 406",
+            "486"
+        ],
+        "programs": [
+            "b.s. in physics"
+        ],
+        "additional_info": [
+            "courses listed for the b.s. degree with a major in physics",
+            "physics 495-496, honors tutorial",
+            "original investigation in some area of physics",
+            "thesis presentation and oral presentation of the final project"
+        ]
+    }
+}

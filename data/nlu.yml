@@ -38,6 +38,32 @@ nlu:
     - I’m looking for a professor who knows about [distributed systems](specialization).
     - Who in the department is known for [formal verification](specialization)?
     - Find me a faculty member with knowledge in [music informatics](specialization).
+    - Who teaches [parallel computing](specialization) in [computer science](department_context)?
+    - Who specializes in [machine learning](specialization) in the [computer science](department_context) department?
+    - Who teaches [parallel computing](specialization)?
+    - Who specializes in [machine learning](specialization)?
+    - Can you tell me the professor for [data structures](specialization)?
+    - I want to know about the faculty in [cybersecurity](specialization).
+    - [machine learning](specialization) professor
+    - [parallel computing](specialization) faculty member
+    - who teaches [machine learning](specialization)
+    - who specializes in [parallel computing](specialization) in computer science
+    - I'm interested in [cybersecurity](specialization), who can I speak to?
+    - Who specializes in [machine learning](specialization) in the [computer science](department) department?
+    - Can you tell me about faculty in [physics](department) who focus on [electrostatics](specialization)?
+
+  #examples: |
+    #- I am asking about [computer science](department)
+    #- This is for the [physics](department) department
+
+- intent: ask_information
+  examples: |
+    - Who teaches [machine learning](course)?
+    - Tell me about the [computer science](department) department.
+    - Information on [parallel computing](course).
+    - Who specializes in [computer graphics](course)?
+     - I'm interested in [cybersecurity](specialization), who can I speak to?
+
 - intent: ask_major_requirements
   examples: |
     - What are the major requirements for computer science?
@@ -49,4 +75,76 @@ nlu:
     - I'm interested in the CS major, what courses should I enroll in?
     - What are the prerequisites for the computer science program?
     - Could you help me understand the CS curriculum?
-    - What subjects are compulsory for a computer science major?
+    - What subjects are compulsory for a physics major?
+    - Tell me about the course requirements for a physics degree.
+
+- intent: ask_course_details
+  examples: |
+    - Can you give me details about [Introduction to Psychology](course)?
+    - What does [Advanced Calculus](course) cover?
+    - I want to know more about [Modern Art History](course).
+    - Tell me more about [Artificial Intelligence](course).
+    - What does the course [Modern European History](course) cover?
+    - I’d like information on [Organic Chemistry](course).
+
+- intent: ask_program_admissions
+  examples: |
+    - How do I apply for the [BA program](program)?
+    - What are the admission requirements for [undergraduate psychology](program)?
+
+- intent: ask_event_info
+  examples: |
+    - When is the next [open house](event)?
+    - Are there any [career fairs](event) this semester?
+
+- intent: ask_general_info
+  examples: |
+    - What scholarships are available?
+    - How can I contact the admissions office?
+    - How do I contact the financial aid office?
+    - What scholarships are available for [international students](student_type)?
+
+- intent: ask_department_chair
+  examples: |
+    - Who is the chair of the [CS](department) department?
+    - Tell me who leads the [computer science](department) department.
+    - Who is in charge of the [mathematics](department) department?
+
+- intent: provide_feedback
+  examples: |
+    - That was helpful
+    - I didn't find that useful
+    - That didn't answer my question
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Correct
+    - Right
+    - That's right
+    - Exactly
+
+- intent: deny
+  examples: |
+    - No
+    - Not really
+    - That's not correct
+    - Wrong
+    - Nope
+
+- intent: ask_about_department
+  examples: |
+    - Tell me about the CS department
+    - What can you tell me about the biology department?
+    - I want to know about the math department
+    - Can you provide information on the computer science department?
+- intent: specify_department
+  examples: |
+    - I have a question about the [Physics](department) department.
+    - Tell me more about [Computer Science](department).
+
+- intent: ask_course_details
+  examples: |
+    - Can you give me details about [COMPSCI 101](course)?
+    - What does the course [PHYS 201](course) cover?
+
