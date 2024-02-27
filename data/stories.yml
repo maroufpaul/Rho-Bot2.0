@@ -41,10 +41,6 @@ stories:
   - action: action_custom_classifier
   - action: utter_ask_for_feedback
 
-- story: Department Chair Inquiry
-  steps:
-  - intent: ask_department_chair
-  - action: action_retrieve_department_chair
 
 
 - story: Faculty specialization inquiry flow
@@ -77,3 +73,4 @@ stories:
   - action: action_retrieve_information
   - intent: provide_feedback
   - action: utter_thank_feedback
+  

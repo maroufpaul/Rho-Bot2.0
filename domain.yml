@@ -17,6 +17,7 @@ intents:
   - ask_department_chair
   - specify_department
   - ask_information
+  
 
 entities:
   - specialization

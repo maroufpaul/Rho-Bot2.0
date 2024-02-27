@@ -34,25 +34,25 @@ class ActionRetrieveInformation(Action):
 
     def process_query(self, query: str):
         """
-        Use Spacy to process the query and extract relevant entities like subjects, courses, and specializations.
+        Enhanced to use SpaCy more effectively for entity and noun extraction.
         """
         doc = nlp(query)
-        # Example: Extract subjects and named entities;  might need to customize this part
-        subjects = [token.lemma_ for token in doc if token.pos_ == "NOUN"]
+        subjects = [token.lemma_ for token in doc if token.pos_ in ["NOUN", "PROPN"]]
         entities = [ent.text.lower() for ent in doc.ents]
         return subjects, entities
 
     def match_information(self, subjects, entities, department_data):
         """
-        Match extracted subjects and entities against the unified index to find relevant information.
+        Improved to use fuzzy matching and handle a wider variety of queries.
         """
         found_info = []
-        # Iterate through department data to find matches; 
         for department, data in department_data.items():
+            data_keywords = ' '.join(data.get("keywords", []))
             for keyword in subjects + entities:
-                if keyword in data.get("keywords", []):
+                # Use fuzzy matching to find the best match within department keywords
+                matches = process.extractOne(keyword, data_keywords.split(), score_cutoff=75)
+                if matches:
                     found_info.append(f"Information related to '{keyword}' found in the {department} department.")
-                    
         return found_info
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
@@ -68,10 +68,6 @@ class ActionRetrieveInformation(Action):
         return []
 
 
-
-from fuzzywuzzy import process
-from pathlib import Path
-import json
 
 def load_data(department=None):
     file_path = Path("D:/rhobot_rasa/data/processed_unified_data.json")
@@ -95,12 +91,22 @@ class ActionFacultySpecialization(Action):
         department = tracker.get_slot('department')
         specialization = tracker.get_slot('specialization')
 
+        print(department)
+
+        if specialization is None:
+            dispatcher.utter_message(text="Please provide a specialization.")
+            return []
+
         department_data = load_data(department)
+        print(department_data)
+
         if department_data is None or not department_data:
             dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
             return []
 
         department_info = list(department_data.values())[0]  # Retrieve department info
+
+        print(department_info)
        
         if department_info:
             faculty_list = department_info.get("faculty", [])
@@ -113,6 +119,7 @@ class ActionFacultySpecialization(Action):
         
         dispatcher.utter_message(text="I couldn't find a faculty member with that specialization.")
         return []
+
 
 class ActionRetrieveDepartmentChair(Action):
     def name(self) -> Text:
@@ -146,22 +153,36 @@ class ActionProvideCourseDetails(Action):
         course = tracker.get_slot("course")
         department = tracker.get_slot("department")
 
-        department_data = load_data(department)
-        if department_data is None or not department_data:
+        if course is None:
+            dispatcher.utter_message(text="Please specify a course.")
+            return []
+
+        department_data = load_data()
+        if department_data is None:
             dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
             return []
 
-        department_info = list(department_data.values())[0]  # Retrieve department info
+        department_info = department_data.get(department)
+        if department_info is None:
+            # Find the closest matching department name
+            department_options = list(department_data.keys())
+            closest_match, _ = process.extractOne(department, department_options)
+            department_info = department_data.get(closest_match)
+
+            if department_info is None:
+                dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
+                return []
 
         programs = department_info.get("programs", [])
         for program in programs:
             for course_detail in program.get("requirements", {}).get("courses", []):
-                if course.lower() == course_detail.lower():
+                if course_detail and course.lower() == course_detail.lower():
                     dispatcher.utter_message(text=f"Course: {course_detail['name']}, Description: {course_detail['description']}")
                     return []
         
         dispatcher.utter_message(text=f"No details found for {course} in the {department} department.")
         return []
+
 
 
 
