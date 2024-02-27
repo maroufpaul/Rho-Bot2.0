@@ -1,0 +1,248 @@
+{
+    "Computer_Science": {
+        "description": "The Department of Computer Science offers students numerous opportunities to develop quantitative reasoning, critical-thinking, problem-solving, and communication skills through its curriculum and extracurricular activities. More information can be found at the department\u00e2\u20ac\u2122s website: www.rhodes.edu/mathcs.",
+        "faculty": [
+            {
+                "name": "Betsy Williams Sanders",
+                "title": "Professor",
+                "joined": "2007",
+                "education": "B.S., Millsaps College; M.S. and Ph.D., Vanderbilt University",
+                "specialization": "Computer graphics and animation"
+            },
+            {
+                "name": "Phillip B. Kirlin",
+                "title": "Associate Professor",
+                "joined": "2012",
+                "education": "B.S., University of Maryland; M.S. and Ph.D., University of Massachusetts Amherst",
+                "specialization": "Artificial intelligence, machine learning, music informatics"
+            },
+            {
+                "name": "D. Brian Larkins",
+                "title": "Associate Professor",
+                "joined": "2015",
+                "education": "B.S., M.S., Ph.D., The Ohio State University",
+                "specialization": "Parallel programming, programming languages, network security"
+            },
+            {
+                "name": "Catherine E. Welsh",
+                "title": "Associate Professor",
+                "joined": "2013",
+                "education": "B.S., Ursinus College; M.S., Lehigh University; Ph.D., University of North Carolina-Chapel Hill",
+                "specialization": "Bioinformatics, computational genetics"
+            },
+            {
+                "name": "Marion Lang",
+                "title": "Assistant Professor",
+                "joined": "2019",
+                "education": "B.S., Indiana University of Pennsylvania; M.S., Ph.D., The Ohio State University",
+                "specialization": "Specification and verification of distributed systems, large-scale distributed data processing and analytics systems"
+            },
+            {
+                "name": "Matthew Superdock",
+                "title": "Assistant Professor",
+                "joined": "2021",
+                "education": "B.S., Princeton University; Ph.D., Carnegie Mellon University",
+                "specialization": "Type theory, formal verification, and automated reasoning"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S. in Computer Science",
+                "degreeType": "BS",
+                "requirements": {
+                    "totalCredits": 56,
+                    "courses": [
+                        "Computer Science 141",
+                        "Computer Science 142",
+                        "Computer Science 172",
+                        "Computer Science 231",
+                        "Computer Science 241",
+                        "Computer Science 251",
+                        "Computer Science 485",
+                        "Computer Science 486"
+                    ],
+                    "mathematicsOptions": [
+                        "Mathematics 112",
+                        "Mathematics 115",
+                        "Mathematics 116",
+                        "Mathematics 122",
+                        "Mathematics 211",
+                        "Mathematics 214",
+                        "Mathematics 223"
+                    ],
+                    "electives": {
+                        "theory": [
+                            "Computer Science 350",
+                            "Computer Science 355"
+                        ],
+                        "systems": [
+                            "Computer Science 315",
+                            "Computer Science 330",
+                            "Computer Science 331",
+                            "Computer Science 340",
+                            "Computer Science 360",
+                            "Computer Science 380",
+                            "Computer Science 385"
+                        ],
+                        "applications": [
+                            "Computer Science 320",
+                            "Computer Science 325",
+                            "Computer Science 342",
+                            "Computer Science 345",
+                            "Computer Science 370",
+                            "Computer Science 372"
+                        ]
+                    },
+                    "additionalCourses": "Two additional four-credit computer science courses numbered above 300, excluding 460, 495, and 496."
+                }
+            }
+        ],
+        "minorRequirements": {
+            "totalCredits": 24,
+            "courses": [
+                "Computer Science 141",
+                "Computer Science 142",
+                "Computer Science 172",
+                "Computer Science 241",
+                "Computer Science 251"
+            ],
+            "additionalCourse": "One additional four-credit computer science course numbered above 300"
+        },
+        "honorsProgram": {
+            "requirements": [
+                "Fulfillment of the requirements for the major",
+                "Honors Tutorial: 495 and 496",
+                "Approval by the department"
+            ],
+            "applicationProcess": "Students should consult with a faculty member about their intentions to pursue an honors project before the end of their Junior year."
+        },
+        "additional_info": {
+            "majorPlanning": {
+                "firstYear": [
+                    "Computer Science 141",
+                    "Computer Science 142",
+                    "Computer Science 241"
+                ],
+                "secondYear": [
+                    "Computer Science 172 in fall",
+                    "Computer Science 231 in spring"
+                ],
+                "mathematicsRequirements": "Completed by the end of the third year"
+            }
+        }
+    },
+    "Physics": {
+        "description": "The Physics Department provides a comprehensive education in physics principles, experimental techniques, and theoretical analysis. It prepares students for further studies and careers in physics and related fields, emphasizing both fundamental physics knowledge and research experience.",
+        "faculty": [
+            {
+                "name": "Brent K. Hoffmeister",
+                "title": "Professor",
+                "joined": "1996",
+                "education": "B.A., Wabash College; Ph.D., Washington University",
+                "specialization": "Ultrasonics, medical physics"
+            },
+            {
+                "name": "Shubho Banerjee",
+                "title": "Professor",
+                "joined": "2002",
+                "education": "M.S., Indian Institute of Technology, Kanpur; Ph.D., Carnegie Mellon University",
+                "specialization": "Electrostatics, thermodynamics, theoretical physics"
+            },
+            {
+                "name": "Ann M. Viano",
+                "title": "Associate Professor and Chair",
+                "joined": "1999",
+                "education": "B.S., Santa Clara University; Ph.D., Washington University",
+                "specialization": "Materials science, solid-state physics, medical imaging, biophysics"
+            },
+            {
+                "name": "David S. N. Rupke",
+                "title": "Associate Professor",
+                "joined": "2010",
+                "education": "B.S., Calvin College; Ph.D., University of Maryland",
+                "specialization": "Observational and extragalactic astronomy"
+            },
+            {
+                "name": "Gregory B. Vieira",
+                "title": "Assistant Professor",
+                "joined": "2019",
+                "education": "B.S., University of Maryland; Ph.D., The Ohio State University",
+                "specialization": "Magnetic materials and devices"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S. in Physics",
+                "degreeType": "BS",
+                "requirements": {
+                    "totalCredits": 51,
+                    "courses": [
+                        "Physics 111-112 (or 109-110 with departmental approval)",
+                        "Physics 113-114",
+                        "Physics 211 and 213",
+                        "Physics 250",
+                        "Physics 301, 305, 401, and 406",
+                        "Physics 486"
+                    ],
+                    "additionalCredits": [
+                        "At least 4 additional Physics credits at the 200-level or above",
+                        "At least 4 additional Physics credits at the 300-level or above"
+                    ],
+                    "mathematicsRequirements": [
+                        "Mathematics 122 and 223"
+                    ],
+                    "recommendedCourses": [
+                        "Mathematics 251 (Differential Equations)",
+                        "Mathematics 261 (Linear Algebra)",
+                        "Mathematics 311 (Probability Theory)",
+                        "Mathematics 312 (Mathematical Statistics)",
+                        "Mathematics 324 (Vector and Advanced Calculus)",
+                        "Mathematics 370 (Complex Variables)",
+                        "Computer Science 141 (Programming Fundamentals)",
+                        "Computer Science 142 (Object-Oriented Programming)"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": {
+            "totalCredits": 20,
+            "courses": [
+                "Physics 111-112 (or 109-110 with departmental approval) and Physics 113-114",
+                "Physics 211",
+                "At least one additional 4-credit Physics course at the 200-level or above"
+            ],
+            "mathematicsRequirement": "Mathematics 122",
+            "note": "Mathematics 223 (Multivariable Calculus) is recommended but not required."
+        },
+        "honorsProgram": {
+            "requirements": [
+                "Courses listed for the B.S. degree with a major in Physics",
+                "Physics 495-496, Honors Tutorial",
+                "Original investigation in some area of physics",
+                "Thesis presentation and oral presentation of the final project"
+            ],
+            "eligibility": "Minimum cumulative GPA and a major GPA of 3.50 at the time of application and at graduation.",
+            "additionalInformation": "Students planning to pursue graduate study in physics are strongly encouraged to take as many upper-level elective physics courses as possible."
+        },
+        "additional_info": {
+            "prospectiveStudentsAdvice": {
+                "consultFaculty": "All prospective physics majors should consult with a faculty member in the department as early as possible.",
+                "firstYearCourses": [
+                    "Physics 111-112",
+                    "Mathematics 112",
+                    "Mathematics 122"
+                ],
+                "note": "Physics 101, 105, and 107 may not be used for credit towards a major or minor in physics, but may be used for general degree credits."
+            },
+            "majorEssay": {
+                "requirements": [
+                    "A statement of your goals in pursuing a physics major",
+                    "Areas of physics that represent your greatest interests",
+                    "A brief description of other academic concentrations you are planning and how those areas complement your interests in physics",
+                    "A description of your plans after graduation"
+                ],
+                "wordCount": "250 - 500 words"
+            }
+        }
+    }
+}

@@ -62,7 +62,7 @@ nlu:
     - Tell me about the [computer science](department) department.
     - Information on [parallel computing](course).
     - Who specializes in [computer graphics](course)?
-     - I'm interested in [cybersecurity](specialization), who can I speak to?
+    - I'm interested in [cybersecurity](specialization), who can I speak to?
 
 - intent: ask_major_requirements
   examples: |

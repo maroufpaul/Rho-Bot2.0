@@ -14,8 +14,9 @@ from rasa_sdk.events import UserUtteranceReverted
 from rasa_sdk.events import SlotSet
 from transformers import pipeline
 import spacy
-s
-UNIFIED_INDEX_PATH = Path(__file__).parent.parent / "data/processed_unified_index.json"
+from fuzzywuzzy import process
+
+UNIFIED_INDEX_PATH = Path(__file__).parent.parent / "data/processed_unified_data.json"
 
 
 def load_unified_index():
@@ -46,12 +47,12 @@ class ActionRetrieveInformation(Action):
         Match extracted subjects and entities against the unified index to find relevant information.
         """
         found_info = []
-        # Iterate through department data to find matches; this is simplified and might need adjustments
+        # Iterate through department data to find matches; 
         for department, data in department_data.items():
             for keyword in subjects + entities:
                 if keyword in data.get("keywords", []):
                     found_info.append(f"Information related to '{keyword}' found in the {department} department.")
-                    # Extend this with more specific matching logic as needed
+                    
         return found_info
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
@@ -68,12 +69,21 @@ class ActionRetrieveInformation(Action):
 
 
 
+from fuzzywuzzy import process
+from pathlib import Path
+import json
 
-def lod_data(department):
-    file_path = Path(__file__).parent / f"data/{department}_department_data.json"
+def load_data(department=None):
+    file_path = Path("D:/rhobot_rasa/data/processed_unified_data.json")
     if file_path.exists():
-        with open(file_path) as json_file:
-            return json.load(json_file)
+        with open(file_path, "r", encoding="utf-8") as json_file:
+            data = json.load(json_file)
+            if department:
+                department = department.lower()
+                closest_match = process.extractOne(department, data.keys())[0]
+                return {closest_match.lower(): data[closest_match]}
+            else:
+                return {key.lower(): value for key, value in data.items()}
     else:
         return None
 
@@ -86,22 +96,23 @@ class ActionFacultySpecialization(Action):
         specialization = tracker.get_slot('specialization')
 
         department_data = load_data(department)
-        if department_data is None:
+        if department_data is None or not department_data:
             dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
             return []
 
-        found = False
-        for faculty in department_data.get("faculty", []):
-            if specialization.lower() in faculty["specialization"].lower():
-                dispatcher.utter_message(text=f"{faculty['name']} specializes in {specialization}.")
-                found = True
-                break
-
-        if not found:
-            dispatcher.utter_message(text="I couldn't find a faculty member with that specialization.")
+        department_info = list(department_data.values())[0]  # Retrieve department info
+       
+        if department_info:
+            faculty_list = department_info.get("faculty", [])
+            # Fuzzy matching for specialization
+            closest_match, _ = process.extractOne(specialization.lower(), [faculty["specialization"].lower() for faculty in faculty_list])
+            for faculty in faculty_list:
+                if closest_match in faculty["specialization"].lower():
+                    dispatcher.utter_message(text=f"{faculty['name']} specializes in {faculty['specialization']}.")
+                    return []
         
+        dispatcher.utter_message(text="I couldn't find a faculty member with that specialization.")
         return []
-
 
 class ActionRetrieveDepartmentChair(Action):
     def name(self) -> Text:
@@ -112,20 +123,16 @@ class ActionRetrieveDepartmentChair(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         department = tracker.get_slot("department")
-        data_path = Path(__file__).parent / f"data/{department}_department_data.json"
 
-        if not department:
-            dispatcher.utter_message(text="Please specify a department.")
+        department_data = load_data(department)
+        if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
             return []
 
-        try:
-            with data_path.open() as json_file:
-                department_data = json.load(json_file)
-            chair_info = department_data.get("chair", "I don't know who it is.")
-            dispatcher.utter_message(text=f"The department chair for {department} is {chair_info}.")
-        except FileNotFoundError:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
+        department_info = list(department_data.values())[0]  # Retrieve department info
 
+        chair_info = department_info.get("chair", "I don't know who it is.")
+        dispatcher.utter_message(text=f"The department chair for {department} is {chair_info}.")
         return []
 
 class ActionProvideCourseDetails(Action):
@@ -137,26 +144,28 @@ class ActionProvideCourseDetails(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         course = tracker.get_slot("course")
-        department = tracker.get_slot("department")  # Assuming course details also depend on the department
-        data_path = Path(__file__).parent / f"data/{department}_department_data.json"
+        department = tracker.get_slot("department")
 
-        if not department or not course:
-            dispatcher.utter_message(text="Please specify both a department and course.")
+        department_data = load_data(department)
+        if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
             return []
 
-        try:
-            with data_path.open() as json_file:
-                department_data = json.load(json_file)
+        department_info = list(department_data.values())[0]  # Retrieve department info
 
-            for course_detail in department_data.get("courses", []):
-                if course.lower() == course_detail["code"].lower():
+        programs = department_info.get("programs", [])
+        for program in programs:
+            for course_detail in program.get("requirements", {}).get("courses", []):
+                if course.lower() == course_detail.lower():
                     dispatcher.utter_message(text=f"Course: {course_detail['name']}, Description: {course_detail['description']}")
                     return []
-            dispatcher.utter_message(text=f"No details found for {course} in the {department} department.")
-        except FileNotFoundError:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
-
+        
+        dispatcher.utter_message(text=f"No details found for {course} in the {department} department.")
         return []
+
+
+
+
 
 
 class ActionCustomClassifier(Action):
