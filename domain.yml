@@ -5,7 +5,6 @@ intents:
   - goodbye
   - bot_challenge
   - ask_faculty_specialization
-  - ask_major_requirements
   - ask_course_details
   - ask_program_admissions
   - ask_event_info
@@ -13,10 +12,10 @@ intents:
   - provide_feedback
   - affirm
   - deny
-  - ask_about_department
   - ask_department_chair
-  - specify_department
-  - ask_information
+  - ask_department_description
+  - ask_major_requirements
+  - ask_minor_requirements
   
 
 entities:
@@ -61,8 +60,6 @@ responses:
     - text: "Goodbye! Feel free to ask if you have more questions."
   utter_iamabot:
     - text: "I am a bot programmed to assist you. How may I help you?"
-  utter_ask_major_requirements:
-    - text: "The major requirements for Computer Science include core courses such as CS 141 and CS 142, along with electives."
   utter_fallback:
     - text: "I'm sorry, I didn't understand that. Can you try rephrasing?"
   utter_thank_feedback:
@@ -98,7 +95,6 @@ actions:
   - utter_greet
   - utter_goodbye
   - utter_iamabot
-  - utter_ask_major_requirements
   - utter_fallback
   - utter_thank_feedback
   - utter_how_can_i_help
@@ -118,6 +114,8 @@ actions:
   - action_retrieve_faculty_info
   - action_provide_course_details
   - action_retrieve_information
+  - action_provide_major_requirements
+  - action_provide_minor_requirements
   
 
 session_config:

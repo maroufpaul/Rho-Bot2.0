@@ -17,39 +17,18 @@ stories:
   - intent: affirm
   - action: utter_what_else_can_i_do
 
-- story: Major requirements inquiry with clarification
-  steps:
-  - intent: ask_major_requirements
-  - action: utter_ask_major_requirements
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_let_me_clarify
-
 #- story: Adaptive bot challenge interaction
  # steps:
  # - intent: bot_challenge
  # - action: utter_iamabot
  # - action: utter_can_i_help
 
-- story: Detailed Department inquiry with feedback request
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: ask_about_department
-    entities:
-      - department: "computer science"
-  - action: action_custom_classifier
-  - action: utter_ask_for_feedback
-
 
 
 - story: Faculty specialization inquiry flow
   steps:
-  - intent: ask_about_department
+  - intent: ask_department_description
   - action: utter_ask_department
-  - intent: specify_department
-    entities:
-    - department: computer science
   - action: utter_ask_specialization
   - intent: ask_faculty_specialization
     entities:
@@ -58,19 +37,37 @@ stories:
 
 - story: Course details inquiry after specifying department
   steps:
-  - intent: specify_department
-    entities:
-    - department: physics
   - action: utter_ask_course
   - intent: ask_course_details
     entities:
     - course: PHYS 201
   - action: action_provide_course_details
 
-- story: user queries information
+- story: Department description inquiry
   steps:
-  - intent: ask_information
+  - intent: ask_department_description
+    entities:
+      - department: "department"
   - action: action_retrieve_information
-  - intent: provide_feedback
-  - action: utter_thank_feedback
+
+- story: Major requirements inquiry
+  steps:
+  - intent: ask_major_requirements
+    entities:
+      - department: "department"
+  - action: action_provide_major_requirements
+
+- story: Minor requirements inquiry
+  steps:
+  - intent: ask_minor_requirements
+    entities:
+      - department: "department"
+  - action: action_provide_minor_requirements
+
+
+
+
+
+  
+
   
