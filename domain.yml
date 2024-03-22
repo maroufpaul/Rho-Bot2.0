@@ -16,6 +16,7 @@ intents:
   - ask_department_description
   - ask_major_requirements
   - ask_minor_requirements
+  - ask_link
   
 
 entities:
@@ -23,6 +24,8 @@ entities:
   - department
   - topic
   - subject
+  - service
+
 
 slots:
 
@@ -50,6 +53,14 @@ slots:
     mappings:
     - type: from_entity
       entity: subject
+
+  link_context:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+
+
 
 
 
@@ -116,6 +127,8 @@ actions:
   - action_retrieve_information
   - action_provide_major_requirements
   - action_provide_minor_requirements
+  - action_provide_link
+  - action_set_link_context
   
 
 session_config:

@@ -291,6 +291,97 @@ class ActionFallback(Action):
 
         dispatcher.utter_message(text="I'm not sure how to answer that. Can I help with something else?")
         return [UserUtteranceReverted()]
+class ActionProvideLink(Action):
+    def name(self) -> str:
+        return "action_provide_link"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: dict) -> list:
+
+        JSON_FILE_PATH = Path(__file__).parent.parent / "scraped_links_preprocess.json"
+
+        # Load JSON data
+        with open(JSON_FILE_PATH, 'r', encoding='utf-8') as file:
+            links_data = json.load(file)
+
+        entity = next(tracker.get_latest_entity_values("service"), None)
+        if entity:
+            entity = entity.lower()  # Normalize entity to lower case
+
+        # Flatten the JSON structure for sub-links, handling special characters and case sensitivity
+        flattened_links = {}
+        for main_key, main_val in links_data.items():
+            main_key_normalized = main_key.lower()  # Normalize key to lower case
+            flattened_links[main_key_normalized] = main_val['url']
+            for sub_key, sub_val in main_val.get('sub_links', {}).items():
+                sub_key_normalized = sub_key.lower()  # Normalize sub_key to lower case
+                # Ensure no key collision
+                if sub_key_normalized not in flattened_links:
+                    flattened_links[sub_key_normalized] = sub_val
+
+        if entity:
+            # Find the closest match with case-insensitive comparison and special character handling
+            match, confidence = process.extractOne(entity, flattened_links.keys())
+            if confidence > 60:  # Adjust the confidence level as needed
+                matched_key = next((key for key in flattened_links if key.lower() == match), None)
+                if matched_key:
+                    response_text = f"{match} - URL: {flattened_links[matched_key]}"
+                    dispatcher.utter_message(text=response_text)
+            else:
+                dispatcher.utter_message(text="I'm not sure which link you're referring to. Please be more specific.")
+        else:
+            dispatcher.utter_message(text="Please specify which link you're looking for.")
+
+        return []
+
+'''
+class ActionProvideLink(Action):
+    def name(self) -> str:
+        return "action_provide_link"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: dict) -> list:
+
+        JSON_FILE_PATH = Path(__file__).parent.parent / "scraped_links_preprocess.json"
+
+        # Load JSON data
+        with open(JSON_FILE_PATH, 'r', encoding='utf-8') as file:
+            links_data = json.load(file)
+
+        entity = next(tracker.get_latest_entity_values("service"), None)
+        print("entity:", entity)
+
+        # Flatten the JSON structure for sub-links
+        flattened_links = {}
+        for main_key, main_val in links_data.items():
+            flattened_links[main_key] = main_val['url']
+            for sub_key, sub_val in main_val.get('sub_links', {}).items():
+                print(sub_key)
+                flattened_links[sub_key] = sub_val
+
+        if entity:
+            # Find the closest match
+            match, confidence = process.extractOne(entity, flattened_links.keys())
+            print("match is: ", match)
+            if confidence > 50:  # Adjust the confidence level as needed
+                response_text = f"{match} - URL: {flattened_links[match]}"
+                dispatcher.utter_message(text=response_text)
+            else:
+                dispatcher.utter_message(text="I'm not sure which link you're referring to. Please be more specific.")
+        else:
+            dispatcher.utter_message(text="Please specify which link you're looking for.")
+
+        return [] '''
+
+class ActionSetLinkContext(Action):
+    def name(self) -> Text:
+        return "action_set_link_context"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        return [SlotSet("context", "link_request")]
+
 
 
 

@@ -64,6 +64,14 @@ stories:
       - department: "department"
   - action: action_provide_minor_requirements
 
+- story: link information request
+  steps:
+  - intent: ask_link
+  - action: action_provide_link
+  - slot_was_set:
+    - link_context: link_mode
+
+
 
 
 

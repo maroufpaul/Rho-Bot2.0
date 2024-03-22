@@ -166,3 +166,49 @@ nlu:
     - What are the minor requirements for [Physics](department)?
     - Can you tell me the requirements to minor in [Computer Science](department)?
     - Minor requirements for [Physics](department) please
+
+- intent: ask_link
+  examples: |
+    - Could you provide the link for [Academic Calendar](service)?
+    - I'm looking for the [Registrar's](service) page.
+    - Where can I find the [Title IX and Sexual Misconduct](service) information?
+    - Show me the [Student Handbook](service) link, please.
+    - I need the [Job Opportunities](service) page.
+    - Direct me to [Accessibility Services](service).
+    - Where is the [Bookstore](service) link located?
+    - Can you find the [Campus Maps](service) for me?
+    - I'd like to see the [College Catalogue](service).
+    - Give me the URL for [College Policies](service).
+    - Can you help me with the link for [Visit Calendar](service)?
+    - I am looking for the [Express Online Login](service) page.
+    - Where can I access [Payment Services](service)?
+    - Show me how to [Pay a Bill](service) online at Rhodes.
+    - I want to give [Website Feedback](service).
+    - Can you give me the link to [Registrar's page](service)?
+    - Show me the link for [registrar](service).
+    - Where can I find the [registration office](service:registrar)?
+    - I need a link for [Campus Dining](service).
+    - Where can I find the [Event Management](service) website?
+    - link for [Biology](service) department
+    - Can you provide me the link to [computer science department](service)?
+    - Show me the [physics](service) page.
+    - where can i find [campus map](service) website?
+    - I need the link for the [student handbook](service).
+    - Could you give me the [bookstore](service) link?
+    - Can you show me the link for [Athletics](service)?
+    - I need the [financial aid](service) page.
+    - Where is the [campus dining](service)?
+    - Show me the link for the rhodes college [student handbook] (service).
+    - Where can I find the website for [financial aid] (service)
+    - provide me the link to the [residence life](service) website
+    - I need the website for [residence life](service)
+    - Where is the [residence life](service) page?
+    - can you provide me the link for the [student heatlh center] (service)
+    - I need the wesite for [student counseling center](service)
+    - provide me the link to the [Academic Calendar](servive)
+    - what is the website for the rhodes [parking](servive) 
+    - website for rhodes [instagram](service)
+    - Show me the link for the [student handbook] (service).
+
+    
+
