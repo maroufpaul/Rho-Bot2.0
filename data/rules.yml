@@ -20,6 +20,7 @@ rules:
   - intent: ask_faculty_specialization
   - action: action_faculty_specialization
 
+
 - rule: Retrieve department chair
   condition: 
   - slot_was_set:
@@ -37,4 +38,5 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_fallback
+
 

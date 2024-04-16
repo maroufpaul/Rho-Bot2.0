@@ -1,6 +1,8 @@
 # Rasa Chatbot for Rhodes College 
 
+
 This Rasa-based chatbot is designed to provide information about the various department, answering queries related to faculty specialization, course requirements, and more.
+
 
 ## Features
 

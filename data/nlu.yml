@@ -38,8 +38,8 @@ nlu:
     - I’m looking for a professor who knows about [distributed systems](specialization).
     - Who in the department is known for [formal verification](specialization)?
     - Find me a faculty member with knowledge in [music informatics](specialization).
-    - Who teaches [parallel computing](specialization) in [computer science](department_context)?
-    - Who specializes in [machine learning](specialization) in the [computer science](department_context) department?
+    - Who teaches [parallel computing](specialization) in [computer science](department)?
+    - Who specializes in [machine learning](specialization) in the [computer science](department) department?
     - Who teaches [parallel computing](specialization)?
     - Who specializes in [machine learning](specialization)?
     - Can you tell me the professor for [data structures](specialization)?
@@ -47,36 +47,15 @@ nlu:
     - [machine learning](specialization) professor
     - [parallel computing](specialization) faculty member
     - who teaches [machine learning](specialization)
-    - who specializes in [parallel computing](specialization) in computer science
-    - I'm interested in [cybersecurity](specialization), who can I speak to?
-    - Who specializes in [machine learning](specialization) in the [computer science](department) department?
     - Can you tell me about faculty in [physics](department) who focus on [electrostatics](specialization)?
+    - who teaches [ultrasonics](specialization)?
+    - who specializes in [machine learning](specialization)?
+    - who teaches [computer vision](specialization)?
 
   #examples: |
     #- I am asking about [computer science](department)
     #- This is for the [physics](department) department
 
-- intent: ask_information
-  examples: |
-    - Who teaches [machine learning](course)?
-    - Tell me about the [computer science](department) department.
-    - Information on [parallel computing](course).
-    - Who specializes in [computer graphics](course)?
-    - I'm interested in [cybersecurity](specialization), who can I speak to?
-
-- intent: ask_major_requirements
-  examples: |
-    - What are the major requirements for computer science?
-    - Can you list the courses needed for a computer science major?
-    - What classes do I need to take for the CS major?
-    - Could you inform me about the computer science degree requirements?
-    - What's needed to complete a major in computer science?
-    - Tell me about the course requirements for a CS degree.
-    - I'm interested in the CS major, what courses should I enroll in?
-    - What are the prerequisites for the computer science program?
-    - Could you help me understand the CS curriculum?
-    - What subjects are compulsory for a physics major?
-    - Tell me about the course requirements for a physics degree.
 
 - intent: ask_course_details
   examples: |
@@ -115,6 +94,39 @@ nlu:
     - That was helpful
     - I didn't find that useful
     - That didn't answer my question
+    - That was helpful
+    - I didn't find that useful
+    - That didn't answer my question
+    - It was incredibly informative
+    - I'm satisfied with the response
+    - Your assistance was invaluable
+    - Thanks for your help
+    - It wasn't what I expected
+    - I'm disappointed with the response
+    - I'm still confused
+    - I expected more detail
+    - I'm not entirely satisfied
+    - It didn't fully address my concerns
+    - It didn't solve my problem
+    - I'm not happy with the support provided
+    - I'm still looking for an answer
+    - I'm not convinced by the explanation
+    - I found it confusing
+    - It wasn't clear to me
+    - It didn't provide enough information
+    - I'm unsatisfied with the assistance
+    - I'm not impressed
+    - I'm still seeking clarification
+    - It wasn't helpful at all
+    - I'm disappointed with the outcome
+    - I'm still not sure what to do
+    - I didn't get what I needed
+    - I'm dissatisfied with the response
+    - It didn't meet my expectations
+    - I'm not satisfied with the support
+    - I'm unhappy with the assistance
+    - I'm still waiting for a solution
+    - It wasn't what I was looking for
 
 - intent: affirm
   examples: |
@@ -132,19 +144,71 @@ nlu:
     - Wrong
     - Nope
 
-- intent: ask_about_department
-  examples: |
-    - Tell me about the CS department
-    - What can you tell me about the biology department?
-    - I want to know about the math department
-    - Can you provide information on the computer science department?
-- intent: specify_department
-  examples: |
-    - I have a question about the [Physics](department) department.
-    - Tell me more about [Computer Science](department).
-
 - intent: ask_course_details
   examples: |
     - Can you give me details about [COMPSCI 101](course)?
     - What does the course [PHYS 201](course) cover?
+    
+- intent: ask_department_description
+  examples: |
+    - Tell me about the [Physics](department) department
+    - What is the [Computer Science](department) department known for?
+    - Can you describe the [Physics](department) department?
+
+- intent: ask_major_requirements
+  examples: |
+    - What are the major requirements for [Physics](department)?
+    - Can you tell me the requirements to major in [Computer Science](department)?
+    - Major requirements for [Physics](department) please
+
+- intent: ask_minor_requirements
+  examples: |
+    - What are the minor requirements for [Physics](department)?
+    - Can you tell me the requirements to minor in [Computer Science](department)?
+    - Minor requirements for [Physics](department) please
+
+- intent: ask_link
+  examples: |
+    - Could you provide the link for [Academic Calendar](service)?
+    - I'm looking for the [Registrar's](service) page.
+    - Where can I find the [Title IX and Sexual Misconduct](service) information?
+    - Show me the [Student Handbook](service) link, please.
+    - I need the [Job Opportunities](service) page.
+    - Direct me to [Accessibility Services](service).
+    - Where is the [Bookstore](service) link located?
+    - Can you find the [Campus Maps](service) for me?
+    - I'd like to see the [College Catalogue](service).
+    - Give me the URL for [College Policies](service).
+    - Can you help me with the link for [Visit Calendar](service)?
+    - I am looking for the [Express Online Login](service) page.
+    - Where can I access [Payment Services](service)?
+    - Show me how to [Pay a Bill](service) online at Rhodes.
+    - I want to give [Website Feedback](service).
+    - Can you give me the link to [Registrar's page](service)?
+    - Show me the link for [registrar](service).
+    - Where can I find the [registration office](service:registrar)?
+    - I need a link for [Campus Dining](service).
+    - Where can I find the [Event Management](service) website?
+    - link for [Biology](service) department
+    - Can you provide me the link to [computer science department](service)?
+    - Show me the [physics](service) page.
+    - where can i find [campus map](service) website?
+    - I need the link for the [student handbook](service).
+    - Could you give me the [bookstore](service) link?
+    - Can you show me the link for [Athletics](service)?
+    - I need the [financial aid](service) page.
+    - Where is the [campus dining](service)?
+    - Show me the link for the rhodes college [student handbook] (service).
+    - Where can I find the website for [financial aid] (service)
+    - provide me the link to the [residence life](service) website
+    - I need the website for [residence life](service)
+    - Where is the [residence life](service) page?
+    - can you provide me the link for the [student heatlh center] (service)
+    - I need the wesite for [student counseling center](service)
+    - provide me the link to the [Academic Calendar](servive)
+    - what is the website for the rhodes [parking](servive) 
+    - website for rhodes [instagram](service)
+    - Show me the link for the [student handbook] (service).
+
+    
 
