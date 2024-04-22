@@ -52,4 +52,7 @@ policies:
      epochs: 100
      constrain_similarities: true
 
-
+cors:
+  enabled: true
+  origins:
+    - "http://localhost:3000"

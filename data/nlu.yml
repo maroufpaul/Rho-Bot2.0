@@ -57,15 +57,6 @@ nlu:
     #- This is for the [physics](department) department
 
 
-- intent: ask_course_details
-  examples: |
-    - Can you give me details about [Introduction to Psychology](course)?
-    - What does [Advanced Calculus](course) cover?
-    - I want to know more about [Modern Art History](course).
-    - Tell me more about [Artificial Intelligence](course).
-    - What does the course [Modern European History](course) cover?
-    - I’d like information on [Organic Chemistry](course).
-
 - intent: ask_program_admissions
   examples: |
     - How do I apply for the [BA program](program)?
@@ -103,31 +94,6 @@ nlu:
     - Thanks for your help
     - It wasn't what I expected
     - I'm disappointed with the response
-    - I'm still confused
-    - I expected more detail
-    - I'm not entirely satisfied
-    - It didn't fully address my concerns
-    - It didn't solve my problem
-    - I'm not happy with the support provided
-    - I'm still looking for an answer
-    - I'm not convinced by the explanation
-    - I found it confusing
-    - It wasn't clear to me
-    - It didn't provide enough information
-    - I'm unsatisfied with the assistance
-    - I'm not impressed
-    - I'm still seeking clarification
-    - It wasn't helpful at all
-    - I'm disappointed with the outcome
-    - I'm still not sure what to do
-    - I didn't get what I needed
-    - I'm dissatisfied with the response
-    - It didn't meet my expectations
-    - I'm not satisfied with the support
-    - I'm unhappy with the assistance
-    - I'm still waiting for a solution
-    - It wasn't what I was looking for
-
 - intent: affirm
   examples: |
     - Yes
@@ -144,10 +110,25 @@ nlu:
     - Wrong
     - Nope
 
-- intent: ask_course_details
+- intent: get_course_info
   examples: |
-    - Can you give me details about [COMPSCI 101](course)?
-    - What does the course [PHYS 201](course) cover?
+    - What are the prerequisites for [COMP 355](course_code)?
+    - Tell me more about [COMP 355](course_code)
+    - Can you provide information on [COMP 142](course_code)?
+    - [COMP 355](course_code) prerequisites
+    - [COMP 355](course_code) description
+    - Give me details about [HIST 101](course_code)
+    - What are the requirements for [ENVS 107](course_code)?
+    - [BUS 341](course_code) course information
+    - Tell me about [FREN 201](course_code)
+    - Provide details on [CHEM 211](course_code)
+    - I need information on [EDUC 201](course_code)
+    - What can you tell me about [ENGL 230](course_code)?
+    - [GREK 101](course_code) prerequisites and description
+    - Course details for [BMB 310](course_code)
+    - [CHIN 201](course_code) requirements
+    - tell me about [phys 112](course_code)
+    - tell me more about [math 122](course_code) class 
     
 - intent: ask_department_description
   examples: |
@@ -190,8 +171,8 @@ nlu:
     - I need a link for [Campus Dining](service).
     - Where can I find the [Event Management](service) website?
     - link for [Biology](service) department
-    - Can you provide me the link to [computer science department](service)?
-    - Show me the [physics](service) page.
+    - Can you provide me the link to [computer science](service) department?
+    - Show me the [computer science](service) page.
     - where can i find [campus map](service) website?
     - I need the link for the [student handbook](service).
     - Could you give me the [bookstore](service) link?
@@ -209,6 +190,8 @@ nlu:
     - what is the website for the rhodes [parking](servive) 
     - website for rhodes [instagram](service)
     - Show me the link for the [student handbook] (service).
+    - link to [physics](service) website
+    - link to [physics](service) department website
 
     
 

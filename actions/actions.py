@@ -15,6 +15,8 @@ from rasa_sdk.events import SlotSet
 from transformers import pipeline
 import spacy
 from fuzzywuzzy import process
+import requests
+from bs4 import BeautifulSoup
 
 UNIFIED_INDEX_PATH = Path(__file__).parent.parent / "data/processed_unified_data.json"
 
@@ -144,7 +146,7 @@ class ActionRetrieveDepartmentChair(Action):
         chair_info = department_info.get("chair", "I don't know who it is.")
         dispatcher.utter_message(text=f"The department chair for {department} is {chair_info}.")
         return []
-
+'''
 class ActionProvideCourseDetails(Action):
     def name(self) -> Text:
         return "action_provide_course_details"
@@ -184,7 +186,7 @@ class ActionProvideCourseDetails(Action):
                     return []
         
         dispatcher.utter_message(text=f"No details found for {course} in the {department} department.")
-        return []
+        return [] '''
     
 
 class ActionProvideMajorRequirements(Action):
@@ -381,6 +383,67 @@ class ActionSetLinkContext(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         return [SlotSet("context", "link_request")]
+    
+
+
+class ActionGetCourseInfo(Action):
+
+    def name(self) -> Text:
+        return "action_get_course_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+
+        course_code = next(tracker.get_latest_entity_values("course_code"), None)
+
+        if not course_code:
+            dispatcher.utter_message("I'm sorry, I couldn't identify the course code you're asking about. Please provide the course code (e.g., COMP 355).")
+            return []
+
+        base_url = "https://catalog.rhodes.edu"
+        split_code = course_code.split()
+        if len(split_code) == 2:
+            dept_code, course_number = split_code
+            url = f"{base_url}/{dept_code.lower()}/{course_number.lower()}"
+        else:
+            url = f"{base_url}/{course_code.lower()}"
+        response = requests.get(url)
+
+        if response.status_code != 200:
+            dispatcher.utter_message(f"I'm sorry, I couldn't find information for {course_code}.")
+            return []
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+
+        course_title = soup.find('h1').text.strip()
+        course_description = soup.find('p').text.strip()
+        prerequisites_section = soup.find('h3', text='Prerequisites')
+        degree_requirements_section = soup.find('h3', text='Degree Requirements')
+
+        if prerequisites_section:
+            prerequisites = prerequisites_section.find_next('div').find_all('a')
+            prerequisites_text = ""
+            for prerequisite in prerequisites:
+                prereq_name = prerequisite.text.strip()
+                prereq_link = f"{base_url}{prerequisite['href']}"
+                prerequisites_text += f"[{prereq_name}]({prereq_link})\n"
+        else:
+            prerequisites_text = "No prerequisites found."
+
+        if degree_requirements_section:
+            degree_requirements_text = degree_requirements_section.find_next('div').text.strip()
+        else:
+            degree_requirements_text = "No degree requirements found."
+
+        response = f"Course: {course_title}\n\nDescription: {course_description}\n\nPrerequisites:\n{prerequisites_text}\n\nDegree Requirements:\n{degree_requirements_text}"
+
+        dispatcher.utter_message(response)
+
+        return []
+
+
 
 
 

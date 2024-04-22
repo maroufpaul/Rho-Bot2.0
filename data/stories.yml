@@ -35,13 +35,6 @@ stories:
     - specialization: machine learning
   - action: action_faculty_specialization
 
-- story: Course details inquiry after specifying department
-  steps:
-  - action: utter_ask_course
-  - intent: ask_course_details
-    entities:
-    - course: PHYS 201
-  - action: action_provide_course_details
 
 - story: Department description inquiry
   steps:
@@ -70,7 +63,10 @@ stories:
   - action: action_provide_link
   - slot_was_set:
     - link_context: link_mode
-
+- story: get_course_info
+  steps:
+  - intent: get_course_info
+  - action: action_get_course_info
 
 
 

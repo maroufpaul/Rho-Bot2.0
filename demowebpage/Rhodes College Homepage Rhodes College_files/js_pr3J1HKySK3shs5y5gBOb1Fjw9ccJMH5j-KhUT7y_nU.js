@@ -1,0 +1,5 @@
+/* @license MIT  */
+(function($){Drupal.behaviors.custom={attach:function(context,settings){$(document).ready(function(){(function(s,i,l,k,y){s[i]=s[i]||y;s[l]=s[l]||[];s[k]=function(e,p){p=p||{};p.event=e;s[l].push(p);};s[k]('page_load');})(window,'stConfig','stEvents','silktide',{});});}};})(jQuery);;
+/* @license GNU-GPL-2.0-or-later https://www.drupal.org/licensing/faq */
+(function(Drupal,$){'use strict';Drupal.behaviors.mobilemenu={attach:function(context,settings){$(window).on('load',function(){$('#header h2').on('click',function(e){$('body').toggleClass('mobile-menu-active');e.stopPropagation();});});}};})(Drupal,jQuery);;
+(function(Drupal,$){'use strict';Drupal.behaviors.background_video={attach:function(context,settings){$(window).on('load',function(){if($('.fullScreenDiv').length>0)$('.fullScreenDiv .control i').on('click',function(e){var background_video=$('.fullScreenDiv .video').first;$(this).toggleClass('fa-circle-pause fa-circle-play');var container=$(this).parents('.fullScreenDiv');var background_video=container.find('.video')[0];if(background_video.paused)background_video.play();else background_video.pause();});});}};})(Drupal,jQuery);;

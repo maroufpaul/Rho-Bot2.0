@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class=" js"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="preload" as="script" href="https://use.typekit.net/ded8mjc.css">
+    <meta charset="utf-8">
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><meta name="description" content="Consistently nationally ranked by US News, Princeton Review, and Forbes as a top liberal arts college. Apply today to find out why!">
+<link rel="canonical" href="https://www.rhodes.edu/">
+<link rel="shortlink" href="https://www.rhodes.edu/">
+<meta name="silktide-cms" content="R0sagwnRgmKbxeOrrYQr81XWpHnRcqW+bQRP8krPQEMDLRqm+rc4RGmD3ehkSCDrrsw31rFPbriGfvl47yAnC+JqhVc0rvEgWqFj2wbtIy3Tg2glIFbETaIMWd9/ETrGLBH9LrRMqLamXM7ur/Ydzg==">
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async="" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/fbevents.js"></script><script async="" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/google-analytics_analytics.js"></script><script src="">alert("Hello world!");</script>
+<link rel="icon" href="https://www.rhodes.edu/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <title>Rhodes College Homepage | Rhodes College</title>
+    <link rel="stylesheet" media="all" href="Rhodes%20College%20Homepage%20Rhodes%20College_files/css_xdSdZM0FDCtBwvKQNkhfUPBbnJ0OAQRJcuYU0gLelL0.css">
+<link rel="stylesheet" media="all" href="Rhodes%20College%20Homepage%20Rhodes%20College_files/css_BKXFJh6NPMWjTVw-lPsmohJmD_b7uVFFdS5bfIRCRoc.css">
+<style>
+
+
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Adjust as needed to align with your bot messages */
+  margin-top: -5px; /* Adjust if needed to reduce vertical space */
+  margin-bottom: 0; /* Remove space after the indicator */
+}
+
+.typing-indicator span {
+  width: 12px; /* Bigger dot size */
+  height: 12px;
+  margin: 0 3px;
+  background-color: #b02750;
+  border-radius: 50%;
+  display: inline-block;
+  /* Animation */
+  animation: bounce 1.4s infinite both;
+}
+
+.typing-indicator span:nth-child(1) {
+  animation-delay: 0ms;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 200ms;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 400ms;
+}
+
+/* Remove margin from the last message bubble to avoid extra space */
+.message:last-child {
+  margin-bottom: 0;
+}
+
+/* Bouncing animation */
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1.0);
+  }
+}
+
+
+/* This is to ensure there's no space between messages and the indicator */
+.message:last-child {
+  margin-bottom: 0;
+}
+
+
+  /* Icon container styling */
+#chatbox-icon-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it stays on top */
+    display: flex;
+    align-items: center; /* Aligns the label and icon vertically */
+}
+#chat-label {
+    margin-right: 10px; /* Spacing between label and icon */
+    background-color: #ffffff; /* Background color for the label */
+    padding: 5px 10px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners for the label */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font styling */
+    color: #D03D56; /* Font color changed to red */
+    font-size: 14px; /* Font size */
+    font-weight: bold; /* Make the text bold */
+    white-space: nowrap; /* Keeps the label in a single line */
+    position: relative; /* Needed for precise positioning */
+    top: -30px; /* Adjusts the position above the icon */
+    left: 5px; /* Adjusts horizontal positioning */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Optional: Adds a subtle shadow for depth */
+}
+#close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff; /* Adjust as needed */
+    cursor: pointer;
+}
+
+
+
+/* Chatbox container */
+.chat-container {
+    display: flex; /* Initially hidden; toggled via JS */
+    position: fixed;
+    bottom: 70px; /* Position adjusted to not overlap the chat icon */
+    right: 20px;
+    width: 400px; /* Width of the chatbox */
+    max-width: 70%; /* Ensures responsiveness on smaller screens */
+    height: auto; /* Height can adjust to content */
+    max-height: 80%; /* Maximum height before scrolling */
+    background-color: #fff; /* Background of the chatbox */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    z-index: 1100; /* Ensures chatbox is above the icon and other elements */
+    flex-direction: column;
+    overflow: hidden; /* Ensures no internal content can overflow the chatbox */
+}
+
+/* Chat header styling */
+.chat-header {
+    background-color: #630101;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    border-top-left-radius: 20px; /* Rounded corners at the top */
+    border-top-right-radius: 20px;
+}
+
+/* Chat body styling */
+.chat-body {
+    padding: 20px;
+    overflow-y: auto; /* Allows scrolling within the chat body */
+    flex-grow: 1; /* Allows the chat body to fill available space */
+    background-color: #f5f5f5; /* Light background for the chat content */
+    max-height: 500px; /* Adjust as needed for your design */
+}
+
+/* Individual message styling */
+.message {
+    margin-bottom: 10px;
+    clear: both; /* Ensures separation between consecutive messages */
+}
+
+/* Styling for messages from the user */
+.user-message {
+    background-color: #b02750; /* Thematic color for user messages */
+    color: #fff;
+    border-radius: 20px;
+    padding: 12px 16px;
+    float: right; /* Aligns user messages to the right */
+    max-width: 70%;
+    word-wrap: break-word; /* Ensures text wraps within the bubble */
+}
+
+/* Styling for messages from the bot */
+.bot-message {
+    background-color: #e0e0e0; /* Neutral color for bot messages */
+    color: #333; /* Dark text for contrast */
+    border-radius: 20px;
+    padding: 12px 16px;
+    float: left; /* Aligns bot messages to the left */
+    max-width: 70%;
+}
+
+/* Chat footer styling */
+.chat-footer {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Aligns input and send button nicely */
+    border-top: 1px solid #ccc; /* Visual separation from chat body */
+}
+
+/* Input field styling */
+.input-message {
+    flex: 1; /* Allows input to fill available space */
+    padding: 12px 16px;
+    border-radius: 20px; /* Rounded edges for the input field */
+    border: 1px solid #ccc; /* Subtle border */
+    outline: none; /* Removes the default focus outline */
+    font-size: 16px; /* Readable text size */
+}
+
+/* Send button styling */
+.send-button {
+    padding: 12px 20px;
+    background-color: #b02750; /* Thematic color */
+    border: none;
+    color: #fff;
+    border-radius: 20px; /* Consistent rounded edges */
+    cursor: pointer; /* Indicates it's clickable */
+    margin-left: 10px; /* Spacing from the input field */
+    font-size: 16px; /* Matches input text size */
+    outline: none; /* Removes default focus outline */
+}
+
+.send-button:hover {
+    background-color: darken(#b02750, 10%); /* Slightly darker on hover for feedback */
+}
+
+  /* Add the rest of your chatbox CSS here */
+  </style>
+    
+    <script async="async" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/ping_002">/**/</script>
+    <meta name="facebook-domain-verification" content="fpycrvjtsnuj4ilhktap4ht6tu6gh7">
+  <script async="" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/ping"></script></head>
+          
+      <body class="front role--anonymous no-sidebar">
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5KLRSG');
+    </script>
+    <!-- End Google Tag Manager -->
+    <div id="skip">
+      <a href="#block-mainmenu-2" class="visually-hidden focusable skip-link">Skip to main navigation</a>
+    </div>
+        
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    <div id="wrapper" class="layout-container">
+
+  <!-- ______________________ HEADER _______________________ -->
+
+  <header id="header">
+      <div class="container">
+            <div id="header-region">
+    <div id="block-branding" class="block block-system block-branding">
+  
+    
+        <a href="https://www.rhodes.edu/" title="Home" rel="home" class="site-logo">Rhodes College</a>
+    </div>
+<nav role="navigation" aria-labelledby="block-mainmenu-2-menu" id="block-mainmenu-2" class="block block-menu navigation menu--main">
+      
+  <h2 id="block-mainmenu-2-menu">Menu</h2>
+  
+
+        <div class="menu-block-wrapper">
+              <ul class="menu">
+                    <li class="menu-item menu-item--collapsed">
+        <a href="https://www.rhodes.edu/about-rhodes" data-drupal-link-system-path="node/1282">About Rhodes</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="https://www.rhodes.edu/academics" data-drupal-link-system-path="node/7751">Academics</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="https://www.rhodes.edu/admission-aid" data-drupal-link-system-path="node/7741">Admission and Aid</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="https://www.rhodes.edu/student-life" data-drupal-link-system-path="node/32376">Student Life</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="https://www.rhodes.edu/alumni-development" target="_self" data-drupal-link-system-path="node/17081">Alumni and Development</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://rhodeslynx.com/" title="">Athletics</a>
+              </li>
+        </ul>
+  
+
+</div>
+
+  </nav>
+
+      </div>
+
+                <div id="mobile_menu-region">
+    <div class="views-exposed-form view_id__solr_search block block-views block-exposedformsolr-searchpage-1-2" data-drupal-selector="views-exposed-form-solr-search-page-1" id="block-exposedformsolr-searchpage-1-2">
+      <form action="/search" method="get" id="views-exposed-form-solr-search-page-1" accept-charset="UTF-8">
+  <div class="js-form-item form-item form-type-textfield js-form-type-textfield form-item-search-api-fulltext js-form-item-search-api-fulltext form-no-label">
+        <input placeholder="Search terms or phrases" data-drupal-selector="edit-search-api-fulltext" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" size="30" maxlength="128" class="form-text">
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-solr-search" type="submit" id="edit-submit-solr-search" value="Search" class="button js-form-submit form-submit">
+</div>
+
+
+</form>
+
+    
+    
+</div>
+<nav role="navigation" aria-labelledby="block-mobiledecisionmenu-menu" id="block-mobiledecisionmenu" class="block block-menu navigation menu--mobile-decision-menu">
+            
+  <h2 class="visually-hidden" id="block-mobiledecisionmenu-menu">Mobile Decision Menu</h2>
+  
+
+        
+  </nav>
+<nav role="navigation" aria-labelledby="block-mobilemainmenu-menu" id="block-mobilemainmenu" class="block block-menu navigation menu--mobile-main-menu">
+            
+  <h2 class="visually-hidden" id="block-mobilemainmenu-menu">Mobile Main Menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.rhodes.edu/about-rhodes" data-drupal-link-system-path="node/1282">About Rhodes</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/academics" data-drupal-link-system-path="node/7751">Academics</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/admission-aid" data-drupal-link-system-path="node/7741">Admission and Aid</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/student-life" data-drupal-link-system-path="node/32376">Student Life</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/alumni-development" data-drupal-link-system-path="node/17081">Alumni and Development</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/student-life/get-involved/athletics" data-drupal-link-system-path="node/46866">Athletics</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-rhodes-quicklinks-menu" id="block-rhodes-quicklinks" class="block block-menu navigation menu--menu-quick-links">
+            
+  <h2 class="visually-hidden" id="block-rhodes-quicklinks-menu">Quick Links</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.rhodes.edu/admission-aid/apply-rhodes" class="fas fa-pen-nib">Apply Now</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/admission-aid/visit-campus" class="fas fa-university" data-drupal-link-system-path="node/49676">Visit</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://admission.rhodes.edu/register/request" target="_self" class="fas fa-pencil">Inquire</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/alumni-development/make-gift-today" class="fas fa-heart" data-drupal-link-system-path="node/47766">Give</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://news.rhodes.edu/" target="_self" class="fas fa-newspaper">News</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://rhodes.emscloudservice.com/calendar/MasterCalendar.aspx" class="fas fa-calendar">Calendar</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        </div>
+          <div id="header-suffix">
+          <div id="header_suffix-region">
+    <nav role="navigation" aria-labelledby="block-quicklinks-menu" id="block-quicklinks" class="block block-menu navigation menu--menu-quick-links">
+            
+  <h2 class="visually-hidden" id="block-quicklinks-menu">Quick Links</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.rhodes.edu/admission-aid/apply-rhodes" class="fas fa-pen-nib">Apply Now</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/admission-aid/visit-campus" class="fas fa-university" data-drupal-link-system-path="node/49676">Visit</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://admission.rhodes.edu/register/request" target="_self" class="fas fa-pencil">Inquire</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/alumni-development/make-gift-today" class="fas fa-heart" data-drupal-link-system-path="node/47766">Give</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://news.rhodes.edu/" target="_self" class="fas fa-newspaper">News</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://rhodes.emscloudservice.com/calendar/MasterCalendar.aspx" class="fas fa-calendar">Calendar</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div class="views-exposed-form view_id__solr_search block block-views block-exposedformsolr-searchpage-1" data-drupal-selector="views-exposed-form-solr-search-page-1" id="block-exposedformsolr-searchpage-1">
+      <form action="/search" method="get" id="views-exposed-form-solr-search-page-1" accept-charset="UTF-8">
+  <div class="js-form-item form-item form-type-textfield js-form-type-textfield form-item-search-api-fulltext js-form-item-search-api-fulltext form-no-label">
+        <input placeholder="Search terms or phrases" data-drupal-selector="edit-search-api-fulltext" type="text" id="edit-search-api-fulltext--2" name="search_api_fulltext" size="30" maxlength="128" class="form-text">
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-drupal-selector="edit-submit-solr-search-2" type="submit" id="edit-submit-solr-search--2" value="Search" class="button js-form-submit form-submit">
+</div>
+
+
+</form>
+
+    
+    
+</div>
+
+  </div>
+
+              </div>
+      </header><!-- /#header -->
+
+      <div id="highlighted">  <div id="highlighted-region">
+    <div data-drupal-messages-fallback="" class="hidden"></div>
+
+  </div>
+</div>
+  
+      <div class="text-content"></div>
+
+  
+  
+  <!-- ______________________ MAIN _______________________ -->
+
+  <div id="main">
+    <div class="container">
+      <section id="content">
+        <div id="content-header">
+          
+          
+          
+
+          
+          
+        </div><!-- /#content-header -->
+
+        <div id="content-area">
+            <div id="content-region">
+    <div id="block-rhodes-content" class="block block-system block-rhodes-content">
+  
+    
+      
+
+<article class="node page">
+  
+  
+  <div class="content">
+    
+
+
+
+
+
+      <div class="field page__paragraphs">
+                    
+
+
+<div id="paragraph_40191" class="fullScreenDiv paragraph paragraph--type--video-background-hero paragraph--view-mode--default">
+    <img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/Home_Video_Frame_01.jpg" width="1280" height="720" alt="campus as seen from above" class="rsImg">
+
+
+  <div class="videoDiv">
+    <video class="video" playsinline="" autoplay="autoplay" muted="muted" loop="" poster="/sites/default/files/2023-09/Home_Video_Frame_01.jpg" crossorigin="anonymous">
+      <source src="" type="video/webm">
+      <source src="Rhodes%20College%20Homepage%20Rhodes%20College_files/Home-Page-Video-Reel-v04_01.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="messageBox">
+    <div class="control"><i class="fa-sharp fa-solid fa-circle-pause fa-2x"></i></div>
+    <div class="vidHeroParagraphContainer">
+
+
+
+
+
+      <div class="field video_background_hero__paragraphs">
+                    
+
+
+  <div class="h2 paragraph paragraph--type--text paragraph--view-mode--default" id="paragraph_40190">
+        <div class="content">
+      
+
+
+
+
+
+            <h2 class="field text__title">Welcome to a Place Like No Other</h2>
+      
+    </div>
+      </div>
+
+          </div>
+  </div>
+  </div>
+</div>
+
+              
+
+
+  <div class="two_columns paragraph paragraph--type--columns paragraph--view-mode--default" id="paragraph_40654">
+          
+
+
+
+
+
+      <div class="field columns__paragraphs">
+                    
+
+  <div class="hidden_link paragraph paragraph--type--image paragraph--view-mode--default" id="paragraph_40907">
+    <div class="content">
+                
+            
+
+
+
+
+
+            <div class="field image__image">
+            <div>  <a href="https://www.rhodes.edu/admission-aid/apply-rhodes/birmingham-southern-college-transfers"><img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/BHam%20Southern%201920X1080%202.jpg" width="1000" height="563" alt="Rhodes Accepting Transfers from Birmingham-Social College" class="rsImg"></a>
+
+
+</div>
+      </div>
+      
+            <div class="caption-container">
+        
+        
+
+
+
+
+
+            <div class="field image__link">
+            <div><a href="https://www.rhodes.edu/admission-aid/apply-rhodes/birmingham-southern-college-transfers">/admission-aid/apply-rhodes/birmingham-southern-college-transfers</a></div>
+      </div>
+      
+      </div>
+              </div>
+  </div>
+
+              
+
+  <div class="hidden_link paragraph paragraph--type--image paragraph--view-mode--default" id="paragraph_41351">
+    <div class="content">
+                
+            
+
+
+
+
+
+            <div class="field image__image">
+            <div>  <a href="https://www.rhodes.edu/admission-aid/cost-affordability/applications-deadlines/financial-aid-update-new-fafsa-qa"><img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/FAFSA%20Update%201929X1080.jpg" width="1000" height="563" alt="a young woman works on a laptop" class="rsImg"></a>
+
+
+</div>
+      </div>
+      
+            <div class="caption-container">
+        
+        
+
+
+
+
+
+            <div class="field image__link">
+            <div><a href="https://www.rhodes.edu/admission-aid/cost-affordability/applications-deadlines/financial-aid-update-new-fafsa-qa">https://www.rhodes.edu/admission-aid/cost-affordability/applications-deadlines/…</a></div>
+      </div>
+      
+      </div>
+              </div>
+  </div>
+
+          </div>
+  
+      </div>
+
+              
+
+
+  <div id="paragraph_32776" class="paragraph paragraph--type--block paragraph--view-mode--default">
+          
+
+
+
+
+
+            <div class="field block__block">
+            <div><div id="block-rhodeshomepagenewsblock" class="block block-rhodes-news block-rhodeshomepagenewsblock">
+  
+      <h2>College News</h2>
+    
+      <div class="content">
+      <div class="item">
+      <div class="image"><a href="https://news.rhodes.edu/stories/new-national-pan-hellenic-council-plaza-featured-local-nbc-affiliate">  <img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/Rhodes%20NPHC%20Plaza%20on%20WMC-TV.jpg" width="1024" height="768" alt="image of students walking on plaza" class="rsImg">
+
+
+</a></div>
+      <h4><a href="https://news.rhodes.edu/stories/new-national-pan-hellenic-council-plaza-featured-local-nbc-affiliate"></a><a href="https://www.rhodes.edu/stories/new-national-pan-hellenic-council-plaza-featured-local-nbc-affiliate" hreflang="en">New  National Pan-Hellenic Council Plaza Featured on Local NBC Affiliate </a></h4>
+      <div class="teaser">Taylor Tucker of local NBC affiliate 
+WMC/Action News 5 recently visited campus to interview Rhodes students 
+Asya Bray, Erin Parker, and Arness Georgetown and President Jennifer 
+Collins about the new National Pan-Hellenic Council Plaza that pays 
+tribute to historically Black sororities and fraternities.</div>
+    </div>
+      <div class="item">
+      <div class="image"><a href="https://news.rhodes.edu/stories/brooke-taylor-24-awarded-distinguished-fellowship-global-crop-diversity-trust">  <img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/Brooke%20Taylor.jpg" width="1024" height="768" alt="image of Rhodes College student Brooke Taylor standing outside on campus" class="rsImg">
+
+
+</a></div>
+      <h4><a href="https://news.rhodes.edu/stories/brooke-taylor-24-awarded-distinguished-fellowship-global-crop-diversity-trust"></a><a href="https://www.rhodes.edu/stories/brooke-taylor-24-awarded-distinguished-fellowship-global-crop-diversity-trust" hreflang="en">Brooke Taylor ’24 Awarded Distinguished Fellowship to Global Crop Diversity Trust</a></h4>
+      <div class="teaser">Brooke Taylor, a senior international studies 
+and environmental studies double major from Austin, TX, has been awarded
+ The Steve and Riea Lainoff Crop Trust Fellowship in Honor of Cary 
+Fowler ’71. The fellowship is made possible through the generosity of 
+Steve and Riea Lainoff, parents of Rhodes graduates Brian Lainoff ’11 
+and Mark Lainoff ’15.</div>
+    </div>
+      <div class="item">
+      <div class="image"><a href="https://news.rhodes.edu/stories/mock-trial-teams-advance-national-championship-tournament-chicago">  <img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/Rhodes%20Mock%20Trial%20A%20Team%202024.jpg" width="1024" height="768" alt="group photo of Rhodes Mock Trial Team A" class="rsImg">
+
+
+</a></div>
+      <h4><a href="https://news.rhodes.edu/stories/mock-trial-teams-advance-national-championship-tournament-chicago"></a><a href="https://www.rhodes.edu/stories/mock-trial-teams-advance-national-championship-tournament-chicago" hreflang="en">Mock Trial Teams Advance to National Championship Tournament in Chicago</a></h4>
+      <div class="teaser">Rhodes College is joining an elite cohort from
+ Princeton University, University of Chicago, University of Virginia, 
+University of Southern California, and University of California, Los 
+Angeles, as the only mock trial programs having both their A and B teams
+ advance to the American Mock Trial Association (AMTA) National 
+Championship Tournament to be held April 19-21 in Chicago.</div>
+    </div>
+    <div class="item">
+    <a href="https://news.rhodes.edu/" class="button more">More News</a>
+  </div>
+</div>
+
+  </div>
+</div>
+      </div>
+      
+      </div>
+
+              
+
+
+  <div class="lightGray background three_columns paragraph paragraph--type--columns paragraph--view-mode--default" id="paragraph_2026">
+          
+
+
+
+
+
+      <div class="field columns__paragraphs">
+                    
+
+  <div id="paragraph_2011" class="paragraph paragraph--type--photo-card paragraph--view-mode--default">
+          
+
+
+
+
+
+            <div class="field photo_card__image">
+            <div>  <a href="https://news.rhodes.edu/stories/rhodes-among-princeton-reviews-best-387-colleges-featured-value-internships-and-beauty"><img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/Barret%20Library.jpg" width="600" height="600" alt="Barrett library seen looking across a lush green lawn." class="rsImg"></a>
+
+
+</div>
+      </div>
+      
+      <div class="details">
+        
+
+
+
+
+
+      <div class="field photo_card__links">
+                    <a href="https://news.rhodes.edu/stories/rhodes-among-princeton-reviews-best-387-colleges-featured-value-internships-and-beauty">Rhodes Recognized</a>
+          </div>
+  
+
+
+
+
+
+            <div class="field photo_card__description">
+            <div><p>Rhodes has consistently been nationally ranked as a top liberal arts college, most recently by <a href="https://news.rhodes.edu/stories/rhodes-college-makes-forbes-2021-top-colleges-list">Forbes</a> and <a href="https://news.rhodes.edu/stories/rhodes-college-ranked-among-most-beautiful-campuses-nation">The Princeton Review.</a></p></div>
+      </div>
+      
+      </div>
+      </div>
+
+              
+
+  <div id="paragraph_2016" class="paragraph paragraph--type--photo-card paragraph--view-mode--default">
+          
+
+
+
+
+
+            <div class="field photo_card__image">
+            <div>  <a href="https://www.rhodes.edu/admission-aid/apply-rhodes"><img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/ApplyNow.jpg" width="600" height="600" alt="Students in the library" class="rsImg"></a>
+
+
+</div>
+      </div>
+      
+      <div class="details">
+        
+
+
+
+
+
+      <div class="field photo_card__links">
+                    <a href="https://www.rhodes.edu/admission-aid/apply-rhodes">Apply Now</a>
+          </div>
+  
+
+
+
+
+
+            <div class="field photo_card__description">
+            <div><p><a href="https://www.rhodes.edu/admission-aid/apply-rhodes">Begin your application today</a> to join our inspired community of dreamers and thinkers.</p>
+</div>
+      </div>
+      
+      </div>
+      </div>
+
+              
+
+  <div id="paragraph_2021" class="paragraph paragraph--type--photo-card paragraph--view-mode--default">
+          
+
+
+
+
+
+            <div class="field photo_card__image">
+            <div>  <a href="https://www.rhodes.edu/admission-aid/visit-campus"><img loading="lazy" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/49102348497_a5e94a69dc_k.jpg" width="600" height="600" alt="Students gathered around an iPad" class="rsImg"></a>
+
+
+</div>
+      </div>
+      
+      <div class="details">
+        
+
+
+
+
+
+      <div class="field photo_card__links">
+                    <a href="https://www.rhodes.edu/admission-aid/visit-campus">Visit Rhodes</a>
+          </div>
+  
+
+
+
+
+
+            <div class="field photo_card__description">
+            <div><p>Once you’re here, you’ll know—there’s simply no college experience that is quite like Rhodes. <a href="https://www.rhodes.edu/admission-aid/visit-campus">Schedule your visit today</a>!</p>
+</div>
+      </div>
+      
+      </div>
+      </div>
+
+          </div>
+  
+      </div>
+
+              
+
+
+  <div class="two_columns paragraph paragraph--type--columns paragraph--view-mode--default" id="paragraph_71">
+          
+
+
+
+
+
+      <div class="field columns__paragraphs">
+                    
+
+
+  <div id="paragraph_61" class="paragraph paragraph--type--text paragraph--view-mode--default">
+        <div class="content">
+      
+
+
+
+
+
+            <div class="field text__text">
+            <div><div id="front-page-facts"><div class="ratio"><span>9:1</span> Student/<wbr>Faculty Ratio</div><div class="internships"><span>75%</span> Of Students Complete Internships</div><div class="majors-minors"><span>50+</span> Majors and Minors</div><div class="more"><a href="https://www.rhodes.edu/about-rhodes">More Facts</a></div></div></div>
+      </div>
+      
+    </div>
+      </div>
+
+              
+
+
+  <div id="paragraph_66" class="paragraph paragraph--type--text paragraph--view-mode--default">
+        <div class="content">
+      
+
+
+
+
+
+            <h2 class="field text__title">FAQs</h2>
+      
+
+
+
+
+
+            <div class="field text__text">
+            <div><p><a class="fa fa-angle-double-right" href="https://www.rhodes.edu/academics/majors-minors">Does Rhodes have my major?</a><br>
+<a class="fa fa-angle-double-right" href="https://www.rhodes.edu/academics">What will my professors be like?</a><br>
+<a class="fa fa-angle-double-right" href="https://www.rhodes.edu/student-life">What will my campus life be like?</a><br>
+<a class="fa fa-angle-double-right" href="https://www.rhodes.edu/admission-aid/apply-rhodes">How do I apply?</a><br>
+<a class="fa fa-angle-double-right" href="https://www.rhodes.edu/admission-aid/cost-affordability">Can I afford to attend Rhodes?</a></p>
+</div>
+      </div>
+      
+
+
+
+
+
+            <div class="field text__link">
+            <div><a href="https://www.rhodes.edu/admission-aid/admission-faqs">More Questions</a></div>
+      </div>
+      
+    </div>
+      </div>
+
+          </div>
+  
+      </div>
+
+          </div>
+  
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+
+  </div>
+
+        </div>
+
+      </section><!-- /#content -->
+
+      
+          </div><!-- /.container -->
+  </div><!-- /#main -->
+
+  <!-- ______________________ FOOTER _______________________ -->
+
+  <footer id="footer-prefix">
+    <div class="container">
+          </div>
+  </footer><!-- /#footer-prefix -->
+    <footer id="footer">
+    <div class="container">
+        <div id="footer-region">
+    <nav role="navigation" aria-labelledby="block-footermenu1-menu" id="block-footermenu1" class="block block-menu navigation menu--menu-footer-menu-1">
+      
+  <h2 id="block-footermenu1-menu">Resources</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://catalog.rhodes.edu/general-information/academic-calendar">Academic Calendar</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://sites.rhodes.edu/accessibility">Accessibility</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.bkstr.com/rhodesstore/home">Bookstore</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://map.concept3d.com/?id=1820#!">Campus Maps</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://catalog.rhodes.edu/">College Catalogue</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://handbook.rhodes.edu/rhodes-college-employee-handbook">College Policies</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/about-rhodes/contact-us" title="" data-drupal-link-system-path="node/13586">Directory</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/employment">Job Opportunities</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/about-rhodes" data-drupal-link-system-path="node/1282">Quick Facts</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/alumni-development/parents-families" data-drupal-link-system-path="node/22441">Parents and Families</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/academics/summer-programs-high-school-students" data-drupal-link-system-path="node/26341">Summer Programs</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://admission.rhodes.edu/visit/">Visit Calendar</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenu2-menu" id="block-footermenu2" class="block block-menu navigation menu--menu-footer-menu-2">
+      
+  <h2 id="block-footermenu2-menu">Administration</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.rhodes.edu/academics/academic-affairs" data-drupal-link-system-path="node/10466">Academic Affairs</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/admission-aid" data-drupal-link-system-path="node/7741">Admission and Financial Aid</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/about-rhodes/diversity-equity-inclusion" data-drupal-link-system-path="node/49586">Diversity, Equity, and Inclusion</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/heerf-crrsaa-reporting" data-drupal-link-system-path="node/48576">HEERF and CRRSAA Reporting</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/HEERF-CARES-funding-reporting" data-drupal-link-system-path="node/50811">HEERF (CARES) Funding-Reporting</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/about-rhodes/office-president" data-drupal-link-system-path="node/28796">President's Office</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://sites.rhodes.edu/academicaffairs/registrar">Registrar</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/student-life/services-support/rhodes-express" data-drupal-link-system-path="node/10626">Rhodes Express</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/website-privacy" data-drupal-link-system-path="node/33096">Privacy Policy</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenu3-menu" id="block-footermenu3" class="block block-menu navigation menu--footer-menu-3">
+      
+  <h2 id="block-footermenu3-menu">Safety</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.rhodes.edu/student-life/services-support/campus-safety" data-drupal-link-system-path="node/11156">Campus Safety Office</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://sites.rhodes.edu/titlenine">Title IX and Sexual Misconduct</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footertools-menu" id="block-footertools" class="block block-menu navigation menu--footer-tools">
+      
+  <h2 id="block-footertools-menu">Tools</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://express.rhodes.edu/saml_login">Express Online Login</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/content/payment-services#MakePayment">Pay a Bill</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.rhodes.edu/report-access-barrier" data-drupal-link-system-path="node/52728">Report an Access Barrier</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://express.rhodes.edu/documents-forms/communications/request">Website Feedback / Request an Edit</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+    </div>
+  </footer><!-- /#footer -->
+    <footer id="footer-postfix">
+    <div class="container">
+      <div id="footer-logo">
+        <img class="logo" alt="" src="Rhodes%20College%20Homepage%20Rhodes%20College_files/rhodes-logo-web-reversed.png" style="height:50px;">
+        <p>Memphis, Tennessee<br>
+        <a href="tel:8008445969">800.844.5969</a> /
+        <a href="tel:9018433000">901.843.3000</a></p>
+      </div>
+      <div id="footer-social">
+        <div class="container">
+          <a class="instagram" href="https://instagram.com/rhodescollege/" target="_blank">Instagram</a>
+          <a class="facebook" href="https://www.facebook.com/rhodescollege" target="_blank">Facebook</a>
+          <a class="youtube" href="https://www.youtube.com/user/rhodescollege" target="_blank">YouTube</a>
+          <a class="twitter" href="https://twitter.com/RhodesCollege" target="_blank">Twitter</a>
+          <a class="linkedin" href="https://www.linkedin.com/edu/rhodes-college-19422" target="_blank">LinkedIn</a>
+          <a class="tiktok" href="https://www.tiktok.com/@rhodescollege" target="_blank">TikTok</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div><!-- /.layout-container -->
+
+<!-- Chatbox HTML -->
+<div class="chat-container" id="chat-container" style="display:none;">
+  <div class="chat-header">
+      Rho-Bot Chatbox
+      <span id="close-btn" onclick="toggleChat()" aria-label="Close chatbox" style="float: right; cursor: pointer;">X</span> <!-- Close button -->
+  </div>
+  <div class="chat-body" id="chat-body">
+      <div class="message bot-message">Welcome to Rho-Bot Chatbox!</div>
+      <!-- Additional messages will be appended here -->
+  </div>
+  <!-- Typing Indicator -->
+  <div class="typing-indicator" id="typing-indicator" style="display:none;">
+    <span>.</span><span>.</span><span>.</span>
+  </div>
+  <div class="chat-footer">
+      <input type="text" class="input-message" id="user-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+      <button class="send-button" onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+
+<!-- Add the chatbox icon HTML here -->
+<div id="chatbox-icon-container">
+  <span id="chat-label">Chat with RHO-BOT</span>
+  <img src="chat-bubbles-with-ellipsis.png" id="chatbox-icon" alt="Chatbox Icon" style="width: 50px; height: 50px;">
+</div>
+
+<div class="chat-header">
+  Rho-Bot Chatbox
+  <span id="close-btn" aria-label="Close chatbox">×</span> <!-- Close button -->
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/23356","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"\/search":true},"user":{"uid":0,"permissionsHash":"f2e7f5022e53042258b70e904e0e36ab3d9e8b71b37f60d8ce1b546c64a82c74"}}</script>
+<script src="Rhodes%20College%20Homepage%20Rhodes%20College_files/js_OqS_qG2ee60ZvccdSSw7UNsHOYBtyGs_NuW8axSMZlo.js"></script>
+<script src="Rhodes%20College%20Homepage%20Rhodes%20College_files/d7467beb2b77f7a6387a0027e0db033b.js"></script>
+<script src="Rhodes%20College%20Homepage%20Rhodes%20College_files/js_pr3J1HKySK3shs5y5gBOb1Fjw9ccJMH5j-KhUT7y_nU.js"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '339957066186009');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img alt="" height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=339957066186009&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KLRSG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  
+
+<script src="Rhodes%20College%20Homepage%20Rhodes%20College_files/app.js" type="text/javascript"></script>
+<script>
+  // Open chatbox and hide chat icon and label
+document.getElementById('chatbox-icon').addEventListener('click', function() {
+    document.querySelector('.chat-container').style.display = 'flex';
+    document.getElementById('chatbox-icon-container').style.display = 'none'; // Hide the container with the icon and label
+});
+
+// Close chatbox function
+function closeChat() {
+    document.querySelector('.chat-container').style.display = 'none';
+    document.getElementById('chatbox-icon-container').style.display = 'block'; // Show the container with the icon and label again
+}
+
+// Event listener for closing the chatbox
+document.getElementById('close-btn').addEventListener('click', closeChat);
+
+// Focus event on the input message to ensure chat body is scrolled to the bottom
+document.getElementById('user-input').addEventListener('focus', function() {
+    var chatBody = document.getElementById('chat-body');
+    chatBody.scrollTop = chatBody.scrollHeight;
+});
+
+// Call this function to show typing indicator
+function showTypingIndicator() {
+  document.getElementById('typing-indicator').style.display = 'flex';
+}
+
+// Call this function to hide typing indicator
+function hideTypingIndicator() {
+  document.getElementById('typing-indicator').style.display = 'none';
+}
+
+
+async function sendMessage() {
+    const userInputField = document.getElementById('user-input');
+    const userInput = userInputField.value.trim();
+    
+    if (userInput !== '') {
+        displayUserMessage(userInput);
+        userInputField.value = ''; // Clear input field after sending the message
+        showTypingIndicator(); // Show typing indicator
+
+        try {
+            const response = await fetch('http://localhost:5005/webhooks/rest/webhook', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ sender: 'user', message: userInput }), // Ensure 'sender' is included
+            });
+
+            hideTypingIndicator(); // Hide typing indicator when response is received
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+
+            if (data && data.length > 0) {
+                data.forEach((message) => {
+                    if (message.text) {
+                        displayBotMessage(message.text);
+                    }
+                });
+            } else {
+                displayBotMessage("I'm sorry, I couldn't understand that.");
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            displayBotMessage("I'm sorry, something went wrong.");
+            hideTypingIndicator(); // Hide typing indicator if there's an error
+        }
+    }
+}
+
+/**
+  // Your existing sendMessage function
+  async function sendMessage() {
+            var userInputField = document.getElementById('user-input');
+            var userInput = userInputField.value.trim();
+            if (userInput !== '') {
+                displayUserMessage(userInput);
+                userInputField.value = ''; // Clear input field after sending the message
+                // Show loading dots
+                showTypingIndicator(); // Show typing indicator
+    
+                try {
+                    const response = await fetch('http://localhost:5005/webhooks/rest/webhook', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ message: userInput }),
+                    });
+                    const data = await response.json();
+                    // Hide loading dots
+                    hideTypingIndicator(); // Hide typing indicator
+                    if (data && data.length > 0 && data[0].text) {
+                        displayBotMessage(data[0].text);
+                    } else {
+                        displayBotMessage("I'm sorry, I couldn't understand that.");
+                    }
+    
+                    document.getElementById("user-input").value = ''; // Clear input field
+                } catch (error) {
+                    console.error('Error:', error);
+                    displayBotMessage("I'm sorry, something went wrong.");
+                    // Hide loading dots
+                    hideTypingIndicator(); // Make sure to hide the typing indicator in case of an errorloading
+                }
+                
+            }
+
+        }**/
+    
+
+
+
+  // Function to display user messages
+  function displayUserMessage(message) {
+    var chatBody = document.getElementById('chat-body');
+    var userMessageDiv = document.createElement('div');
+    userMessageDiv.className = 'message user-message';
+    userMessageDiv.textContent = message;
+    chatBody.appendChild(userMessageDiv);
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+
+    // Function to display bot messages
+    // makes links clickble now , which is nice
+  function displayBotMessage(message) {
+      var chatBody = document.getElementById('chat-body');
+      var botMessageDiv = document.createElement('div');
+      botMessageDiv.className = 'message bot-message';
+
+      // Check if the message contains a URL
+      var urlRegex = /(((https?:\/\/)|(www\.))[^\s]+)/g;
+      botMessageDiv.innerHTML = message.replace(urlRegex, function(url) {
+          // Ensure the URL starts with http:// or https://
+          var hyperlink = url;
+          if (!hyperlink.match('^https?:\/\/')) {
+              hyperlink = 'http://' + hyperlink;
+          }
+          // Create a link element
+          return '<a href="' + hyperlink + '" target="_blank">' + url + '</a>';
+      });
+
+      chatBody.appendChild(botMessageDiv);
+      chatBody.scrollTop = chatBody.scrollHeight;
+  }
+
+
+  /**
+  // Function to display bot messages
+  function displayBotMessage(message) {
+    var chatBody = document.getElementById('chat-body');
+    var botMessageDiv = document.createElement('div');
+    botMessageDiv.className = 'message bot-message';
+    botMessageDiv.textContent = message;
+    chatBody.appendChild(botMessageDiv);
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }**/
+  
+
+  // Function to handle key press in the input field
+  function handleKeyPress(event) {
+      if (event.key === "Enter") {
+          sendMessage();
+      }
+  }
+</script>
+
+</body></html>

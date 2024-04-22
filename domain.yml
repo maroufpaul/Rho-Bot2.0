@@ -5,7 +5,6 @@ intents:
   - goodbye
   - bot_challenge
   - ask_faculty_specialization
-  - ask_course_details
   - ask_program_admissions
   - ask_event_info
   - ask_general_info
@@ -17,6 +16,7 @@ intents:
   - ask_major_requirements
   - ask_minor_requirements
   - ask_link
+  - get_course_info
   
 
 entities:
@@ -25,6 +25,7 @@ entities:
   - topic
   - subject
   - service
+  - course_code
 
 
 slots:
@@ -123,12 +124,12 @@ actions:
   - action_custom_classifier
   - action_retrieve_department_chair  # Added
   - action_retrieve_faculty_info
-  - action_provide_course_details
   - action_retrieve_information
   - action_provide_major_requirements
   - action_provide_minor_requirements
   - action_provide_link
   - action_set_link_context
+  - action_get_course_info
   
 
 session_config:
