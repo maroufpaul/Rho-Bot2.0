@@ -1,0 +1,99 @@
+{
+    "departmentName": "Latin American and Latinx Studies",
+    "departmentDescription": "Through interdisciplinary and transdisciplinary work, Latin American and Latinx Studies majors and minors critically examine the wealth of experiences, cultural productions and histories of Latin America and the Latinx worlds. After an integrated Introduction to Latin American and Latinx Studies, the curriculum brings together courses in the fields of Anthropology, Sociology, Economics, Education, Health Equity, History, Modern Languages (Spanish and Portuguese), Music, International Studies, Urban Studies, and Psychology among others, and includes community-based learning opportunities in Memphis, in the U.S, and abroad.",
+    "faculty": [
+      {
+        "name": "Elizabeth Pettinaroli",
+        "department": "Department of Modern Languages and Literatures",
+        "role": "Chair"
+      },
+      {
+        "name": "Ricardo Martins",
+          "joined": "2023",
+          "title": "Assistant Professor",
+          "education": "B.A. Universidade Federal de Minas Gerais; M.A. and Ph.D. Indiana University",
+          "specialization": "Mid-20th century - contemporary Transnational and Latin American literature and cinema, Brazilian Favelas, Videogames, Media Studies"
+        },
+      {
+        "name": "Bruno Badia",
+        "department": "Department of Economics"
+      },
+      {
+        "name": "Amy Benson",
+        "department": "English Department/Creative Writing"
+      },
+      {
+        "name": "Sarah Boyle",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Joy Brooke Fairfield",
+        "department": "Media Studies Program"
+      },
+      {
+        "name": "Eric Henager",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "Andrea Jacobo",
+        "department": "Health Equity"
+      },
+      {
+        "name": "Laura Kelly",
+        "department": "Educational Studies"
+      },
+      {
+        "name": "Francisco Lara",
+        "department": "Department of Music"
+      },
+      {
+        "name": "Michael LaRosa",
+        "department": "Department of History"
+      },
+      {
+        "name": "Jeanne Lopiparo",
+        "department": "Department of Anthropology and Sociology"
+      },
+      {
+        "name": "Nina Morais",
+        "department": "German Studies"
+      },
+      {
+        "name": "Jaqueline Oliveira",
+        "department": "Department of Economics"
+      },
+      {
+        "name": "Amy Risley",
+        "department": "Department of International Studies"
+      }
+    ],
+    "programs": [{
+      "programName": "B.A. in Latin American Studies",
+      "degreeType": "BA",
+      "requirements" : {
+      "totalCredits": 42,
+      "courses": [
+        "Latin American and Latinx Studies 200: Introduction to Latin American and Latinx Studies",
+        "Latin American and Latinx Studies 485: Senior Seminar",
+        "Region specific courses (Category A, at least 30 credits or more)",
+        "Discipline specific courses with LALS attribute (Category B, 12 credits maximum)",
+        "notes: Nine of the following courses from at least four different departments, and at least 1 course at the 300-level or above. No more than three courses in any one department may count toward the major. Other courses by approval of the Chair of the LALS Program, Professor Elizabeth Pettinaroli. Questions: Contact Prof. Elizabeth Pettinaroli Pettinaroli@pettinarolie@rhodes.edu"
+    ]}}],
+    "minorRequirements": [{
+      "totalCredits": 22,
+      "courses": [
+        "Latin American and Latinx Studies 200",
+        "Category A-Region specific courses (at least 12 credits or more)",
+        "Category B-Discipline specific courses with LALS attribute (10 credits maximum)"
+      ]
+    }],
+    "honorsProgram": [{
+      "requirements": [
+        "Completion of all requirements for the Latin American Studies major.",
+        "Completion of Latin American Studies 495-496.",
+        "Completion and public presentation of a substantial research project. Project proposal must be approved by the Latin American Studies Committee by April of the junior year."
+      ]
+    }
+  ]
+  }
+  

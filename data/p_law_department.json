@@ -1,0 +1,110 @@
+{
+  "departmentName": "Politics and Law",
+  "departmentDescription": "The Politics and Law Department offers a Political Science major that prepares students to address fundamental questions of equality, liberty, and justice; the history of political philosophy; the constitutional structure of government in the U.S., and the major institutions of national politics, urban politics, and public policy.",
+  "faculty": [
+    {
+      "name": "Michael Nelson",
+      "title": "Fulmer Professor of Political Science",
+      "joined": "1991",
+      "education": ["B.A., College of William and Mary", "M.A. and Ph.D., The Johns Hopkins University"],
+      "specializations": ["American Presidency", "Southern Politics", "American Politics"]
+    },
+    {
+      "name": "Marcus D. Pohlmann",
+      "title": "Emeritus",
+      "joined": "1986",
+      "education": ["B.A., Cornell College", "M.A., M.Phil. and Ph.D., Columbia University"],
+      "specializations": ["American Politics", "Legal Studies", "Education Policy", "Black Political Thought"]
+    },
+    {
+      "name": "Erin A. Dolgoy",
+      "title": "Associate Professor",
+      "joined": "2013",
+      "education": ["M.A. and Ph.D., Michigan State University"],
+      "specializations": ["Political Theory", "Science and Technology Studies", "American Politics"]
+    },
+    {
+      "name": "Anna S. Eldridge",
+      "title": "Assistant Professor",
+      "joined": "2012",
+      "education": ["B.A., Rhodes College", "J.D., Duke University"],
+      "specializations": ["Legal Studies", "Internships", "Pre-Law Advising"]
+    },
+    {
+      "name": "Thomas Goodman",
+      "title": "Assistant Professor",
+      "joined": "2021",
+      "education": ["B.S., Northeastern University", "M.A., Ph.D., Boston College"],
+      "specializations": ["American Politics", "Congress", "Campaigns and Elections"]
+    },
+    {
+      "name": "Kyu Chul (Casey) Shin",
+      "title": "Assistant Professor",
+      "joined": "2021",
+      "education": ["B.A., Ursinus College", "Ph.D., West Virginia University"],
+      "specializations": ["American Politics", "Race and Ethnic Studies", "Public Policy", "Global Affairs"]
+    },
+    {
+      "name": "Anna R. Smith",
+      "title": "Director of Mock Trial",
+      "joined": "2012",
+      "education": ["B.A., Rhodes College", "J.D., Duke University"],
+      "specializations": ["Legal Studies", "Internships"]
+    },
+    {
+      "name": "Hannah Guess",
+      "title": "Departmental Assistant",
+      "joined": "2020",
+      "education": ["B.A. and M.A., University of Memphis"]
+    }
+  ],
+  "programs": [
+    {
+    "programName": "B.A. in Poltics & Law",
+    "degreeType": "BA",
+    "requirements": {
+      "totalCredits": "44",
+      "courses": [
+        "For a Concentration in Politics & Law:",
+        "PLAW 151: U. S. Politics",
+        "PLAW 270: Research Methods",
+        "PLAW 485: Senior Seminar",
+        "One course in political thought and philosophy",
+        "International Studies 110 or International Studies 120",
+        "PLAW 460: Public Affairs Internship with a law concentration",
+        "Five additional courses (20 credits) in Political and Law, two of which must be at the 300 level. Students may count up to two International Studies courses towards their major.",
+      "Additional_Information: In satisfying the requirements above, the Politics and Law concentration requires students to take any two of the following courses: PLAW 216: Philosophy of Law; PLAW 262: Trial Procedure; PLAW 264: Rights of the Accused; PLAW 280: Judicial Politics; PLAW 283: Topics in Public Law; and PLAW 301: Civil Liberties. Students may petition the chair to count one non-Politics and Law course that focuses on the study of jurisprudence as a substitute for one of the aforementioned courses. PLAW 263 does not count toward a Political Science major.",
+      " ",
+        "For a concentration in Political Science",
+        "PLAW 151: U. S. Politics",
+        "PLAW 270: Research Methods",
+        "PLAW 485: Senior Seminar",
+        "One course in political thought and philosophy",
+        "International Studies 110 or International Studies 120",
+        "Six additional courses (24 credits) in Political and Law, two of which must be at the 300 level. Students may count up to two International Studies courses towards their major. PLAW 460, Public Affairs Internship, may count as a major elective at the 200 level.",
+        "PLAW 263 does not count toward a Political Science major."
+      ]
+    }}],
+    "minorRequirements": [{
+      "Total_Courses": "5",
+      "totalCredits": "20",
+      "courses": [
+        "PLAW 151: U. S. Politics",
+        "Two courses at the 200-level. Humanities 201 (Politics Track) may count for a 200 level course.",
+        "Two courses at the 300-level or above.",
+        "PLAW 460, Public Affairs Internship, does not count as a course for the Political Science minor. PLAW 262 and 263 do not count toward a Political Science minor."
+      ]
+    }
+  ],
+    "Washington_and_Capitol_Semesters": {
+      "Description": "Politics and Law students may participate in two different semester long programs in Washington, D.C., each involving courses, an internship, and a research project. Since special financial arrangements are required for these programs, students need to meet with the Director of the Buckman Center. These programs can be done in the Fall or the Spring semester. Two of the four courses transferred from the Washington Semester may satisfy requirements for a Political Science major, and all four of the courses transferred from the Capitol Semester may satisfy requirements for a Political Science major. Since some coursework transfers as internship credit, students receiving credit from either of these programs cannot count an additional PLAW 460 course toward the Political Science major."
+    },
+  "honorsProgram": [{
+    "requirements": [
+      "Only students with a minimum overall GPA of 3.5 and a GPA within the major of 3.5 by the end of the fall semester of their junior year will be eligible to pursue honors.",
+      "The one-credit Honors Tutorial, Music 399, in spring of the junior year",
+      "The Senior Honors Tutorials, Music 495-496, in fall and spring of the senior year. An overall grade of A- on the thesis or project itself is required for Honors credit."
+    ]
+  }
+]
+}

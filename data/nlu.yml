@@ -159,10 +159,18 @@ nlu:
   examples: |
     - What are the major requirements for [Physics](department)?
     - Can you tell me the requirements to major in [Computer Science](department)?
-    - Major requirements for [Physics](department) please
+    - Major requirements for [Business](department) please
+    - Major information for [Anthropology](department)
+    - Major information for [Africana Studies](department)
 
 - intent: ask_minor_requirements
   examples: |
     - What are the minor requirements for [Physics](department)?
     - Can you tell me the requirements to minor in [Computer Science](department)?
-    - Minor requirements for [Physics](department) please
+    - Minor requirements for [Africana Studies](department) please
+
+- intent: ask_honor_program
+  examples: |
+    - What are the minor requirements for [Physics](department)?
+    - Can you tell me the deetails for the honor program [Computer Science](department)?
+    - Honor Program Details for [Physics](department) please

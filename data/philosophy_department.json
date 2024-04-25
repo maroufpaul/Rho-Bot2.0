@@ -1,0 +1,84 @@
+{
+  "departmentName": "Philosophy",
+  "departmentDescription": "Courses in the Department of Philosophy explore life’s most interesting and fundamental questions: What does it mean to be human? To be a person? Who am I and how should I live? Does life have meaning? Does God exist? What does it mean to be free? What are our duties to others? What principles should govern our social and political life? What is the difference between belief and knowledge? Why are we prone to thinking and reasoning poorly? Our courses explore questions like these through the study of ethics, law, logical thinking, metaphysics, epistemology, political philosophy, and various controversies associated with race, gender, religion, politics, economics, science, technology, and artificial intelligence. We seek truth by asking questions, answering the questions, and questioning the answers, always with respect for the views and arguments of others. Philosophy courses will sharpen a student’s analytical reading, thinking, and writing, all of which are indispensable skills prized by graduate schools, law schools, and employers.",
+  "faculty": [
+    {
+      "name": "Daniel Cullen",
+      "title": "Professor",
+      "joined": "1988",
+      "education": ["M.A., Dalhousie University", "Ph.D., Boston College"],
+      "specializations": ["Political and Moral Philosophy", "Philosophy of Law", "PPE (Philosophy, Politics, and Economics)", "Contemporary Political Theory"]
+    },
+    {
+      "name": "Stephen Wirls",
+      "title": "Professor",
+      "joined": "1994",
+      "education": ["B.A., Kenyon College", "Ph.D., Cornell University"],
+      "specializations": ["Modern Political Thought", "Philosophy and Religion", "Existentialism", "PPE (Philosophy, Politics, and Economics)"]
+    },
+    {
+      "name": "Erin Dolgoy",
+      "title": "Associate Professor",
+      "joined": "2013",
+      "education": ["H.B.A., University of Toronto", "M.A., University of Alberta", "Ph.D., Michigan State University"],
+      "specializations": ["History of Political Thought", "Science and Technology Policy", "United States Politics"]
+    },
+    {
+      "name": "Rebecca Tuvel",
+      "title": "Associate Professor",
+      "joined": "2014",
+      "education": ["B.A., McGill University", "Ph.D., Vanderbilt University"],
+      "specializations": ["Philosophy of Race, Sex, and Gender", "Feminist Philosophy", "Ethics", "Bioethics", "Animal Ethics"],
+      "website": "rebeccatuvel.com"
+    },
+    {
+      "name": "Jared Millson",
+      "title": "Assistant Professor",
+      "joined": "2021",
+      "education": ["B.A., Boston University", "Ph.D., Emory University"],
+      "specializations": ["Epistemology", "Logic", "Philosophy of Language", "Philosophy of Science", "Philosophy of Mind"],
+      "website": "jamillson.com"
+    },
+    {
+      "name": "Christie Arnold",
+      "title": "Departmental Assistant"
+    }
+  ],
+  "programs": [
+    {
+    "programName": "B.A. in Philosophy",
+    "degreeType": "BA",
+    "requirements": {
+      "totalCredits": "44",
+      "courses": [
+        "Philosophy 200 (Critical Reasoning)",
+        "Philosophy 222 (Ethics)",
+        "Senior Seminar 486",
+        "At least one course from each of the following categories:",
+          "Category A: Logic (310), Epistemology (319)",
+          "Category B: Philosophy of Race and Racism (220), Justice, Equality, and Liberty (225), Feminist Philosophy (355)",
+          "Category C: Ancient Philosophy (201), Modern Political Philosophy (345)",
+          "Electives: Five additional courses, only two of which can be at the 100-level and two of which must be at the 300-400 level. Humanities 201 (Philosophy track) may be counted as one of those courses."
+      ]
+    }
+  }
+  ],
+    "minorRequirements": [{
+      "totalCredits": "20",
+      "courses": [
+        "Philosophy 200 (Critical Reasoning)",
+        "One 300-level course or above",
+        "Three additional courses at any level (no more than one 100-level course can count toward the minor). Humanities 201 (Philosophy track) may be counted as one of those courses."
+      ]
+    }
+  ],
+    "honorsProgram": [{
+      "requirements": [
+        "Fulfillment of the requirements for a major in Philosophy",
+        "Philosophy 399 (Honors course)",
+        "Oral examination on the honors essay and related field",
+        "Approval of the honors project by the Philosophy Department Honors Committee"
+      ]
+    }
+  ]
+  }

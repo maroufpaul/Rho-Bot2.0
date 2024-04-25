@@ -1,0 +1,132 @@
+{
+    "departmentName": "History",
+    "departmentDescription": "The Department of History at Rhodes has a national reputation for preparing students to think critically about the historical forces that have shaped the world’s civilizations and cultures, to see the links between the past and the present, to become clear and effective writers and speakers, and to apply their knowledge as thoughtful citizens of the world. A wide range of course offerings, internships, fellowships, and research opportunities empower students to prepare for success in any career path which they choose and to find their place within the ongoing human story. Decades’ worth of data gathered by the Rhodes College Alumni Office shows how Rhodes History alumni have succeeded in an amazingly wide range of occupations from filmmaking and urban planning to museums and teaching at the university level. Our graduates work as members of the clergy, account executives, business managers, musicians, journalists, members of the US military, counselors, business analysts, marketers, librarians and archivists, coaches, IT specialists, pilots, social workers, brokers, Peace Corps veterans, real estate developers, non-profit executives, artists, flight attendants, restauranteurs, land use planners -- and that’s just the beginning.",
+    "faculty": [
+        {
+            "name": "Timothy S. Huebner",
+            "title": "Professor",
+            "joined": "1995",
+            "education": "B.A., University of Miami; M.A. and Ph.D., University of Florida",
+            "specialization": "U.S. South, nineteenth century, U.S. constitutional/legal history"
+          },
+          {
+            "name": "Jeffrey H. Jackson",
+            "title": "Professor",
+            "joined": "2000",
+            "education": "B.S., Vanderbilt University; Ph.D., University of Rochester",
+            "specialization": "Modern Europe, France, cultural history, natural disasters"
+          },
+          {
+            "name": "Jonathan Judaken",
+            "title": "Professor",
+            "joined": "2011",
+            "education": "B.A., University of California, San Diego; M.A. and Ph.D., University of California, Irvine",
+            "specialization": "Modern Europe, cultural and intellectual history"
+          },
+          {
+            "name": "Etty Terem",
+            "title": "Professor",
+            "joined": "2008",
+            "education": "B.A. and M.A., Tel Aviv University; Ph.D., Harvard University",
+            "specialization": "Modern Middle East and North Africa, Islamic law and society"
+          },
+          {
+            "name": "Lynn B. Zastoupil",
+            "title": "Professor",
+            "joined": "1988",
+            "education": "B.A., Dickinson State College; M.A., University of Texas; Ph.D., University of Minnesota",
+            "specialization": "Modern Britain, India, European intellectual history"
+          },
+          {
+            "name": "Michael J. LaRosa",
+            "title": "Associate Professor",
+            "joined": "1995",
+            "education": "B.A., George Washington University; M.A. and Ph.D., University of Miami",
+            "specialization": "Contemporary Latin America, Colombia, church history"
+          },
+          {
+            "name": "Seok-Won Lee",
+            "title": "Associate Professor",
+            "joined": "2011",
+            "education": "B.A. and M.A., Yonsei University; Ph.D., Cornell University",
+            "specialization": "Modern East Asia"
+          },
+          {
+            "name": "Charles W. McKinney, Jr.",
+            "title": "Associate Professor",
+            "joined": "2004",
+            "education": "B.A., Morehouse College; M.A. and Ph.D., Duke University",
+            "specialization": "African-American history, civil rights studies, twentieth-century United States"
+          },
+          {
+            "name": "Robert F. Saxe",
+            "title": "Associate Professor",
+            "joined": "2003",
+            "education": "B.A., Reed College; Ph.D., University of Illinois",
+            "specialization": "Twentieth-century United States, political history, war and society"
+          },
+          {
+            "name": "Tait S. Keller",
+            "title": "Associate Professor",
+            "joined": "2008",
+            "education": "B.A., University of Rochester; M.A. and Ph.D., Georgetown University",
+            "specialization": "Environmental history, modern Europe, Germany"
+          },
+          {
+            "name": "Sarah Ifft Decker",
+            "title": "Assistant Professor",
+            "joined": "2020",
+            "education": "B.A., Swarthmore College, M.A., The Jewish Theological Seminary, Ph.D., Yale University",
+            "specialization": "Medieval Mediterranean, Spain, economic, Jewish, women/gender"
+          },
+          {
+            "name": "Samson Ndanyi",
+            "title": "Assistant Professor",
+            "joined": "2018",
+            "education": "B.S. and M.S., Towson University; M.A., Morgan State University; Ph.D., Indiana University, Bloomington",
+            "specialization": "African history, African American studies, African diaspora studies, world history"
+          }
+    ],
+    "programs": [
+      {
+        "programName": "B.A. in History",
+        "degreeType": "BA",
+        "requirements": {
+            "totalCredits": 44,
+            "courses": [
+              "History 300 (The Historian’s Craft)",
+              "History 485 (Senior Seminar)",
+              "Nine (9) additional courses at the 100, 200, 300, and 400 levels, selected according to the following principles:",
+              "No more than two sections of History 105 may be taken",
+              "At least two must be seminar courses at the 300 level.",
+              "At least two must be seminar courses at the 400 level.",
+              "At least one must be taken in five of the six areas listed below:",
+              "History of Asia, History of Europe, Global/Comparative History, History of Latin America, History of North Africa/Middle East, History of the United States",
+              "At least one must concentrate in the period prior to 1500 CE. The following courses meet that requirement:",
+              "History 211, History 212, History 213, History 222, History 223, History 271, History 282, History 293, History 311, History 312, History 313, History 375",
+              "Humanities 201 (History Track) counts as a 200-level history course, although it does not fulfill one of the area requirements listed above."
+            ]
+        }
+      }
+    ],
+    "honorsProgram": [{
+      "requirements": [
+        "Completion of all requirements for a Bachelor of Arts degree in History, as well as a minimum overall grade point average of 3.50 and a minimum history grade point average of 3.50",
+        "Completion of History 495-496",
+        "Completion of a major research project, culminating in a research paper and an oral presentation. The student normally begins preparing a proposal by taking a directed inquiry in the spring of the junior year.The formal research proposal must be accepted by the Department early in the student’s senior year. The project must be completed and approved by the supervising committee by April",
+        "All honors students must meet eligibility criteria established for the Honors Program."
+    ]}],
+    "minorRequirements": [{
+        "totalCredits": 20,
+        "courses": [
+          "No more than two sections of History 105 may be taken.",
+          "At least two courses at the 300 or 400 level.",
+          "At least one course in each of three of the following areas:",
+          "History of Asia, History of Europe, Global/Comparative History, History of Latin America, History of North Africa/Middle East, History of the United States",
+          "Humanities 201 (History Track) counts as a 200-level history course, although it does not fulfill the area requirements listed above.",
+          "Credit earned through AP or IB does not fulfill the requirements of the major or minor but does count toward the 128 credits required for graduation."
+        ]
+      }
+    ]
+  }
+  

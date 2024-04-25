@@ -1,0 +1,159 @@
+{
+    "departmentName": "English",
+    "departmentDescription": "From the classics to the contemporary, the Department of English offers Rhodes students a wide array of courses in literature, creative writing, and film. Students develop the ability to analyze and create with an emphasis on establishing strong writing skills.",
+    "faculty": [
+      {
+        "name": "Gordon Bigelow",
+        "title": "Professor",
+        "joined": "1998",
+        "education": "A.B., Brown University; M.A., University of New Hampshire; Ph.D., University of California, Santa Cruz",
+        "specialization": "Nineteenth-century British and Irish Literature, Literary Theory"
+      },
+      {
+        "name": "Marshall Boswell",
+        "title": "Professor",
+        "joined": "1996",
+        "education": "B.A., Washington and Lee University; M.A., Washington University; Ph.D., Emory University",
+        "specialization": "American Literature"
+      },
+      {
+        "title": "Lori Garner",
+        "position": "Professor",
+        "joined": "2009",
+        "education": "B.A., Hendrix College; M.A., University of Arkansas; Ph.D., University of Missouri",
+        "specialization": "Medieval Studies, Oral Tradition"
+      },
+      {
+        "name": "Scott Newstok",
+        "postitleition": "Professor",
+        "joined": "2007",
+        "education": "B.A., Grinnell College; Ph.D., Harvard University",
+        "specialization": "Shakespeare, Poetics"
+      },
+      {
+        "name": "Leslie Petty",
+        "title": "Professor",
+        "joined": "2003",
+        "education": "B.A., Emory University; M.A., Louisiana State University; Ph.D., University of Georgia",
+        "specialization": "American Literature"
+      },
+      {
+        "name": "Rashna Wadia Richards",
+        "title": "Professor",
+        "joined": "2008",
+        "education": "B.A., Narsee Monjee College, Mumbai, India; M.A., University of Mumbai, India; M.A., West Virginia University; Ph.D., University of Florida",
+        "specialization": "Film Studies"
+      },
+      {
+        "name": "Amy Benson",
+        "title": "Associate Professor",
+        "joined": "2016",
+        "education": "B.S., Bowling Green State University; M.F.A., University of Alabama, Tuscaloosa, AL",
+        "specialization": "Creative Non-Fiction"
+      },
+      {
+        "name": "Stephanie Elsky",
+        "title": "Associate Professor",
+        "joined":"2017",
+        "education": "B.A., Columbia University; M.A. and Ph.D., University of Pennsylvania",
+        "specialization": "Early Modern Literature"
+      },
+      {
+        "name": "Rebecca Finlayson",
+        "title": "Associate Professor",
+        "joined": "2001",
+        "education": "B.A., Smith College; M.A. and Ph.D., Emory University",
+        "specialization": "Early Modern British Literature"
+      },
+      {
+        "name": "Judith Haas",
+        "title": "Associate Professor",
+        "joined": "2002",
+        "education": "B.A., Wesleyan University; Ph.D., University of California, Santa Cruz",
+        "specialization": "Medieval Studies, Women’s Studies"
+      },
+      {
+        "name": "Jason Richards",
+        "title": "Associate Professor",
+        "joined": "2008",
+        "education": "B.A., and M.A., California State University, Long Beach; Ph.D., University of Florida",
+        "specialization": "American Literature, Postcolonial Literature"
+      },
+      {
+        "name": "Seth Rudy",
+        "title": "Associate Professor",
+        "joined": "2010",
+        "education": "B.F.A., New York University; M.A., Ph.D., New York University",
+        "specialization": "Eighteenth Century English Literature, British Romanticism"
+      },
+      {
+        "name": "Caki Wilkinson",
+        "title": "Associate Professor",
+        "joined": "2012",
+        "education": "B.A., Rhodes College; M.F.A. (Poetry) Johns Hopkins University; Ph.D., University of Cincinnati",
+        "specialization": "English and Comparative Literature"
+      },
+      {
+        "name": "Lorie W. Yearwood",
+        "title": "Departmental Assistant",
+        "joined": "2006",
+        "education": "A.A.S., State Technical Institute at Memphis"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.A in English",
+        "description": "BA",
+        "requirements": {
+        "courses": [
+            "For a literature concentration",
+              "English 285",
+              "Four courses from Medieval, Renaissance/Early Modern, 18th Century, 19th Century, and 20th-21st Century categories",
+              "One course in Diversity and Difference",
+              "One course in In Focus",
+              "One course in Topics in Literary Theory",
+              "English 485",
+              "Up to two special courses may count towards the major. At least seven courses must be numbered 300 or above.",
+              "For a Literture and Creative Writing Concentration: ",
+              "English 285",
+              "One course from Medieval, Renaissance/Early Modern, 18th Century, 19th Century, or 20th-21st Century categories",
+              "One course from Diversity and Difference",
+              "One course from In Focus",
+              "One course from Topics in Literary Theory",
+              "English 485",
+              "Workshop courses in Introduction to Creative Writing, Intermediate Workshop I and II, and Advanced Workshop",
+              "At least seven courses must be numbered 300 or above."
+            
+            ]
+        }
+      }
+    ],
+    "honorsProgram": [{
+        "requirements": [
+          "Fulfillment of the requirements for a major in English",
+          "English 495-496",
+          "A substantial, in-depth thesis",
+          "Approval by the English Honors Committee"
+        ]
+      }
+    ],
+    "minorRequirements": [{
+        "totalCredits": 20,
+          "courses": [
+            "For a Creative Writing minor:",
+            "English 210",
+            "Intermediate Workshop I",
+            "Intermediate Workshop II",
+            "Advanced Workshop",
+            "One additional English course at the 200 level or above",
+            "For an English Minor:",
+            "Two courses at the 190 or 200 level",
+            "Three additional courses in English numbered 300 or higher"
+
+          ]
+        }
+    ],
+    "resources": {
+      "writingCenter": "The Department oversees a writing service available to all Rhodes students. Student tutors are available daily to assist students with written work."
+    }
+  }

@@ -1,0 +1,132 @@
+{
+    "departmentName": "Ancient Mediterranean Studies",
+    "programName": "Ancient Mediterranean Studies",
+    "description": "The Ancient Mediterranean Studies program (formerly Greek and Roman Studies) helps students develop a thorough understanding of the ancient Greek, Roman, and associated cultures as the basis for the artistic, scientific, social, and political traditions of Western society. In addition to this disciplinary function, the department fulfills other roles in the college's curriculum.",
+    "roles": [
+      "The F10 Degree Requirement. The degree requirement in languages may be met by the successful completion of any appropriate four-credit course numbered 201 or higher or by demonstrating proficiency through placement into a language course at a level above 201 and approval by the appropriate language faculty. Students who take 201 (or higher) or the equivalent at another institution can earn transfer credit, but must still demonstrate proficiency in the specific language before the degree requirement is satisfied. This policy pertains to languages that are taught at Rhodes. Students for whom English is a second language may have this requirement waived.",
+      "Rhodes offers a secondary licensure program within the Teaching and Learning track of the Educational Studies major. This program prepares students to teach middle and/or high school in one of eleven endorsement areas, including Latin. The course of study for secondary licensure students is designed with guidance from faculty members in the discipline in which the student is being certified as well as members of the Educational Studies Program. All secondary licensure candidates are required to double major in Educational Studies and their endorsement discipline."
+    ],
+    "faculty": [
+      {
+        "name": "Geoffrey W. Bakewell",
+        "joined": 2011,
+        "position": "Chair",
+        "education": ["B.A., Yale University", "Ph.D., Brown University"],
+        "specialization": ["Plato", "tragedy", "Athenian democracy", "Greek and Latin languages and literatures"]
+      },
+      {
+        "name": "David H. Sick",
+        "joined": 1997,
+        "education": ["B.A., College of Wooster", "M.A. and Ph.D., University of Minnesota"],
+        "specialization": ["Greek and Roman religion", "Indo-European mythology", "Roman social history", "Greek and Latin languages and literatures"]
+      },
+      {
+        "name": "Kenneth S. Morrell",
+        "joined": 1993,
+        "education": ["B.A., Stanford University", "M.A. and Ph.D., Harvard University"],
+        "specialization": ["Greek and Latin languages and literatures", "information technology"]
+      },
+      {
+        "name": "Susan Satterfield",
+        "joined": 2008,
+        "education": ["B.A., University of Alabama", "Ph.D., Princeton University"],
+        "specialization": ["Roman history", "religion", "historiography", "Greek and Latin languages and literatures"]
+      },
+      {
+        "name": "Joseph N. Jansen",
+        "joined": 2007,
+        "education": ["B.A., University of Wisconsin", "Ph.D., University of Texas at Austin"],
+        "specialization": ["ancient history", "economy", "historiography", "Greek and Latin languages and literatures"]
+      },
+      {
+        "name": "Ariel López",
+        "joined": 2014,
+        "education": ["B.A., University of Buenos Aires", "Ph.D., Princeton University"],
+        "specialization": ["late antique history", "monasticism", "Coptic language and literature"]
+      },
+      {
+        "name": "R. Scott Garner",
+        "joined": 2016,
+        "education": ["B.A., University of Missouri--Columbia", "Ph.D., Princeton University"],
+        "specialization": ["oral tradition", "Greek epic and poetry", "Greek and Latin languages and literatures"]
+      },
+      {
+        "name": "Christy Waldkirch",
+        "joined": 2005,
+        "position": "Departmental Assistant"
+      }
+    ],
+    "honorsProgram": [{
+      "requirements": [
+          "Only students with a minimum overall GPA of 3.5 and a GPA within AMS of 3.7 by the end of the fall semester of their junior year will be eligible to pursue honors. In addition to fulfilling the requirements for the major with a concentration in either Greek, Latin, Classical Studies, or material culture, students seeking honors will be expected to complete the following additional work:",
+        "AMS 495-496: Honors Tutorial. (AMS 496 will count as AMS 475-6 for students attempting to graduate with honors.)",
+        "An honors thesis or project that demonstrates an exceptional understanding of one or more aspects of the ancient world. Such a project might take the form, for example, of a written thesis, an analysis of archaeological fieldwork, or the production of a tragedy or comedy."
+      ]
+    }
+  ],
+    "programsAbroad": "To help students experience the artifacts of the Greeks and Romans and other Mediterranean cultures in the areas where they lived, AMS offers a number of opportunities for travel-study abroad. As described below in the descriptions for AMS 305 and Latin 232, the department regularly offers courses that involve travel and study in Greece, Italy, and other countries in the Mediterranean and Middle East. Faculty members also contribute to collaborative initiatives that provide opportunities for research, and the department secures places for students in archaeological excavations and surveys, such as those at the harbor at Kenchreai, Greece. Finally, the college is a member of the American School of Classical Studies in Athens and the Intercollegiate Center for Classical Studies in Rome, which operate centers for study and research in Greece and Italy respectively.",
+    "programs": {
+      "major": {
+        "concentrationInLanguages": {
+          "totalCourses": 13,
+          "totalCredits": 46,
+          "courses": [
+            "Six courses (24 credits) of ancient Greek, Latin, or Hebrew. Four of these courses must be above the 201 level, and the student must take courses in at least two of these languages.",
+            "Ancient Mediterranean Studies 275, 474, 475, and 476.",
+            "Three courses (12 credits) on the cultures and civilizations of the ancient Mediterranean. The courses below count toward this requirement: Ancient Mediterranean Studies: 110, 111, 150, 210, 235, 240, 245, 250, 255, 260, 265, 270, 280, 283, 285, 290, 305, 310, 315, 361 Art 209, 218, 219, 220, 353, 365 (when appropriate), 375 History 105 (when appropriate), 211, 221, 222, 223 Humanities (Search) 101, 102, 201 (Classical Track) Philosophy 201 Religious Studies 214, 280, 281, 282, 283, 285, 286 One of the following: English 315, 316, 319, or 335"
+          ]
+        },
+        "concentrationInCultures": {
+          "totalCourses": 13,
+          "totalCredits": 46,
+          "courses": [
+            "One course (4 credits) of ancient Greek and/or Latin beyond 201.",
+            "Ancient Mediterranean Studies 275, 474, 475, and 476.",
+            "Eight courses (32 credits) on the cultures and civilizations of the ancient Mediterranean. The courses below count toward this requirement: Ancient Mediterranean Studies: 110, 111, 150, 210, 235, 240, 245, 250, 255, 260, 265, 270, 280, 283, 285, 290, 305, 310, 315, 361 Art 209, 218, 219, 220, 353, 365 (when appropriate), 375 Additional courses in ancient Greek and/or Latin beyond 201 Hebrew 101, 102, 201, 202 History 105 (when appropriate), 211, 221, 222, 223 Humanities (Search) 101, 102, 201 (Classical Track) Philosophy 201 Religious Studies 214, 280, 281, 282, 283, 285, 286 One of the following: English 315, 316, 319, or 335"
+          ]
+        },
+        "concentrationInArchaeology": {
+          "totalCourses": 13,
+          "totalCredits": 46,
+          "courses": [
+            "One course (4 credits) of ancient Greek or Latin beyond 201.",
+            "Ancient Mediterranean Studies 275, 474, 475, and 476.",
+            "Archaeology 220 or Anthropology 254: Archaeological Methods.",
+            "Three courses (12 credits) from the following courses: Art 209, 218, 219, 220, 353, 365 (when appropriate), 375",
+            "Four courses (16 credits) from the following courses: Anthropology 290/Archaeology 210 Chemistry 107 Ancient Mediterranean Studies 110, 111, 150, 210, 235, 240, 245, 250, 255, 260, 265, 270, 280, 283, 285, 290, 305, 315, 361 Humanities (Search) 101, 102, 201 (Classical Track) History 105 (when appropriate), 211, 221, 222, 223 Religious Studies 260"
+          ]
+        }
+      },
+      "minorRequirements": {
+        "concentrationInLanguages": {
+          "totalCourses": 7,
+          "totalCredits": 28,
+          "courses": [
+            "Four courses (16 credits) of ancient Greek, Latin, or Hebrew. Two of these courses must be above the 201 level, and the student must take courses in at least two of these ancient languages.",
+            "Ancient Mediterranean Studies 275.",
+            "Two courses (8 credits) on the cultures and civilizations of the ancient Mediterranean. The courses below count toward this requirement: Ancient Mediterranean Studies: 110, 111, 150, 210, 240, 245, 250, 255, 260, 265, 270, 280, 283, 285, 290, 305, 315, 361 Art 209, 218, 219, 220, 353, 365 (when appropriate), 375 History 105 (when appropriate), 211, 221, 222, 223 Humanities (Search) 101, 102, 201 (Classical Track) Philosophy 201 Religious Studies 214, 280, 281, 282, 283, 285, 286 One of the following: English 315, 316, 319, or 335"
+          ]
+        },
+        "concentrationInCultures": {
+          "totalCourses": 7,
+          "totalCredits": 28,
+          "courses": [
+            "One course (4 credits) of ancient Greek and/or Latin beyond 201.",
+            "Ancient Mediterranean Studies 275.",
+            "Five courses (20 credits) of courses on the cultures and civilizations of the ancient Mediterranean. The courses below count toward this requirement: Ancient Mediterranean Studies: 110, 111, 150, 210, 240, 245, 250, 255, 260, 265, 270, 280, 283, 285, 290, 305, 315, 361 Art 209, 218, 219, 220, 353, 365 (when appropriate), 375 Additional courses in ancient Greek and/or Latin beyond 201 Hebrew 101, 102, 201, 202 History 105 (when appropriate), 211, 221, 222, 223 Humanities (Search) 101, 102, 201 (Classical Track) Philosophy 201 Religious Studies 214, 280, 281, 282, 283, 285, 286 One of the following: English 315, 316, 319, or 335"
+          ]
+        },
+        "concentrationInArchaeology": {
+          "totalCourses": 7,
+          "totalCredits": 28,
+          "courses": [
+            "One course (4 credits) of ancient Greek or Latin beyond 201.",
+            "Ancient Mediterranean Studies 275",
+            "Archaeology 220 or Anthropology 254: Archaeological Methods.",
+            "Two courses (8 credits) from the following courses: Art 209, 210, 218, 219, 220, 353, 365 (when appropriate), 375",
+            "Two courses (8 credits) from the following courses: Anthropology 290/Archaeology 210 Chemistry 107 Ancient Mediterranean Studies 110, 111, 150, 210, 240, 245, 250, 255, 260, 265, 270, 280, 283, 285, 290, 305, 315, 361 Humanities (Search) 101, 102, 201 (Classical Track) History 105 (when appropriate), 211, 221, 222, 223 Religious Studies 260"
+          ]
+        }
+      }
+    }
+  }

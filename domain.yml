@@ -16,6 +16,7 @@ intents:
   - ask_department_description
   - ask_major_requirements
   - ask_minor_requirements
+  - ask_honor_program
   
 
 entities:
@@ -23,6 +24,7 @@ entities:
   - department
   - topic
   - subject
+  - program
 
 slots:
 
@@ -50,6 +52,12 @@ slots:
     mappings:
     - type: from_entity
       entity: subject
+  program:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: program
 
 
 
@@ -112,10 +120,14 @@ actions:
   - action_custom_classifier
   - action_retrieve_department_chair  # Added
   - action_retrieve_faculty_info
-  - action_provide_course_details
+  - action_provide_course_details # Need to input course details for it to work
   - action_retrieve_information
-  - action_provide_major_requirements
-  - action_provide_minor_requirements
+  - action_provide_major_requirements # Redone
+  - action_provide_minor_requirements # Redone
+  - action_provide_recommended_courses # New
+  - action_provide_elective_options # New
+  - action_provide_honor_program_details # New
+  - action_provide_additional_information # New
   
 
 session_config:

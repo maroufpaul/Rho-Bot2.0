@@ -1,0 +1,170 @@
+{
+    "departmentName": "Biology",
+    "programName": "Biology",
+    "faculty": [
+      {
+        "name": "Michael D. Collins",
+        "position": "Professor",
+        "education": "B.S., University of Arizona; M.S., Florida State University; Ph.D., University of Tennessee",
+        "specialization": "Ecology, ornithology, wildlife biology"
+      },
+      {
+        "name": "Terry W. Hill",
+        "position": "Professor",
+        "education": "B.A., University of South Florida; M.S., Ph.D., University of Florida",
+        "specialization": "Cell biology, microbiology, biology of fungi"
+      },
+      {
+        "name": "David Kabelik",
+        "position": "Professor",
+        "education": "H.B.Sc., University of Toronto; Ph.D., Arizona State University",
+        "specialization": "Neuroscience, endocrinology, physiology, animal behavior"
+      },
+      {
+        "name": "Mary E. Miller",
+        "position": "Professor",
+        "education": "B.A., University of Tennessee at Knoxville; Ph.D., University of Virginia",
+        "specialization": "Genetics, microbiology, cancer biology, cell biology"
+      },
+      {
+        "name": "Sarah Boyle",
+        "position": "Associate Professor",
+        "education": "B.A., College of William and Mary; Ph.D., Arizona State University",
+        "specialization": "Ecology, conservation biology, tropical field biology"
+      },
+      {
+        "name": "Kelly A. Dougherty",
+        "position": "Associate Professor",
+        "education": "B.S., West Chester University; Ph.D., Thomas Jefferson University",
+        "specialization": "Neuroscience, biophysics, neurophysiology"
+      },
+      {
+        "name": "Jonathan Fitz Gerald",
+        "position": "Associate Professor",
+        "education": "B.S., University of California at Irvine; Ph.D., University of Chicago",
+        "specialization": "Plant biology, development"
+      },
+      {
+        "name": "Elaine R. Frawley",
+        "position": "Associate Professor",
+        "education": "B.A., Ph.D., Washington University in St. Louis",
+        "specialization": "Microbiology, metabolism, bacterial physiology"
+      },
+      {
+        "name": "Bayly S. Wheeler",
+        "position": "Associate Professor",
+        "education": "B.S.E., University of Michigan; Ph.D., Duke University",
+        "specialization": "Molecular biology, genetics, genomics, microbiology"
+      },
+      {
+        "name": "Kelly Diamond",
+        "position": "Assistant Professor",
+        "education": "B.S., University of Central Florida; M.S., Ph.D. Clemson University",
+        "specialization": "Morphology, machine learning, biomechanics"
+      },
+      {
+        "name": "Liam Hunt",
+        "position": "Assistant Professor",
+        "education": "B.S., Ph.D. The University of Melbourne, Australia",
+        "specialization": "Molecular Biology, Skeletal Muscle Disease"
+      },
+      {
+        "name": "Kathryn A. LeCroy",
+        "position": "Assistant Professor",
+        "education": "B.S., Birmingham-Southern College; M.S. University of Pittsburgh; Ph.D. University of Virginia",
+        "specialization": "Conservation Biology, wild bee diversity, disease ecology, community science"
+      },
+      {
+        "name": "Sydney Moyo",
+        "position": "Assistant Professor",
+        "education": "B.S., Africa University; M.S. University of Zimbabwe; Rhodes University, Ph.D.",
+        "specialization": "Zoology, invertebrate biology, entomology"
+      },
+      {
+        "name": "Tanushree Pandit",
+        "position": "Assistant Professor",
+        "education": "B.S., M.S., RTM Nagpur University; Ph.D., Umea University",
+        "specialization": "Developmental neuroscience"
+      },
+      {
+        "name": "Qian Shen",
+        "position": "Assistant Professor",
+        "education": "B.E, China Agricultural University; M.S., Mississippi State University; Ph.D. Ohio State University",
+        "specialization": "Microbiology, Fungal pathogenesis"
+      },
+      {
+        "name": "James Engman",
+        "position": "Visiting Assistant Professor",
+        "education": "B.S. Kent State University; B.S., M.S., Western Illinois University; Ph.D. University of Cincinnati"
+      },
+      {
+        "name": "Alix Matthews",
+        "position": "Visiting Assistant Professor",
+        "education": "B.S. Rhodes College; M.S., Ph.D. Arkansas State University"
+      },
+      {
+        "name": "Tangela Allgood",
+        "position": "Staff",
+        "title": "Biology Department Administrative Assistant",
+        "year": 2022
+      },
+      {
+        "name": "Jordy Gentry",
+        "position": "Staff",
+        "title": "Biology Department Lab Supervisor for The Frazier Jelke Science Center",
+        "education": "B.S., University of Memphis",
+        "year": 2021
+      },
+      {
+        "name": "Justin A. Porter",
+        "position": "Staff",
+        "title": "Biology Department Lab Manager for Robertson Hall",
+        "education": "B.S., M.S., University of Georgia",
+        "year": 2017
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.S. in Biology",
+        "degreeType": "BS",
+        "requirements": {
+          "totalCredits": "56-59",
+          "courses": [
+            "BIOL 130-131L (Biology I with laboratory)",
+            "BIOL 140-141L (Biology II with laboratory)",
+            "CHEM 120-125L (Foundations of Chemistry with laboratory)",
+            "CHEM 211 (Organic Chemistry I)",
+            "One statistics course from the following list: ECON 290 (Statistical Analysis for Economics and Business), MATH 111 (Applied Statistics for Liberal Arts), MATH 211 (Applied Statistics for the Formal and Natural Sciences), PSYC 211 (Statistical Methods)",
+            "One computational course from the following list: COMP 141 (Computer Science I: Programming Fundamentals) or above, INTD 225 (Geographic Information Systems [GIS]), MATH 115 (Applied Calculus), MATH 122 (Integral Calculus), MATH 214 (Discrete Mathematical Modeling with Biological Applications)",
+            "BIOL 485 or 486 (Senior Seminar)",
+            "Six upper-level courses (300 level or above) defined by concentration areas. At least four of the six upper-level courses required must have an associated lab experience. Of the four required lab experiences, three of them must be chosen from the appropriate designated concentration courses. Four credits of BIOL 451 or 452 (Research in Biology) combined can satisfy one upper-level course with lab requirement.",
+            "Each student will choose only one of the following four concentrations in the Biology major: ‘General Biology’, ‘Integrative Biology’, ‘Ecology, Evolution, Behavior’ or ‘Biomedical Sciences’.",
+          "additionalInfo: Satisfying the prerequisites for courses is the student’s responsibility; however, in special circumstances, students with advance permission of the instructor may enroll in a course without meeting prerequisites. Courses and accompanying laboratories of the same name are linked co-requisites and must be taken together unless approved by petition to the department. Unless otherwise noted, courses meet under the standard class schedule and laboratories meet for a three-hour period; laboratories also often require further project work outside the scheduled lab time.",
+          "doubleMajorRequirements: Students seeking a double major must have at least four upper-level courses for the Biology major that are not used to satisfy requirements for the other major."
+    ]}
+      }
+    ],
+    "honorsProgram": [{
+      "requirements": [
+        "Courses required: those listed for the B. S. degree with a major in Biology as well as the Biology Honors Tutorial (BIOL 495 and 496).",
+        "Students seeking to do Honors research must have a minimum GPA of 3.5 (cumulative and in the major) at the time of application and be on track to graduate at the end of the academic year in which the Honors research is carried out.",
+        "An original investigation of some problem in the area of biology, usually related to research being carried out by a member of the Biology Department, is required. The Honors research may be conducted outside of the department, with department approval and the careful guidance of a Biology faculty member liaison for the project.",
+        "A creditable thesis must be presented at the end of the project. The honors project and thesis must be approved by the student’s Honors committee and the project must follow the department and college guidelines and schedule for Honors work. In addition, the Honors candidate should present the work publicly at a scientific meeting on- or off-campus.",
+        "Students interested in Honors research should consult with their faculty research supervisor at Rhodes."
+      ]
+    }],
+    "majorEssay": {
+      "requirements": [
+        "When declaring a major in Biology, students must submit an essay electronically for approval by their major advisor. This essay should be 300 words or less and should include:",
+        {
+          "points": [
+            "a statement of your goals in pursuing a biology major",
+            "a statement of your goals in pursuing a specific concentration in biology",
+            "what areas of biology represent your greatest interests",
+            "possible links between biology coursework and other courses taken or to be taken",
+            "what other areas of biology will help you to become more well-rounded in the field of biology"
+          ]
+        }
+      ]
+    }
+  }

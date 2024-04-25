@@ -1,0 +1,97 @@
+{
+  "departmentName": "Neuroscience",
+  "departmentDescription": "The Interdisciplinary Major in Neuroscience at Rhodes bridges the fields of Biology, Psychology, Chemistry, and Philosophy. The major provides students with an understanding of the methodological challenges and conceptual issues that lie at the heart of efforts to understand the function of the nervous system and its role in behavior.",
+  "faculty": [
+    {
+      "name": "David Kabelik",
+      "title": "Professor",
+      "joined": "2009",
+      "education": ["H.B.Sc., University of Toronto", "Ph.D., Arizona State University"],
+      "specializations": ["Neuroscience", "Endocrinology", "Physiology", "Animal Behavior"]
+    },
+    {
+      "name": "Kelly A. Dougherty",
+      "title": "Professor",
+      "joined": "2014",
+      "education": ["B.S., West Chester University", "Ph.D., Thomas Jefferson University"],
+      "specializations": ["Neuroscience", "Biophysics", "Neurophysiology"]
+    },
+    {
+      "name": "Jason Haberman",
+      "title": "Professor",
+      "joined": "2014",
+      "education": ["B.A., University of Miami", "M.A., Ph.D., University of California - Davis"],
+      "specializations": ["Neuroscience: Visual Psychophysics", "Object Recognition", "Ensemble Perception"]
+    },
+    {
+      "name": "Rebecca Klatzkin",
+      "title": "Professor",
+      "joined": "2011",
+      "education": ["B.S., University of Richmond", "Ph.D., University of North Carolina, Chapel Hill"],
+      "specializations": ["Behavioral Neuroscience", "Stress", "Eating Behavior", "Binge Eating Disorder"]
+    },
+    {
+      "name": "Larryn W. Peterson",
+      "title": "Professor",
+      "joined": "2011",
+      "education": ["B.A., Carroll College", "Ph.D., University of Southern California"],
+      "specializations": ["Organic Chemistry"]
+    },
+    {
+      "name": "Carlos Lafourcade",
+      "title": "Associate Professor",
+      "joined": "2023",
+      "education": ["Licenciate degree and Ph.D., University of Buenos Aires"],
+      "specializations": ["Epilepsy", "Stress", "Cannabinoids"]
+    },
+    {
+      "name": "Jared Millson",
+      "title": "Associate Professor",
+      "joined": "2021",
+      "education": ["B.A., Boston University", "Ph.D., Emory University"],
+      "specializations": ["Philosophy of Cognitive Sciences"]
+    },
+    {
+      "name": "Tanushree Pandit",
+      "title": "Associate Professor",
+      "joined": "2019",
+      "education": ["B.S., M.S., RTM Nagpur University", "Ph.D., Umea University"],
+      "specializations": ["Developmental Neuroscience"]
+    },
+    {
+      "name": "Laura Shannahan",
+      "title": "Associate Professor",
+      "joined": "2022",
+      "education": ["B.S., University of Wisconsin at Madison", "Ph.D., Northwestern University"],
+      "specializations": ["Cognitive Neuroscience", "Sleep", "Sensory Systems"]
+    }
+  ],
+  "programs": [
+    {
+      "programName": "B.S. in Neuroscience",
+      "degreeType": "BS",
+       "requirements": {
+      "totalCredits": "54-58",
+      "courses": [
+        "Core Requirements:",
+        "120&125L (Foundations of Chemistry & Lab)",
+        "Biol 130&131L (Biology I & Lab)",
+        "Biol 140&141L (Biology II & Lab)",
+        "Psyc 150 (Introduction to Psychological Science)",
+        "Psyc 211 or Math 211 (Statistical Methods in Psychology or Applied Statistics for the Natural Sciences)",
+        "Neur 270 (Neuroscience)",
+        "Neur 485 or 486 (Senior Seminar)"
+      ]
+    }
+  }
+  ],
+    "honorsProgram": [{
+      "requirements": [
+        "GPA: Maintaining a cumulative and major GPA of at least 3.5",
+        "Must take Neuroscience 399 (Spring of junior year) and Up to 8 credits of Neuroscience 495-496 each semester of senior year",
+        "Submit a proposal for an independent research project for approval by the Program Committee by the start of the senior year. A written report and oral presentation at the conclusion of the research project are required. The honors degree in Neuroscience is contingent upon committee acceptance of the research manuscript."
+      ]
+    }
+
+  ]
+  }

@@ -1,0 +1,70 @@
+{
+    "departmentName": "Biochemistry and molecular Biology",
+    "programName": "Art and Art History",
+    "faculty": [
+      {
+        "name": "Terry Hill",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Larryn Peterson",
+        "department": "Department of Chemistry",
+        "position": "Chair"
+      },
+      {
+        "name": "Shana Stoddard",
+        "department": "Department of Chemistry"
+      },
+      {
+        "name": "Bayly Wheeler",
+        "department": "Department of Biology"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.S. for Biochemistry and Molecular Biology",
+        "degreeType": "BS",
+        "requirements": {
+          "totalCredits": "62-63",
+          "courses": [
+            "Chemistry 120-125L (Foundations in Chemistry)",
+            "Chemistry 211",
+            "Chemistry 212-212L (Organic Chemistry with lab)",
+            "Chemistry 240-240L (Analytical Chemistry with lab)",
+            "Biology 130-131L (Biology I with lab)",
+            "Biology 140-141L (Biology II with lab)",
+            "Biology 307 (Cell Biology)",
+            "Biology 325-325L (Molecular Biology with lab)",
+            "Chemistry 315 (Biochemistry)",
+            "BMB 310 (Methods in Biochemistry and Cell Biology)",
+            "BMB 485 or 486 (Senior Seminar)",
+            "Any one of the following: Computer Science 141 (Programming Fundamentals) OR Math 122 (Integral Calculus) OR Math 214 (Math Modeling) OR one course in probability and statistics. Courses that would be appropriate in the area of probability and statistics include Math 111, Math 211, Psychology 211, Economics 290.",
+            "Two of the following courses; at least one must have a laboratory:",
+                "Electives with Labs:",
+                "BIOL 204-204L (Animal Development with lab)",
+                "BIOL 301-301L (Microbiology with lab)",
+                "BIOL 304-304L (Genetics with lab) or BIOL 305-305L (Population Genomics with lab)",
+                "BIOL 376-376L (Molecular and Cellular Neuroscience with lab)",
+                "CHEM 325 (Computational Protein Design and Engineering)",
+                "CHEM 406 (Advanced Analytical Chemistry)",
+                "CHEM 411-411L (Medicinal & Computational Chemistry with lab)",
+                "BMB 451 or 452 (4 credits only may satisfy one elective; Research with an affiliated faculty member or must be approved by the BMB committee)",
+                "Electivies without lab",
+                "BIOL 330 (Virology/Immunology)",
+                "BIOL 380 (Topics in Biomedical Science)",
+                "CHEM 311 (Physical Chemistry)",
+                "CHEM 416 (Mechanisms of Drug Action)"
+              ]
+            }
+          }
+          ],
+    "minorRequirements": ["N/A"],
+    "honorsProgram": [{
+      "requirements": [
+        "Courses required: those listed for the B. S. degree in Biochemistry and Molecular Biology as well as the Honors Tutorial (BMB 495 and BMB 496).",
+        "Permission of the Biochemistry and Molecular Biology Program Committee.",
+        "An original investigation of some problem in the area of Biochemistry and Molecular Biology. This project is usually related to work being carried out by members of the faculty affiliated with the Biochemistry and Molecular Biology Major. The project may also be carried out off campus, with the careful guidance of a BMB faculty member liaison for the project.",
+        "A credible thesis must be presented at the end of the project. The honors project and thesis must be approved by the student’s honors committee, which should be comprised of at least three members of the faculty, two affiliated with the Biochemistry and Molecular Biology Major, and one from outside of the program."
+      ]
+    }]
+  }

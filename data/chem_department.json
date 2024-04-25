@@ -1,0 +1,135 @@
+{
+    "departmentName": "Chemistry",
+    "departmentDescription": "The Chemistry Department prepares students for careers in the chemical sciences, forensics, health professions, industry, research, and STEM education. Students will receive training in modern, interdisciplinary chemistry and instrumentation, as well as develop essential skills for further education in chemical, medical, engineering, law, and other health-related fields. The Department is certified by the American Chemical Society as complying with its requirements for the professional training of chemists.",
+    "faculty": [
+      {
+        "name": "Loretta Jackson-Hayes",
+        "title": "Professor",
+        "joined": "2003",
+        "education": "B.S., Tougaloo College; Ph.D., University of Tennessee",
+        "specialization": "Pharmacology"
+      },
+      {
+        "name": "Darlene M. Loprete",
+        "title": "Chair, Professor",
+        "joined": "1990",
+        "education": "B.A., Clark University; Ph.D., University of Rhode Island",
+        "specialization": "Biochemistry"
+      },
+      {
+        "name": "Jon Russ",
+        "title": "Professor",
+        "joined": "2004",
+        "education": "B.S., Corpus Christi State University; Ph.D., Texas A&M University",
+        "specialization": "Analytical Chemistry"
+      },
+      {
+        "name": "David Y. Jeter",
+        "title": "Professor Emeritus",
+        "joined": "1973",
+        "education": "B.S., Texas A&M University-Commerce; Ph.D., University of North Carolina, Chapel Hill",
+        "specialization": "Inorganic Chemistry"
+      },
+      {
+        "name": "William Eckenhoff",
+        "title": "Associate Professor",
+        "joined": "2015",
+        "education": "B.S., Allegheny College; Ph.D., Duquesne University",
+        "specialization": "Inorganic Chemistry"
+      },
+      {
+        "name": "Larryn W. Peterson",
+        "title": "Associate Professor",
+        "joined": "2011",
+        "education": "B.A., Carroll College; Ph.D., University of Southern California",
+        "specialization": "Organic Chemistry"
+      },
+      {
+        "name": "Roberto de la Salud Bea",
+        "title": "Associate Professor",
+        "joined": "2010",
+        "education": "B.S. and M.S., University of Valencia, Spain; Ph.D., University of Nebraska",
+        "specialization": "Organic Chemistry"
+      },
+      {
+        "name": "Shana Stoddard",
+        "title": "Associate Professor",
+        "joined": "2015",
+        "education": "B.S., Prairie View A&M University; M.Ed., Freed-Hardeman University; Ph.D., University of Mississippi",
+        "specialization": "Biochemistry"
+      },
+      {
+        "name": "Kimberly Brien",
+        "title": "Assistant Professor",
+        "joined": "2012",
+        "education": "B.S., Texas Lutheran University; M.S., Baylor University; Ph.D., Texas Christian University",
+        "specialization": "Organic Chemistry"
+      },
+      {
+        "name": "Kavita Gaur",
+        "title": "Assistant Professor",
+        "joined": "2022",
+        "education": "B.S., Agra, U.P., India; M.S., Agra, U.P., India; Ph.D., University of Puerto Rico",
+        "specialization": "Bioinorganic Chemistry"
+      },
+      {
+        "name": "Dana Horgen",
+        "title": "Assistant Professor",
+        "joined": "2014",
+        "education": "B.S., Saint Olaf College; Ph.D., Baylor University",
+        "specialization": "Organic Chemistry"
+      },
+      {
+        "name": "Dhammika S. Muesse",
+        "title": "Assistant Professor",
+        "joined": "2007",
+        "education": "B.S. and M.S., University of Colombo; Ph.D., University of Memphis",
+        "specialization": "Analytical Chemistry"
+      },
+      {
+        "name": "Miguel Angel Méndez Polanco",
+        "title": "Assistant Professor",
+        "joined": "2021",
+        "education": "BSc, Universidad Autónoma de Puebla (México); Ph.D., University of Pennsylvania",
+        "specialization": "Physical Chemistry"
+      },
+      {
+        "name": "Karen Mosely",
+        "title": "Chemistry Instrument Technician and Chemical Safety Officer",
+        "education": "B.S., University of Memphis; M.S. University of Memphis"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.S. in Chemistry",
+        "degreeType": "BS",
+        "requirements": {
+            "totalCredits": 44,
+            "courses": [
+            "Chemistry 120/125L, 211, 212/212L, 240/240L, 311/312L, 315, 408/408L, 415.",
+            "At least 2 additional courses from the following list: 312, 406, 411/411L, 416.",
+            "Physics 109-110 or 111-112; 113L-114L.",
+            "Mathematics 122. Students can start in 112 and then take 122.",
+            "CHEM 486: Senior Seminar",
+            "At least four credits of research (Chemistry 451 and/or 452)."
+          ]
+      }}
+    ],
+    "honorsProgram": [{
+        "requirements": [
+          "Courses listed for the B.S. degree.",
+          "Chemistry 495 and 496 (eight credits minimum).",
+          "An original investigation of some problem in chemistry or biochemistry, usually related to research being carried on by a member of the department, is required. A thesis must be presented at the end of the project. The honors project and its outcome must be approved by the student’s Honors Committee.",
+          "A public presentation on the honors work is required by the department."
+        ]
+      }
+    ],
+    "minorRequirements": [{
+        "totalCredits": 24,
+        "courses": [
+          "CHEM 120/125L, CHEM 211, CHEM 212/212L, CHEM 240/240L.",
+          "Two additional Chemistry courses of which one must be at the 200-level or above and the other must be 300-level or above. Both courses must be at least 4-credits."
+        ]
+    }
+    ]
+  }

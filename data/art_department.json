@@ -1,0 +1,125 @@
+{
+    "departmentName": "Art and Art History",
+    "programName": "Art and Art History",
+    "faculty": [
+      {
+        "name": "David P. McCarthy",
+        "title": "Chair, Professor",
+        "joined": "1991",
+        "education": "B.A., Gettysburg College; Ph.D., University of Delaware",
+        "specialization": "Modern, contemporary, and American art."
+      },
+      {
+        "name": "A. Victor Coonin",
+        "title": "Professor",
+        "joined": "1995",
+        "education": "B.A., Oberlin College; M.A., Syracuse University; Ph.D., Rutgers University",
+        "specialization": "Medieval, Renaissance, and Baroque art history."
+      },
+      {
+        "name": "Miriam G. Clinton",
+        "title": "Associate Professor",
+        "joined": "2015",
+        "education": "B.A., Yale University; M.A., Ph.D., University of Pennsylvania",
+        "specialization": "Ancient Art."
+      },
+      {
+        "name": "Erin Harmon",
+        "title": "Associate Professor",
+        "joined": "2003",
+        "education": "B.A., San Diego State University; M.F.A., Rhode Island School of Design",
+        "specialization": "Painting and Drawing."
+      },
+      {
+        "name": "Joel Parsons",
+        "title": "Assistant Professor, Director, Clough-Hanson Gallery",
+        "joined": "2014",
+        "education": "B.A., Rhodes College; M.F.A., School of the Art Institute of Chicago",
+        "specialization": "Sculpture and Performance."
+      },
+      {
+        "name": "Karl Erickson",
+        "title": "Assistant Professor",
+        "joined": "2018",
+        "education": "B.F.A., Wayne State University; M.F.A., California Institute of the Arts",
+        "specialization": "Digital Arts and New Media."
+      },
+      {
+        "name": "Raina Belleau",
+        "title": "Assistant Professor",
+        "joined": "2019",
+        "education": "B.F.A., Minneapolis College of Art and Design; M.F.A., Rhode Island School of Design",
+        "specialization": "Sculpture and Drawing."
+      },
+      {
+        "name": "Rosanna Parrella Meindl",
+        "title": "Curator, Visual Resources Center",
+        "education": "B.A., Lewis and Clark College; M.A., University of Oregon",
+        "joined": "2014",
+        "specialization": "Asian Studies."
+      },
+      {
+        "name": "Staff",
+        "title": "Christie Arnold",
+        "position": "Departmental Assistant"
+      },
+      {
+        "name": "Staff",
+        "title": "Ethan McVay",
+        "position": "Studio Technician",
+        "education": "B.F.A., University of Memphis"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.A. in Art/ Art History",
+        "degreeType": "BA",
+        "requirements": {
+          "totalCredits": 40,
+          "courses": [
+            "For a BA in Art:",
+            "Two of the following 100-level courses: 101: Drawing, 102: Digital, 105: Painting, 107: Sculpture, 116: Animation (not to be paired with 102)",
+            "Art 386: Experiments in Media & Methods",
+            "Art 485: Senior Seminar in Art",
+            "Art 486: Senior Thesis",
+            "Art History 152: Survey of Contemporary Art",
+            "Four additional courses in the Department of Art and Art History including at least two 200 level and above studio classes and at least one 300 level studio course.",
+            "For a BA in Art History: ",
+            "Any studio course",
+            "Art 151: Survey of Western Art",
+            "Art 152: Survey of Contemporary Art",
+            "Art 218: Greek Art and Architecture",
+            "Art 223: Italian Renaissance Art",
+            "Art 242: Modern Art II",
+            "Three additional courses in art history at the 200 level or above",
+            "Art 485: Senior Seminar in Art History"
+          ]
+        }
+      }],
+    "minorRequirements": [
+      {
+        "totalCredits": 28,
+        "courses": [
+            "Minor in Art: ",
+          "Two of the following: 101: Drawing, 102: Digital, 105: Painting, 107: Sculpture, 116: Animation (may not be paired with 102)",
+          "Art 386: Experiments in Media & Methods",
+          "Art 485: Senior Seminar in Art",
+          "Art History 152: Survey of Contemporary Art",
+          "Two studio art courses at 200-level or above",
+          "Minor in Art History: ",
+          "Any studio course",
+          "Art 151: Survey of Western Art",
+          "Art 152: Survey of Contemporary Art",
+          "Three courses in art history at the 200 or 300 level, with one from each of the three areas of concentration (Ancient, Medieval through Baroque, Modern)",
+          "Art 485: Senior Seminar in Art History"
+        ]
+      }
+    ],
+    "honorsProgram": [{
+      "requirements": [
+        "In the spring of the junior year, an art major, in consultation with an appropriate member of the art faculty, may write a proposal for honors work to be carried out in the senior year. The department must approve the proposal.",
+        "An overall grade of A- on the thesis or project itself is required for honors credit."
+      ]
+    }
+]
+  }

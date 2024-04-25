@@ -52,60 +52,27 @@
       "requirements": {
         "totalCredits": 56,
         "courses": [
-          "Computer Science 141",
-          "Computer Science 142",
-          "Computer Science 172",
-          "Computer Science 231",
-          "Computer Science 241",
-          "Computer Science 251",
-          "Computer Science 485",
-          "Computer Science 486"
-        ],
-        "mathematicsOptions": [
-          "Mathematics 112",
-          "Mathematics 115",
-          "Mathematics 116",
-          "Mathematics 122",
-          "Mathematics 211",
-          "Mathematics 214",
-          "Mathematics 223"
-        ],
-        "electives": {
-          "theory": [
-            "Computer Science 350",
-            "Computer Science 355"
-          ],
-          "systems": [
-            "Computer Science 315",
-            "Computer Science 330",
-            "Computer Science 331",
-            "Computer Science 340",
-            "Computer Science 360",
-            "Computer Science 380",
-            "Computer Science 385"
-          ],
-          "applications": [
-            "Computer Science 320",
-            "Computer Science 325",
-            "Computer Science 342",
-            "Computer Science 345",
-            "Computer Science 370",
-            "Computer Science 372"
+          "Mandatory Computer Science Courses: COMP 141, COMP 142, COMP 172, COMP 231, COMP 241, COMP 251, COMP 485, COMP 486.",
+          "Select 1 MATH class from the following options: MATH 112, MATH 115, MATH 116, MATH 122, MATH 211, MATH 214, MATH 223.",
+          "Select 1 from each Elective area:",
+          "Theory: COMP 350, COMP 355.",
+          "Systems: COMP 315, COMP 330, COMP 331, COMP 340, COMP 360, COMP 380, COMP 385.",
+          "Applications: COMP 320, COMP 325, COMP 342, COMP 345, COMP 370, COMP 372.",
+          "Additional Courses: Two additional four-credit computer science courses numbered above 300, excluding 460, 495, and 496."
           ]
-        },
-        "additionalCourses": "Two additional four-credit computer science courses numbered above 300, excluding 460, 495, and 496."
       }
     }
   ],
-  "honorsProgram": {
+  "honorsProgram": [{
     "requirements": [
       "Fulfillment of the requirements for the major",
       "Honors Tutorial: 495 and 496",
-      "Approval by the department"
-    ],
-    "applicationProcess": "Students should consult with a faculty member about their intentions to pursue an honors project before the end of their Junior year."
-  },
-  "majorPlanning": {
+      "Approval by the department",
+      "Students should consult with a faculty member about their intentions to pursue an honors project before the end of their Junior year."
+    ]
+  }
+],
+  "majorPlanning": [{
     "firstYear": [
       "Computer Science 141",
       "Computer Science 142",
@@ -116,16 +83,12 @@
       "Computer Science 231 in spring"
     ],
     "mathematicsRequirements": "Completed by the end of the third year"
-  },
-  "minorRequirements": {
+  }
+],
+  "minorRequirements": [{
     "totalCredits": 24,
     "courses": [
-      "Computer Science 141",
-      "Computer Science 142",
-      "Computer Science 172",
-      "Computer Science 241",
-      "Computer Science 251"
-    ],
-    "additionalCourse": "One additional four-credit computer science course numbered above 300"
-  }
+      "COMP Courses: COMP 141, COMP 142, COMP 172, COMP 241, COMP 251",
+      "Additional Courses: One additional four-credit computer science course numbered above 300."
+    ]}]
 }

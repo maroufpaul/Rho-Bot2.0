@@ -64,6 +64,13 @@ stories:
       - department: "department"
   - action: action_provide_minor_requirements
 
+- story: Honor Program inquiry
+  steps:
+  - intent: ask_honor_program
+    entities:
+      - department: "department"
+  - action: action_provide_honor_program_details
+
 
 
 

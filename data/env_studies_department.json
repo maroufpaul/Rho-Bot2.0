@@ -1,0 +1,117 @@
+{
+    "departmentName": "Enviromental Studies",
+    "departmentDescription": "",
+    "faculty": [
+      {
+        "name": "Raina Belleau",
+        "department": "Department of Art and Art History"
+      },
+      {
+        "name": "Erin Bodine",
+        "department": "Department of Mathematics"
+      },
+      {
+        "name": "Sarah Boyle",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Michael Collins",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Kelly Diamond",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Erin Dolgoy",
+        "department": "Department of Politics & Law; Department of Philosophy"
+      },
+      {
+        "name": "William Eckenhoff",
+        "department": "Department of Chemistry",
+        "title": "Chair"
+      },
+      {
+        "name": "James Engman",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Elaine Frawley",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Judith Haas",
+        "department": "Department of English"
+      },
+      {
+        "name": "Jeffrey Jackson",
+        "department": "Department of History"
+      },
+      {
+        "name": "Tait Keller",
+        "department": "Department of History"
+      },
+      {
+        "name": "Laura Loth",
+        "department": "Department of Modern Languages, French"
+      },
+      {
+        "name": "Sydney Moyo",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Elizabeth Pettinaroli",
+        "department": "Department of Modern Languages"
+      },
+      {
+        "name": "Brooke Schedneck",
+        "department": "Department of Religious Studies"
+      },
+      {
+        "name": "Kate Shields",
+        "department": "Environmental Studies & Sciences Program"
+      },
+      {
+        "name": "Rebecca Tuvel",
+        "department": "Department of Philosophy"
+      },
+      {
+        "name": "Shaolu Yu",
+        "department": "Urban Studies Program"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.S. in Environmental Studies",
+        "degreeType": "BS",
+        "requirements": {
+          "totalCredits": 52,
+          "courses": [
+            "ENVS 150: Environment and Society",
+            "One introductory Environmental Sciences course from the list",
+            "ECON 100: Introduction to Economics",
+            "Six Environmental Studies electives from at least two departments or programs",
+            "Two additional Environmental Sciences courses from the list"
+          ]
+        }
+      }
+    ],
+    "minorRequirements": [{
+      "totalCredits": "24-25",
+      "courses": [
+        "ENVS 150: Environment and Society",
+        "Four Environmental Studies courses from at least two departments or programs",
+        "One Environmental Sciences course from the list",
+        "Students must also complete an environmentally-oriented experience."
+      ]
+    }],
+    "honorsProgram": [{
+      "requirements": [
+        "Courses listed for the Major in Environmental Studies",
+        "ENVS 495-496: Honors Tutorial",
+        "Original investigation in some area of environmental studies",
+        "Thesis presentation and oral presentation of the final project",
+        "To be eligible you must have a minimum cumulative GPA and a major GPA of 3.50 at the time of application and at graduation.",
+        "Students planning to pursue graduate study in environmental studies are strongly encouraged to take as many upper-level elective courses as possible."
+      ]    }]
+  }

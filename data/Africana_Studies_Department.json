@@ -1,0 +1,72 @@
+{"departmentName": "Africana Studies",
+"programName": "Africana Studies",
+        "faculty": [
+          {
+            "name": "Charles W. McKinney, Jr.",
+            "position": "Chair, Associate Professor of History",
+            "specialization": "History"
+          },
+          {
+            "name": "Charles Hughes",
+            "position": "Director, Lynne and Henry Turley Memphis Center, Associate Professor",
+            "specialization": "History"
+          },
+          {
+            "name": "Duane T. Loynes, Sr.",
+            "position": "Assistant Professor, Urban Studies and Africana Studies",
+            "specialization": "Urban Studies"
+          },
+          {
+            "name": "Samson Ndanyi",
+            "position": "Assistant Professor, History and Africana Studies",
+            "specialization": "History"
+          },
+          {
+            "name": "Evelyn Perry",
+            "position": "Associate Professor, Anthropology and Sociology",
+            "specialization": "Sociology"
+          },
+          {
+            "name": "Earl Wright II",
+            "position": "Professor, Anthropology and Sociology",
+            "specialization": "Sociology"
+          },
+          {
+            "name": "Shatavia Wynn",
+            "position": "Assistant Professor, Africana Studies and Religious Studies",
+            "specialization": "Religious Studies"
+          }
+        ],
+        "programs": [
+          {
+            "programName": "B. A in Africana Studies",
+            "degreeType": "BA",
+            "requirements": {
+              "totalCredits": 44,
+              "courses": [
+                "AFS 105: Introduction to Africana Studies",
+                "AFS 305: Africana Theory",
+                "AFS 485: Senior Seminar in Africana Studies",
+                "AFS-Approved Electives in Humanities and Fine Arts Divisions: 4 courses",
+                "AFS-Approved Electives in Social Sciences and Natural Sciences Divisions: 4 courses"
+              ],
+              "additionalCourses": [
+                "At least three electives must be courses based outside of the United States.",
+                "Students may not take more than three electives from any one department.",
+                "At least two electives must be at the 300/400 level.",
+                "Selected topics courses in any department related to Africana subject content may also count toward the major with approval of the Program Director."
+              ]
+            }
+          }
+        ],
+        "minorRequirements": {
+          "totalCredits": 24,
+          "courses": [
+            "Africana Studies 105 (Introduction to Africana Studies)",
+            "Africana Studies 305 (Africana Theory)",
+            "Either History 242 (African American History) or English 224 (African American Literature)",
+            "International Studies 251 (Government and Politics of Africa)",
+            "Two (2) approved Africana Studies Electives"
+          ]
+        }
+      }

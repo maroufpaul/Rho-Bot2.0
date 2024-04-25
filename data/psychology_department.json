@@ -1,0 +1,124 @@
+{
+  "departmentName": "Psychology",
+  "departmentDescription": "The Department of Psychology helps students develop an understanding of human behavior and experience a variety of theoretical perspectives. The faculty specialize in a wide variety of topics, including neuroscience, clinical/counseling, cognitive, social, developmental, and educational psychology.",
+  "honorsProgram": [{
+    "requirements": [
+      "Members of the faculty of the Department of Psychology encourage students of exceptional academic accomplishment to pursue research with a departmental faculty sponsor that is of an in-depth, rigorous nature; this work will introduce the student to the quality of research one would normally experience in a graduate program. Because the level of involvement of the student and their faculty sponsor will be greater in Honors research than that in either a Tutorial or Directed Inquiry, the faculty of the Department of Psychology have established rules for student admission into the Departmental Honors Program. Please contact the Department Chair for a copy of the Honors Research Guidelines. It is recommended that students interested in pursuing department honors enroll in Junior Seminar 399.",
+      "Source: https://catalog.rhodes.edu/programs-study/psychology/honors-psychology"
+  ]}
+],
+  "majorEssay": {
+    "Description": "When declaring a major in psychology, students must submit an essay in which they articulate their educational goals. The essay should be four paragraphs, with one paragraph dedicated to each of the questions below (question 3 has two parts.)\n1. In your opinion, what are the defining characteristics of the discipline of Psychology?\n2. How do the requirements for the Psychology major complement your program of liberal arts study and support your career or life goals?\n3. As a Psychology major, how will you (a) build on your strengths and (b) address your weaknesses?\nThe entire essay should be between 250 and 1000 words and must accompany the Declaration of Major form when a student has the initial meeting with their major advisor. A student may choose to revise the essay after meeting with the advisor. Students will electronically submit the final, advisor approved, version of the essay as a Word document to the psychology departmental assistant so that it can be archived. The file name for the essay should be as follows: student’s last name, student’s first name, and graduation year.",
+    "Source": "https://catalog.rhodes.edu/programs-study/psychology/major-essay"
+  },
+  "faculty": [
+    {
+      "name": "Natalie Person",
+      "title": "Professor",
+      "joined": "1994",
+      "education": ["B.A., University of Mississippi", "Ph.D., University of Memphis"],
+      "specializations": ["Cognitive", "Learning Technologies", "Educational Psychology"]
+    },
+    {
+      "name": "Elizabeth Thomas",
+      "title": "Professor",
+      "joined": "2011",
+      "education": ["B.A., Georgetown University", "Ph.D., University of Illinois at Urbana-Champaign"],
+      "specializations": ["Urban Studies", "Community Psychology", "Psychology and the Arts"]
+    },
+    {
+      "name": "Katherine White",
+      "title": "Professor",
+      "joined": "2009",
+      "education": ["B.A., Rhodes College", "Ph.D., University of Florida"],
+      "specializations": ["Cognitive", "Language and Memory", "Cognitive Aging"]
+    },
+    {
+      "name": "Jason Haberman",
+      "title": "Associate Professor",
+      "joined": "2014",
+      "education": ["B.A., University of Miami", "M.A. and Ph.D., University of California - Davis"],
+      "specializations": ["Neuroscience: Visual Psychophysics", "Object Recognition", "Ensemble Perception"]
+    },
+    {
+      "name": "Kiren Khan",
+      "title": "Associate Professor",
+      "joined": "2017",
+      "education": ["A.B., University of Pennsylvania", "Ph.D., The Pennsylvania State University"],
+      "specializations": ["Developmental Psychology", "Narrative Development in Young Children"]
+    },
+    {
+      "name": "Rebecca Klatzkin",
+      "title": "Associate Professor",
+      "joined": "2011",
+      "education": ["B.S., University of Richmond", "Ph.D., University of North Carolina, Chapel Hill"],
+      "specializations": ["Behavioral Neuroscience: Stress", "Eating Behavior", "Binge Eating Disorder"]
+    },
+    {
+      "name": "Geoffrey Maddox",
+      "title": "Associate Professor",
+      "joined": "2013",
+      "education": ["B.A., University of Missouri", "M.A., Ph.D., Washington University in St. Louis"],
+      "specializations": ["Cognitive: Aging and Development"]
+    },
+    {
+      "name": "Matthew Weeks",
+      "title": "Associate Professor",
+      "joined": "2001",
+      "education": ["B.A., Kentucky Wesleyan College", "Ph.D., University of Memphis"],
+      "specializations": ["Social", "Social Cognition", "Stereotyping"]
+    },
+    {
+      "name": "Amanda Hasselle",
+      "title": "Assistant Professor",
+      "joined": "2021",
+      "education": ["B.A., Trinity University", "M.S., Ph.D., University of Memphis"],
+      "specializations": ["Clinical: Child and Family Studies"]
+    },
+    {
+      "name": "Katherine (Kailey) Lawson",
+      "title": "Assistant Professor",
+      "joined": "2022",
+      "education": ["B.A., Pomona College", "M.A., Ph.D., University of California - Davis"],
+      "specializations": ["Social-Personality: Nature, Development, and Assessment of Personality Traits"]
+    },
+    {
+      "name": "Laura Shanahan",
+      "title": "Assistant Professor",
+      "joined": "2022",
+      "education": ["B.S., University of Wisconsin, Madison", "Ph.D., Northwestern University"],
+      "specializations": ["Neuroscience: Cognitive Neuroscience", "Sleep", "Sensory Systems"]
+    },
+    {
+      "name": "Anjeanette Tiamiyu",
+      "title": "Departmental Assistant"
+    }
+  ],
+  "programs": [ {
+    "programName": "B.A. in Psychology",
+    "degreeType": "BA",
+    "requirements": {
+      "totalCourses": "11",
+      "totalCredits": "44",
+      "courses": [
+        "Psychology 150",
+        "Psychology 200",
+        "Psychology 211",
+        "At least one course from each of the following five content domains (At least three of these courses must be core courses (bolded) from separate domains). * each course can only count in one content domain:\n1. Developmental Across the Lifespan: Psychology 222, 229, 230, 231, 306*.\n2. Cognition and Learning: Psychology 216*, 306*, 327, 345/345L.\n3. Biological Bases of Behavior: Psychology 216*, 317* or 318*, 344/344L; Neuroscience 270.\n4. Sociocultural Bases of Behavior and Experience: Psychology 232, 240, 280, 323, 330.\n5. Health and Well-Being: 218, 220, 224, 311, 324, 317* or 318*, 338.",
+        "One course should be a 300-level course from one of the content domains.",
+        "One advanced methods course from among Psychology 350 – 353 that should be taken junior year. Before taking a particular advanced methods course, students should complete PSYC 200 and 211, as well as the core course that relates to it.",
+        "One community-based or independent investigation course: Psychology 229 (some sections), 231, 330, 451, 452, 460, 495, or 496; Education 360 or 460.",
+        "One other course in psychology (only one 105 course may count) or one of the following: EDUC 222, URBN 250, MUS 145.",
+        "Psychology 485 to be taken during the senior year.",
+        "source: https://catalog.rhodes.edu/programs-study/psychology/requirements-major-psychology"
+  ]}}],
+    "minorRequirements": [{
+      "totalCourses": 6,
+      "totalCredits": 24,
+      "courses": [
+        "Psychology 150",
+        "Psychology 200",
+        "Four additional psychology courses (or Neuroscience 270) to be chosen in consultation with a departmental advisor and to be approved by the department chair. These will be selected to coordinate with the student’s major and career aspirations, and will normally include at least one 300- or 400-level course. Only one 105 course may count.",
+        "source: https://catalog.rhodes.edu/programs-study/psychology/requirements-minor-psychology"
+    ]}]
+  }

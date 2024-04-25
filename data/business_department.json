@@ -1,0 +1,137 @@
+{
+    "departmentName": "Business",
+    "programName": "Business",
+    "faculty": [
+      {
+        "name": "Wendy Bailey",
+        "position": "Associate Professor",
+        "education": "B.A., Washington University St Louis; M.B.A., University of Colorado Boulder; Ph.D., University of Pittsburgh",
+        "specialization": "Accounting"
+      },
+      {
+        "name": "Dee Birnbaum",
+        "position": "Associate Professor",
+        "education": "B.A., State University of New York at Stony Brook; M.B.A., Baruch College; M. Phil. and Ph.D., City University of New York",
+        "specialization": "General management, human resource management"
+      },
+      {
+        "name": "Kayla D. Booker",
+        "position": "Associate Professor",
+        "education": "B.B.A., M.P.A., and Ph.D., Jackson State University",
+        "specialization": "Accountancy"
+      },
+      {
+        "name": "Sujan M. Dan",
+        "position": "Associate Professor",
+        "education": "B.Tech, Kerala University, India; M.S. and Ph.D., Texas A&M University",
+        "specialization": "Marketing"
+      },
+      {
+        "name": "Denis Khantimirov",
+        "position": "Associate Professor",
+        "education": "B.A., North Ossetian State University, Russia; M.B.A., University of Nevada, Las Vegas; Ph.D., Old Dominion University",
+        "specialization": "Marketing"
+      },
+      {
+        "name": "Kelly P. Weeks",
+        "position": "Associate Professor",
+        "education": "B.A., Rhodes College; M.A. and Ph.D., University of Memphis",
+        "specialization": "Management"
+      },
+      {
+        "name": "Andrey Zagorchev",
+        "position": "Associate Professor",
+        "education": "B.S., M.S., Plovdiv University, Bulgaria; M.B.A., Wright State University; Ph.D., Lehigh University",
+        "specialization": "Finance"
+      },
+      {
+        "name": "Jade O. Planchon",
+        "position": "Assistant Professor",
+        "education": "B.A., Rhodes College; M.B.A., Columbia University; Ph.D., University of Memphis",
+        "specialization": "Finance"
+      },
+      {
+        "name": "Milton L. Lovell",
+        "position": "Part-Time Assistant Professor",
+        "education": "B.S. and J.D., University of Mississippi; LL.M., New York University School of Law",
+        "specialization": "Accountancy, taxation"
+      },
+      {
+        "name": "Sarah A. Cate",
+        "position": "Instructor",
+        "education": "B.A., Hendrix College; M.S., University of Memphis",
+        "specialization": "Accountancy"
+      },
+      {
+        "name": "David Hopkins",
+        "position": "Part-Time Instructor",
+        "year": 2022,
+        "education": "B.P.A., Mississippi State University",
+        "specialization": "Accounting"
+      },
+      {
+        "name": "Steve Zatechka",
+        "position": "Part-Time Instructor",
+        "year": 2018,
+        "education": "B.S. and M.S., University of Nebraska-Lincoln; M.B.A., University of Memphis; Ph.D., University of Nebraska Medical Center",
+        "specialization": "Entrepreneurship"
+      },
+      {
+        "name": "Eric Mathews",
+        "position": "Entrepreneur in Residence",
+        "year": 2023,
+        "education": "B.S., Rhodes College; M.S., University of Memphis",
+        "specialization": "Entrepreneurship"
+      },
+      {
+        "name": "Hannah Guess",
+        "position": "Staff",
+        "title": "Departmental Assistant",
+        "year": 2020,
+        "education": "B.A. and M.A., University of Memphis"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.A in Business",
+        "degreeType": "BA",
+        "description": "The Business Department teaches students both theories and methods, as well as the broader social and historical perspectives of business practices in accounting, finance, marketing, and management.",
+        "requirements": {
+          "totalCredits": "46",
+          "courses": [
+            "Business 241 Financial Accounting",
+            "Business 243 Managerial Accounting",
+            "Business 351 Corporate Financial Management",
+            "Business 361 Management of Organizations",
+            "Business 371 Marketing Management",
+            "Business 486 Senior Seminar in Business",
+            "Economics 100 Introduction to Economics",
+            "Economics 290 Statistical Analysis for Economics OR Mathematics 211 Applied Statistics for the Formal & Natural Sciences",
+            "Math 115 Applied Calculus, 116 Calculus with Business Applications or 122 Integral Calculus",
+            "Two courses from one of the following areas and one course from one of the remaining areas: a. Accounting b. Finance c. Management d. Marketing e. Business 481 Business Ethics and Social Responsibility f. Business 483 Advanced International Business Cases g. Business 484 Social Impact of Business in South Africa",
+            "Recommended: Business 460 Internship; Philosophy 210 Logic; Computer Science 141 Computer Science I, 142 Computer Science II; Media Studies 240 Public Speaking"
+          ]
+        }}],
+        "minorRequirements": [{
+          "totalCredits": "28",
+          "courses": [
+            "Business 241 Financial Accounting",
+            "Business 243 Managerial Accounting",
+            "Business 351 Corporate Financial Management",
+            "Business 361 Management of Organizations",
+            "Business 371 Marketing Management",
+            "Economics 100 Introduction to Economics",
+            "Economics 290 Statistical Analysis for Economics and Business OR Mathematics 211 Applied Statistics for the Formal & Natural Sciences"
+          ]
+        }],
+        "honorsProgram": [{
+          "requirements": [
+            "Meet requirements for a major in Business.",
+            "Business 495-496.",
+            "A substantial research paper in an area of special interest to the candidate.",
+            "An oral examination on the research paper.",
+            "All honors students must meet eligibility criteria established for the Honors Program."
+          ]
+        }
+      ]
+  }

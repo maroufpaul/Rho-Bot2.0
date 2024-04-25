@@ -1,0 +1,107 @@
+{
+    "departmentName": "Asian Studies",
+    "programName": "Asian Studies",
+    "faculty": [
+      {
+        "name": "Chien-Kai Chen",
+        "department": "Department of International Studies"
+      },
+      {
+        "name": "Li Han",
+        "department": "Department of Modern Languages and Literature"
+      },
+      {
+        "name": "John C. Kaltner",
+        "department": "Department of Religious Studies"
+      },
+      {
+        "name": "Seok-Won Lee",
+        "department": "Department of History"
+      },
+      {
+        "name": "David Mason",
+        "department": "Media Studies Program"
+      },
+      {
+        "name": "Brooke Schedneck",
+        "department": "Department of Religious Studies"
+      },
+      {
+        "name": "Yinyin Xue",
+        "department": "Department of Modern Languages and Literature"
+      },
+      {
+        "name": "Shaolu Yu",
+        "department": "Urban Studies Program",
+        "position": "Chair"
+      },
+      {
+        "name": "Lynn B. Zastoupil",
+        "department": "Department of History"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "N/A",
+        "degreeType": "N/A",
+        "requirements": {
+        }}
+    ],
+    "minorRequirements": [{
+      "totalCredits": 20,
+      "courses": [
+        "One Primary Asian Studies course",
+        "One Secondary Asian Studies course offered by a department other than that which provided the course that fulfilled the \"Primary\" requirement",
+        "Three additional, 200+ level, approved Asian Studies courses",
+        "Primary courses are as follows:",
+        "History 105: Revolutions and Revolutionaries in Modern East Asia",
+        "History 105: World War II in Asia",
+        "History 105: The Mongol World Empire",
+        "History 105: The Two Koreas, Past and Present",
+        "Art 165: Survey of Asian Art",
+        "Chinese 206: Introduction to East Asian Cultures",
+        "Chinese 214: Introduction to Chinese Culture",
+        "Chinese 216: Asian Urbanization Through Cinema",
+        "History 282: Traditional China",
+        "History 283: Modern China",
+        "History 287: Traditional Japan",
+        "History 293: Ancient and Medieval India",
+        "International Studies 261: Government and Politics of China",
+        "International Studies 263: Comparative Political Economy of East Asia",
+        "Religious Studies 255: Living Religions of Southeast Asia",
+        "Religious Studies 258: Buddhism",
+        "Religious Studies 258: Buddhism in Thai Society",
+        "Secondary Courses are as follows: ",
+        "Chinese 205: Modern Chinese Literature in Translation",
+        "Chinese 215: Gender in Chinese Literature",
+        "Chinese 220: Contemporary Chinese Cinema",
+        "History 205: The Vietnam Wars",
+        "History 282: Traditional China",
+        "History 283: Modern China",
+        "History 287: Traditional Japan",
+        "History 288: Japan Since 1800",
+        "History 293: Ancient and Medieval India",
+        "History 294: Modern India",
+        "International Studies 261: Government and Politics of China",
+        "International Studies 262: China’s Foreign Policy",
+        "International Studies 263: Comparative Political Economy of East Asia",
+        "International Studies 264: China-Taiwan-US Relations",
+        "Religious Studies 255: Living Religions of Southeast Asia",
+        "Religious Studies 258: Buddhism",
+        "Religious Studies 258: Buddhism in Thai Society",
+        "Religious Studies 232: Religion, Women, and Social Change in Asia",
+        "Religious Studies 232: Religion and the Asian City",
+        "Religious Studies 301: Socially Engaged Buddhism",
+        "Additional Courses:",
+        "History 385: Nomads of Inner Asia",
+        "History 391: Gandhi",
+        "History 481: Cold War in East Asia"
+      ]
+    }],
+    "honorsProgram":[{
+      "requirements": [
+        "In the spring of the junior year, an Asian Studies major, in consultation with an appropriate member of the faculty, may write a proposal for honors work to be carried out in the senior year. The department must approve the proposal.",
+        "An overall grade of A- on the thesis or project itself is required for honors credit."
+      ]
+    }]
+  }

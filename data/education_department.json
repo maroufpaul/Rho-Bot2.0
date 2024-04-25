@@ -1,0 +1,95 @@
+{
+    "departmentName": "Educational Studies",
+    "departmentDescription": "Educational Studies at Rhodes College strives to advance justice, democracy, and equity in underserved public schools, particularly in Memphis, through interdisciplinary programs, partnerships, scholarship, and advocacy.",
+    "faculty": [
+      {
+        "name": "Natalie K. Person",
+        "title": "Chair, Professor",
+        "joined": "1994",
+        "education": "B.A. University of Mississippi; M.S. and Ph.D. University of Memphis",
+        "specialization": "Cognitive psychology: learning technologies; educational psychology"
+      },
+      {
+        "name": "Zachary Casey",
+        "ptitleosition": "Associate Professor",
+        "joined": "2014",
+        "education": "B.A.E. and M.A. Arizona State University; Ph.D. University of Minnesota",
+        "specialization": "Curriculum and Instruction, Multicultural Education, Critical Pedagogy, Teacher Education"
+      },
+      {
+        "name": "Cara Djonko-Moore",
+        "title": "Associate Professor",
+        "joined": "2018",
+        "education": "B.A. Northwestern University, M.A. University of Pennsylvania, Ph.D. Temple University",
+        "specialization": "Early Childhood, Culturally Responsive Pedagogy"
+      },
+      {
+        "name": "Laura Taylor",
+        "title": "Associate Professor",
+        "joined": "2017",
+        "education": "B.S. Cornell University; M.Ed. University of Saint Thomas; Ph.D. University of Texas at Austin",
+        "specialization": "Literacy Teaching and Learning; Critical Literacies; Educational Policy"
+      },
+      {
+        "name": "Laura Kelly",
+        "title": "Assistant Professor",
+        "joined": "2018",
+        "education": "B.S. Freed-Hardeman University; M.Ed. Western Governors University; Ph.D. Arizona State University",
+        "specialization": "Elementary Literacy, Bilingual Education"
+      },
+      {
+        "name": "Joseph Kelly",
+        "title": "Teacher Licensure Coordinator",
+        "joined": "2018",
+        "education": "B.A. Freed-Hardeman University; M.Div. Harding School of Theology; Ph.D. Southern Seminary"
+      },
+      {
+        "name": "Amber Lewis",
+        "title": "Administrative Assistant"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.A. Educational Studies",
+        "degreeType": "BA",
+        "requirements": {
+            "totalCredits": "44/45",
+            "courses": [
+                "The core requirments are: ",
+                "Foundations of Education - EDUC 201",
+              "Educational Psychology - EDUC 222",
+              "Philosophy, Policy, & Equity (choose two): Urban Education - EDUC 220, African American Experiences in U.S. Schools - EDUC 225, History of Education - EDUC 230, Urban Education Policy - EDUC 240 (only for Teaching & Learning track), Philosophy of Education - EDUC 270, Race, Class, Gender, & Sexuality in Education - EDUC 320, Education & Immigration - EDUC 330, Social & Community Contexts of Education - EDUC 335, Some sections of EDUC 265 (when appropriate)",
+              "Education Senior Seminar EDUC 485",
+              "For a Teaching and Learning Track: ",
+              "Principles of Curriculum and Instruction - EDUC 355*",
+              "Educational Technologies - EDUC 300*",
+              "Reading, Writing, and Urban Schools - EDUC 310",
+              "Content Area Teaching Methods Course (choose one, based on curricular focus): Elementary Literacies - EDUC 370*, Methods of Teaching Secondary STEM - EDUC 380*, Methods of Teaching Secondary Humanities - EDUC 390*",
+              "Inclusive Education - EDUC 410*",
+              "Clinical Field Experiences - EDUC 360 (4 credits)",
+              "For a Policy and Social Change Track: ",
+              "Urban Education Policy - EDUC 240",
+              "Qualitative Methods in the Social Sciences - EDUC 395*",
+              "Clinical Field Experience - EDUC 360 (1 credit; *co-requisite with EDUC 395)",
+              "One of the following courses:",
+              "- The City - ANSO 241",
+              "- Social Movements - ANSO 243",
+              "- Introduction to Public Policy - PLAW 205",
+              "- Urban Policy and Polities - PLAW 206",
+              "- Race and Ethnic Politics - PLAW 207",
+              "- Black Political Thought - PLAW 230",
+              "- Healthcare Policy - PLAW 320",
+              "- Community Psychology - PSYC 330",
+              "- Nonprofits in the City - URBN 340",
+              "You must pass the following background check ",
+              "Tennessee Code Annotated (TCA 49-5-5610) requires all students entering state-approved educator preparation programs to submit the result of a criminal background check to the institution. Memphis Shelby County Schools (MSCS) requires criminal background checks for Rhodes College students who are placed in their schools for clinical experiences and internships with P – 12 students. The results will be sent to a Rhodes College representative,"
+            ]}}],
+    "minorRequirements": [{
+        "totalCredits": 24,
+        "courses": [
+          "EDUC 201",
+          "Twenty credits selected from the following courses: any EDUC course; ECON 295 (2 credits); PSYC 229, 230, 250, 330; URBN 250."
+        ]
+      }
+    ]
+  }

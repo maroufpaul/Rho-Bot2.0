@@ -1,0 +1,84 @@
+{
+    "departmentName": "International Studies",
+    "departmentDescription": "The Department of International Studies prepares students to understand international politics, foreign policy making, political development, international law, international organization, security and defense policy, and the politics and cultures of various countries and regions of the world.",
+    "printedFrom": "https://catalog.rhodes.edu/programs-study/international-studies",
+    "programs": [
+      {
+        "programName": "B.A in International Studies",
+        "degreeType": "BA",
+        "requirements": {
+          "totalCredits": 48,
+          "courses": [
+            "International Studies 110",
+            "International Studies 120",
+            "International Studies 270",
+            "International Studies 300",
+            "International Studies 485",
+            "Economics 100 or International Studies 311",
+            "Twenty additional credits in International Studies with at least 8 credits from each area (A - Global Leadership, and B - Regional Leadership)",
+            "Completion of courses in a foreign language through the second full year at the college level (through the 202-level). Any 4-credit foreign language course above the 202-level and taught in the foreign language could also be used to satisfy the language requirement.",
+            "Each student in the major will be required to complete an international experience. There are several ways to complete this requirement subject to the approval of the Department Chair. Students may take a study abroad course approved by the Rhodes College study abroad office; an internship in International Studies, INTS 460; or the Model UN course, INTS 133, four times. Any such international experience with course credit would count toward No. 3 above.",
+            "Common Interdisciplinary Majors are: International Studies/Economics, International Studies/History, International Studies/Political Science, International Studies/Russian Studies"
+          ]
+
+        }
+      }
+    ],
+    "honorProgram": [
+      {
+      "requirements": [
+        "Completing Honors in the Department of International Studies is comprised of two semesters (Fall and Spring). Students must enroll in International Studies 485 in the Fall semester of the year in which the student intends to complete the Honors Project and gain departmental approval of a research proposal. Students will select an advisor who will serve as first reader. The instructor teaching Senior Seminar will also serve as a reader. A faculty member from a department or program outside of International Studies will serve as the third reader. Students should consult with International Studies faculty members and the Chair of the Department about their intentions to pursue an honors project during the spring semester prior to their senior year and obtain a copy of the 'Honors in International Studies Guidelines.' A minimum GPA of 3.70 in all course work and approval of the department are required."
+      ]
+    }],
+    
+    "faculty": [
+          {
+            "name": "Stephen J. Ceccoli",
+            "joined": "1998",
+            "title": "P.K. Seidman Professor of Political Economy",
+            "education": "B.A., Heidelberg College; M.A., Ph.D., Washington University",
+            "specialization": "International relations, political economy, comparative public policy"
+          },
+          {
+            "name": "Shadrack W. Nasong’o",
+            "joined": "2005",
+            "title": "Professor",
+            "education": "B.A., M.A., University of Nairobi, Kenya; Ph.D., Northeastern University, Boston",
+            "specialization": "African politics, comparative politics, international relations"
+          },
+          {
+            "name": "Amy E. Risley",
+            "joined": "2005",
+            "title": "Stanley J. Buckman Professor of International Studies",
+            "education": "B.A., University of Wisconsin, Madison; M.A., New York University; Ph.D., University of Texas at Austin",
+            "specialization": "Latin American politics, comparative politics, international relations"
+          },
+          {
+            "name": "Nikolaos Zahariadis",
+            "joined": "2016",
+            "title": "Mertie Buckman Distinguished Professor of International Studies",
+            "education": "B.A., Slippery Rock University; M.A., Ph.D., University of Georgia",
+            "specialization": "European Politics, International relations, comparative politics"
+          },
+          {
+            "name": "Chien-Kai Chen",
+            "joined": "2013",
+            "title": "Associate Professor",
+            "education": "B.A., National Taiwan University; M.A., The University of Alabama, Tuscaloosa; Ph.D., Boston University",
+            "specialization": "East Asian Politics, Comparative Politics, International Relations"
+          },
+          {
+            "name": "Esen Kirdis",
+            "joined": "2011",
+            "title": "J.S. Seidman Research Fellow",
+            "education": "B.A., Koc University, Istanbul, Turkey; Ph.D., University of Minnesota, Twin Cities",
+            "specialization": "Middle East politics, Islamic politics, international relations, comparative politics"
+          },
+          {
+            "name": "Maya Robertson",
+            "joined": "2021",
+            "title": "Staff",
+            "education": "B.S., Northwestern State University; M.S., Grambling State University"
+          }
+        ]
+}

@@ -1,0 +1,92 @@
+{
+    "departmentName": "Economics",
+    "departmentDescription": "The Economics Department, through its emphasis on logicaland quantitative analysis and communication skills, servesas prepares students interested in careers in business, law, medicine, government, non-profits, and international relations, as well as in academic roles.",
+    "faculty": [
+      {
+        "name": "Marshall K. Gramm",
+        "title": "Chair, Professor",
+        "joined": "2000",
+        "education": "B.A., Rice University; Ph.D., Texas A & M University",
+        "specialization": "Applied microeconomics"
+      },
+      {
+        "name": "C. Nicholas McKinney",
+        "title": "Robert D. McCallum Professor of Economics, Professor",
+        "joined": "2003",
+        "education": "B.A., B.S., Centenary College of Louisiana; Ph.D., Texas A & M University",
+        "specialization": "Experimental economics, applied microeconomics"
+      },
+      {
+        "name": "Courtney A. Collins",
+        "title": "Associate Professor",
+        "joined": "2013",
+        "education": "B.A., Rhodes College; Ph.D., Texas A&M University",
+        "specialization": "Applied economics"
+      },
+      {
+        "name": "Teresa Beckham Gramm",
+        "title": "Associate Professor",
+        "joined": "1999",
+        "education": "B.A., Agnes Scott College; Ph.D., University of North Carolina-Chapel Hill",
+        "specialization": "International economics"
+      },
+      {
+        "name": "Shameel Ahmad",
+        "title": "Assistant Professor",
+        "joined": "2019",
+        "education": "B.A., Stanford University; M.Sc. London School of Economics; M.A., M.Phil., Ph.D., Yale University",
+        "specialization": "Economic History"
+      },
+      {
+        "name": "Bruno D. Badia",
+        "title": "Assistant Professor",
+        "joined": "2015",
+        "education": "B.A., Federal University of Rio Grande do Sul, Brazil; M.A., Federal University of Minas Gerais, Brazil; Ph.D., Stony Brook University",
+        "specialization": "Industrial organization, game theory, applied microeconomics"
+      },
+      {
+        "name": "Jaqueline Oliveira",
+        "title": "Assistant Professor",
+        "joined": "2016",
+        "education": "B.A., Federal University of Minas Gerais, Brazil; M.Sc., University of Sao Paulo, Brazil; M.A., M.Phil., Ph.D., Yale University",
+        "specialization": "Development, labor, family and urban economics"
+      },
+      {
+        "name": "Hannah Guess",
+        "title": "Departmental Assistant",
+        "joined": "2020",
+        "education": "B.A. and M.A., University of Memphis"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.A in Economics",
+        "degreeType": "BA",
+        "requirements": {
+          "totalCredits": 48,
+          "courses": [
+            "Economics 100, 201, 202, 290, 420, 486.",
+            "Twenty additional credits in Economics not including Internship (Econ 460, 461).",
+            "Mathematics 115, 116 or 122."
+          ]        
+        }
+    }
+    ],
+    "honorsProgram": [{
+        "requirements": [
+          "Requirements for a major in Economics.",
+          "Economics 495-496 (instead of Economics 486).",
+          "A substantial research paper in an area of special interest to the candidate.",
+          "An oral examination on the research paper."
+        ]
+      }
+    ],
+    "minorRequirements": [{
+        "totalCredits": 20,
+        "courses": [
+          "Economics 100, 201, 202.",
+          "Eight additional credits in Economics not including Internship (Econ 460, 461)."
+        ]
+      }
+    ]
+}

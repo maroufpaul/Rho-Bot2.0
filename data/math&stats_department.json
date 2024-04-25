@@ -1,0 +1,92 @@
+{
+    "departmentName": "Mathematics and Statistics",
+    "departmentDescription": "The Department of Mathematics and Statistics offers students numerous opportunities to develop quantitative reasoning, critical-thinking, problem-solving, and communication skills through its curriculum and extracurricular activities.",
+    "faculty": [
+        {
+          "name": "Christopher Mouron",
+          "joined": "2002",
+          "title": "Professor",
+          "education": "B.S., Lafayette College; M.S. and Ph.D., Texas Tech University",
+          "specialization": "Topology, continuum theory, discrete dynamical systems"
+        },
+        {
+          "name": "Chris Seaton",
+          "joined": "2004",
+          "title": "Professor",
+          "education": "B.A., Kalamazoo College; Ph.D., University of Colorado at Boulder",
+          "specialization": "Differential geometry, differential topology, orbifolds, Lie groupoids, singular symplectic reduction, invariant theory"
+        },
+        {
+          "name": "Ibrahim Abdelrazeq",
+          "joined": "2015",
+          "title": "Associate Professor",
+          "education": "B.S., Yarmouk University; M.S., New Mexico State University; Ph.D., University of Ottawa",
+          "specialization": "Time series analysis, financial and actuarial mathematics, parametric and nonparametric goodness of fit tests"
+        },
+        {
+          "name": "Erin N. Bodine",
+          "joined": "2010",
+          "title": "Associate Professor",
+          "position": "E.C. Ellett Professorship of Mathematics and Computer Science",
+          "education": "B.S. and B.A., Harvey Mudd College; Ph.D., University of Tennessee, Knoxville",
+          "specialization": "Optimal control theory, mathematical ecology, differential equations, discrete difference equations, individual and agent based modeling"
+        },
+        {
+          "name": "Kyle Dempsey",
+          "joined": "2023",
+          "title": "Assistant Professor",
+          "education": "B.S., Lambuth University; M.S. and Ph.D., University of Memphis",
+          "specialization": "Educational games, distance education, child sexual abuse prevention"
+        },
+        {
+          "name": "Erika Parr",
+          "joined": "2021",
+          "title": "Assistant Professor",
+          "education": "B.A., University of Dallas; Ph.D., Arizona State University",
+          "specialization": "Mathematics education"
+        }
+      ],
+    "planningMajor": {
+      "details": "Students considering a major in Mathematics should contact the Chair or another member of the department as early as possible to ensure progress is being made toward the major. More information can be found at the department’s web site: www.rhodes.edu/mathcs. For reasonable progress toward a major in Mathematics, a student should begin the Calculus sequence (Math 112, 122 and 223) at the appropriate level in the first year, and complete the sequence before the Spring of the second year; and complete Math 201 in the first year or second year."
+    },
+    "programs": [
+      {
+        "programName": "B.S in Mathematics",
+        "degreeType": "BA",
+        "requirements": {
+          "totalCredits": 49,
+          "courses": [
+            "Mathematics 122, 201, 223, 261, 386, and four credits of 485 and/or 486",
+            "Mathematics 386",
+            "Seven additional four-credit courses from among Computer Science 141 and mathematics courses numbered above 200 (excluding 235) including at least four courses numbered above 300 (excluding 460, 495, and 496) with at least one course from each of the following breadth categories (where one course may count for more than one category):",
+            "Statistics: Mathematics 211, 305, 311",
+            "Modeling: Mathematics 212, 214, 305, 315, 330; Computer Science 350; Economics 407",
+            "Proof: Mathematics 311, 321, 362, 431, 482; Computer Science 350"
+              ]
+            }
+      }
+    ],
+    "minorRequirements": [{
+      "totalCredits": 24,
+      "courses": [
+        "For a minor in Mathematics:" ,
+        "Mathematics 122",
+        "Five additional four-credit mathematics courses numbered above 200, excluding 235, including at least one course numbered above 300. Computer Science 350 can be used as a mathematics course numbered above 300.",
+        "For a minor in Statitics: ",
+        "One course from: Math 211, Psych 211, or Econ 290",
+        "Math 212",
+        "Three additional courses from: Math 235, 305, 307, 311, 312, 330, 331, 333; Business 472; Econ 420; INTD 225 (Geographic Information Systems)",
+        "Students planning to pursue graduate study in statistics are strongly encouraged to select Math 311 and Math 312 from the courses listed above and to take: Math 112, 122, 223, or equivalent three course calculus sequence; Math 201 Transitions to Advanced Mathematics; Math 261 Linear Algebra; Math 321 Real Analysis."
+      ]
+    }
+  ],
+    "honorsProgram": [{
+      "requirements": [
+        "Fulfillment of the requirements for the major.",
+        "Honors Tutorial: 495 and 496.",
+        "Approval by the department is required. Students should consult with a faculty member about their intentions to pursue an honors project before the end of their Junior year."
+      ]
+    }
+  ]
+  }
+  

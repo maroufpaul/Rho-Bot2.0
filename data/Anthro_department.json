@@ -1,0 +1,88 @@
+{
+    "departmentName": "Anthropology",
+    "programName": "B.S. in Anthropology",
+    "faculty": [
+      {
+        "name": "Susan M. Kus",
+        "title": "Professor",
+        "joined": "1984",
+        "education": "B.A., University of Michigan; M.A. and Ph.D., University of Michigan",
+        "specialization": "Archaeology, state formation, symbolic anthropology, ethno-archaeology, sub-Saharan Africa and Madagascar."
+      },
+      {
+        "name": "Earl Wright II",
+        "title": "Professor",
+        "joined": "1994",
+        "education": "B.A., University of Memphis; M.A., University of Memphis; PhD., University of Nebraska",
+        "specialization": "Historical sociology, qualitative research methods, race and ethnicity, and urban sociology."
+      },
+      {
+        "name": "Jeanne Lopiparo",
+        "title": "Associate Professor",
+        "joined": "2009",
+        "education": "B.A., Harvard University; M.A. and Ph.D., University of California, Berkeley",
+        "specialization": "Mesoamerican archaeology, material culture, social identity, complex societies."
+      },
+      {
+        "name": "Evelyn Perry",
+        "title": "Chair",
+        "joined": "2010",
+        "education": "B.A., Colorado College; M.A. and Ph.D., Indiana University",
+        "specialization": "Urban and community sociology, culture, inequality, race, class, gender ethnography."
+      },
+      {
+        "name": "Kimberly C. Kasper",
+        "title": "Assistant Professor",
+        "joined": "2011",
+        "education": "B.A., Fordham University; M.Sc., Florida State University; M.Sc., Sheffield University; Ph.D., University of Massachusetts, Amherst",
+        "specialization": "Human-environmental interactions, paleoethnobotany, spatial analysis, North American archaeology, ethics."
+      },
+      {
+        "name": "Hadi Khoshneviss",
+        "title": "Assistant Professor",
+        "joined": "2020",
+        "education": "B.A., School of Journalism, Tehran, Iran; M.A., University of Tehran, Iran; M.A., University College London, England; Ph.D., University of South Florida, Tampa, Florida",
+        "specialization": "Race and ethnicity, immigration, movement and mobility, nationalism, social theory, decolonial theory."
+      },
+      {
+        "name": "Staff",
+        "title": "Anjeanette Johnson-Tiamiyu",
+        "position": "Departmental Assistant"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.S. in Anthropology/Sociology",
+        "degreeType": "BS",
+        "requirements": {
+          "totalCredits": 48,
+          "courses": [
+            "Anthropology/Sociology 103",
+            "Anthropology/Sociology 105",
+            "Anthropology/Sociology 351",
+            "Anthropology/Sociology 380",
+            "Anthropology/Sociology 485",
+            "Anthropology/Sociology 486",
+            "Three additional courses (12 credits) in Anthropology/Sociology."
+            ]
+          }
+        }
+    ],
+    "minorRequirements": [{
+      "totalCredits": "24",
+      "courses": [
+        "Anthropology/Sociology 103",
+        "Anthropology/Sociology 105",
+        "Anthropology/Sociology 380",
+        "One additional course (4 credits) from: Anthropology/Sociology 380 or another theoretically intensive course."
+      ]
+    }],
+    "honorsProgram": [{
+      "requirements": [
+        "Completion of all requirements for a Bachelor of Arts degree in Anthropology and Sociology, as well as a minimum overall grade point average of 3.50 and a minimum anthropology and sociology grade point average of 3.50.",
+        "Completion of Anthropology/Sociology 495 - 496",
+        "Completion of a substantial research project and paper in an area of special interest to the candidate."
+      ]
+    }
+]
+  }

@@ -1,0 +1,113 @@
+{
+    "departmentName": "Gender and Sexuality Studies",
+    "departmentDescription": "",
+    "faculty": [
+      {
+        "name": "Elizabeth Bridges",
+        "department": "Department of Modern Languages"
+      },
+      {
+        "name": "Zachary Casey",
+        "department": "Department of Education"
+      },
+      {
+        "name": "Kathleen Doyle",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "Joy Brooke Fairfield",
+        "department": "Media Studies Program"
+      },
+      {
+        "name": "Rhiannon Graybill",
+        "department": "Department of Religious Studies",
+        "position": "Chair"
+      },
+      {
+        "name": "Judith Haas",
+        "department": "Department of English"
+      },
+      {
+        "name": "Kimberly Kasper",
+        "department": "Department of Anthropology and Sociology"
+      },
+      {
+        "name": "Mona Kreitner",
+        "department": "Department of Music"
+      },
+      {
+        "name": "Susan Kus",
+        "department": "Department of Anthropology and Sociology"
+      },
+      {
+        "name": "Han Li",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "Jeanne Lopiparo",
+        "department": "Department of Anthropology and Sociology"
+      },
+      {
+        "name": "Laura Loth",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "Shira Malkin",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "David McCarthy",
+        "department": "Department of Art"
+      },
+      {
+        "name": "Joel Parsons",
+        "department": "Director, Clough Hanson Gallery"
+      },
+      {
+        "name": "Evie Perry",
+        "department": "Department of Anthropology and Sociology"
+      },
+      {
+        "name": "Leslie Petty",
+        "department": "Department of English"
+      },
+      {
+        "name": "Rashna Richards",
+        "department": "Department of English"
+      },
+      {
+        "name": "Amy Risley",
+        "department": "Department of International Studies"
+      },
+      {
+        "name": "Vanessa Rogers",
+        "department": "Department of Music"
+      },
+      {
+        "name": "Brooke Schedneck",
+        "department": "Department of Religious Studies"
+      },
+      {
+        "name": "Elizabeth Thomas",
+        "department": "Department of Psychology and Urban Studies"
+      },
+      {
+        "name": "Rebecca Tuvel",
+        "department": "Department of Philosophy"
+      },
+      {
+        "name": "Marsha Walton",
+        "department": "Department of Psychology"
+      }
+    ],
+      "minorRequirments":[{
+        "totalCredits": 24,
+        "courses": [
+          "Gender and Sexuality Studies 200: Introduction to Gender and Sexuality Studies",
+          "Gender and Sexuality Studies 400: Feminist Theory",
+          "Four courses selected from the Gender and Sexuality Studies curriculum",
+          "Two of these courses must come from fields outside of one’s major. Students may also consider an Internship or a Directed Inquiry with approval from the program director."
+        ]
+    }
+    ]
+  }

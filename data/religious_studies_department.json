@@ -1,0 +1,130 @@
+{
+  "departmentName": "Religious Studies",
+  "departmentDescription": "The Department of Religious Studies promotes the academic study of religion by offering courses that explore the diverse aspects of religious traditions. Particular emphasis is given to the origins, history, and relevance of religion in contemporary life.",
+  "honorsProgram": [{
+    "requirements": [
+      "Honors research in Religious Studies is established by consultation between the student and the department. In addition to the courses required for a major, the honors program requires the one-hour junior honors tutorial, Religious Studies 399, and the senior honors tutorials, Religious Studies 495-496, in which the student will be guided in the research and writing of an honors paper.",
+      "Source: https://catalog.rhodes.edu/programs-study/religious-studies/honors-religious-studies"
+  ]}],
+  "faculty": [
+    {
+      "name": "Patrick Gray",
+      "title": "Professor",
+      "joined": "2002",
+      "education": ["B.A., Oglethorpe University", "M.T.S., Ph.D., Emory University"],
+      "specializations": ["New Testament", "History of Biblical Interpretation", "Greco-Roman Moral Philosophy"]
+    },
+    {
+      "name": "Stephen R. Haynes",
+      "title": "Professor",
+      "joined": "1989",
+      "education": ["B.A., Vanderbilt University", "M.A., Florida State University", "M.Div., Columbia Theological Seminary", "Ph.D., Emory University"],
+      "specializations": ["Holocaust Studies", "Religion and Politics", "Religion and Literature", "Religion and Education"]
+    },
+    {
+      "name": "Steven L. McKenzie",
+      "title": "Professor",
+      "joined": "1983",
+      "education": ["B.A., M.Div., Abilene Christian University", "Th.D., Harvard University"],
+      "specializations": ["Old Testament", "Hebrew"]
+    },
+    {
+      "name": "Thomas Bremer",
+      "title": "Associate Professor",
+      "joined": "2001",
+      "education": ["B.A., The Ohio State University", "M.A., Ph.D., Princeton University"],
+      "specializations": ["History of Religion in America"]
+    },
+    {
+      "name": "John C. Kaltner",
+      "title": "Associate Professor",
+      "joined": "1996",
+      "education": ["B.A., State University of New York at Oswego", "M.A., Maryknoll School of Theology", "S.S.L., Pontifical Biblical Institute", "Ph.D., Drew University"],
+      "specializations": ["Biblical Studies", "Islam"]
+    },
+    {
+      "name": "Bernadette McNary-Zak",
+      "title": "Associate Professor",
+      "joined": "1999",
+      "education": ["B.A., University of Rochester", "M.A., Catholic University of America", "Ph.D., University of Toronto"],
+      "specializations": ["Early Christianity"]
+    },
+    {
+      "name": "Sarah E. Rollens",
+      "title": "Associate Professor",
+      "joined": "2015",
+      "education": ["B.A., University of North Carolina at Wilmington", "M.A., University of Alberta", "Ph.D., University of Toronto"],
+      "specializations": ["New Testament", "Early Christianity"]
+    },
+    {
+      "name": "Brooke Schedneck",
+      "title": "Associate Professor",
+      "joined": "2017",
+      "education": ["B.A., Boston University", "M.T.S., Harvard University", "Ph.D., Arizona State University"],
+      "specializations": ["Asian Religions"]
+    },
+    {
+      "name": "Raissa von Doetinchem de Rande",
+      "title": "Assistant Professor",
+      "joined": "2020",
+      "education": ["M.A., University of Oxford", "M.A.R., Yale University", "M.A., Ph.D., Princeton University"],
+      "specializations": ["Islamic Studies", "Ethics"]
+    },
+    {
+      "name": "Beck Henricksen",
+      "title": "Assistant Professor",
+      "joined": "2023",
+      "education": ["B.S., B.A., Biola University", "M.A., Yale Divinity School", "M.A., Brown University", "Ph.D., University of North Carolina at Chapel Hill"],
+      "specializations": ["Gender and Sexuality Studies", "Africana Studies"]
+    },
+    {
+      "name": "Shatavia L. Wynn",
+      "title": "Assistant Professor",
+      "joined": "2022",
+      "education": ["B.A., Claflin University", "M.A., Yale University Divinity School", "Ph.D., Vanderbilt University"],
+      "specializations": ["African American Religion", "Africana Studies"]
+    },
+    {
+      "name": "Micah D. Greenstein",
+      "title": "Part-Time Faculty",
+      "joined": "2020",
+      "education": ["B.A., Cornell University", "M.P.A., Harvard University", "Rabbinic Ordination, M.A.H.L., D.D., Hebrew Union College-Jewish Institute of Religion"],
+      "specializations": ["Judaism"]
+    },
+    {
+      "name": "Jonathan C. Lewis",
+      "title": "Part-Time Faculty",
+      "joined": "2021",
+      "education": ["B.A., University of Georgia", "M.Div., Duke Divinity School", "D.Min., Memphis Theological Seminary"],
+      "specializations": ["Religious Studies", "Speech Communications", "Pastoral Care and Counseling", "Narrative Medicine"]
+    },
+    {
+      "name": "Christie Arnold",
+      "title": "Departmental Assistant"
+    }
+  ],
+  "programs": [
+    {
+      "programName": "B.A. in Religious Studies",
+      "degreeType": "BA",
+      "requirements": {
+      "totalCredits": "36",
+      "courses": [
+        "Religious Studies 255, 256; One of the following: 251, 253 or 258.",
+        "One 200-level course in Bible (260, 270-277, 280-286).",
+        "One 200-level course in theology and ethics (211, 220, 232, 233). The Religion track of HUM 201 can count toward this requirement.",
+        "Three 300-level courses. (Religious Studies 399, the Junior Honors Tutorial, does not count towards fulfilling this requirement.)",
+        "Religious Studies 485 (Religious Studies 256 and at least one 300-level course must be completed prior to taking Religious Studies 485.)",
+        "note: The Health Equity Internships (Religious Studies 460) may count toward fulfilling the third requirement for the Religious Studies major.",
+        "source: https://catalog.rhodes.edu/programs-study/religious-studies/requirements-major-religious-studies"
+      ]}}],
+  "minorRequirements": [{
+      "totalCredits": "20",
+      "courses": [
+        "Religious Studies 101 and 102 or Humanities 101 and 102.",
+        "Two 200-level courses in different areas of Religious Studies (biblical studies, theology and ethics, history of religions). Certain courses (e.g., Humanities 201 or AMS 250) can fulfill this requirement when cross-listed as Religious Studies courses.",
+        "One 300-level Religious Studies seminar in any area.",
+        "note: The Health Equity Internships (Religious Studies 460) may count toward fulfilling the second requirement for the Religious Studies minor.",
+        "source: https://catalog.rhodes.edu/programs-study/religious-studies/requirements-minor-religious-studies"
+    ]}]
+  }

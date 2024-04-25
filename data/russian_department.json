@@ -1,0 +1,130 @@
+{
+  "departmentName": "Russian",
+  "faculty": [
+    {
+      "name": "Alexandra Kostina",
+          "joined": "1996",
+          "title": "Associate Professor",
+          "education": "M.A. Novgorod State University; Ph.D. Gornyi University/Russian State Pedagogical University",
+          "specialization": "Russian language, linguistics, and culture"
+    }],
+  "programs": [
+    {
+      "programName": "B.A. in Russian Studies",
+      "degreeType": "BA",
+      "requirements": {
+      "totalCredits": 36,
+      "courses": [
+        "Russian 202: Intermediate Russian",
+        "Russian 205: The Russian Religious Mind and either Russian 212: Prophets, Princesses, and Revolutionaries or Russian 300: Dostoevsky",
+        "Two courses from Russian 301, 302, 309 (All advanced Russian)",
+        "Russian 410: Analytical Reading, Russian 486: Senior seminar",
+        "Russian 285: Putin’s Russia and the Media and ML280: Introduction into General Linguistics",
+        "encouragedActivity: Majors are encouraged to spend at least one semester studying in Russia."
+    ]}}],
+  "minorRequirements": [{
+      "totalCredits": 20,
+      "courses": [
+        "Russian 202 (Intermediate Russian), 301 (Advanced Russian), 302 (Advanced Russian)",
+        "Two of the following: Russian 205: Russian Religious Mind, 212: Prophets, Princesses, and Revolutionaries, 285: Putin’s Russian and the Media, 300: Dostoevsky, 410: Analytical Reading",
+        "Substitutions are possible (say, you took a relevant course in IS or History, they can be applied toward your major or minor), which may make it easier to major or minor in Russian Studies."
+    ]}],
+  "courseOfferings": {
+    "101-102": {
+      "title": "Elementary Russian",
+      "offered": ["Fall", "Spring"],
+      "credits": "4-4",
+      "description": "Elementary grammar, reading, and conversation, supplemented by materials on Russian culture."
+    },
+    "201-202": {
+      "title": "Intermediate Russian",
+      "offered": ["Fall", "Spring"],
+      "credits": "4-4",
+      "description": "Intermediate grammar and continued training in conversation and composition, supplemented by materials on contemporary developments in Russian society. Reading of Russian texts of graded difficulty, intermediate writing. Prerequisites: Russian 101-102 or equivalent."
+    },
+    "205": {
+      "title": "The Russian Religious Mind",
+      "offered": ["Fall"],
+      "credits": "4",
+      "description": "Examines the distinct world-consciousness of Russian religious tradition and thought, with emphasis on key themes and readings from Orthodox monastics, Russian religious philosophers, and contemporary writers."
+    },
+    "209": {
+      "title": "Russian in Russia",
+      "offered": ["Summer"],
+      "credits": "4",
+      "description": "A guided encounter with language and culture in Russia aimed at solidifying vocabulary and grammar previously acquired. Includes significant cultural immersion. Takes place in May-June."
+    },
+    "212": {
+      "title": "Prophets, Princesses, and Revolutionaries",
+      "offered": ["Fall", "Spring"],
+      "credits": "4",
+      "description": "Reading of representative works by major Russian writers of the nineteenth century, exploring their literary merit and contributions to understanding Russian society. All works are read in translation."
+    },
+    "215": {
+      "title": "Giants of Russia’s Silver Age",
+      "offered": ["Spring"],
+      "credits": "4",
+      "description": "Study of connections among Vladimir Soloviev, Alexander Blok, and Sergei Rachmaninoff. Examines themes of Russian Orthodox religiosity, beauty, and goodness through their works."
+    },
+    "255": {
+      "title": "Catherine the Great and the Enlightenment",
+      "offered": ["Fall", "Spring"],
+      "credits": "4",
+      "description": "Investigates Italian-Russian cultural connections during Catherine the Great's reign, focusing on music, literature, and architecture. Optional study trip to Italy and Russia."
+    },
+    "256": {
+      "title": "Catherine the Great and the Italian-Russian Connection",
+      "offered": ["Summer"],
+      "credits": "0-1",
+      "description": "Examines musical, literary, and architectural connections between Italy and Russia during Catherine the Great's reign. Study trip to Rome, Milan, and St. Petersburg in May-June."
+    },
+    "285": {
+      "title": "Putin's Russia and the Media",
+      "offered": ["Spring"],
+      "credits": "4",
+      "description": "Explores important media sources on contemporary Russia, highlighting underrepresented perspectives in Western narratives. Provides insight into Russian society and geopolitics."
+    },
+    "300": {
+      "title": "Dostoevsky",
+      "offered": ["Fall", "Spring"],
+      "credits": "4",
+      "description": "Examines selected works by Dostoevsky in the context of the Russian novel's rise. Focuses on literary, philosophical, and religious themes."
+    },
+    "301-302": {
+      "title": "Advanced Russian",
+      "offered": ["Fall", "Spring"],
+      "credits": "4-4",
+      "description": "Advanced grammar, with emphasis on conversation and composition skills related to contemporary life in Russia. Prerequisites: Russian 201-202 or equivalent."
+    },
+    "309": {
+      "title": "Russian in Russia",
+      "offered": ["Summer"],
+      "credits": "4",
+      "description": "Guided encounter with language and culture in Russia aimed at solidifying vocabulary and grammar. Includes significant cultural immersion. Takes place in May-June."
+    },
+    "400": {
+      "title": "Russian Film: Film Theory",
+      "offered": ["Spring"],
+      "credits": "4",
+      "description": "Introduction to ideological and aesthetic forces shaping Soviet/Russian film, with attention to various film theories. Study of major directors and their films."
+    },
+    "410": {
+      "title": "Analytical Reading",
+      "offered": ["Fall"],
+      "credits": "4",
+      "description": "Teaches strategies for understanding texts of high literary quality through psycho-poetic and formal analysis."
+    },
+    "486": {
+      "title": "Senior Seminar",
+      "offered": ["Spring"],
+      "credits": "4",
+      "description": "Research-based seminar focusing on the Russian Idea. Includes weekly progress reports and presentation of research results."
+    },
+    "495-496": {
+      "title": "Honors Tutorial",
+      "offered": ["Fall", "Spring"],
+      "credits": "4-8, 4-8",
+      "description": "Individualized tutorial for honors students, involving research and writing of an honors paper."
+    }
+  }
+}

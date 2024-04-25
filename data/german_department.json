@@ -1,0 +1,61 @@
+{
+    "departmentName": "German Studies",
+    "faculty": [
+      {
+        "name": "Kathryn Holihan",
+        "joined": "2021",
+        "title": "Assistant Professor",
+        "education": "B.A. Oberlin College; Ph.D, University of Michigan",
+        "specialization": "Late-19th through 20th-century German Studies, Science Studies, Museum Studies"
+      },
+      {
+        "name": "Nina Morais",
+        "joined": "2023",
+        "title": "Assistant Professor",
+        "education": "B.A. Federal University of Minas Gerais; M.A. Indiana University",
+        "specialization": "Transcultural, Transnational and Migration Studies; Germany-Africa and Germany-South America Relations; Contemporary German Theater and Film"  
+      }
+      ],
+    "honorsRequirements": [{
+      "minimumCredits": 40,
+      "courses": [
+        "A research paper on a specific literary, linguistic, or cultural topic",
+        "Demonstrated proficiency in spoken and written German"
+      ]
+    }],
+    "programs": [
+      {
+        "programName": "B.A. in German",
+        "degreeType": "BA",
+        "requirements": {
+          "totalCredits": 36,
+          "courses": [
+            "The German Studies major begins from the point of the student’s German language course placement. No course below a student’s language course placement can be counted towards the German Studies major.",
+            "Students must complete German 301, 302, and 486 (Capstone Project).",
+            "German 301 or 302 must be taken before any other 300-level course is attempted but may be taken concurrently with other 300-level courses.",
+            "Students must complete German 320 or 321.",
+            "German 305 taken abroad may be substituted for either 301 or 302, but not both.",
+            "Concentrations (choose one):",
+            "A: German Language, Literature, and Culture - Students may include one German Studies course taught in English or any relevant course with approval of major advisor.",
+            "B: Interdisciplinary German - Students may include two German Studies courses taught in English or any relevant course with approval of major advisor.",
+            "Majors are strongly encouraged to participate in the exchange program with the University of Tübingen, the University of Landau, or with a departmentally approved ISEP program during their junior years; equivalent courses from there will be accepted as substitutes."
+          ]
+        }
+      }
+    ],
+    "minorRequirements": [{
+      "totalCourses": 6,
+      "totalCredits": 24,
+      "courses": [
+        "The German Studies minor begins from the point of the student’s German language course placement. No course below a student’s language course placement can be counted towards the German Studies minor.",
+        "Students must complete German 301 and 302.",
+        "Students initially placing into 102 or higher must complete German 320 or 321.",
+        "German 301 or 302 must be taken before any other 300-level course is attempted but may be taken concurrently with other 300-level courses.",
+        "German 305 taken abroad may be substituted for either 301 or 302, but not both.",
+        "Students may include one German Studies course taught in English or any relevant course with approval of minor advisor.",
+        "Minors are strongly encouraged to participate in an approved summer German immersion or study abroad program. See minor adviser for details."
+      ]
+    }
+  ]
+  }
+  

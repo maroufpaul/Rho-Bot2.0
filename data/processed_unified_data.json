@@ -1,48 +1,1212 @@
 {
-    "Computer_Science": {
-        "description": "The Department of Computer Science offers students numerous opportunities to develop quantitative reasoning, critical-thinking, problem-solving, and communication skills through its curriculum and extracurricular activities. More information can be found at the department\u00e2\u20ac\u2122s website: www.rhodes.edu/mathcs.",
+    "Africana Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Charles W. McKinney, Jr.",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    "history"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Charles Hughes",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    "history"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Duane T. Loynes, Sr.",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    "urban studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Samson Ndanyi",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    "history"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Evelyn Perry",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    "sociology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Earl Wright II",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    "sociology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Shatavia Wynn",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    "religious studies"
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B. A in Africana Studies",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 44,
+                    "courses": [
+                        "AFS 105: Introduction to Africana Studies",
+                        "AFS 305: Africana Theory",
+                        "AFS 485: Senior Seminar in Africana Studies",
+                        "AFS-Approved Electives in Humanities and Fine Arts Divisions: 4 courses",
+                        "AFS-Approved Electives in Social Sciences and Natural Sciences Divisions: 4 courses"
+                    ],
+                    "additionalCourses": [
+                        "At least three electives must be courses based outside of the United States.",
+                        "Students may not take more than three electives from any one department.",
+                        "At least two electives must be at the 300/400 level.",
+                        "Selected topics courses in any department related to Africana subject content may also count toward the major with approval of the Program Director."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": {},
+        "honorsProgram": []
+    },
+    "Asian Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Chien-Kai Chen",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of International Studies"
+            },
+            {
+                "name": "Li Han",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literature"
+            },
+            {
+                "name": "John C. Kaltner",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Religious Studies"
+            },
+            {
+                "name": "Seok-Won Lee",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "David Mason",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Media Studies Program"
+            },
+            {
+                "name": "Brooke Schedneck",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Religious Studies"
+            },
+            {
+                "name": "Yinyin Xue",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literature"
+            },
+            {
+                "name": "Shaolu Yu",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Urban Studies Program"
+            },
+            {
+                "name": "Lynn B. Zastoupil",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "N/A",
+                "degreeType": "N/A",
+                "requirements": {}
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "One Primary Asian Studies course",
+                    "One Secondary Asian Studies course offered by a department other than that which provided the course that fulfilled the \"Primary\" requirement",
+                    "Three additional, 200+ level, approved Asian Studies courses",
+                    "Primary courses are as follows:",
+                    "History 105: Revolutions and Revolutionaries in Modern East Asia",
+                    "History 105: World War II in Asia",
+                    "History 105: The Mongol World Empire",
+                    "History 105: The Two Koreas, Past and Present",
+                    "Art 165: Survey of Asian Art",
+                    "Chinese 206: Introduction to East Asian Cultures",
+                    "Chinese 214: Introduction to Chinese Culture",
+                    "Chinese 216: Asian Urbanization Through Cinema",
+                    "History 282: Traditional China",
+                    "History 283: Modern China",
+                    "History 287: Traditional Japan",
+                    "History 293: Ancient and Medieval India",
+                    "International Studies 261: Government and Politics of China",
+                    "International Studies 263: Comparative Political Economy of East Asia",
+                    "Religious Studies 255: Living Religions of Southeast Asia",
+                    "Religious Studies 258: Buddhism",
+                    "Religious Studies 258: Buddhism in Thai Society",
+                    "Secondary Courses are as follows: ",
+                    "Chinese 205: Modern Chinese Literature in Translation",
+                    "Chinese 215: Gender in Chinese Literature",
+                    "Chinese 220: Contemporary Chinese Cinema",
+                    "History 205: The Vietnam Wars",
+                    "History 282: Traditional China",
+                    "History 283: Modern China",
+                    "History 287: Traditional Japan",
+                    "History 288: Japan Since 1800",
+                    "History 293: Ancient and Medieval India",
+                    "History 294: Modern India",
+                    "International Studies 261: Government and Politics of China",
+                    "International Studies 262: China\u2019s Foreign Policy",
+                    "International Studies 263: Comparative Political Economy of East Asia",
+                    "International Studies 264: China-Taiwan-US Relations",
+                    "Religious Studies 255: Living Religions of Southeast Asia",
+                    "Religious Studies 258: Buddhism",
+                    "Religious Studies 258: Buddhism in Thai Society",
+                    "Religious Studies 232: Religion, Women, and Social Change in Asia",
+                    "Religious Studies 232: Religion and the Asian City",
+                    "Religious Studies 301: Socially Engaged Buddhism",
+                    "Additional Courses:",
+                    "History 385: Nomads of Inner Asia",
+                    "History 391: Gandhi",
+                    "History 481: Cold War in East Asia"
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "In the spring of the junior year, an Asian Studies major, in consultation with an appropriate member of the faculty, may write a proposal for honors work to be carried out in the senior year. The department must approve the proposal.",
+                    "An overall grade of A- on the thesis or project itself is required for honors credit."
+                ]
+            }
+        ]
+    },
+    "Art and Art History": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "David P. McCarthy",
+                "title": "Chair, Professor",
+                "education": "B.A., Gettysburg College; Ph.D., University of Delaware",
+                "specialization": [
+                    "modern",
+                    "contemporary",
+                    "and american art."
+                ],
+                "department": ""
+            },
+            {
+                "name": "A. Victor Coonin",
+                "title": "Professor",
+                "education": "B.A., Oberlin College; M.A., Syracuse University; Ph.D., Rutgers University",
+                "specialization": [
+                    "medieval",
+                    "renaissance",
+                    "and baroque art history."
+                ],
+                "department": ""
+            },
+            {
+                "name": "Miriam G. Clinton",
+                "title": "Associate Professor",
+                "education": "B.A., Yale University; M.A., Ph.D., University of Pennsylvania",
+                "specialization": [
+                    "ancient art."
+                ],
+                "department": ""
+            },
+            {
+                "name": "Erin Harmon",
+                "title": "Associate Professor",
+                "education": "B.A., San Diego State University; M.F.A., Rhode Island School of Design",
+                "specialization": [
+                    "painting and drawing."
+                ],
+                "department": ""
+            },
+            {
+                "name": "Joel Parsons",
+                "title": "Assistant Professor, Director, Clough-Hanson Gallery",
+                "education": "B.A., Rhodes College; M.F.A., School of the Art Institute of Chicago",
+                "specialization": [
+                    "sculpture and performance."
+                ],
+                "department": ""
+            },
+            {
+                "name": "Karl Erickson",
+                "title": "Assistant Professor",
+                "education": "B.F.A., Wayne State University; M.F.A., California Institute of the Arts",
+                "specialization": [
+                    "digital arts and new media."
+                ],
+                "department": ""
+            },
+            {
+                "name": "Raina Belleau",
+                "title": "Assistant Professor",
+                "education": "B.F.A., Minneapolis College of Art and Design; M.F.A., Rhode Island School of Design",
+                "specialization": [
+                    "sculpture and drawing."
+                ],
+                "department": ""
+            },
+            {
+                "name": "Rosanna Parrella Meindl",
+                "title": "Curator, Visual Resources Center",
+                "education": "B.A., Lewis and Clark College; M.A., University of Oregon",
+                "specialization": [
+                    "asian studies."
+                ],
+                "department": ""
+            },
+            {
+                "name": "Staff",
+                "title": "Christie Arnold",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Staff",
+                "title": "Ethan McVay",
+                "education": "B.F.A., University of Memphis",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Art/ Art History",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 40,
+                    "courses": [
+                        "For a BA in Art:",
+                        "Two of the following 100-level courses: 101: Drawing, 102: Digital, 105: Painting, 107: Sculpture, 116: Animation (not to be paired with 102)",
+                        "Art 386: Experiments in Media & Methods",
+                        "Art 485: Senior Seminar in Art",
+                        "Art 486: Senior Thesis",
+                        "Art History 152: Survey of Contemporary Art",
+                        "Four additional courses in the Department of Art and Art History including at least two 200 level and above studio classes and at least one 300 level studio course.",
+                        "For a BA in Art History: ",
+                        "Any studio course",
+                        "Art 151: Survey of Western Art",
+                        "Art 152: Survey of Contemporary Art",
+                        "Art 218: Greek Art and Architecture",
+                        "Art 223: Italian Renaissance Art",
+                        "Art 242: Modern Art II",
+                        "Three additional courses in art history at the 200 level or above",
+                        "Art 485: Senior Seminar in Art History"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 28,
+                "courses": [
+                    "Minor in Art: ",
+                    "Two of the following: 101: Drawing, 102: Digital, 105: Painting, 107: Sculpture, 116: Animation (may not be paired with 102)",
+                    "Art 386: Experiments in Media & Methods",
+                    "Art 485: Senior Seminar in Art",
+                    "Art History 152: Survey of Contemporary Art",
+                    "Two studio art courses at 200-level or above",
+                    "Minor in Art History: ",
+                    "Any studio course",
+                    "Art 151: Survey of Western Art",
+                    "Art 152: Survey of Contemporary Art",
+                    "Three courses in art history at the 200 or 300 level, with one from each of the three areas of concentration (Ancient, Medieval through Baroque, Modern)",
+                    "Art 485: Senior Seminar in Art History"
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "In the spring of the junior year, an art major, in consultation with an appropriate member of the art faculty, may write a proposal for honors work to be carried out in the senior year. The department must approve the proposal.",
+                    "An overall grade of A- on the thesis or project itself is required for honors credit."
+                ]
+            }
+        ]
+    },
+    "Biology": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Michael D. Collins",
+                "title": "",
+                "education": "B.S., University of Arizona; M.S., Florida State University; Ph.D., University of Tennessee",
+                "specialization": [
+                    "ecology",
+                    "ornithology",
+                    "wildlife biology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Terry W. Hill",
+                "title": "",
+                "education": "B.A., University of South Florida; M.S., Ph.D., University of Florida",
+                "specialization": [
+                    "cell biology",
+                    "microbiology",
+                    "biology of fungi"
+                ],
+                "department": ""
+            },
+            {
+                "name": "David Kabelik",
+                "title": "",
+                "education": "H.B.Sc., University of Toronto; Ph.D., Arizona State University",
+                "specialization": [
+                    "neuroscience",
+                    "endocrinology",
+                    "physiology",
+                    "animal behavior"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Mary E. Miller",
+                "title": "",
+                "education": "B.A., University of Tennessee at Knoxville; Ph.D., University of Virginia",
+                "specialization": [
+                    "genetics",
+                    "microbiology",
+                    "cancer biology",
+                    "cell biology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Sarah Boyle",
+                "title": "",
+                "education": "B.A., College of William and Mary; Ph.D., Arizona State University",
+                "specialization": [
+                    "ecology",
+                    "conservation biology",
+                    "tropical field biology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kelly A. Dougherty",
+                "title": "",
+                "education": "B.S., West Chester University; Ph.D., Thomas Jefferson University",
+                "specialization": [
+                    "neuroscience",
+                    "biophysics",
+                    "neurophysiology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jonathan Fitz Gerald",
+                "title": "",
+                "education": "B.S., University of California at Irvine; Ph.D., University of Chicago",
+                "specialization": [
+                    "plant biology",
+                    "development"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Elaine R. Frawley",
+                "title": "",
+                "education": "B.A., Ph.D., Washington University in St. Louis",
+                "specialization": [
+                    "microbiology",
+                    "metabolism",
+                    "bacterial physiology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Bayly S. Wheeler",
+                "title": "",
+                "education": "B.S.E., University of Michigan; Ph.D., Duke University",
+                "specialization": [
+                    "molecular biology",
+                    "genetics",
+                    "genomics",
+                    "microbiology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kelly Diamond",
+                "title": "",
+                "education": "B.S., University of Central Florida; M.S., Ph.D. Clemson University",
+                "specialization": [
+                    "morphology",
+                    "machine learning",
+                    "biomechanics"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Liam Hunt",
+                "title": "",
+                "education": "B.S., Ph.D. The University of Melbourne, Australia",
+                "specialization": [
+                    "molecular biology",
+                    "skeletal muscle disease"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kathryn A. LeCroy",
+                "title": "",
+                "education": "B.S., Birmingham-Southern College; M.S. University of Pittsburgh; Ph.D. University of Virginia",
+                "specialization": [
+                    "conservation biology",
+                    "wild bee diversity",
+                    "disease ecology",
+                    "community science"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Sydney Moyo",
+                "title": "",
+                "education": "B.S., Africa University; M.S. University of Zimbabwe; Rhodes University, Ph.D.",
+                "specialization": [
+                    "zoology",
+                    "invertebrate biology",
+                    "entomology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Tanushree Pandit",
+                "title": "",
+                "education": "B.S., M.S., RTM Nagpur University; Ph.D., Umea University",
+                "specialization": [
+                    "developmental neuroscience"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Qian Shen",
+                "title": "",
+                "education": "B.E, China Agricultural University; M.S., Mississippi State University; Ph.D. Ohio State University",
+                "specialization": [
+                    "microbiology",
+                    "fungal pathogenesis"
+                ],
+                "department": ""
+            },
+            {
+                "name": "James Engman",
+                "title": "",
+                "education": "B.S. Kent State University; B.S., M.S., Western Illinois University; Ph.D. University of Cincinnati",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Alix Matthews",
+                "title": "",
+                "education": "B.S. Rhodes College; M.S., Ph.D. Arkansas State University",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Tangela Allgood",
+                "title": "Biology Department Administrative Assistant",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jordy Gentry",
+                "title": "Biology Department Lab Supervisor for The Frazier Jelke Science Center",
+                "education": "B.S., University of Memphis",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Justin A. Porter",
+                "title": "Biology Department Lab Manager for Robertson Hall",
+                "education": "B.S., M.S., University of Georgia",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S. in Biology",
+                "degreeType": "BS",
+                "requirements": {
+                    "totalCredits": "56-59",
+                    "courses": [
+                        "BIOL 130-131L (Biology I with laboratory)",
+                        "BIOL 140-141L (Biology II with laboratory)",
+                        "CHEM 120-125L (Foundations of Chemistry with laboratory)",
+                        "CHEM 211 (Organic Chemistry I)",
+                        "One statistics course from the following list: ECON 290 (Statistical Analysis for Economics and Business), MATH 111 (Applied Statistics for Liberal Arts), MATH 211 (Applied Statistics for the Formal and Natural Sciences), PSYC 211 (Statistical Methods)",
+                        "One computational course from the following list: COMP 141 (Computer Science I: Programming Fundamentals) or above, INTD 225 (Geographic Information Systems [GIS]), MATH 115 (Applied Calculus), MATH 122 (Integral Calculus), MATH 214 (Discrete Mathematical Modeling with Biological Applications)",
+                        "BIOL 485 or 486 (Senior Seminar)",
+                        "Six upper-level courses (300 level or above) defined by concentration areas. At least four of the six upper-level courses required must have an associated lab experience. Of the four required lab experiences, three of them must be chosen from the appropriate designated concentration courses. Four credits of BIOL 451 or 452 (Research in Biology) combined can satisfy one upper-level course with lab requirement.",
+                        "Each student will choose only one of the following four concentrations in the Biology major: \u2018General Biology\u2019, \u2018Integrative Biology\u2019, \u2018Ecology, Evolution, Behavior\u2019 or \u2018Biomedical Sciences\u2019.",
+                        "additionalInfo: Satisfying the prerequisites for courses is the student\u2019s responsibility; however, in special circumstances, students with advance permission of the instructor may enroll in a course without meeting prerequisites. Courses and accompanying laboratories of the same name are linked co-requisites and must be taken together unless approved by petition to the department. Unless otherwise noted, courses meet under the standard class schedule and laboratories meet for a three-hour period; laboratories also often require further project work outside the scheduled lab time.",
+                        "doubleMajorRequirements: Students seeking a double major must have at least four upper-level courses for the Biology major that are not used to satisfy requirements for the other major."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": {},
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Courses required: those listed for the B. S. degree with a major in Biology as well as the Biology Honors Tutorial (BIOL 495 and 496).",
+                    "Students seeking to do Honors research must have a minimum GPA of 3.5 (cumulative and in the major) at the time of application and be on track to graduate at the end of the academic year in which the Honors research is carried out.",
+                    "An original investigation of some problem in the area of biology, usually related to research being carried out by a member of the Biology Department, is required. The Honors research may be conducted outside of the department, with department approval and the careful guidance of a Biology faculty member liaison for the project.",
+                    "A creditable thesis must be presented at the end of the project. The honors project and thesis must be approved by the student\u2019s Honors committee and the project must follow the department and college guidelines and schedule for Honors work. In addition, the Honors candidate should present the work publicly at a scientific meeting on- or off-campus.",
+                    "Students interested in Honors research should consult with their faculty research supervisor at Rhodes."
+                ]
+            }
+        ]
+    },
+    "Biochemistry and molecular Biology": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Terry Hill",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Larryn Peterson",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Chemistry"
+            },
+            {
+                "name": "Shana Stoddard",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Chemistry"
+            },
+            {
+                "name": "Bayly Wheeler",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S. for Biochemistry and Molecular Biology",
+                "degreeType": "BS",
+                "requirements": {
+                    "totalCredits": "62-63",
+                    "courses": [
+                        "Chemistry 120-125L (Foundations in Chemistry)",
+                        "Chemistry 211",
+                        "Chemistry 212-212L (Organic Chemistry with lab)",
+                        "Chemistry 240-240L (Analytical Chemistry with lab)",
+                        "Biology 130-131L (Biology I with lab)",
+                        "Biology 140-141L (Biology II with lab)",
+                        "Biology 307 (Cell Biology)",
+                        "Biology 325-325L (Molecular Biology with lab)",
+                        "Chemistry 315 (Biochemistry)",
+                        "BMB 310 (Methods in Biochemistry and Cell Biology)",
+                        "BMB 485 or 486 (Senior Seminar)",
+                        "Any one of the following: Computer Science 141 (Programming Fundamentals) OR Math 122 (Integral Calculus) OR Math 214 (Math Modeling) OR one course in probability and statistics. Courses that would be appropriate in the area of probability and statistics include Math 111, Math 211, Psychology 211, Economics 290.",
+                        "Two of the following courses; at least one must have a laboratory:",
+                        "Electives with Labs:",
+                        "BIOL 204-204L (Animal Development with lab)",
+                        "BIOL 301-301L (Microbiology with lab)",
+                        "BIOL 304-304L (Genetics with lab) or BIOL 305-305L (Population Genomics with lab)",
+                        "BIOL 376-376L (Molecular and Cellular Neuroscience with lab)",
+                        "CHEM 325 (Computational Protein Design and Engineering)",
+                        "CHEM 406 (Advanced Analytical Chemistry)",
+                        "CHEM 411-411L (Medicinal & Computational Chemistry with lab)",
+                        "BMB 451 or 452 (4 credits only may satisfy one elective; Research with an affiliated faculty member or must be approved by the BMB committee)",
+                        "Electivies without lab",
+                        "BIOL 330 (Virology/Immunology)",
+                        "BIOL 380 (Topics in Biomedical Science)",
+                        "CHEM 311 (Physical Chemistry)",
+                        "CHEM 416 (Mechanisms of Drug Action)"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": {},
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Courses required: those listed for the B. S. degree in Biochemistry and Molecular Biology as well as the Honors Tutorial (BMB 495 and BMB 496).",
+                    "Permission of the Biochemistry and Molecular Biology Program Committee.",
+                    "An original investigation of some problem in the area of Biochemistry and Molecular Biology. This project is usually related to work being carried out by members of the faculty affiliated with the Biochemistry and Molecular Biology Major. The project may also be carried out off campus, with the careful guidance of a BMB faculty member liaison for the project.",
+                    "A credible thesis must be presented at the end of the project. The honors project and thesis must be approved by the student\u2019s honors committee, which should be comprised of at least three members of the faculty, two affiliated with the Biochemistry and Molecular Biology Major, and one from outside of the program."
+                ]
+            }
+        ]
+    },
+    "Business": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Wendy Bailey",
+                "title": "",
+                "education": "B.A., Washington University St Louis; M.B.A., University of Colorado Boulder; Ph.D., University of Pittsburgh",
+                "specialization": [
+                    "accounting"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Dee Birnbaum",
+                "title": "",
+                "education": "B.A., State University of New York at Stony Brook; M.B.A., Baruch College; M. Phil. and Ph.D., City University of New York",
+                "specialization": [
+                    "general management",
+                    "human resource management"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kayla D. Booker",
+                "title": "",
+                "education": "B.B.A., M.P.A., and Ph.D., Jackson State University",
+                "specialization": [
+                    "accountancy"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Sujan M. Dan",
+                "title": "",
+                "education": "B.Tech, Kerala University, India; M.S. and Ph.D., Texas A&M University",
+                "specialization": [
+                    "marketing"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Denis Khantimirov",
+                "title": "",
+                "education": "B.A., North Ossetian State University, Russia; M.B.A., University of Nevada, Las Vegas; Ph.D., Old Dominion University",
+                "specialization": [
+                    "marketing"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kelly P. Weeks",
+                "title": "",
+                "education": "B.A., Rhodes College; M.A. and Ph.D., University of Memphis",
+                "specialization": [
+                    "management"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Andrey Zagorchev",
+                "title": "",
+                "education": "B.S., M.S., Plovdiv University, Bulgaria; M.B.A., Wright State University; Ph.D., Lehigh University",
+                "specialization": [
+                    "finance"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jade O. Planchon",
+                "title": "",
+                "education": "B.A., Rhodes College; M.B.A., Columbia University; Ph.D., University of Memphis",
+                "specialization": [
+                    "finance"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Milton L. Lovell",
+                "title": "",
+                "education": "B.S. and J.D., University of Mississippi; LL.M., New York University School of Law",
+                "specialization": [
+                    "accountancy",
+                    "taxation"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Sarah A. Cate",
+                "title": "",
+                "education": "B.A., Hendrix College; M.S., University of Memphis",
+                "specialization": [
+                    "accountancy"
+                ],
+                "department": ""
+            },
+            {
+                "name": "David Hopkins",
+                "title": "",
+                "education": "B.P.A., Mississippi State University",
+                "specialization": [
+                    "accounting"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Steve Zatechka",
+                "title": "",
+                "education": "B.S. and M.S., University of Nebraska-Lincoln; M.B.A., University of Memphis; Ph.D., University of Nebraska Medical Center",
+                "specialization": [
+                    "entrepreneurship"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Eric Mathews",
+                "title": "",
+                "education": "B.S., Rhodes College; M.S., University of Memphis",
+                "specialization": [
+                    "entrepreneurship"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Hannah Guess",
+                "title": "Departmental Assistant",
+                "education": "B.A. and M.A., University of Memphis",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A in Business",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": "46",
+                    "courses": [
+                        "Business 241 Financial Accounting",
+                        "Business 243 Managerial Accounting",
+                        "Business 351 Corporate Financial Management",
+                        "Business 361 Management of Organizations",
+                        "Business 371 Marketing Management",
+                        "Business 486 Senior Seminar in Business",
+                        "Economics 100 Introduction to Economics",
+                        "Economics 290 Statistical Analysis for Economics OR Mathematics 211 Applied Statistics for the Formal & Natural Sciences",
+                        "Math 115 Applied Calculus, 116 Calculus with Business Applications or 122 Integral Calculus",
+                        "Two courses from one of the following areas and one course from one of the remaining areas: a. Accounting b. Finance c. Management d. Marketing e. Business 481 Business Ethics and Social Responsibility f. Business 483 Advanced International Business Cases g. Business 484 Social Impact of Business in South Africa",
+                        "Recommended: Business 460 Internship; Philosophy 210 Logic; Computer Science 141 Computer Science I, 142 Computer Science II; Media Studies 240 Public Speaking"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": "28",
+                "courses": [
+                    "Business 241 Financial Accounting",
+                    "Business 243 Managerial Accounting",
+                    "Business 351 Corporate Financial Management",
+                    "Business 361 Management of Organizations",
+                    "Business 371 Marketing Management",
+                    "Economics 100 Introduction to Economics",
+                    "Economics 290 Statistical Analysis for Economics and Business OR Mathematics 211 Applied Statistics for the Formal & Natural Sciences"
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Meet requirements for a major in Business.",
+                    "Business 495-496.",
+                    "A substantial research paper in an area of special interest to the candidate.",
+                    "An oral examination on the research paper.",
+                    "All honors students must meet eligibility criteria established for the Honors Program."
+                ]
+            }
+        ]
+    },
+    "Chemistry": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Loretta Jackson-Hayes",
+                "title": "Professor",
+                "education": "B.S., Tougaloo College; Ph.D., University of Tennessee",
+                "specialization": [
+                    "pharmacology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Darlene M. Loprete",
+                "title": "Chair, Professor",
+                "education": "B.A., Clark University; Ph.D., University of Rhode Island",
+                "specialization": [
+                    "biochemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jon Russ",
+                "title": "Professor",
+                "education": "B.S., Corpus Christi State University; Ph.D., Texas A&M University",
+                "specialization": [
+                    "analytical chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "David Y. Jeter",
+                "title": "Professor Emeritus",
+                "education": "B.S., Texas A&M University-Commerce; Ph.D., University of North Carolina, Chapel Hill",
+                "specialization": [
+                    "inorganic chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "William Eckenhoff",
+                "title": "Associate Professor",
+                "education": "B.S., Allegheny College; Ph.D., Duquesne University",
+                "specialization": [
+                    "inorganic chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Larryn W. Peterson",
+                "title": "Associate Professor",
+                "education": "B.A., Carroll College; Ph.D., University of Southern California",
+                "specialization": [
+                    "organic chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Roberto de la Salud Bea",
+                "title": "Associate Professor",
+                "education": "B.S. and M.S., University of Valencia, Spain; Ph.D., University of Nebraska",
+                "specialization": [
+                    "organic chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Shana Stoddard",
+                "title": "Associate Professor",
+                "education": "B.S., Prairie View A&M University; M.Ed., Freed-Hardeman University; Ph.D., University of Mississippi",
+                "specialization": [
+                    "biochemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kimberly Brien",
+                "title": "Assistant Professor",
+                "education": "B.S., Texas Lutheran University; M.S., Baylor University; Ph.D., Texas Christian University",
+                "specialization": [
+                    "organic chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kavita Gaur",
+                "title": "Assistant Professor",
+                "education": "B.S., Agra, U.P., India; M.S., Agra, U.P., India; Ph.D., University of Puerto Rico",
+                "specialization": [
+                    "bioinorganic chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Dana Horgen",
+                "title": "Assistant Professor",
+                "education": "B.S., Saint Olaf College; Ph.D., Baylor University",
+                "specialization": [
+                    "organic chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Dhammika S. Muesse",
+                "title": "Assistant Professor",
+                "education": "B.S. and M.S., University of Colombo; Ph.D., University of Memphis",
+                "specialization": [
+                    "analytical chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Miguel Angel M\u00e9ndez Polanco",
+                "title": "Assistant Professor",
+                "education": "BSc, Universidad Aut\u00f3noma de Puebla (M\u00e9xico); Ph.D., University of Pennsylvania",
+                "specialization": [
+                    "physical chemistry"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Karen Mosely",
+                "title": "Chemistry Instrument Technician and Chemical Safety Officer",
+                "education": "B.S., University of Memphis; M.S. University of Memphis",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S. in Chemistry",
+                "degreeType": "BS",
+                "requirements": {
+                    "totalCredits": 44,
+                    "courses": [
+                        "Chemistry 120/125L, 211, 212/212L, 240/240L, 311/312L, 315, 408/408L, 415.",
+                        "At least 2 additional courses from the following list: 312, 406, 411/411L, 416.",
+                        "Physics 109-110 or 111-112; 113L-114L.",
+                        "Mathematics 122. Students can start in 112 and then take 122.",
+                        "CHEM 486: Senior Seminar",
+                        "At least four credits of research (Chemistry 451 and/or 452)."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 24,
+                "courses": [
+                    "CHEM 120/125L, CHEM 211, CHEM 212/212L, CHEM 240/240L.",
+                    "Two additional Chemistry courses of which one must be at the 200-level or above and the other must be 300-level or above. Both courses must be at least 4-credits."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Courses listed for the B.S. degree.",
+                    "Chemistry 495 and 496 (eight credits minimum).",
+                    "An original investigation of some problem in chemistry or biochemistry, usually related to research being carried on by a member of the department, is required. A thesis must be presented at the end of the project. The honors project and its outcome must be approved by the student\u2019s Honors Committee.",
+                    "A public presentation on the honors work is required by the department."
+                ]
+            }
+        ]
+    },
+    "Chinese Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Han Li",
+                "title": "Associate Professor",
+                "education": "B.A. Nanjing University; Ph.D. University of California, Irvine",
+                "specialization": [
+                    "literature and culture of late imperial china"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Yinyin Xue",
+                "title": "Assistant Professor",
+                "education": "B.A. Sichuan International Studies University; M.A. Peking University; M.A. and Ph.D. University of Wisconsin-Madison",
+                "specialization": [
+                    "twentieth-century chinese literature and culture"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Yang Qi",
+                "title": "Instructor",
+                "education": "B.A. Zhejiang University; M.Ed. University at Buffalo-SUNY; PhD. University of Florida",
+                "specialization": [
+                    "teaching english to speakers of other languages",
+                    "curriculum and instruction"
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Chinese Studies",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 36,
+                    "courses": [
+                        "Chinese 301 (Advanced Chinese I) and 302 (Advanced Chinese II). China Maymester may be substituted for one of the above.",
+                        "One of the following: Chinese 306: Introduction to East Asian Cultures, Chinese 314: Introduction to Chinese Culture",
+                        "Two of the following: Chinese 305: Modern Chinese Literature in Translation, Chinese 307: Orientalism and Global China on Screen, Chinese 315: Gender in Chinese Literature, Chinese 316: Asian Urbanization/Cinema, Chinese 318: Taste, Culture and Power: Asia and Global Foodways, Chinese 320: Contemporary Chinese Cinema (Chinese 305-320 can be taken in conjunction with one credit of 311.), Chinese 409: Special Topics",
+                        "Three of the following (The three courses must be taken from more than one discipline): History 282: Traditional China, History 283: Modern China, History 481: Cold War in East Asia, Religious Studies 258 Topics: History of Religions (Buddhism), INTS 261: Government and Politics of China, INTS 262: China\u2019s Foreign Policy, INTS 263: Comparative Political Economy of East Asia, INTS 264: China-Taiwan-US Relations",
+                        "Chinese 485: Senior Seminar"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "Chinese 301 and 302: Advanced Chinese*",
+                    "Two of the Chinese Literature and Culture courses: Chinese 205: Modern Chinese Literature in Translation, Chinese 206: Introduction to East Asian Cultures, Chinese 207: Orientalism and Global China on Screen, Chinese 210: Chinese Literary Heritage, Chinese 214: Introduction to Chinese Culture, Chinese 215: Gender in Chinese Literature, Chinese 216: Asian Urbanization through Cinema, Chinese 218: Taste, Culture and Power: Asia and Global Foodways, Chinese 220: Contemporary Chinese Cinema, Chinese 409: Special Topics",
+                    "One of the following courses: History 282: Traditional China, History 283: Modern China, Religious Studies 258 Topics: History of Religions (Buddhism), International Studies 261: Government and Politics of China, International Studies 262: China\u2019s Foreign Policy, International Studies 263: Comparative Political Economy of East Asia, International Studies 264: China-Taiwan-US Relations"
+                ]
+            }
+        ],
+        "honorsProgram": []
+    },
+    "Computer Science": {
+        "description": "",
         "faculty": [
             {
                 "name": "Betsy Williams Sanders",
                 "title": "Professor",
-                "joined": "2007",
                 "education": "B.S., Millsaps College; M.S. and Ph.D., Vanderbilt University",
-                "specialization": "Computer graphics and animation"
+                "specialization": [
+                    "computer graphics and animation"
+                ],
+                "department": ""
             },
             {
                 "name": "Phillip B. Kirlin",
                 "title": "Associate Professor",
-                "joined": "2012",
                 "education": "B.S., University of Maryland; M.S. and Ph.D., University of Massachusetts Amherst",
-                "specialization": "Artificial intelligence, machine learning, music informatics"
+                "specialization": [
+                    "artificial intelligence",
+                    "machine learning",
+                    "music informatics"
+                ],
+                "department": ""
             },
             {
                 "name": "D. Brian Larkins",
                 "title": "Associate Professor",
-                "joined": "2015",
                 "education": "B.S., M.S., Ph.D., The Ohio State University",
-                "specialization": "Parallel programming, programming languages, network security"
+                "specialization": [
+                    "parallel programming",
+                    "programming languages",
+                    "network security"
+                ],
+                "department": ""
             },
             {
                 "name": "Catherine E. Welsh",
                 "title": "Associate Professor",
-                "joined": "2013",
                 "education": "B.S., Ursinus College; M.S., Lehigh University; Ph.D., University of North Carolina-Chapel Hill",
-                "specialization": "Bioinformatics, computational genetics"
+                "specialization": [
+                    "bioinformatics",
+                    "computational genetics"
+                ],
+                "department": ""
             },
             {
                 "name": "Marion Lang",
                 "title": "Assistant Professor",
-                "joined": "2019",
                 "education": "B.S., Indiana University of Pennsylvania; M.S., Ph.D., The Ohio State University",
-                "specialization": "Specification and verification of distributed systems, large-scale distributed data processing and analytics systems"
+                "specialization": [
+                    "specification and verification of distributed systems",
+                    "large-scale distributed data processing and analytics systems"
+                ],
+                "department": ""
             },
             {
                 "name": "Matthew Superdock",
                 "title": "Assistant Professor",
-                "joined": "2021",
                 "education": "B.S., Princeton University; Ph.D., Carnegie Mellon University",
-                "specialization": "Type theory, formal verification, and automated reasoning"
+                "specialization": [
+                    "type theory",
+                    "formal verification",
+                    "and automated reasoning"
+                ],
+                "department": ""
             }
         ],
         "programs": [
@@ -52,122 +1216,2542 @@
                 "requirements": {
                     "totalCredits": 56,
                     "courses": [
-                        "Computer Science 141",
-                        "Computer Science 142",
-                        "Computer Science 172",
-                        "Computer Science 231",
-                        "Computer Science 241",
-                        "Computer Science 251",
-                        "Computer Science 485",
-                        "Computer Science 486"
-                    ],
-                    "mathematicsOptions": [
-                        "Mathematics 112",
-                        "Mathematics 115",
-                        "Mathematics 116",
-                        "Mathematics 122",
-                        "Mathematics 211",
-                        "Mathematics 214",
-                        "Mathematics 223"
-                    ],
-                    "electives": {
-                        "theory": [
-                            "Computer Science 350",
-                            "Computer Science 355"
-                        ],
-                        "systems": [
-                            "Computer Science 315",
-                            "Computer Science 330",
-                            "Computer Science 331",
-                            "Computer Science 340",
-                            "Computer Science 360",
-                            "Computer Science 380",
-                            "Computer Science 385"
-                        ],
-                        "applications": [
-                            "Computer Science 320",
-                            "Computer Science 325",
-                            "Computer Science 342",
-                            "Computer Science 345",
-                            "Computer Science 370",
-                            "Computer Science 372"
-                        ]
-                    },
-                    "additionalCourses": "Two additional four-credit computer science courses numbered above 300, excluding 460, 495, and 496."
+                        "Mandatory Computer Science Courses: COMP 141, COMP 142, COMP 172, COMP 231, COMP 241, COMP 251, COMP 485, COMP 486.",
+                        "Select 1 MATH class from the following options: MATH 112, MATH 115, MATH 116, MATH 122, MATH 211, MATH 214, MATH 223.",
+                        "Select 1 from each Elective area:",
+                        "Theory: COMP 350, COMP 355.",
+                        "Systems: COMP 315, COMP 330, COMP 331, COMP 340, COMP 360, COMP 380, COMP 385.",
+                        "Applications: COMP 320, COMP 325, COMP 342, COMP 345, COMP 370, COMP 372.",
+                        "Additional Courses: Two additional four-credit computer science courses numbered above 300, excluding 460, 495, and 496."
+                    ]
                 }
             }
         ],
-        "minorRequirements": {
-            "totalCredits": 24,
-            "courses": [
-                "Computer Science 141",
-                "Computer Science 142",
-                "Computer Science 172",
-                "Computer Science 241",
-                "Computer Science 251"
-            ],
-            "additionalCourse": "One additional four-credit computer science course numbered above 300"
-        },
-        "honorsProgram": {
-            "requirements": [
-                "Fulfillment of the requirements for the major",
-                "Honors Tutorial: 495 and 496",
-                "Approval by the department"
-            ],
-            "applicationProcess": "Students should consult with a faculty member about their intentions to pursue an honors project before the end of their Junior year."
-        },
-        "additional_info": {
-            "majorPlanning": {
-                "firstYear": [
-                    "Computer Science 141",
-                    "Computer Science 142",
-                    "Computer Science 241"
-                ],
-                "secondYear": [
-                    "Computer Science 172 in fall",
-                    "Computer Science 231 in spring"
-                ],
-                "mathematicsRequirements": "Completed by the end of the third year"
+        "minorRequirements": [
+            {
+                "totalCredits": 24,
+                "courses": [
+                    "COMP Courses: COMP 141, COMP 142, COMP 172, COMP 241, COMP 251",
+                    "Additional Courses: One additional four-credit computer science course numbered above 300."
+                ]
             }
-        }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Fulfillment of the requirements for the major",
+                    "Honors Tutorial: 495 and 496",
+                    "Approval by the department",
+                    "Students should consult with a faculty member about their intentions to pursue an honors project before the end of their Junior year."
+                ]
+            }
+        ]
+    },
+    "Economics": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Marshall K. Gramm",
+                "title": "Chair, Professor",
+                "education": "B.A., Rice University; Ph.D., Texas A & M University",
+                "specialization": [
+                    "applied microeconomics"
+                ],
+                "department": ""
+            },
+            {
+                "name": "C. Nicholas McKinney",
+                "title": "Robert D. McCallum Professor of Economics, Professor",
+                "education": "B.A., B.S., Centenary College of Louisiana; Ph.D., Texas A & M University",
+                "specialization": [
+                    "experimental economics",
+                    "applied microeconomics"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Courtney A. Collins",
+                "title": "Associate Professor",
+                "education": "B.A., Rhodes College; Ph.D., Texas A&M University",
+                "specialization": [
+                    "applied economics"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Teresa Beckham Gramm",
+                "title": "Associate Professor",
+                "education": "B.A., Agnes Scott College; Ph.D., University of North Carolina-Chapel Hill",
+                "specialization": [
+                    "international economics"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Shameel Ahmad",
+                "title": "Assistant Professor",
+                "education": "B.A., Stanford University; M.Sc. London School of Economics; M.A., M.Phil., Ph.D., Yale University",
+                "specialization": [
+                    "economic history"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Bruno D. Badia",
+                "title": "Assistant Professor",
+                "education": "B.A., Federal University of Rio Grande do Sul, Brazil; M.A., Federal University of Minas Gerais, Brazil; Ph.D., Stony Brook University",
+                "specialization": [
+                    "industrial organization",
+                    "game theory",
+                    "applied microeconomics"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jaqueline Oliveira",
+                "title": "Assistant Professor",
+                "education": "B.A., Federal University of Minas Gerais, Brazil; M.Sc., University of Sao Paulo, Brazil; M.A., M.Phil., Ph.D., Yale University",
+                "specialization": [
+                    "development",
+                    "labor",
+                    "family and urban economics"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Hannah Guess",
+                "title": "Departmental Assistant",
+                "education": "B.A. and M.A., University of Memphis",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A in Economics",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 48,
+                    "courses": [
+                        "Economics 100, 201, 202, 290, 420, 486.",
+                        "Twenty additional credits in Economics not including Internship (Econ 460, 461).",
+                        "Mathematics 115, 116 or 122."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "Economics 100, 201, 202.",
+                    "Eight additional credits in Economics not including Internship (Econ 460, 461)."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Requirements for a major in Economics.",
+                    "Economics 495-496 (instead of Economics 486).",
+                    "A substantial research paper in an area of special interest to the candidate.",
+                    "An oral examination on the research paper."
+                ]
+            }
+        ]
+    },
+    "Educational Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Natalie K. Person",
+                "title": "Chair, Professor",
+                "education": "B.A. University of Mississippi; M.S. and Ph.D. University of Memphis",
+                "specialization": [
+                    "cognitive psychology: learning technologies; educational psychology"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Zachary Casey",
+                "title": "",
+                "education": "B.A.E. and M.A. Arizona State University; Ph.D. University of Minnesota",
+                "specialization": [
+                    "curriculum and instruction",
+                    "multicultural education",
+                    "critical pedagogy",
+                    "teacher education"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Cara Djonko-Moore",
+                "title": "Associate Professor",
+                "education": "B.A. Northwestern University, M.A. University of Pennsylvania, Ph.D. Temple University",
+                "specialization": [
+                    "early childhood",
+                    "culturally responsive pedagogy"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Laura Taylor",
+                "title": "Associate Professor",
+                "education": "B.S. Cornell University; M.Ed. University of Saint Thomas; Ph.D. University of Texas at Austin",
+                "specialization": [
+                    "literacy teaching and learning; critical literacies; educational policy"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Laura Kelly",
+                "title": "Assistant Professor",
+                "education": "B.S. Freed-Hardeman University; M.Ed. Western Governors University; Ph.D. Arizona State University",
+                "specialization": [
+                    "elementary literacy",
+                    "bilingual education"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Joseph Kelly",
+                "title": "Teacher Licensure Coordinator",
+                "education": "B.A. Freed-Hardeman University; M.Div. Harding School of Theology; Ph.D. Southern Seminary",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Amber Lewis",
+                "title": "Administrative Assistant",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. Educational Studies",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": "44/45",
+                    "courses": [
+                        "The core requirments are: ",
+                        "Foundations of Education - EDUC 201",
+                        "Educational Psychology - EDUC 222",
+                        "Philosophy, Policy, & Equity (choose two): Urban Education - EDUC 220, African American Experiences in U.S. Schools - EDUC 225, History of Education - EDUC 230, Urban Education Policy - EDUC 240 (only for Teaching & Learning track), Philosophy of Education - EDUC 270, Race, Class, Gender, & Sexuality in Education - EDUC 320, Education & Immigration - EDUC 330, Social & Community Contexts of Education - EDUC 335, Some sections of EDUC 265 (when appropriate)",
+                        "Education Senior Seminar EDUC 485",
+                        "For a Teaching and Learning Track: ",
+                        "Principles of Curriculum and Instruction - EDUC 355*",
+                        "Educational Technologies - EDUC 300*",
+                        "Reading, Writing, and Urban Schools - EDUC 310",
+                        "Content Area Teaching Methods Course (choose one, based on curricular focus): Elementary Literacies - EDUC 370*, Methods of Teaching Secondary STEM - EDUC 380*, Methods of Teaching Secondary Humanities - EDUC 390*",
+                        "Inclusive Education - EDUC 410*",
+                        "Clinical Field Experiences - EDUC 360 (4 credits)",
+                        "For a Policy and Social Change Track: ",
+                        "Urban Education Policy - EDUC 240",
+                        "Qualitative Methods in the Social Sciences - EDUC 395*",
+                        "Clinical Field Experience - EDUC 360 (1 credit; *co-requisite with EDUC 395)",
+                        "One of the following courses:",
+                        "- The City - ANSO 241",
+                        "- Social Movements - ANSO 243",
+                        "- Introduction to Public Policy - PLAW 205",
+                        "- Urban Policy and Polities - PLAW 206",
+                        "- Race and Ethnic Politics - PLAW 207",
+                        "- Black Political Thought - PLAW 230",
+                        "- Healthcare Policy - PLAW 320",
+                        "- Community Psychology - PSYC 330",
+                        "- Nonprofits in the City - URBN 340",
+                        "You must pass the following background check ",
+                        "Tennessee Code Annotated (TCA 49-5-5610) requires all students entering state-approved educator preparation programs to submit the result of a criminal background check to the institution. Memphis Shelby County Schools (MSCS) requires criminal background checks for Rhodes College students who are placed in their schools for clinical experiences and internships with P \u2013 12 students. The results will be sent to a Rhodes College representative,"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 24,
+                "courses": [
+                    "EDUC 201",
+                    "Twenty credits selected from the following courses: any EDUC course; ECON 295 (2 credits); PSYC 229, 230, 250, 330; URBN 250."
+                ]
+            }
+        ],
+        "honorsProgram": []
+    },
+    "Enviromental Science": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Raina Belleau",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Art and Art History"
+            },
+            {
+                "name": "Erin Bodine",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Mathematics"
+            },
+            {
+                "name": "Sarah Boyle",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Michael Collins",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Kelly Diamond",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Erin Dolgoy",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Politics & Law; Department of Philosophy"
+            },
+            {
+                "name": "William Eckenhoff",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Chemistry"
+            },
+            {
+                "name": "James Engman",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Elaine Frawley",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Judith Haas",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of English"
+            },
+            {
+                "name": "Jeffrey Jackson",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Tait Keller",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Laura Loth",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages, French"
+            },
+            {
+                "name": "Sydney Moyo",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Elizabeth Pettinaroli",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages"
+            },
+            {
+                "name": "Brooke Schedneck",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Religious Studies"
+            },
+            {
+                "name": "Kate Shields",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Environmental Studies & Sciences Program"
+            },
+            {
+                "name": "Rebecca Tuvel",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Philosophy"
+            },
+            {
+                "name": "Shaolu Yu",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Urban Studies Program"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S in Environmental Sciences",
+                "degreeType": "BS",
+                "requirements": {
+                    "totalCredits": "54-56",
+                    "courses": [
+                        "ENVS 150: Environment and Society",
+                        "Three introductory courses from the list including BIOL 120(L), CHEM 120 and CHEM 125, ENVS 106(L), ENVS 107, ENVS 108, ENVS 111(L), ENVS 170, MATH 214",
+                        "One statistics course from the list including ECON 290, MATH 111, MATH 211, PSYC 211",
+                        "Four upper-level Environmental Sciences electives with at least three containing a lab component from the list provided",
+                        "One additional Environmental Studies elective from the list provided",
+                        "INTD 225: Geographic Information Systems",
+                        "ENVS 486: Senior Seminar",
+                        "Experiential Learning"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": "24-27",
+                "courses": [
+                    "ENVS 150: Environment and Society",
+                    "One introductory course from the list including BIOL 120(L), CHEM 120 and CHEM 125, ENVS 106 or ENVS 106(L), ENVS 107, ENVS 108, ENVS 111(L), ENVS 170, MATH 214",
+                    "Three Environmental Sciences courses from the list provided",
+                    "One additional Environmental Studies elective from the list provided",
+                    "Experiential Learning"
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Students must have a minimum GPA of 3.5 (cumulative and in the major) at the time of application and upon graduation.",
+                    "Students typically enroll in ENVS Research (ENVS 452) during the spring semester of their junior year, in preparation for submitting their Honors proposal.",
+                    "Students must complete all courses needed for a B. S. degree with a major in Environmental Sciences.",
+                    "Students must complete the Honors Tutorial (ENVS 495 and 496), taken during the fall and spring semesters of senior year.",
+                    "Students must conduct an original investigation of an environmentally-focused topic, under the direct supervision of an ENVS faculty member.",
+                    "Students must complete a formal research proposal by the start of the fall semester in the students\u2019 senior year.",
+                    "The research project must be completed and approved by the supervising Honors committee.",
+                    "Students must complete a scientific paper that adheres to the Rhodes College guidelines for Honors, and students must give an oral presentation of their research findings."
+                ]
+            }
+        ]
+    },
+    "Enviromental Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Raina Belleau",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Art and Art History"
+            },
+            {
+                "name": "Erin Bodine",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Mathematics"
+            },
+            {
+                "name": "Sarah Boyle",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Michael Collins",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Kelly Diamond",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Erin Dolgoy",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Politics & Law; Department of Philosophy"
+            },
+            {
+                "name": "William Eckenhoff",
+                "title": "Chair",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Chemistry"
+            },
+            {
+                "name": "James Engman",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Elaine Frawley",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Judith Haas",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of English"
+            },
+            {
+                "name": "Jeffrey Jackson",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Tait Keller",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Laura Loth",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages, French"
+            },
+            {
+                "name": "Sydney Moyo",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Elizabeth Pettinaroli",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages"
+            },
+            {
+                "name": "Brooke Schedneck",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Religious Studies"
+            },
+            {
+                "name": "Kate Shields",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Environmental Studies & Sciences Program"
+            },
+            {
+                "name": "Rebecca Tuvel",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Philosophy"
+            },
+            {
+                "name": "Shaolu Yu",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Urban Studies Program"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S. in Environmental Studies",
+                "degreeType": "BS",
+                "requirements": {
+                    "totalCredits": 52,
+                    "courses": [
+                        "ENVS 150: Environment and Society",
+                        "One introductory Environmental Sciences course from the list",
+                        "ECON 100: Introduction to Economics",
+                        "Six Environmental Studies electives from at least two departments or programs",
+                        "Two additional Environmental Sciences courses from the list"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": "24-25",
+                "courses": [
+                    "ENVS 150: Environment and Society",
+                    "Four Environmental Studies courses from at least two departments or programs",
+                    "One Environmental Sciences course from the list",
+                    "Students must also complete an environmentally-oriented experience."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Courses listed for the Major in Environmental Studies",
+                    "ENVS 495-496: Honors Tutorial",
+                    "Original investigation in some area of environmental studies",
+                    "Thesis presentation and oral presentation of the final project",
+                    "To be eligible you must have a minimum cumulative GPA and a major GPA of 3.50 at the time of application and at graduation.",
+                    "Students planning to pursue graduate study in environmental studies are strongly encouraged to take as many upper-level elective courses as possible."
+                ]
+            }
+        ]
+    },
+    "French": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Laura Loth",
+                "title": "Associate Professor",
+                "education": "B.A. College of William and Mary; M.A. and Ph.D., University of Minnesota",
+                "specialization": [
+                    "french and francophone literature and film",
+                    "environmental studies",
+                    "film studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Stacey E. Battis",
+                "title": "Assistant Professor",
+                "education": "B.A. Smith College; M.A. and Ph.D. University of California, Berkeley",
+                "specialization": [
+                    "early modern french literature",
+                    "french and francophone studies",
+                    "gender and sexuality studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Abou-Bakar Mamah",
+                "title": "Assistant Professor",
+                "education": "B.A. and M.A. University of Lom\u00e9, Togo; Ph.D. University of Minnesota",
+                "specialization": [
+                    "french critical theory",
+                    "structuralism",
+                    "french and francophone studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Sarah Finley",
+                "title": "Instructor",
+                "education": "B.A. and M.Ed. Vanderbilt University",
+                "specialization": [
+                    "french language and francophone cultures"
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in French",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 40,
+                    "courses": [
+                        "French Classes: French 201 and 202, French 301, 486",
+                        "One of the following: French 320, 321 or 322",
+                        "One of the following: French 323, 324 or 335",
+                        "Sixteen (16) additional credits in French (4 four-credit courses) four of which must be at the 300-400 level, depending on initial language placement. Students who choose to take appropriate 300-400 level courses offered by the French section in English may count up to two such courses toward the major, as long as they have a French language component.",
+                        "Encouraged Activities: Majors are strongly encouraged to spend a semester or a year in a French or Francophone university. Departmentally pre-approved courses taken there will normally be accepted as courses in the major.",
+                        "additionalNote: French 201 may count towards the major. Students whose placement is above the 201 level are neither required nor allowed to take courses numbering below their placement level for credit towards the major. Students placing above 201 are still required to take a total of 40 credits for the major."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "French classes: French 201 and 202, French 301",
+                    "One of the following: French 320, 321, 322, 323, 324, or 335",
+                    "Additional elective four-credit courses at the 300-400 level",
+                    "Encouraged Activities: Minors are strongly encouraged to study in a French or Francophone university. Courses taken abroad should be pre-approved by the section head to count towards the minor.",
+                    "Additional Note: French 201 may count towards the minor. Students whose placement is above the 201 level are neither required nor allowed to take courses numbering below their placement level for credit toward the minor. Students placing above 201 are still required to take 20 credits for the minor. Students who choose to take appropriate 300-400 level courses offered by the French section in English may count only one such course toward the minor, as long as the course has a French component."
+                ]
+            }
+        ],
+        "honorsProgram": []
+    },
+    "German Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Kathryn Holihan",
+                "title": "Assistant Professor",
+                "education": "B.A. Oberlin College; Ph.D, University of Michigan",
+                "specialization": [
+                    "late-19th through 20th-century german studies",
+                    "science studies",
+                    "museum studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Nina Morais",
+                "title": "Assistant Professor",
+                "education": "B.A. Federal University of Minas Gerais; M.A. Indiana University",
+                "specialization": [
+                    "transcultural",
+                    "transnational and migration studies; germany-africa and germany-south america relations; contemporary german theater and film"
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in German",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 36,
+                    "courses": [
+                        "The German Studies major begins from the point of the student\u2019s German language course placement. No course below a student\u2019s language course placement can be counted towards the German Studies major.",
+                        "Students must complete German 301, 302, and 486 (Capstone Project).",
+                        "German 301 or 302 must be taken before any other 300-level course is attempted but may be taken concurrently with other 300-level courses.",
+                        "Students must complete German 320 or 321.",
+                        "German 305 taken abroad may be substituted for either 301 or 302, but not both.",
+                        "Concentrations (choose one):",
+                        "A: German Language, Literature, and Culture - Students may include one German Studies course taught in English or any relevant course with approval of major advisor.",
+                        "B: Interdisciplinary German - Students may include two German Studies courses taught in English or any relevant course with approval of major advisor.",
+                        "Majors are strongly encouraged to participate in the exchange program with the University of T\u00fcbingen, the University of Landau, or with a departmentally approved ISEP program during their junior years; equivalent courses from there will be accepted as substitutes."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 24,
+                "courses": [
+                    "The German Studies minor begins from the point of the student\u2019s German language course placement. No course below a student\u2019s language course placement can be counted towards the German Studies minor.",
+                    "Students must complete German 301 and 302.",
+                    "Students initially placing into 102 or higher must complete German 320 or 321.",
+                    "German 301 or 302 must be taken before any other 300-level course is attempted but may be taken concurrently with other 300-level courses.",
+                    "German 305 taken abroad may be substituted for either 301 or 302, but not both.",
+                    "Students may include one German Studies course taught in English or any relevant course with approval of minor advisor.",
+                    "Minors are strongly encouraged to participate in an approved summer German immersion or study abroad program. See minor adviser for details."
+                ]
+            }
+        ],
+        "honorsProgram": []
+    },
+    "Gender and Sexuality Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Elizabeth Bridges",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages"
+            },
+            {
+                "name": "Zachary Casey",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Education"
+            },
+            {
+                "name": "Kathleen Doyle",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Joy Brooke Fairfield",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Media Studies Program"
+            },
+            {
+                "name": "Rhiannon Graybill",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Religious Studies"
+            },
+            {
+                "name": "Judith Haas",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of English"
+            },
+            {
+                "name": "Kimberly Kasper",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Anthropology and Sociology"
+            },
+            {
+                "name": "Mona Kreitner",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Music"
+            },
+            {
+                "name": "Susan Kus",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Anthropology and Sociology"
+            },
+            {
+                "name": "Han Li",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Jeanne Lopiparo",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Anthropology and Sociology"
+            },
+            {
+                "name": "Laura Loth",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Shira Malkin",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "David McCarthy",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Art"
+            },
+            {
+                "name": "Joel Parsons",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Director, Clough Hanson Gallery"
+            },
+            {
+                "name": "Evie Perry",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Anthropology and Sociology"
+            },
+            {
+                "name": "Leslie Petty",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of English"
+            },
+            {
+                "name": "Rashna Richards",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of English"
+            },
+            {
+                "name": "Amy Risley",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of International Studies"
+            },
+            {
+                "name": "Vanessa Rogers",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Music"
+            },
+            {
+                "name": "Brooke Schedneck",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Religious Studies"
+            },
+            {
+                "name": "Elizabeth Thomas",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Psychology and Urban Studies"
+            },
+            {
+                "name": "Rebecca Tuvel",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Philosophy"
+            },
+            {
+                "name": "Marsha Walton",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Psychology"
+            }
+        ],
+        "programs": [],
+        "minorRequirements": {},
+        "honorsProgram": []
+    },
+    "History": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Timothy S. Huebner",
+                "title": "Professor",
+                "education": "B.A., University of Miami; M.A. and Ph.D., University of Florida",
+                "specialization": [
+                    "u.s. south",
+                    "nineteenth century",
+                    "u.s. constitutional/legal history"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jeffrey H. Jackson",
+                "title": "Professor",
+                "education": "B.S., Vanderbilt University; Ph.D., University of Rochester",
+                "specialization": [
+                    "modern europe",
+                    "france",
+                    "cultural history",
+                    "natural disasters"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jonathan Judaken",
+                "title": "Professor",
+                "education": "B.A., University of California, San Diego; M.A. and Ph.D., University of California, Irvine",
+                "specialization": [
+                    "modern europe",
+                    "cultural and intellectual history"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Etty Terem",
+                "title": "Professor",
+                "education": "B.A. and M.A., Tel Aviv University; Ph.D., Harvard University",
+                "specialization": [
+                    "modern middle east and north africa",
+                    "islamic law and society"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Lynn B. Zastoupil",
+                "title": "Professor",
+                "education": "B.A., Dickinson State College; M.A., University of Texas; Ph.D., University of Minnesota",
+                "specialization": [
+                    "modern britain",
+                    "india",
+                    "european intellectual history"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Michael J. LaRosa",
+                "title": "Associate Professor",
+                "education": "B.A., George Washington University; M.A. and Ph.D., University of Miami",
+                "specialization": [
+                    "contemporary latin america",
+                    "colombia",
+                    "church history"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Seok-Won Lee",
+                "title": "Associate Professor",
+                "education": "B.A. and M.A., Yonsei University; Ph.D., Cornell University",
+                "specialization": [
+                    "modern east asia"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Charles W. McKinney, Jr.",
+                "title": "Associate Professor",
+                "education": "B.A., Morehouse College; M.A. and Ph.D., Duke University",
+                "specialization": [
+                    "african-american history",
+                    "civil rights studies",
+                    "twentieth-century united states"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Robert F. Saxe",
+                "title": "Associate Professor",
+                "education": "B.A., Reed College; Ph.D., University of Illinois",
+                "specialization": [
+                    "twentieth-century united states",
+                    "political history",
+                    "war and society"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Tait S. Keller",
+                "title": "Associate Professor",
+                "education": "B.A., University of Rochester; M.A. and Ph.D., Georgetown University",
+                "specialization": [
+                    "environmental history",
+                    "modern europe",
+                    "germany"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Sarah Ifft Decker",
+                "title": "Assistant Professor",
+                "education": "B.A., Swarthmore College, M.A., The Jewish Theological Seminary, Ph.D., Yale University",
+                "specialization": [
+                    "medieval mediterranean",
+                    "spain",
+                    "economic",
+                    "jewish",
+                    "women/gender"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Samson Ndanyi",
+                "title": "Assistant Professor",
+                "education": "B.S. and M.S., Towson University; M.A., Morgan State University; Ph.D., Indiana University, Bloomington",
+                "specialization": [
+                    "african history",
+                    "african american studies",
+                    "african diaspora studies",
+                    "world history"
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in History",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 44,
+                    "courses": [
+                        "History 300 (The Historian\u2019s Craft)",
+                        "History 485 (Senior Seminar)",
+                        "Nine (9) additional courses at the 100, 200, 300, and 400 levels, selected according to the following principles:",
+                        "No more than two sections of History 105 may be taken",
+                        "At least two must be seminar courses at the 300 level.",
+                        "At least two must be seminar courses at the 400 level.",
+                        "At least one must be taken in five of the six areas listed below:",
+                        "History of Asia, History of Europe, Global/Comparative History, History of Latin America, History of North Africa/Middle East, History of the United States",
+                        "At least one must concentrate in the period prior to 1500 CE. The following courses meet that requirement:",
+                        "History 211, History 212, History 213, History 222, History 223, History 271, History 282, History 293, History 311, History 312, History 313, History 375",
+                        "Humanities 201 (History Track) counts as a 200-level history course, although it does not fulfill one of the area requirements listed above."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "No more than two sections of History 105 may be taken.",
+                    "At least two courses at the 300 or 400 level.",
+                    "At least one course in each of three of the following areas:",
+                    "History of Asia, History of Europe, Global/Comparative History, History of Latin America, History of North Africa/Middle East, History of the United States",
+                    "Humanities 201 (History Track) counts as a 200-level history course, although it does not fulfill the area requirements listed above.",
+                    "Credit earned through AP or IB does not fulfill the requirements of the major or minor but does count toward the 128 credits required for graduation."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Completion of all requirements for a Bachelor of Arts degree in History, as well as a minimum overall grade point average of 3.50 and a minimum history grade point average of 3.50",
+                    "Completion of History 495-496",
+                    "Completion of a major research project, culminating in a research paper and an oral presentation. The student normally begins preparing a proposal by taking a directed inquiry in the spring of the junior year.The formal research proposal must be accepted by the Department early in the student\u2019s senior year. The project must be completed and approved by the supervising committee by April",
+                    "All honors students must meet eligibility criteria established for the Honors Program."
+                ]
+            }
+        ]
+    },
+    "Jewish, Islamic, and Middle Eastern Studies Program": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Etty Terem",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Esen Kirdis",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of International Studies"
+            },
+            {
+                "name": "Jonathan Judaken",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "John Kaltner",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Religious Studies"
+            },
+            {
+                "name": "Raissa A von Doetinchem de Rande",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Religious Studies"
+            },
+            {
+                "name": "Sarah Ifft Decker",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Jewish, Islamic, and Middle Eastern Studies",
+                "degreeType": "BA",
+                "requirements": {
+                    "courses": [
+                        "RELS 101-102: The Bible: Texts and Contexts (when subject matter pertains to Jewish Studies)",
+                        "RELS 232: Holocaust",
+                        "RELS 253: Judaism",
+                        "RELS 260: Archeology & Hebrew Bible (Religious Studies 200)",
+                        "RELS 276-277: Selected Topics in Hebrew/Bible/Old Testament (when subject matter pertains to Jewish Studies)",
+                        "HEBR 201: Hebrew",
+                        "HIST 105: Special Topics (when subject matter pertains to Jewish Studies)",
+                        "RELS 300-301: Selected Topics in Religious Studies (when subject matter pertains to Jewish Studies)",
+                        "HIST 405: Anti-Semitism",
+                        "HIST 320: Modern Jewish Thought and Culture",
+                        "HIST 421/FREN 335: Representing Racism in French Literature and Culture: The Jewish Question",
+                        "One Jewish, Islamic and Middle East Studies (JIME) course OR one course from the Islamic and Middle East Studies minor",
+                        "note: RELS 276 and 277 and HIST 105 may be repeated with permission of instructor and/or program committee."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "Category 1: Historical",
+                    "ART 209: Art and Architecture of the Ancient Near East and Egypt",
+                    "HIST 105: Special Topics (when subject matter pertains to Islamic and Middle East Studies)",
+                    "HIST 223: The Fall of the Roman Empire, 300-700 CE",
+                    "HIST 275: The Making of the Modern Middle East",
+                    "HIST 276: Re-Making the Twentieth Century Middle East",
+                    "HIST 277: Modern Islamic Thought",
+                    "HIST 375: Islamic History and Civilization",
+                    "HIST 475: Colonial Encounters in North Africa and Beyond",
+                    "SPAN 365: Christians, Muslims, and Jews in Spain: Past and Present (taught in Spanish)",
+                    "Category 2: Cultural",
+                    "RELS 101: The Bible: Texts and Contexts (when subject matter pertains to Islamic and Middle East Studies)",
+                    "RELS 258: Topics in the History of Religions (when subject matter pertains to Islamic and Middle East Studies)",
+                    "RELS 277: Selected Topics in Hebrew Bible/Old Testament",
+                    "Category 3: Political",
+                    "INTS 243: Governments & Politics of the Middle East",
+                    "INTS 244: Issues in Middle East Politics",
+                    "INTS 245: US Foreign Policy in the Middle East",
+                    "INTS 334: Religion & Politics",
+                    "Additional Requirements folliwing categories are:",
+                    "Students will take at least one course in the following departments: History, International Studies, and Religious Studies",
+                    "Students will take at least one upper 300-level course or 400-level course",
+                    "Students will take one Jewish, Islamic and Middle East Studies (JIME) course OR one course in the Jewish Studies minor",
+                    "RELS 276 and 277 and HIST 105 may be repeated with permission of instructor and/or program committee."
+                ]
+            }
+        ],
+        "honorsProgram": []
+    },
+    "Latin American and Latinx Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Elizabeth Pettinaroli",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Ricardo Martins",
+                "title": "Assistant Professor",
+                "education": "B.A. Universidade Federal de Minas Gerais; M.A. and Ph.D. Indiana University",
+                "specialization": [
+                    "mid-20th century - contemporary transnational and latin american literature and cinema",
+                    "brazilian favelas",
+                    "videogames",
+                    "media studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Bruno Badia",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Economics"
+            },
+            {
+                "name": "Amy Benson",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "English Department/Creative Writing"
+            },
+            {
+                "name": "Sarah Boyle",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Biology"
+            },
+            {
+                "name": "Joy Brooke Fairfield",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Media Studies Program"
+            },
+            {
+                "name": "Eric Henager",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Andrea Jacobo",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Health Equity"
+            },
+            {
+                "name": "Laura Kelly",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Educational Studies"
+            },
+            {
+                "name": "Francisco Lara",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Music"
+            },
+            {
+                "name": "Michael LaRosa",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Jeanne Lopiparo",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Anthropology and Sociology"
+            },
+            {
+                "name": "Nina Morais",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "German Studies"
+            },
+            {
+                "name": "Jaqueline Oliveira",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Economics"
+            },
+            {
+                "name": "Amy Risley",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of International Studies"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Latin American Studies",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 42,
+                    "courses": [
+                        "Latin American and Latinx Studies 200: Introduction to Latin American and Latinx Studies",
+                        "Latin American and Latinx Studies 485: Senior Seminar",
+                        "Region specific courses (Category A, at least 30 credits or more)",
+                        "Discipline specific courses with LALS attribute (Category B, 12 credits maximum)",
+                        "notes: Nine of the following courses from at least four different departments, and at least 1 course at the 300-level or above. No more than three courses in any one department may count toward the major. Other courses by approval of the Chair of the LALS Program, Professor Elizabeth Pettinaroli. Questions: Contact Prof. Elizabeth Pettinaroli Pettinaroli@pettinarolie@rhodes.edu"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 22,
+                "courses": [
+                    "Latin American and Latinx Studies 200",
+                    "Category A-Region specific courses (at least 12 credits or more)",
+                    "Category B-Discipline specific courses with LALS attribute (10 credits maximum)"
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Completion of all requirements for the Latin American Studies major.",
+                    "Completion of Latin American Studies 495-496.",
+                    "Completion and public presentation of a substantial research project. Project proposal must be approved by the Latin American Studies Committee by April of the junior year."
+                ]
+            }
+        ]
+    },
+    "Mathematics and Statistics": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Christopher Mouron",
+                "title": "Professor",
+                "education": "B.S., Lafayette College; M.S. and Ph.D., Texas Tech University",
+                "specialization": [
+                    "topology",
+                    "continuum theory",
+                    "discrete dynamical systems"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Chris Seaton",
+                "title": "Professor",
+                "education": "B.A., Kalamazoo College; Ph.D., University of Colorado at Boulder",
+                "specialization": [
+                    "differential geometry",
+                    "differential topology",
+                    "orbifolds",
+                    "lie groupoids",
+                    "singular symplectic reduction",
+                    "invariant theory"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Ibrahim Abdelrazeq",
+                "title": "Associate Professor",
+                "education": "B.S., Yarmouk University; M.S., New Mexico State University; Ph.D., University of Ottawa",
+                "specialization": [
+                    "time series analysis",
+                    "financial and actuarial mathematics",
+                    "parametric and nonparametric goodness of fit tests"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Erin N. Bodine",
+                "title": "Associate Professor",
+                "education": "B.S. and B.A., Harvey Mudd College; Ph.D., University of Tennessee, Knoxville",
+                "specialization": [
+                    "optimal control theory",
+                    "mathematical ecology",
+                    "differential equations",
+                    "discrete difference equations",
+                    "individual and agent based modeling"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kyle Dempsey",
+                "title": "Assistant Professor",
+                "education": "B.S., Lambuth University; M.S. and Ph.D., University of Memphis",
+                "specialization": [
+                    "educational games",
+                    "distance education",
+                    "child sexual abuse prevention"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Erika Parr",
+                "title": "Assistant Professor",
+                "education": "B.A., University of Dallas; Ph.D., Arizona State University",
+                "specialization": [
+                    "mathematics education"
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S in Mathematics",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 49,
+                    "courses": [
+                        "Mathematics 122, 201, 223, 261, 386, and four credits of 485 and/or 486",
+                        "Mathematics 386",
+                        "Seven additional four-credit courses from among Computer Science 141 and mathematics courses numbered above 200 (excluding 235) including at least four courses numbered above 300 (excluding 460, 495, and 496) with at least one course from each of the following breadth categories (where one course may count for more than one category):",
+                        "Statistics: Mathematics 211, 305, 311",
+                        "Modeling: Mathematics 212, 214, 305, 315, 330; Computer Science 350; Economics 407",
+                        "Proof: Mathematics 311, 321, 362, 431, 482; Computer Science 350"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 24,
+                "courses": [
+                    "For a minor in Mathematics:",
+                    "Mathematics 122",
+                    "Five additional four-credit mathematics courses numbered above 200, excluding 235, including at least one course numbered above 300. Computer Science 350 can be used as a mathematics course numbered above 300.",
+                    "For a minor in Statitics: ",
+                    "One course from: Math 211, Psych 211, or Econ 290",
+                    "Math 212",
+                    "Three additional courses from: Math 235, 305, 307, 311, 312, 330, 331, 333; Business 472; Econ 420; INTD 225 (Geographic Information Systems)",
+                    "Students planning to pursue graduate study in statistics are strongly encouraged to select Math 311 and Math 312 from the courses listed above and to take: Math 112, 122, 223, or equivalent three course calculus sequence; Math 201 Transitions to Advanced Mathematics; Math 261 Linear Algebra; Math 321 Real Analysis."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Fulfillment of the requirements for the major.",
+                    "Honors Tutorial: 495 and 496.",
+                    "Approval by the department is required. Students should consult with a faculty member about their intentions to pursue an honors project before the end of their Junior year."
+                ]
+            }
+        ]
+    },
+    "Media Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Rashna Richards",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of English"
+            },
+            {
+                "name": "John Bass",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Music"
+            },
+            {
+                "name": "Marshall Boswell",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of English"
+            },
+            {
+                "name": "Karl Erickson",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Art"
+            },
+            {
+                "name": "Joy Broke Fairfield",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Media Studies Program"
+            },
+            {
+                "name": "Han Li",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Bradley Harris",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Media Studies Program"
+            },
+            {
+                "name": "Charles Hughes",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Urban Studies Program"
+            },
+            {
+                "name": "Sarah Ifft Decker",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Sasha Kostina",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Michael LaRosa",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Laura Loth",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "David Mason",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Media Studies Program"
+            },
+            {
+                "name": "J. David Maxson",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Media Studies Program"
+            },
+            {
+                "name": "David McCarthy",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Art"
+            },
+            {
+                "name": "Samson Ndanyi",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            },
+            {
+                "name": "Scott Newstok",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of English"
+            },
+            {
+                "name": "Clara Pascual-Argente",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Evelyn Perry",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Anthropology and Sociology"
+            },
+            {
+                "name": "Rebecca Tuvel",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Philosophy"
+            },
+            {
+                "name": "Earl Wright II",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Anthropology and Sociology"
+            },
+            {
+                "name": "Yinyin Xue",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of Modern Languages and Literatures"
+            },
+            {
+                "name": "Shaolu Yu",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Urban Studies Program"
+            },
+            {
+                "name": "Nikolaos Zahariadis",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of International Studies"
+            },
+            {
+                "name": "Lynn Zastoupil",
+                "title": "",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": "Department of History"
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Media Studies",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 40,
+                    "courses": [
+                        "MST 202: Topics in Media Studies OR Art 102: Intro to Digital Art (4 credits)",
+                        "MST 385: Film and Media Theory (4 credits)",
+                        "MST 485: Senior Seminar in Media Studies (4 credits)",
+                        "You must have one of the two concentrations: ",
+                        "Film Studies: Various courses from different departments focusing on film studies",
+                        "Media Production:Various art courses and courses related to media production",
+                        "Electives:",
+                        "Courses from the other Media Studies concentration",
+                        "Various other elective courses related to media studies, including anthropology, sociology, art, English, history, international studies, media studies, philosophy, politics and law, Russian, Spanish, and urban studies",
+                        "16 out of 40 credits should be at the 300 or 400 level.",
+                        "8 out of 40 credits must be in courses that focus on media outside the US."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "English 202: Introduction to Cinema",
+                    "English 382: Film Theory",
+                    "Three additional courses from a list of offerings in various departments",
+                    "One of these requirements may be satisfied by a directed inquiry or an internship (on approval of the Media Studies Committee)."
+                ]
+            }
+        ],
+        "honorsProgram": []
+    },
+    "Music": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Carole Choate Blankenship",
+                "title": "Chair",
+                "education": [
+                    "B.A., Rhodes College",
+                    "M.M., D.M.A., University of Memphis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Courtenay L. Harter",
+                "title": "Associate Professor",
+                "education": [
+                    "B.F.A., Carnegie Mellon University",
+                    "M.M., Northwestern University",
+                    "Ph.D., University of Connecticut"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "William M. Skoog",
+                "title": "Director of Choral Activities, Conducting",
+                "education": [
+                    "B.A., Gustavus Adolphus College",
+                    "M.A., University of Denver",
+                    "D.A., University of Northern Colorado"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "John B. Bass, III",
+                "title": "Associate Professor",
+                "education": [
+                    "B.M., University of Southern Mississippi",
+                    "M.M., Ph.D., University of Memphis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Thomas E. Bryant",
+                "title": "Associate Professor",
+                "education": [
+                    "B.M., M.M., University of Georgia",
+                    "D.M., Northwestern University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Vanessa L. Rogers",
+                "title": "Associate Professor",
+                "education": [
+                    "B.M.E., Illinois Wesleyan University",
+                    "M.A., Ph.D., University of Southern California"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jacob Sunshine",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.A., Columbia University",
+                    "M.A., Ph.D. A.B.D., Harvard University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Mike Assad",
+                "title": "Adjunct Instructor",
+                "education": [
+                    "B.M., University of Kentucky",
+                    "M.M., University of Memphis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Whitney Branan",
+                "title": "Adjunct Instructor",
+                "education": [
+                    "B.A., Wagner College"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Erika Pope",
+                "title": "Musical Arts Coordinator",
+                "education": "B.A., Henderson State University",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Music",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 52,
+                    "courses": [
+                        "Music_Theory: 12 credits",
+                        "Music_History_&_Literature: 12 credits",
+                        "Performance: 12 credits",
+                        "Senior_Experience: 8 credits",
+                        "Music_Electives: 8 credits",
+                        "Music Fee Waiver: Once declared, Music majors will have the Applied Music fees waived for up to eight (8) credits of their principal applied instrument."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 24,
+                "courses": [
+                    "Music_Theory: 4 credits",
+                    "Music_History_&_Literature: 4 credits",
+                    "Performance: 8 credits",
+                    "Music_Electives: 8 credits",
+                    "Music Fee Waiver: Once declared, Music minors will have the Applied Music fees waived for up to four (4) credits of their principal applied instrument."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Only students with a minimum overall GPA of 3.5 and a GPA within the major of 3.5 by the end of the fall semester of their junior year will be eligible to pursue honors.",
+                    "The one-credit Honors Tutorial, Music 399, in spring of the junior year",
+                    "The Senior Honors Tutorials, Music 495-496, in fall and spring of the senior year. An overall grade of A- on the thesis or project itself is required for Honors credit."
+                ]
+            }
+        ]
+    },
+    "Neuroscience": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "David Kabelik",
+                "title": "Professor",
+                "education": [
+                    "H.B.Sc., University of Toronto",
+                    "Ph.D., Arizona State University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kelly A. Dougherty",
+                "title": "Professor",
+                "education": [
+                    "B.S., West Chester University",
+                    "Ph.D., Thomas Jefferson University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jason Haberman",
+                "title": "Professor",
+                "education": [
+                    "B.A., University of Miami",
+                    "M.A., Ph.D., University of California - Davis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Rebecca Klatzkin",
+                "title": "Professor",
+                "education": [
+                    "B.S., University of Richmond",
+                    "Ph.D., University of North Carolina, Chapel Hill"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Larryn W. Peterson",
+                "title": "Professor",
+                "education": [
+                    "B.A., Carroll College",
+                    "Ph.D., University of Southern California"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Carlos Lafourcade",
+                "title": "Associate Professor",
+                "education": [
+                    "Licenciate degree and Ph.D., University of Buenos Aires"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jared Millson",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., Boston University",
+                    "Ph.D., Emory University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Tanushree Pandit",
+                "title": "Associate Professor",
+                "education": [
+                    "B.S., M.S., RTM Nagpur University",
+                    "Ph.D., Umea University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Laura Shannahan",
+                "title": "Associate Professor",
+                "education": [
+                    "B.S., University of Wisconsin at Madison",
+                    "Ph.D., Northwestern University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.S. in Neuroscience",
+                "degreeType": "BS",
+                "requirements": {
+                    "totalCredits": "54-58",
+                    "courses": [
+                        "Core Requirements:",
+                        "120&125L (Foundations of Chemistry & Lab)",
+                        "Biol 130&131L (Biology I & Lab)",
+                        "Biol 140&141L (Biology II & Lab)",
+                        "Psyc 150 (Introduction to Psychological Science)",
+                        "Psyc 211 or Math 211 (Statistical Methods in Psychology or Applied Statistics for the Natural Sciences)",
+                        "Neur 270 (Neuroscience)",
+                        "Neur 485 or 486 (Senior Seminar)"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": {},
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "GPA: Maintaining a cumulative and major GPA of at least 3.5",
+                    "Must take Neuroscience 399 (Spring of junior year) and Up to 8 credits of Neuroscience 495-496 each semester of senior year",
+                    "Submit a proposal for an independent research project for approval by the Program Committee by the start of the senior year. A written report and oral presentation at the conclusion of the research project are required. The honors degree in Neuroscience is contingent upon committee acceptance of the research manuscript."
+                ]
+            }
+        ]
+    },
+    "Politics and Law": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Michael Nelson",
+                "title": "Fulmer Professor of Political Science",
+                "education": [
+                    "B.A., College of William and Mary",
+                    "M.A. and Ph.D., The Johns Hopkins University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Marcus D. Pohlmann",
+                "title": "Emeritus",
+                "education": [
+                    "B.A., Cornell College",
+                    "M.A., M.Phil. and Ph.D., Columbia University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Erin A. Dolgoy",
+                "title": "Associate Professor",
+                "education": [
+                    "M.A. and Ph.D., Michigan State University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Anna S. Eldridge",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.A., Rhodes College",
+                    "J.D., Duke University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Thomas Goodman",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.S., Northeastern University",
+                    "M.A., Ph.D., Boston College"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kyu Chul (Casey) Shin",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.A., Ursinus College",
+                    "Ph.D., West Virginia University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Anna R. Smith",
+                "title": "Director of Mock Trial",
+                "education": [
+                    "B.A., Rhodes College",
+                    "J.D., Duke University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Hannah Guess",
+                "title": "Departmental Assistant",
+                "education": [
+                    "B.A. and M.A., University of Memphis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Poltics & Law",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": "44",
+                    "courses": [
+                        "For a Concentration in Politics & Law:",
+                        "PLAW 151: U. S. Politics",
+                        "PLAW 270: Research Methods",
+                        "PLAW 485: Senior Seminar",
+                        "One course in political thought and philosophy",
+                        "International Studies 110 or International Studies 120",
+                        "PLAW 460: Public Affairs Internship with a law concentration",
+                        "Five additional courses (20 credits) in Political and Law, two of which must be at the 300 level. Students may count up to two International Studies courses towards their major.",
+                        "Additional_Information: In satisfying the requirements above, the Politics and Law concentration requires students to take any two of the following courses: PLAW 216: Philosophy of Law; PLAW 262: Trial Procedure; PLAW 264: Rights of the Accused; PLAW 280: Judicial Politics; PLAW 283: Topics in Public Law; and PLAW 301: Civil Liberties. Students may petition the chair to count one non-Politics and Law course that focuses on the study of jurisprudence as a substitute for one of the aforementioned courses. PLAW 263 does not count toward a Political Science major.",
+                        " ",
+                        "For a concentration in Political Science",
+                        "PLAW 151: U. S. Politics",
+                        "PLAW 270: Research Methods",
+                        "PLAW 485: Senior Seminar",
+                        "One course in political thought and philosophy",
+                        "International Studies 110 or International Studies 120",
+                        "Six additional courses (24 credits) in Political and Law, two of which must be at the 300 level. Students may count up to two International Studies courses towards their major. PLAW 460, Public Affairs Internship, may count as a major elective at the 200 level.",
+                        "PLAW 263 does not count toward a Political Science major."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": "20",
+                "courses": [
+                    "PLAW 151: U. S. Politics",
+                    "Two courses at the 200-level. Humanities 201 (Politics Track) may count for a 200 level course.",
+                    "Two courses at the 300-level or above.",
+                    "PLAW 460, Public Affairs Internship, does not count as a course for the Political Science minor. PLAW 262 and 263 do not count toward a Political Science minor."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Only students with a minimum overall GPA of 3.5 and a GPA within the major of 3.5 by the end of the fall semester of their junior year will be eligible to pursue honors.",
+                    "The one-credit Honors Tutorial, Music 399, in spring of the junior year",
+                    "The Senior Honors Tutorials, Music 495-496, in fall and spring of the senior year. An overall grade of A- on the thesis or project itself is required for Honors credit."
+                ]
+            }
+        ]
+    },
+    "Philosophy": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Daniel Cullen",
+                "title": "Professor",
+                "education": [
+                    "M.A., Dalhousie University",
+                    "Ph.D., Boston College"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Stephen Wirls",
+                "title": "Professor",
+                "education": [
+                    "B.A., Kenyon College",
+                    "Ph.D., Cornell University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Erin Dolgoy",
+                "title": "Associate Professor",
+                "education": [
+                    "H.B.A., University of Toronto",
+                    "M.A., University of Alberta",
+                    "Ph.D., Michigan State University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Rebecca Tuvel",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., McGill University",
+                    "Ph.D., Vanderbilt University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jared Millson",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.A., Boston University",
+                    "Ph.D., Emory University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Christie Arnold",
+                "title": "Departmental Assistant",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Philosophy",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": "44",
+                    "courses": [
+                        "Philosophy 200 (Critical Reasoning)",
+                        "Philosophy 222 (Ethics)",
+                        "Senior Seminar 486",
+                        "At least one course from each of the following categories:",
+                        "Category A: Logic (310), Epistemology (319)",
+                        "Category B: Philosophy of Race and Racism (220), Justice, Equality, and Liberty (225), Feminist Philosophy (355)",
+                        "Category C: Ancient Philosophy (201), Modern Political Philosophy (345)",
+                        "Electives: Five additional courses, only two of which can be at the 100-level and two of which must be at the 300-400 level. Humanities 201 (Philosophy track) may be counted as one of those courses."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": "20",
+                "courses": [
+                    "Philosophy 200 (Critical Reasoning)",
+                    "One 300-level course or above",
+                    "Three additional courses at any level (no more than one 100-level course can count toward the minor). Humanities 201 (Philosophy track) may be counted as one of those courses."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Fulfillment of the requirements for a major in Philosophy",
+                    "Philosophy 399 (Honors course)",
+                    "Oral examination on the honors essay and related field",
+                    "Approval of the honors project by the Philosophy Department Honors Committee"
+                ]
+            }
+        ]
     },
     "Physics": {
-        "description": "The Physics Department provides a comprehensive education in physics principles, experimental techniques, and theoretical analysis. It prepares students for further studies and careers in physics and related fields, emphasizing both fundamental physics knowledge and research experience.",
+        "description": "",
         "faculty": [
             {
                 "name": "Brent K. Hoffmeister",
                 "title": "Professor",
-                "joined": "1996",
                 "education": "B.A., Wabash College; Ph.D., Washington University",
-                "specialization": "Ultrasonics, medical physics"
+                "specialization": [
+                    "ultrasonics",
+                    "medical physics"
+                ],
+                "department": ""
             },
             {
                 "name": "Shubho Banerjee",
                 "title": "Professor",
-                "joined": "2002",
                 "education": "M.S., Indian Institute of Technology, Kanpur; Ph.D., Carnegie Mellon University",
-                "specialization": "Electrostatics, thermodynamics, theoretical physics"
+                "specialization": [
+                    "electrostatics",
+                    "thermodynamics",
+                    "theoretical physics"
+                ],
+                "department": ""
             },
             {
                 "name": "Ann M. Viano",
                 "title": "Associate Professor and Chair",
-                "joined": "1999",
                 "education": "B.S., Santa Clara University; Ph.D., Washington University",
-                "specialization": "Materials science, solid-state physics, medical imaging, biophysics"
+                "specialization": [
+                    "materials science",
+                    "solid-state physics",
+                    "medical imaging",
+                    "biophysics"
+                ],
+                "department": ""
             },
             {
                 "name": "David S. N. Rupke",
                 "title": "Associate Professor",
-                "joined": "2010",
                 "education": "B.S., Calvin College; Ph.D., University of Maryland",
-                "specialization": "Observational and extragalactic astronomy"
+                "specialization": [
+                    "observational and extragalactic astronomy"
+                ],
+                "department": ""
             },
             {
                 "name": "Gregory B. Vieira",
                 "title": "Assistant Professor",
-                "joined": "2019",
                 "education": "B.S., University of Maryland; Ph.D., The Ohio State University",
-                "specialization": "Magnetic materials and devices"
+                "specialization": [
+                    "magnetic materials and devices"
+                ],
+                "department": ""
             }
         ],
         "programs": [
@@ -177,72 +3761,660 @@
                 "requirements": {
                     "totalCredits": 51,
                     "courses": [
-                        "Physics 111-112 (or 109-110 with departmental approval)",
-                        "Physics 113-114",
-                        "Physics 211 and 213",
-                        "Physics 250",
-                        "Physics 301, 305, 401, and 406",
-                        "Physics 486"
-                    ],
-                    "additionalCredits": [
-                        "At least 4 additional Physics credits at the 200-level or above",
-                        "At least 4 additional Physics credits at the 300-level or above"
-                    ],
-                    "mathematicsRequirements": [
-                        "Mathematics 122 and 223"
-                    ],
-                    "recommendedCourses": [
-                        "Mathematics 251 (Differential Equations)",
-                        "Mathematics 261 (Linear Algebra)",
-                        "Mathematics 311 (Probability Theory)",
-                        "Mathematics 312 (Mathematical Statistics)",
-                        "Mathematics 324 (Vector and Advanced Calculus)",
-                        "Mathematics 370 (Complex Variables)",
-                        "Computer Science 141 (Programming Fundamentals)",
-                        "Computer Science 142 (Object-Oriented Programming)"
+                        "Physics classes: PHYS 111-112 (or 109-110 with departmental approval, PHYS 113-114, PHYS 211, PHYS 213, PHYS 250, PHYS 301, PHYS 305, PHYS 401, PHYS 406, PHYS 486. ",
+                        "Additional Physics Credits: At least 4 additional Physics credits at the 200-level or above, At least 4 additional Physics credits at the 300-level or above",
+                        "Math Requriements: MATH 122, MATH 223",
+                        "Recommended Courses: Mathematics 251 (Differential Equations), Mathematics 261 (Linear Algebra), Mathematics 311 (Probability Theory), Mathematics 312 (Mathematical Statistics), Mathematics 324 (Vector and Advanced Calculus), Mathematics 370 (Complex Variables), Computer Science 141 (Programming Fundamentals), Computer Science 142 (Object-Oriented Programming)"
                     ]
                 }
             }
         ],
-        "minorRequirements": {
-            "totalCredits": 20,
-            "courses": [
-                "Physics 111-112 (or 109-110 with departmental approval) and Physics 113-114",
-                "Physics 211",
-                "At least one additional 4-credit Physics course at the 200-level or above"
-            ],
-            "mathematicsRequirement": "Mathematics 122",
-            "note": "Mathematics 223 (Multivariable Calculus) is recommended but not required."
-        },
-        "honorsProgram": {
-            "requirements": [
-                "Courses listed for the B.S. degree with a major in Physics",
-                "Physics 495-496, Honors Tutorial",
-                "Original investigation in some area of physics",
-                "Thesis presentation and oral presentation of the final project"
-            ],
-            "eligibility": "Minimum cumulative GPA and a major GPA of 3.50 at the time of application and at graduation.",
-            "additionalInformation": "Students planning to pursue graduate study in physics are strongly encouraged to take as many upper-level elective physics courses as possible."
-        },
-        "additional_info": {
-            "prospectiveStudentsAdvice": {
-                "consultFaculty": "All prospective physics majors should consult with a faculty member in the department as early as possible.",
-                "firstYearCourses": [
-                    "Physics 111-112",
-                    "Mathematics 112",
-                    "Mathematics 122"
-                ],
-                "note": "Physics 101, 105, and 107 may not be used for credit towards a major or minor in physics, but may be used for general degree credits."
-            },
-            "majorEssay": {
-                "requirements": [
-                    "A statement of your goals in pursuing a physics major",
-                    "Areas of physics that represent your greatest interests",
-                    "A brief description of other academic concentrations you are planning and how those areas complement your interests in physics",
-                    "A description of your plans after graduation"
-                ],
-                "wordCount": "250 - 500 words"
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "Physics Classes: PHYS 111-112 (or 109-110 with departmental approval) and PHYS 113-114, PHYS 211",
+                    "At least one additional 4-credit Physics course at the 200-level or above",
+                    "Math Requirements: Mathematics 122",
+                    "note: Mathematics 223 (Multivariable Calculus) is recommended but not required."
+                ]
             }
-        }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Physics 495-496, Honors Tutorial",
+                    "Original investigation in some area of physics",
+                    "Thesis presentation and oral presentation of the final project",
+                    "Minimum cumulative GPA and a major GPA of 3.50 at the time of application and at graduation.",
+                    "Additional Information: Students planning to pursue graduate study in physics are strongly encouraged to take as many upper-level elective physics courses as possible."
+                ]
+            }
+        ]
+    },
+    "Psychology": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Natalie Person",
+                "title": "Professor",
+                "education": [
+                    "B.A., University of Mississippi",
+                    "Ph.D., University of Memphis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Elizabeth Thomas",
+                "title": "Professor",
+                "education": [
+                    "B.A., Georgetown University",
+                    "Ph.D., University of Illinois at Urbana-Champaign"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Katherine White",
+                "title": "Professor",
+                "education": [
+                    "B.A., Rhodes College",
+                    "Ph.D., University of Florida"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jason Haberman",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., University of Miami",
+                    "M.A. and Ph.D., University of California - Davis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Kiren Khan",
+                "title": "Associate Professor",
+                "education": [
+                    "A.B., University of Pennsylvania",
+                    "Ph.D., The Pennsylvania State University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Rebecca Klatzkin",
+                "title": "Associate Professor",
+                "education": [
+                    "B.S., University of Richmond",
+                    "Ph.D., University of North Carolina, Chapel Hill"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Geoffrey Maddox",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., University of Missouri",
+                    "M.A., Ph.D., Washington University in St. Louis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Matthew Weeks",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., Kentucky Wesleyan College",
+                    "Ph.D., University of Memphis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Amanda Hasselle",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.A., Trinity University",
+                    "M.S., Ph.D., University of Memphis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Katherine (Kailey) Lawson",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.A., Pomona College",
+                    "M.A., Ph.D., University of California - Davis"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Laura Shanahan",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.S., University of Wisconsin, Madison",
+                    "Ph.D., Northwestern University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Anjeanette Tiamiyu",
+                "title": "Departmental Assistant",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Psychology",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCourses": "11",
+                    "totalCredits": "44",
+                    "courses": [
+                        "Psychology 150",
+                        "Psychology 200",
+                        "Psychology 211",
+                        "At least one course from each of the following five content domains (At least three of these courses must be core courses (bolded) from separate domains). * each course can only count in one content domain:\n1. Developmental Across the Lifespan: Psychology 222, 229, 230, 231, 306*.\n2. Cognition and Learning: Psychology 216*, 306*, 327, 345/345L.\n3. Biological Bases of Behavior: Psychology 216*, 317* or 318*, 344/344L; Neuroscience 270.\n4. Sociocultural Bases of Behavior and Experience: Psychology 232, 240, 280, 323, 330.\n5. Health and Well-Being: 218, 220, 224, 311, 324, 317* or 318*, 338.",
+                        "One course should be a 300-level course from one of the content domains.",
+                        "One advanced methods course from among Psychology 350 \u2013 353 that should be taken junior year. Before taking a particular advanced methods course, students should complete PSYC 200 and 211, as well as the core course that relates to it.",
+                        "One community-based or independent investigation course: Psychology 229 (some sections), 231, 330, 451, 452, 460, 495, or 496; Education 360 or 460.",
+                        "One other course in psychology (only one 105 course may count) or one of the following: EDUC 222, URBN 250, MUS 145.",
+                        "Psychology 485 to be taken during the senior year.",
+                        "source: https://catalog.rhodes.edu/programs-study/psychology/requirements-major-psychology"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 24,
+                "courses": [
+                    "Psychology 150",
+                    "Psychology 200",
+                    "Four additional psychology courses (or Neuroscience 270) to be chosen in consultation with a departmental advisor and to be approved by the department chair. These will be selected to coordinate with the student\u2019s major and career aspirations, and will normally include at least one 300- or 400-level course. Only one 105 course may count.",
+                    "source: https://catalog.rhodes.edu/programs-study/psychology/requirements-minor-psychology"
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Members of the faculty of the Department of Psychology encourage students of exceptional academic accomplishment to pursue research with a departmental faculty sponsor that is of an in-depth, rigorous nature; this work will introduce the student to the quality of research one would normally experience in a graduate program. Because the level of involvement of the student and their faculty sponsor will be greater in Honors research than that in either a Tutorial or Directed Inquiry, the faculty of the Department of Psychology have established rules for student admission into the Departmental Honors Program. Please contact the Department Chair for a copy of the Honors Research Guidelines. It is recommended that students interested in pursuing department honors enroll in Junior Seminar 399.",
+                    "Source: https://catalog.rhodes.edu/programs-study/psychology/honors-psychology"
+                ]
+            }
+        ]
+    },
+    "Religious Studies": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Patrick Gray",
+                "title": "Professor",
+                "education": [
+                    "B.A., Oglethorpe University",
+                    "M.T.S., Ph.D., Emory University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Stephen R. Haynes",
+                "title": "Professor",
+                "education": [
+                    "B.A., Vanderbilt University",
+                    "M.A., Florida State University",
+                    "M.Div., Columbia Theological Seminary",
+                    "Ph.D., Emory University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Steven L. McKenzie",
+                "title": "Professor",
+                "education": [
+                    "B.A., M.Div., Abilene Christian University",
+                    "Th.D., Harvard University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Thomas Bremer",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., The Ohio State University",
+                    "M.A., Ph.D., Princeton University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "John C. Kaltner",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., State University of New York at Oswego",
+                    "M.A., Maryknoll School of Theology",
+                    "S.S.L., Pontifical Biblical Institute",
+                    "Ph.D., Drew University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Bernadette McNary-Zak",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., University of Rochester",
+                    "M.A., Catholic University of America",
+                    "Ph.D., University of Toronto"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Sarah E. Rollens",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., University of North Carolina at Wilmington",
+                    "M.A., University of Alberta",
+                    "Ph.D., University of Toronto"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Brooke Schedneck",
+                "title": "Associate Professor",
+                "education": [
+                    "B.A., Boston University",
+                    "M.T.S., Harvard University",
+                    "Ph.D., Arizona State University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Raissa von Doetinchem de Rande",
+                "title": "Assistant Professor",
+                "education": [
+                    "M.A., University of Oxford",
+                    "M.A.R., Yale University",
+                    "M.A., Ph.D., Princeton University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Beck Henricksen",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.S., B.A., Biola University",
+                    "M.A., Yale Divinity School",
+                    "M.A., Brown University",
+                    "Ph.D., University of North Carolina at Chapel Hill"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Shatavia L. Wynn",
+                "title": "Assistant Professor",
+                "education": [
+                    "B.A., Claflin University",
+                    "M.A., Yale University Divinity School",
+                    "Ph.D., Vanderbilt University"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Micah D. Greenstein",
+                "title": "Part-Time Faculty",
+                "education": [
+                    "B.A., Cornell University",
+                    "M.P.A., Harvard University",
+                    "Rabbinic Ordination, M.A.H.L., D.D., Hebrew Union College-Jewish Institute of Religion"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Jonathan C. Lewis",
+                "title": "Part-Time Faculty",
+                "education": [
+                    "B.A., University of Georgia",
+                    "M.Div., Duke Divinity School",
+                    "D.Min., Memphis Theological Seminary"
+                ],
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Christie Arnold",
+                "title": "Departmental Assistant",
+                "education": "",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Religious Studies",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": "36",
+                    "courses": [
+                        "Religious Studies 255, 256; One of the following: 251, 253 or 258.",
+                        "One 200-level course in Bible (260, 270-277, 280-286).",
+                        "One 200-level course in theology and ethics (211, 220, 232, 233). The Religion track of HUM 201 can count toward this requirement.",
+                        "Three 300-level courses. (Religious Studies 399, the Junior Honors Tutorial, does not count towards fulfilling this requirement.)",
+                        "Religious Studies 485 (Religious Studies 256 and at least one 300-level course must be completed prior to taking Religious Studies 485.)",
+                        "note: The Health Equity Internships (Religious Studies 460) may count toward fulfilling the third requirement for the Religious Studies major.",
+                        "source: https://catalog.rhodes.edu/programs-study/religious-studies/requirements-major-religious-studies"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": "20",
+                "courses": [
+                    "Religious Studies 101 and 102 or Humanities 101 and 102.",
+                    "Two 200-level courses in different areas of Religious Studies (biblical studies, theology and ethics, history of religions). Certain courses (e.g., Humanities 201 or AMS 250) can fulfill this requirement when cross-listed as Religious Studies courses.",
+                    "One 300-level Religious Studies seminar in any area.",
+                    "note: The Health Equity Internships (Religious Studies 460) may count toward fulfilling the second requirement for the Religious Studies minor.",
+                    "source: https://catalog.rhodes.edu/programs-study/religious-studies/requirements-minor-religious-studies"
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Honors research in Religious Studies is established by consultation between the student and the department. In addition to the courses required for a major, the honors program requires the one-hour junior honors tutorial, Religious Studies 399, and the senior honors tutorials, Religious Studies 495-496, in which the student will be guided in the research and writing of an honors paper.",
+                    "Source: https://catalog.rhodes.edu/programs-study/religious-studies/honors-religious-studies"
+                ]
+            }
+        ]
+    },
+    "Russian": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Alexandra Kostina",
+                "title": "Associate Professor",
+                "education": "M.A. Novgorod State University; Ph.D. Gornyi University/Russian State Pedagogical University",
+                "specialization": [
+                    "russian language",
+                    "linguistics",
+                    "and culture"
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Russian Studies",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 36,
+                    "courses": [
+                        "Russian 202: Intermediate Russian",
+                        "Russian 205: The Russian Religious Mind and either Russian 212: Prophets, Princesses, and Revolutionaries or Russian 300: Dostoevsky",
+                        "Two courses from Russian 301, 302, 309 (All advanced Russian)",
+                        "Russian 410: Analytical Reading, Russian 486: Senior seminar",
+                        "Russian 285: Putin\u2019s Russia and the Media and ML280: Introduction into General Linguistics",
+                        "encouragedActivity: Majors are encouraged to spend at least one semester studying in Russia."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "Russian 202 (Intermediate Russian), 301 (Advanced Russian), 302 (Advanced Russian)",
+                    "Two of the following: Russian 205: Russian Religious Mind, 212: Prophets, Princesses, and Revolutionaries, 285: Putin\u2019s Russian and the Media, 300: Dostoevsky, 410: Analytical Reading",
+                    "Substitutions are possible (say, you took a relevant course in IS or History, they can be applied toward your major or minor), which may make it easier to major or minor in Russian Studies."
+                ]
+            }
+        ],
+        "honorsProgram": []
+    },
+    "Spanish": {
+        "description": "",
+        "faculty": [
+            {
+                "name": "Kathleen Anne Doyle",
+                "title": "Associate Professor",
+                "education": "B.A., Saint Xavier College, Chicago; M.A. and Ph.D., University of Chicago",
+                "specialization": [
+                    "spanish language",
+                    "modernism in spain",
+                    "contemporary peninsular spanish literature",
+                    "gender and sexuality studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Eric Henager",
+                "title": "Associate Professor",
+                "education": "B.A., Rhodes College; M.A. and Ph.D., University of Illinois",
+                "specialization": [
+                    "spanish language",
+                    "contemporary latin american literatures and cultures",
+                    "popular culture and literature",
+                    "latin american studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Clara Pascual-Argente",
+                "title": "Associate Professor",
+                "education": "B.A. and M.A. Universidad de Salamanca; Ph.D. Georgetown University",
+                "specialization": [
+                    "medieval and early modern spanish literature",
+                    "film studies"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Elizabeth Marcela Pettinaroli",
+                "title": "Associate Professor",
+                "education": "B.A. Franklin and Marshall College; M.A. and Ph.D., University of Virginia",
+                "specialization": [
+                    "latin american literature",
+                    "ecocritical studies",
+                    "urban and environmental studies",
+                    "bibliodiversity",
+                    "spanish language in socio-cultural contexts"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Alberto del Pozo Mart\u00ednez",
+                "title": "Associate Professor",
+                "education": "Licenciado en Filolog\u00eda, Universidad de Zaragoza; M.A. and Ph.D. Vanderbilt University",
+                "specialization": [
+                    "modern spanish american literature and literary theory"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Rachel No\u00ebl Bauer",
+                "title": "Assistant Professor",
+                "education": "B.A. Duquesne University; M.A. Purdue University; Ph.D. Vanderbilt University",
+                "specialization": [
+                    "early modern spanish literature",
+                    "golden age narrative",
+                    "don quixote de la mancha"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Juanita Bernal Benavides",
+                "title": "Assistant Professor",
+                "education": "B.A. and M.A. Universidad de los Andes; Ph.D. University of Michigan",
+                "specialization": [
+                    ""
+                ],
+                "department": ""
+            },
+            {
+                "name": "Bruce M. Jackson, Jr.",
+                "title": "Assistant Professor",
+                "education": "B.A. and M.A. Middle Tennessee State University; Ph.D. University of Tennessee, Knoxville",
+                "specialization": [
+                    "mid-19th to mid-20th century spanish peninsular literature and culture",
+                    "minority cultures in contemporary spain"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Catherine Sundt",
+                "title": "Assistant Professor",
+                "education": "B.A. Grand Valley State University; M.A. and Ph.D. The Ohio State University",
+                "specialization": [
+                    "modern spanish literature and urban literature"
+                ],
+                "department": ""
+            },
+            {
+                "name": "Hern\u00e1n Garrido",
+                "title": "Instructor",
+                "education": "B.A. Andrews University; M.A. University of Mississippi",
+                "specialization": [
+                    "spanish language and hispanic cultures"
+                ],
+                "department": ""
+            }
+        ],
+        "programs": [
+            {
+                "programName": "B.A. in Spanish",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 36,
+                    "courses": [
+                        "Spanish 301 or 302. (the other may be taken as an elective)",
+                        "Spanish 303, 306, and 486",
+                        "Five elective courses, at least four of which must be numbered 310 or above",
+                        "note: At least five courses must be completed at or above the 310 level."
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": [
+            {
+                "totalCredits": 20,
+                "courses": [
+                    "Spanish 301 or 302. (the other may be taken as an elective)",
+                    "Spanish 303 or 306. (the other may be taken as an elective)",
+                    "Three elective courses, at least one of which must be numbered 310 or above",
+                    "note: At least one course must be completed at or above the 310 level."
+                ]
+            }
+        ],
+        "honorsProgram": [
+            {
+                "requirements": [
+                    "Reading in a field of specialization and preparation of a paper in that field",
+                    "Examinations covering Spanish literature, Spanish American literature and civilization, Spanish grammar and Spanish civilization, and the field of specialization",
+                    "approvalRequired: Approval by the Department of Modern Languages and Literatures is required."
+                ]
+            }
+        ]
+    },
+    "Urban Studies Program": {
+        "description": "The Urban Studies Program houses two majors \u2014 Urban Studies and Health Equity \u2014 that enable students to explore and understand urban experiences in their richness and complexity and to appreciate how urban social contexts shape human health. The program provides an interdisciplinary learning experience grounded in the liberal arts and connected to concerns of the region and the world. Through integrative teaching and research, students develop and apply the skills needed to analyze the dynamic processes and structures of urban life and health as well as the ways that cities contribute to global change. Students engage fully with Memphis and the diversity of the mid-south region, as they learn to situate them within a global context. The major combines coursework with urban field experiences, including internships, fellowships, and research with community partners.",
+        "faculty": [],
+        "programs": [
+            {
+                "programName": "B.A. in Health Equity",
+                "degreeType": "BA",
+                "requirements": {
+                    "totalCredits": 44,
+                    "courses": [
+                        "Urban Studies 201: Introduction to Urban Studies",
+                        "Politics and Law 206: Urban Politics and Policy",
+                        "One 4 credit course that addresses Race and Ethnicity in the United States",
+                        "One methods course from various options",
+                        "One 4 credit course that has a community-engagement component",
+                        "Urban Studies 385: Senior Research Design",
+                        "Urban Studies 485: Senior Capstone Seminar",
+                        "An additional 16 credit hours selected from a list of approved electives or other courses selected in consultation with a faculty advisor and approved by the program chair.",
+                        "One elective must have a global or comparative perspective.",
+                        "Only one elective may be taken at the 100 level.",
+                        "Two electives (8 credits) must be taken at the 300 or 400 level. Courses taken to complete required courses for the major (items 1-7 above) may not be used to fulfill this requirement.",
+                        "source: https://catalog.rhodes.edu/programs-study/urban-studies/requirements-major-urban-studies"
+                    ]
+                }
+            }
+        ],
+        "minorRequirements": {},
+        "honorsProgram": []
     }
 }

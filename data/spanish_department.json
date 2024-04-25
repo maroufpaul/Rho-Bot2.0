@@ -1,0 +1,99 @@
+{
+  "departmentName": "Spanish",
+  "faculty": [
+    {
+      "name": "Kathleen Anne Doyle",
+      "joined": "1999",
+      "title": "Associate Professor",
+      "education": "B.A., Saint Xavier College, Chicago; M.A. and Ph.D., University of Chicago",
+      "specialization": "Spanish language, Modernism in Spain, Contemporary Peninsular Spanish literature, Gender and Sexuality Studies"
+    },
+    {"name": "Eric Henager",
+    "joined": "1995",
+    "title": "Associate Professor",
+    "education": "B.A., Rhodes College; M.A. and Ph.D., University of Illinois",
+    "specialization": "Spanish language, Contemporary Latin American literatures and cultures, popular culture and literature, Latin American Studies"
+  },{
+    "name": "Clara Pascual-Argente",
+    "joined": "2011",
+    "title": "Associate Professor",
+    "education": "B.A. and M.A. Universidad de Salamanca; Ph.D. Georgetown University",
+    "specialization": "Medieval and early modern Spanish literature, Film Studies"
+    },{
+      "name": "Elizabeth Marcela Pettinaroli",
+      "joined": "2007",
+      "title": "Associate Professor",
+      "education": "B.A. Franklin and Marshall College; M.A. and Ph.D., University of Virginia",
+      "specialization": "Latin American literature, Ecocritical Studies, Urban and Environmental Studies, Bibliodiversity, Spanish language in socio-cultural contexts"
+    },{
+      "name": "Alberto del Pozo Martínez",
+          "joined": "2008",
+          "title": "Associate Professor",
+          "education": "Licenciado en Filología, Universidad de Zaragoza; M.A. and Ph.D. Vanderbilt University",
+          "specialization": "Modern Spanish American literature and Literary Theory"
+        },
+    {
+      "name": "Rachel Noël Bauer",
+          "joined": "2008",
+          "title": "Assistant Professor",
+          "education": "B.A. Duquesne University; M.A. Purdue University; Ph.D. Vanderbilt University",
+          "specialization": "Early Modern Spanish literature, Golden Age narrative, Don Quixote de la Mancha"
+        },
+        {
+          "name": "Juanita Bernal Benavides",
+          "joined": "2022",
+          "title": "Assistant Professor",
+          "education": "B.A. and M.A. Universidad de los Andes; Ph.D. University of Michigan"
+        },
+
+      {
+        "name": "Bruce M. Jackson, Jr.",
+          "joined": "2021",
+          "title": "Assistant Professor",
+          "education": "B.A. and M.A. Middle Tennessee State University; Ph.D. University of Tennessee, Knoxville",
+          "specialization": "Mid-19th to Mid-20th century Spanish Peninsular literature and culture, minority cultures in contemporary Spain"
+      },
+      {
+        "name": "Catherine Sundt",
+        "joined": "2012",
+        "title": "Assistant Professor",
+        "education": "B.A. Grand Valley State University; M.A. and Ph.D. The Ohio State University",
+        "specialization": "Modern Spanish literature and Urban literature"
+      },
+      {
+        "name": "Hernán Garrido",
+          "joined": "2016",
+          "title": "Instructor",
+          "education": "B.A. Andrews University; M.A. University of Mississippi",
+          "specialization": "Spanish language and Hispanic cultures"
+        }
+
+    ],
+  "honorsProgram": [{
+    "minimumCredits": 40,
+    "requirements": [
+      "Reading in a field of specialization and preparation of a paper in that field",
+      "Examinations covering Spanish literature, Spanish American literature and civilization, Spanish grammar and Spanish civilization, and the field of specialization",
+      "approvalRequired: Approval by the Department of Modern Languages and Literatures is required."
+  ]}],
+  "programs": [
+    {
+      "programName": "B.A. in Spanish",
+      "degreeType": "BA",
+      "requirements": {
+      "totalCredits": 36,
+      "courses": [
+        "Spanish 301 or 302. (the other may be taken as an elective)",
+        "Spanish 303, 306, and 486",
+        "Five elective courses, at least four of which must be numbered 310 or above",
+        "note: At least five courses must be completed at or above the 310 level."
+  ]}}],
+  "minorRequirements": [{
+      "totalCredits": 20,
+      "courses": [
+        "Spanish 301 or 302. (the other may be taken as an elective)",
+        "Spanish 303 or 306. (the other may be taken as an elective)",
+        "Three elective courses, at least one of which must be numbered 310 or above",
+        "note: At least one course must be completed at or above the 310 level."
+    ]}]
+  }

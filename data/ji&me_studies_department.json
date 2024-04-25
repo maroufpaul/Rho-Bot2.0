@@ -1,0 +1,87 @@
+{
+    "departmentName": "Jewish, Islamic, and Middle Eastern Studies Program",
+    "departmentDescription": "Jewish, Islamic and Middle East Studies illuminates the general questions of our liberal arts and sciences curriculum from the purview of Jews, Muslims, and other Middle Easterners. The program allows students interested in Jewish and Islamic religion and Middle Eastern history, politics, and culture to focus on a deeper understanding of the contribution of Judaism and Islam to the development of world civilizations. Part of what distinguishes this program from others like it nationally is that it requires students to understand the entangled and interconnected histories, cultures, and politics of Jews, Muslims, and other religious groups over time and in different contexts, as well as the similarities and conflicts between these groups. Furthermore, this program seeks to incorporate college-wide conversations about integration and diversity on campus with the rigors of academic investigation. This program houses three different minors in (1) Jewish Studies, (2) Islamic and Middle East Studies, and (3) Jewish, Islamic and Middle East Studies.",
+    "faculty": [
+      {
+        "name": "Etty Terem",
+        "department": "Department of History",
+        "role": "Chair"
+      },
+      {
+        "name": "Esen Kirdis",
+        "department": "Department of International Studies"
+      },
+      {
+        "name": "Jonathan Judaken",
+        "department": "Department of History"
+      },
+      {
+        "name": "John Kaltner",
+        "department": "Department of Religious Studies"
+      },
+      {
+        "name": "Raissa A von Doetinchem de Rande",
+        "department": "Department of Religious Studies"
+      },
+      {
+        "name": "Sarah Ifft Decker",
+        "department": "Department of History"
+      }
+    ],
+    "minorRequirements": [
+      {
+        "title": "Islamic and Middle East Studies",
+        "totalCredits": 20,
+        "courses": [
+              "Category 1: Historical",
+              "ART 209: Art and Architecture of the Ancient Near East and Egypt",
+              "HIST 105: Special Topics (when subject matter pertains to Islamic and Middle East Studies)",
+              "HIST 223: The Fall of the Roman Empire, 300-700 CE",
+              "HIST 275: The Making of the Modern Middle East",
+              "HIST 276: Re-Making the Twentieth Century Middle East",
+              "HIST 277: Modern Islamic Thought",
+              "HIST 375: Islamic History and Civilization",
+              "HIST 475: Colonial Encounters in North Africa and Beyond",
+              "SPAN 365: Christians, Muslims, and Jews in Spain: Past and Present (taught in Spanish)",
+              "Category 2: Cultural",
+              "RELS 101: The Bible: Texts and Contexts (when subject matter pertains to Islamic and Middle East Studies)",
+              "RELS 258: Topics in the History of Religions (when subject matter pertains to Islamic and Middle East Studies)",
+              "RELS 277: Selected Topics in Hebrew Bible/Old Testament",
+              "Category 3: Political",
+              "INTS 243: Governments & Politics of the Middle East",
+              "INTS 244: Issues in Middle East Politics",
+              "INTS 245: US Foreign Policy in the Middle East",
+              "INTS 334: Religion & Politics",
+              "Additional Requirements folliwing categories are:",
+              "Students will take at least one course in the following departments: History, International Studies, and Religious Studies",
+              "Students will take at least one upper 300-level course or 400-level course",
+              "Students will take one Jewish, Islamic and Middle East Studies (JIME) course OR one course in the Jewish Studies minor",
+              "RELS 276 and 277 and HIST 105 may be repeated with permission of instructor and/or program committee."
+            ]
+      }
+    ],
+    "programs": [
+        {
+          "programName": "B.A. in Jewish, Islamic, and Middle Eastern Studies",
+          "degreeType": "BA",
+          "requirements": {
+            "courses": [
+              "RELS 101-102: The Bible: Texts and Contexts (when subject matter pertains to Jewish Studies)",
+              "RELS 232: Holocaust",
+              "RELS 253: Judaism",
+              "RELS 260: Archeology & Hebrew Bible (Religious Studies 200)",
+              "RELS 276-277: Selected Topics in Hebrew/Bible/Old Testament (when subject matter pertains to Jewish Studies)",
+              "HEBR 201: Hebrew",
+              "HIST 105: Special Topics (when subject matter pertains to Jewish Studies)",
+              "RELS 300-301: Selected Topics in Religious Studies (when subject matter pertains to Jewish Studies)",
+              "HIST 405: Anti-Semitism",
+              "HIST 320: Modern Jewish Thought and Culture",
+              "HIST 421/FREN 335: Representing Racism in French Literature and Culture: The Jewish Question",
+              "One Jewish, Islamic and Middle East Studies (JIME) course OR one course from the Islamic and Middle East Studies minor",
+              "note: RELS 276 and 277 and HIST 105 may be repeated with permission of instructor and/or program committee."
+            ]
+          }
+        }
+        ]
+}
+  

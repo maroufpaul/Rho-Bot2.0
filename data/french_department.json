@@ -1,0 +1,69 @@
+{
+    "departmentName": "French",
+    "faculty": [
+      {
+        "name": "Laura Loth",
+          "joined": "2009",
+          "title": "Associate Professor",
+          "education": "B.A. College of William and Mary; M.A. and Ph.D., University of Minnesota",
+          "specialization": "French and Francophone literature and film, Environmental Studies, Film Studies"
+        },
+        {
+          "name": "Stacey E. Battis",
+          "title": "Assistant Professor",
+          "joined":"2022",
+          "education": "B.A. Smith College; M.A. and Ph.D. University of California, Berkeley",
+          "specialization": "Early modern French literature, French and Francophone Studies, Gender and Sexuality Studies"
+        },
+        {
+          "name": "Abou-Bakar Mamah",
+          "joined": "2018",
+          "title": "Assistant Professor",
+          "education": "B.A. and M.A. University of Lomé, Togo; Ph.D. University of Minnesota",
+          "specialization": "French critical theory, Structuralism, French and Francophone Studies"
+        },
+        {
+          "name": "Sarah Finley",
+          "joined": "2020",
+          "title": "Instructor",
+          "education": "B.A. and M.Ed. Vanderbilt University",
+          "specialization": "French language and Francophone cultures"
+        }
+    ],
+    "honorsRequirements": [{
+      "minimumHours": 40,
+      "requirements": [
+        "A research paper on a specific cultural or literary topic",
+        "Demonstrated proficiency in spoken and written French",
+        "Study abroad experience in a French-speaking country (recommended)"
+      ]
+    }
+  ],
+    "programs": [
+      {
+        "programName": "B.A. in French",
+        "degreeType": "BA",
+        "requirements": {
+          "totalCredits": 40,
+          "courses": [
+            "French Classes: French 201 and 202, French 301, 486",
+            "One of the following: French 320, 321 or 322",
+            "One of the following: French 323, 324 or 335",
+            "Sixteen (16) additional credits in French (4 four-credit courses) four of which must be at the 300-400 level, depending on initial language placement. Students who choose to take appropriate 300-400 level courses offered by the French section in English may count up to two such courses toward the major, as long as they have a French language component.",
+            "Encouraged Activities: Majors are strongly encouraged to spend a semester or a year in a French or Francophone university. Departmentally pre-approved courses taken there will normally be accepted as courses in the major.",
+            "additionalNote: French 201 may count towards the major. Students whose placement is above the 201 level are neither required nor allowed to take courses numbering below their placement level for credit towards the major. Students placing above 201 are still required to take a total of 40 credits for the major."
+    ]}
+      }
+    ],
+    "minorRequirements": [{
+      "totalCredits": 20,
+      "courses": [
+        "French classes: French 201 and 202, French 301",
+        "One of the following: French 320, 321, 322, 323, 324, or 335",
+        "Additional elective four-credit courses at the 300-400 level",
+        "Encouraged Activities: Minors are strongly encouraged to study in a French or Francophone university. Courses taken abroad should be pre-approved by the section head to count towards the minor.",
+        "Additional Note: French 201 may count towards the minor. Students whose placement is above the 201 level are neither required nor allowed to take courses numbering below their placement level for credit toward the minor. Students placing above 201 are still required to take 20 credits for the minor. Students who choose to take appropriate 300-400 level courses offered by the French section in English may count only one such course toward the minor, as long as the course has a French component."
+    ]}
+      ]
+  }
+  

@@ -1,5 +1,4 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
+
 #
 # See this guide on how to implement these action:
 # https://rasa.com/docs/rasa/custom-actions
@@ -11,21 +10,19 @@ from rasa_sdk.executor import CollectingDispatcher
 from pathlib import Path
 import json
 from rasa_sdk.events import UserUtteranceReverted
+from fuzzywuzzy import process
 from rasa_sdk.events import SlotSet
 from transformers import pipeline
 import spacy
-from fuzzywuzzy import process
+
 
 UNIFIED_INDEX_PATH = Path(__file__).parent.parent / "data/processed_unified_data.json"
-
 
 def load_unified_index():
     with open(UNIFIED_INDEX_PATH, 'r') as file:
         return json.load(file)
 
-
 UNIFIED_INDEX = load_unified_index()
-
 
 def load_data(department=None):
     file_path = Path(__file__).parent.parent / "data/processed_unified_data.json"
@@ -47,7 +44,7 @@ class ActionRetrieveInformation(Action):
 
     def process_query(self, query: str):
         # List of department names
-        department_names = ["Computer_Science", "Physics"]
+        department_names = ['Africana_Studies', 'Art_and_Art_History', 'Asian_Studies', 'Biochemistry_and_molecular_Biology', 'Biology', 'Business', 'Chemistry', 'Chinese_Studies', 'Computer_Science', 'Economics', 'Educational_Studies', 'Enviromental_Science', 'Enviromental_Studies', 'French', 'Gender_and_Sexuality_Studies', 'German_Studies', 'History', 'Jewish,_Islamic,_and_Middle_Eastern_Studies_Program', 'Latin_American_and_Latinx_Studies', 'Mathematics_and_Statistics', 'Media_Studies', 'Music', 'Neuroscience', 'Philosophy', 'Physics', 'Politics_and_Law', 'Psychology', 'Religious_Studies', 'Russian', 'Spanish', 'Urban_Studies_Program']
 
         # Convert query to lowercase for case-insensitive matching
         query_lower = query.lower()
@@ -123,58 +120,36 @@ class ActionFacultySpecialization(Action):
         dispatcher.utter_message(text="I couldn't find a faculty member with that specialization.")
         return []
 
-
 class ActionRetrieveDepartmentChair(Action):
     def name(self) -> Text:
         return "action_retrieve_department_chair"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         department = tracker.get_slot("department")
-
-        department_data = load_data(department)
-        if department_data is None or not department_data:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
+        department_info = UNIFIED_INDEX.get(department.lower(), {})
+        if department_info:
+            chair_info = department_info.get("chair", "I don't know who it is.")
+            dispatcher.utter_message(text=f"The department chair for {department} is {chair_info}.")
             return []
-
-        department_info = list(department_data.values())[0]  # Retrieve department info
-
-        chair_info = department_info.get("chair", "I don't know who it is.")
-        dispatcher.utter_message(text=f"The department chair for {department} is {chair_info}.")
+        dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
         return []
 
 class ActionProvideCourseDetails(Action):
     def name(self) -> Text:
         return "action_provide_course_details"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         course = tracker.get_slot("course")
         department = tracker.get_slot("department")
 
-        if course is None:
+        if not course:
             dispatcher.utter_message(text="Please specify a course.")
             return []
 
-        department_data = load_data()
-        if department_data is None:
+        department_info = UNIFIED_INDEX.get(department.lower(), {})
+        if not department_info:
             dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
             return []
-
-        department_info = department_data.get(department)
-        if department_info is None:
-            # Find the closest matching department name
-            department_options = list(department_data.keys())
-            closest_match, _ = process.extractOne(department, department_options)
-            department_info = department_data.get(closest_match)
-
-            if department_info is None:
-                dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
-                return []
 
         programs = department_info.get("programs", [])
         for program in programs:
@@ -186,32 +161,6 @@ class ActionProvideCourseDetails(Action):
         dispatcher.utter_message(text=f"No details found for {course} in the {department} department.")
         return []
     
-
-class ActionProvideMajorRequirements(Action):
-    def name(self) -> Text:
-        return "action_provide_major_requirements"
-
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        department = tracker.get_slot("department")
-
-        department_data = load_data(department)
-
-        if department_data is None or not department_data:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
-            return []
-
-        department_info = list(department_data.values())[0]  # Retrieve department info
-
-        if department_info:
-            programs = department_info.get("programs", [])
-            for program in programs:
-                dispatcher.utter_message(text=f"Major Requirements for {program['programName']}: {program['requirements']['courses']}")
-            return []
-
-        dispatcher.utter_message(text="Sorry, I couldn't find major requirements for this department.")
-        return []
-
-
 class ActionProvideMinorRequirements(Action):
     def name(self) -> Text:
         return "action_provide_minor_requirements"
@@ -222,18 +171,200 @@ class ActionProvideMinorRequirements(Action):
         department_data = load_data(department)
 
         if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) about the {department} department.")
+            return []
+        
+        department_info = list(department_data.values())[0]  # Retrieve department info
+
+        if department_info:
+            minorReq = department_info.get("minorRequirements", [])
+            if minorReq :
+                for minor in minorReq :
+                    response = f"Minor Requirements for {department.replace('_', ' ')}:\n"
+                    total_credits = minor.get("totalCredits", "")
+                    response += f"Total Credits: {total_credits}\n"
+                    courses = minor.get('courses', [])
+                    if courses:
+                        response += "\nCourses:"
+                        response += "\n".join(f"- {course}" for course in courses)
+                        response += "\n"
+                    else:
+                        response += "\nNo specific courses listed."
+                    dispatcher.utter_message(text=response)
+                return []
+            else:
+                dispatcher.utter_message(text=f"Sorry, {department} does not offer a minor")
+        else:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) for the {department} department.")
+
+        return []
+  
+class ActionProvideHonorProgramDetails(Action):
+    def name(self) -> Text:
+        return "action_provide_honor_program_details"
+    
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        department = tracker.get_slot("department")
+
+        department_data = load_data(department)
+
+        if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) about the {department} department.")
+            return []
+        
+        department_info = list(department_data.values())[0]  # Retrieve department info
+
+        if department_info:
+            honors = department_info.get("honorsProgram", [])
+            if honors:
+                for honor in honors :
+                    response = f"Honors Requirements for {department.replace('_', ' ')}:\n"
+                    reqs = honor.get('requirements', [])
+                    if reqs:
+                        response += "\nRequirements:"
+                        response += "\n".join(f"- {req}" for req in reqs)
+                        response += "\n"
+                    else:
+                        response += "\nNo specific requirements listed."
+                    dispatcher.utter_message(text=response)
+                return []
+            else:
+                dispatcher.utter_message(text=f"Sorry, {department} does not offer an Honors Program")
+        else:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) for the {department} department.")
+
+        return []
+    
+class ActionProvideMajorRequirements(Action):
+    def name(self) -> Text:
+        return "action_provide_major_requirements"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        department = tracker.get_slot("department")
+
+        department_data = load_data(department)
+
+
+        if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) about the {department} department.")
+            return []
+        
+        department_info = list(department_data.values())[0]  # Retrieve department info
+
+        if department_info:
+            programs = department_info.get("programs", [])
+            if programs:
+                for program in programs:
+                    response = f"Major Requirements for {department} - {program['programName']}:"
+                    response += f"\nTotal Credits: {program['requirements'].get('totalCredits', 'N/A')}"
+                    courses = program['requirements'].get('courses', [])
+                    if courses:
+                        response += "\nCourses:"
+                        response += "\n".join(f"- {course}" for course in courses)
+                        response += "\n"
+                    else:
+                        response += "\nNo specific courses listed."
+                        response += "\n"
+                    dispatcher.utter_message(text=response)
+                return []
+            else:
+                dispatcher.utter_message(text=f"Sorry, I couldn't find major requirements for any programs in the {department} department.")
+        else:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) for the {department} department.")
+
+        return []
+
+
+
+class ActionProvideRecommendedCourses(Action):
+    def name(self) -> Text:
+        return "action_provide_recommended_courses"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        department = tracker.get_slot("department")
+
+        department_data = load_data(department)
+
+        if department_data is None or not department_data:
             dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
             return []
 
         department_info = list(department_data.values())[0]  # Retrieve department info
 
         if department_info:
-            minor_requirements = department_info.get("minorRequirements", {}).get("courses")
-            if minor_requirements:
-                dispatcher.utter_message(text=f"Minor Requirements: {minor_requirements}")
+            recommended_courses = department_info.get("additional_info", {}).get("recommendedCourses", [])
+            if recommended_courses:
+                response = f"Recommended Courses for {department}:"
+                response += "\n" + "\n".join(recommended_courses)
+                dispatcher.utter_message(text=response)
                 return []
 
-        dispatcher.utter_message(text="Sorry, I couldn't find minor requirements for this department.")
+        dispatcher.utter_message(text="Sorry, I couldn't find recommended courses for this department.")
+        return []
+
+
+class ActionProvideElectiveOptions(Action):
+    def name(self) -> Text:
+        return "action_provide_elective_options"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        department = tracker.get_slot("department")
+
+        department_data = load_data(department)
+
+        if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
+            return []
+
+        department_info = department_data.get(department)  # Retrieve department info
+
+        if department_info:
+            programs = department_info.get("programs", [])
+            if programs:
+                response = f"Elective Options for {department}:"
+                for program in programs:
+                    response += f"\nProgram: {program['programName']}"
+                    elective_info = program['requirements'].get('electives', {})
+                    for elective_type, elective_courses in elective_info.items():
+                        response += f"\n{elective_type.capitalize()} Electives: {', '.join(elective_courses)}"
+                dispatcher.utter_message(text=response)
+                return []
+
+        dispatcher.utter_message(text="Sorry, I couldn't find elective options for this department.")
+        return []
+
+
+
+class ActionProvideAdditionalInformation(Action):
+    def name(self) -> Text:
+        return "action_provide_additional_information"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        department = tracker.get_slot("department")
+
+        department_data = load_data(department)
+
+        if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
+            return []
+
+        department_info = list(department_data.values())[0]  # Retrieve department info
+        
+        if department_info:
+            additional_info = department_info.get("additional_info", {})
+            if additional_info:
+                response = f"Additional Information for {department}:"
+                for key, value in additional_info.items():
+                    if isinstance(value, dict):
+                        response += f"\n{key.capitalize()}:"
+                        for sub_key, sub_value in value.items():
+                            response += f"\n- {sub_key.capitalize()}: {sub_value}"
+                    else:
+                        response += f"\n{key.capitalize()}: {value}"
+                dispatcher.utter_message(text=response)
+                return []
+
+        dispatcher.utter_message(text="Sorry, I couldn't find additional information for this department.")
         return []
 
 
@@ -291,27 +422,3 @@ class ActionFallback(Action):
 
         dispatcher.utter_message(text="I'm not sure how to answer that. Can I help with something else?")
         return [UserUtteranceReverted()]
-
-
-
-
-# This is a simple example for a custom action which utters "Hello World!"
-
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []

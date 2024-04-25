@@ -1,0 +1,139 @@
+{
+    "departmentName": "Media Studies",
+    "departmentDescription": "The mission of the Media Studies Program is to enable students to become astute scholars, producers, and consumers of visual media. From film to TV to digital and social media, our worlds are saturated with and mediated by visual communications. Media Studies courses equip students with: 1) critical tools for critiquing visual media, 2) creative capabilities for producing digital art, and 3) practical communication skills for participating in globalized media networks. Interdisciplinary by design, the Media Studies Program is supported by faculty from three divisions—Fine Arts, Humanities, and Social Sciences—in order to cover media theories and practices in the broadest sense and stress digital literacy and fluency across multiple media. Its forward-thinking approach emphasizes interdisciplinarity, a globalized curriculum, and career readiness.",
+    "faculty": [
+      {
+        "name": "Rashna Richards",
+        "department": "Department of English",
+        "position": "Chair"
+      },
+      {
+        "name": "John Bass",
+        "department": "Department of Music"
+      },
+      {
+        "name": "Marshall Boswell",
+        "department": "Department of English"
+      },
+      {
+        "name": "Karl Erickson",
+        "department": "Department of Art"
+      },
+      {
+        "name": "Joy Broke Fairfield",
+        "department": "Media Studies Program"
+      },
+      {
+        "name": "Han Li",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "Bradley Harris",
+        "department": "Media Studies Program"
+      },
+      {
+        "name": "Charles Hughes",
+        "department": "Urban Studies Program"
+      },
+      {
+        "name": "Sarah Ifft Decker",
+        "department": "Department of History"
+      },
+      {
+        "name": "Sasha Kostina",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "Michael LaRosa",
+        "department": "Department of History"
+      },
+      {
+        "name": "Laura Loth",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "David Mason",
+        "department": "Media Studies Program"
+      },
+      {
+        "name": "J. David Maxson",
+        "department": "Media Studies Program"
+      },
+      {
+        "name": "David McCarthy",
+        "department": "Department of Art"
+      },
+      {
+        "name": "Samson Ndanyi",
+        "department": "Department of History"
+      },
+      {
+        "name": "Scott Newstok",
+        "department": "Department of English"
+      },
+      {
+        "name": "Clara Pascual-Argente",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "Evelyn Perry",
+        "department": "Department of Anthropology and Sociology"
+      },
+      {
+        "name": "Rebecca Tuvel",
+        "department": "Department of Philosophy"
+      },
+      {
+        "name": "Earl Wright II",
+        "department": "Department of Anthropology and Sociology"
+      },
+      {
+        "name": "Yinyin Xue",
+        "department": "Department of Modern Languages and Literatures"
+      },
+      {
+        "name": "Shaolu Yu",
+        "department": "Urban Studies Program"
+      },
+      {
+        "name": "Nikolaos Zahariadis",
+        "department": "Department of International Studies"
+      },
+      {
+        "name": "Lynn Zastoupil",
+        "department": "Department of History"
+      }
+    ],
+    "programs": [{
+      "programName": "B.A. in Media Studies",
+      "degreeType": "BA",
+      "requirements": {
+      "totalCredits": 40,
+      "courses": [
+        "MST 202: Topics in Media Studies OR Art 102: Intro to Digital Art (4 credits)",
+        "MST 385: Film and Media Theory (4 credits)",
+        "MST 485: Senior Seminar in Media Studies (4 credits)",
+        "You must have one of the two concentrations: ",
+        "Film Studies: Various courses from different departments focusing on film studies",
+        "Media Production:Various art courses and courses related to media production",
+        "Electives:",
+        "Courses from the other Media Studies concentration",
+        "Various other elective courses related to media studies, including anthropology, sociology, art, English, history, international studies, media studies, philosophy, politics and law, Russian, Spanish, and urban studies",
+        "16 out of 40 credits should be at the 300 or 400 level.",
+        "8 out of 40 credits must be in courses that focus on media outside the US."
+      ]
+    }
+    }
+  ],
+    "minorRequirements": [{
+      "totalCredits": 20,
+      "courses": [
+        "English 202: Introduction to Cinema",
+        "English 382: Film Theory",
+        "Three additional courses from a list of offerings in various departments",
+        "One of these requirements may be satisfied by a directed inquiry or an internship (on approval of the Media Studies Committee)."
+      ]
+    }
+  ]
+  }
+  

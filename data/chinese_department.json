@@ -1,0 +1,55 @@
+{
+    "departmentName": "Chinese Studies",
+    "departmentDescription": "The mission of the current Chinese Studies Program is to educate students in Chinese language, literature, culture, history, politics, and religion, and to provide students with academic knowledge and experiences to understand China as both an ancient civilization and an emerging global power. In this spirit, Chinese Studies majors will also learn to appreciate their own positions vis-à-vis the challenges inherent in China's rise to global prominence, confronting difficult questions of nationalism and ethnocentrism. As an interdisciplinary program, Chinese Studies draws on faculty expertise from various departments and prepares students for post-graduate studies, China related employment opportunities, and future engagement with China.",
+    "faculty": [
+      {
+        "name": "Han Li",
+          "joined": "2008",
+          "title": "Associate Professor",
+          "position": "Chair",
+          "education": "B.A. Nanjing University; Ph.D. University of California, Irvine",
+          "specialization": "Literature and culture of Late Imperial China"
+        },
+        {
+          "name": "Yinyin Xue",
+          "joined": "2020",
+          "title": "Assistant Professor",
+          "education": "B.A. Sichuan International Studies University; M.A. Peking University; M.A. and Ph.D. University of Wisconsin-Madison",
+          "specialization": "Twentieth-century Chinese literature and culture"
+        },
+        {
+          "name": "Yang Qi",
+          "joined": "2019",
+          "title": "Instructor",
+          "education": "B.A. Zhejiang University; M.Ed. University at Buffalo-SUNY; PhD. University of Florida",
+          "specialization": "Teaching English to Speakers of Other Languages, Curriculum and Instruction"
+        }
+    ],
+    "programs": [
+      {
+        "programName": "B.A. in Chinese Studies",
+        "degreeType": "BA",
+        "requirements": {
+          "totalCredits": 36,
+          "courses": [
+            "Chinese 301 (Advanced Chinese I) and 302 (Advanced Chinese II). China Maymester may be substituted for one of the above.",
+            "One of the following: Chinese 306: Introduction to East Asian Cultures, Chinese 314: Introduction to Chinese Culture",
+            "Two of the following: Chinese 305: Modern Chinese Literature in Translation, Chinese 307: Orientalism and Global China on Screen, Chinese 315: Gender in Chinese Literature, Chinese 316: Asian Urbanization/Cinema, Chinese 318: Taste, Culture and Power: Asia and Global Foodways, Chinese 320: Contemporary Chinese Cinema (Chinese 305-320 can be taken in conjunction with one credit of 311.), Chinese 409: Special Topics",
+            "Three of the following (The three courses must be taken from more than one discipline): History 282: Traditional China, History 283: Modern China, History 481: Cold War in East Asia, Religious Studies 258 Topics: History of Religions (Buddhism), INTS 261: Government and Politics of China, INTS 262: China’s Foreign Policy, INTS 263: Comparative Political Economy of East Asia, INTS 264: China-Taiwan-US Relations",
+            "Chinese 485: Senior Seminar"
+          ]
+        }
+      }
+    ]
+  ,
+    "minorRequirements": [{
+      "totalCredits": 20,
+      "courses": [
+        "Chinese 301 and 302: Advanced Chinese*",
+        "Two of the Chinese Literature and Culture courses: Chinese 205: Modern Chinese Literature in Translation, Chinese 206: Introduction to East Asian Cultures, Chinese 207: Orientalism and Global China on Screen, Chinese 210: Chinese Literary Heritage, Chinese 214: Introduction to Chinese Culture, Chinese 215: Gender in Chinese Literature, Chinese 216: Asian Urbanization through Cinema, Chinese 218: Taste, Culture and Power: Asia and Global Foodways, Chinese 220: Contemporary Chinese Cinema, Chinese 409: Special Topics",
+        "One of the following courses: History 282: Traditional China, History 283: Modern China, Religious Studies 258 Topics: History of Religions (Buddhism), International Studies 261: Government and Politics of China, International Studies 262: China’s Foreign Policy, International Studies 263: Comparative Political Economy of East Asia, International Studies 264: China-Taiwan-US Relations"
+      ]
+    }
+  ]
+  }
+  

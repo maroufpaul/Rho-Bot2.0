@@ -1,0 +1,58 @@
+{
+  "departmentName": "Urban Studies Program",
+  "description": "The Urban Studies Program houses two majors — Urban Studies and Health Equity — that enable students to explore and understand urban experiences in their richness and complexity and to appreciate how urban social contexts shape human health. The program provides an interdisciplinary learning experience grounded in the liberal arts and connected to concerns of the region and the world. Through integrative teaching and research, students develop and apply the skills needed to analyze the dynamic processes and structures of urban life and health as well as the ways that cities contribute to global change. Students engage fully with Memphis and the diversity of the mid-south region, as they learn to situate them within a global context. The major combines coursework with urban field experiences, including internships, fellowships, and research with community partners.",
+  "internationalStudy": {
+    "description": "Many Urban Studies students spend a semester abroad. We see comparative perspectives as critical to examining cities and urban life. Speak with a faculty advisor to determine a program that fits your interests. Also, speak with the program chair before beginning the program to discuss courses and transfer credits. There are some programs that are designed specifically for Urban Studies students such as IHP “Cities in the 21st Century” and DIS “Urban Studies in Europe.” Rhodes also offers Maymester courses appropriate for Urban Studies students, including the course in London and Glasgow, \"Healthy Cities.\"",
+    "source": "https://catalog.rhodes.edu/programs-study/urban-studies/international-study"
+  },
+  "programs": [{
+    "programName": "B.A. in Health Equity",
+    "degreeType": "BA",
+    "requirements": {
+    "totalCredits": 44,
+    "courses": [
+      "Urban Studies 201: Introduction to Urban Studies",
+      "Politics and Law 206: Urban Politics and Policy",
+      "One 4 credit course that addresses Race and Ethnicity in the United States",
+      "One methods course from various options",
+      "One 4 credit course that has a community-engagement component",
+      "Urban Studies 385: Senior Research Design",
+      "Urban Studies 485: Senior Capstone Seminar",
+      "An additional 16 credit hours selected from a list of approved electives or other courses selected in consultation with a faculty advisor and approved by the program chair.",
+      "One elective must have a global or comparative perspective.",
+      "Only one elective may be taken at the 100 level.",
+      "Two electives (8 credits) must be taken at the 300 or 400 level. Courses taken to complete required courses for the major (items 1-7 above) may not be used to fulfill this requirement.",
+      "source: https://catalog.rhodes.edu/programs-study/urban-studies/requirements-major-urban-studies"
+  ]}}],
+  "minorRequirements": {
+    "totalCredits": 24,
+    "courses": [
+      "Introduction to Urban Studies (Urban Studies 201)",
+      "One 4 credit course that has a community-engagement component from the following list: Justice in the City: Nonprofits, Community and Social Change (URBN 340), Community Psychology (PSYC 330), Community Development & Action (URBN 350)",
+      "Four courses selected from the Urban Studies Curriculum (including Urban Studies major requirements and electives). Courses in the Urban Studies Major and Urban Studies Electives that are regularly offered are listed under the major. Urban Studies elective courses may be added during the school year, including topics courses as appropriate.",
+      "Four of the courses in the minor must come from fields outside of one’s major.",
+      "One course in the minor must be taken at the 300 or 400 level.",
+      "source: https://catalog.rhodes.edu/programs-study/urban-studies/requirements-minor-urban-studies"
+  ]},
+  "coreFacultyAndCommittee": {
+    "coreFaculty": [
+      "Stephanie Cage, Lynn and Henry Turley Memphis Center",
+      "Austin Harrison, Urban Studies Program",
+      "Peter Hossler, Urban Studies Program",
+      "Kendra Hotz, Urban Studies Program",
+      "Charles Hughes, Urban Studies Program",
+      "Andrea Jacobo, Urban Studies Program",
+      "Duane T. Loynes Sr., Urban Studies Program, Africana Studies Program",
+      "Elizabeth Thomas, Department of Psychology",
+      "Shaolu Yu, Urban Studies Program"
+    ],
+    "programAdvisoryCommittee": [
+      "John Bass, Department of Music",
+      "Sarah Boyle, Department of Biology",
+      "Zachary Casey, Educational Studies Program",
+      "Evelyn Perry, Department of Anthropology and Sociology",
+      "Elizabeth Pettinaroli, Modern Languages, Latin American Studies",
+      "Amy Risley, International Studies"
+    ]
+  }
+}

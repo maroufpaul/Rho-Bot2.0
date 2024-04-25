@@ -1,0 +1,122 @@
+{
+  "departmentName": "Music",
+  "departmentDescription": "To serve as a catalyst for life-long learning and appreciation for music. To generate a comprehensive, diverse, flexible program of excellence in music, appealing to students of all walks of life at the college. To help students develop aural, analytical and aesthetic intelligences and abilities, and prepare them for professional careers and/or graduate work in music, as desired. To create true appreciators of music as an art form and discipline, and to facilitate the human and spiritual growth of all who connect and engage with the department, whether by participating or observing.",
+  "faculty": [
+    {
+      "name": "Carole Choate Blankenship",
+      "title": "Chair",
+      "joined": "1990",
+      "education": ["B.A., Rhodes College", "M.M., D.M.A., University of Memphis"],
+      "specializations": ["Voice", "Senior Seminar", "Opera Scenes"]
+    },
+    {
+      "name": "Courtenay L. Harter",
+      "title": "Associate Professor",
+      "joined": "2000",
+      "education": ["B.F.A., Carnegie Mellon University", "M.M., Northwestern University", "Ph.D., University of Connecticut"],
+      "specializations": ["Music Theory", "Music & Psychology", "Oboe/English Horn", "Chamber Music"]
+    },
+    {
+      "name": "William M. Skoog",
+      "title": "Director of Choral Activities, Conducting",
+      "joined": "2009",
+      "education": ["B.A., Gustavus Adolphus College", "M.A., University of Denver", "D.A., University of Northern Colorado"]
+    },
+    {
+      "name": "John B. Bass, III",
+      "title": "Associate Professor",
+      "joined": "2010",
+      "education": ["B.M., University of Southern Mississippi", "M.M., Ph.D., University of Memphis"],
+      "specializations": ["African-American Studies", "Jazz Studies", "Improvisation", "Guitar"]
+    },
+    {
+      "name": "Thomas E. Bryant",
+      "title": "Associate Professor",
+      "joined": "1987",
+      "education": ["B.M., M.M., University of Georgia", "D.M., Northwestern University"],
+      "specializations": ["Piano", "Collaborative Piano", "Music Literature"]
+    },
+    {
+      "name": "Vanessa L. Rogers",
+      "title": "Associate Professor",
+      "joined": "2010",
+      "education": ["B.M.E., Illinois Wesleyan University", "M.A., Ph.D., University of Southern California"],
+      "specializations": ["Music History", "Music Literature"]
+    },
+    {
+      "name": "Jacob Sunshine",
+      "title": "Assistant Professor",
+      "joined": "2023",
+      "education": ["B.A., Columbia University", "M.A., Ph.D. A.B.D., Harvard University"],
+      "specializations": ["Ethnomusicology", "African/African-American Studies", "Jazz Studies", "Guitar"]
+    },
+    {
+      "name": "Mike Assad",
+      "title": "Adjunct Instructor",
+      "education": ["B.M., University of Kentucky", "M.M., University of Memphis"],
+      "specializations": ["Percussion", "World Drum Ensemble"]
+    },
+    {
+      "name": "Whitney Branan",
+      "title": "Adjunct Instructor",
+      "education": ["B.A., Wagner College"],
+      "specializations": ["Dance", "Choreography"]
+    },
+    {
+      "name": "Erika Pope",
+      "title": "Musical Arts Coordinator",
+      "joined": "2016",
+      "education": "B.A., Henderson State University"
+    }
+  ],
+  "programs": [{
+    "programName": "B.A. in Music",
+    "degreeType": "BA",
+    "requirements":{
+      "totalCredits": 52,
+      "courses": [
+        "Music_Theory: 12 credits",
+        "Music_History_&_Literature: 12 credits",
+        "Performance: 12 credits",
+        "Senior_Experience: 8 credits",
+        "Music_Electives: 8 credits",
+        "Music Fee Waiver: Once declared, Music majors will have the Applied Music fees waived for up to eight (8) credits of their principal applied instrument."
+    ]
+    }
+  }
+  ],
+    "minorRequirements": [{
+      "totalCredits": 24,
+      "courses": [
+        "Music_Theory: 4 credits",
+        "Music_History_&_Literature: 4 credits",
+        "Performance: 8 credits",
+        "Music_Electives: 8 credits",
+        "Music Fee Waiver: Once declared, Music minors will have the Applied Music fees waived for up to four (4) credits of their principal applied instrument."
+    
+    ]}
+  ],
+    "Certificate in Content Production": {
+      "totalCredits": 14,
+      "courses": [
+        "MUSC/URBN 262: Music & Community in Memphis (2 credits)",
+        "Twelve (12) credits from specified electives"
+      ],
+      "fellowship": "Mike Curb Institute Fellowship (one semester minimum)"
+    },
+    "Certificate in Arts Entrepreneurship": {
+      "totalCredits": 14,
+      "courses": [
+        "MUSC/URBN 262: Music & Community in Memphis (2 credits)",
+        "Twelve (12) credits from specified electives"
+      ],
+      "fellowship": "Mike Curb Institute Fellowship (one semester minimum)"
+    },
+  "honorsProgram": [{
+    "requirements": ["Only students with a minimum overall GPA of 3.5 and a GPA within the major of 3.5 by the end of the fall semester of their junior year will be eligible to pursue honors.",
+      "The one-credit Honors Tutorial, Music 399, in spring of the junior year",
+      "The Senior Honors Tutorials, Music 495-496, in fall and spring of the senior year. An overall grade of A- on the thesis or project itself is required for Honors credit."
+    ]
+  }
+]
+}

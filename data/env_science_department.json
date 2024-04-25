@@ -1,0 +1,125 @@
+{
+    "departmentName": "Enviromental Science",
+    "departmentDescription": "",
+    "faculty": [
+      {
+        "name": "Raina Belleau",
+        "department": "Department of Art and Art History"
+      },
+      {
+        "name": "Erin Bodine",
+        "department": "Department of Mathematics"
+      },
+      {
+        "name": "Sarah Boyle",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Michael Collins",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Kelly Diamond",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Erin Dolgoy",
+        "department": "Department of Politics & Law; Department of Philosophy"
+      },
+      {
+        "name": "William Eckenhoff",
+        "department": "Department of Chemistry",
+        "position": "Chair"
+      },
+      {
+        "name": "James Engman",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Elaine Frawley",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Judith Haas",
+        "department": "Department of English"
+      },
+      {
+        "name": "Jeffrey Jackson",
+        "department": "Department of History"
+      },
+      {
+        "name": "Tait Keller",
+        "department": "Department of History"
+      },
+      {
+        "name": "Laura Loth",
+        "department": "Department of Modern Languages, French"
+      },
+      {
+        "name": "Sydney Moyo",
+        "department": "Department of Biology"
+      },
+      {
+        "name": "Elizabeth Pettinaroli",
+        "department": "Department of Modern Languages"
+      },
+      {
+        "name": "Brooke Schedneck",
+        "department": "Department of Religious Studies"
+      },
+      {
+        "name": "Kate Shields",
+        "department": "Environmental Studies & Sciences Program"
+      },
+      {
+        "name": "Rebecca Tuvel",
+        "department": "Department of Philosophy"
+      },
+      {
+        "name": "Shaolu Yu",
+        "department": "Urban Studies Program"
+      }
+    ],
+    "programs": [
+      {
+        "programName": "B.S in Environmental Sciences",
+        "degreeType": "BS",
+        "requirements": {
+          "totalCredits": "54-56",
+          "courses": [
+            "ENVS 150: Environment and Society",
+            "Three introductory courses from the list including BIOL 120(L), CHEM 120 and CHEM 125, ENVS 106(L), ENVS 107, ENVS 108, ENVS 111(L), ENVS 170, MATH 214",
+            "One statistics course from the list including ECON 290, MATH 111, MATH 211, PSYC 211",
+            "Four upper-level Environmental Sciences electives with at least three containing a lab component from the list provided",
+            "One additional Environmental Studies elective from the list provided",
+            "INTD 225: Geographic Information Systems",
+            "ENVS 486: Senior Seminar",
+            "Experiential Learning"
+          ]
+        }
+      }
+    ],
+    "honorsProgram": [{
+        "requirements": [
+          "Students must have a minimum GPA of 3.5 (cumulative and in the major) at the time of application and upon graduation.",
+          "Students typically enroll in ENVS Research (ENVS 452) during the spring semester of their junior year, in preparation for submitting their Honors proposal.",
+          "Students must complete all courses needed for a B. S. degree with a major in Environmental Sciences.",
+          "Students must complete the Honors Tutorial (ENVS 495 and 496), taken during the fall and spring semesters of senior year.",
+          "Students must conduct an original investigation of an environmentally-focused topic, under the direct supervision of an ENVS faculty member.",
+          "Students must complete a formal research proposal by the start of the fall semester in the students’ senior year.",
+          "The research project must be completed and approved by the supervising Honors committee.",
+          "Students must complete a scientific paper that adheres to the Rhodes College guidelines for Honors, and students must give an oral presentation of their research findings."
+        ]
+      }],
+    "minorRequirements": [{
+        "totalCredits": "24-27",
+        "courses": [
+          "ENVS 150: Environment and Society",
+          "One introductory course from the list including BIOL 120(L), CHEM 120 and CHEM 125, ENVS 106 or ENVS 106(L), ENVS 107, ENVS 108, ENVS 111(L), ENVS 170, MATH 214",
+          "Three Environmental Sciences courses from the list provided",
+          "One additional Environmental Studies elective from the list provided",
+          "Experiential Learning"
+        ]
+      }
+    ]
+  }
