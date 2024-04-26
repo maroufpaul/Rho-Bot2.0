@@ -13,7 +13,7 @@ def clean_and_structure_data(data):
     for department_name, department_info in data.items():
         # Initialize containers for this department
         structured_data[department_name] = {
-            "description": department_info.get("description", ""),
+            "description": department_info.get("departmentDescription", ""),
             #"faculty": [],
             "programs": [],
             "minorRequirements": [],

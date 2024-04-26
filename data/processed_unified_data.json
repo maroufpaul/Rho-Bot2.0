@@ -294,7 +294,7 @@
         ]
     },
     "Chemistry": {
-        "description": "",
+        "description": "The Chemistry Department prepares students for careers in the chemical sciences, forensics, health professions, industry, research, and STEM education. Students will receive training in modern, interdisciplinary chemistry and instrumentation, as well as develop essential skills for further education in chemical, medical, engineering, law, and other health-related fields. The Department is certified by the American Chemical Society as complying with its requirements for the professional training of chemists.",
         "programs": [
             {
                 "programName": "B.S. in Chemistry",
@@ -333,7 +333,7 @@
         ]
     },
     "Chinese Studies": {
-        "description": "",
+        "description": "The mission of the current Chinese Studies Program is to educate students in Chinese language, literature, culture, history, politics, and religion, and to provide students with academic knowledge and experiences to understand China as both an ancient civilization and an emerging global power. In this spirit, Chinese Studies majors will also learn to appreciate their own positions vis-\u00e0-vis the challenges inherent in China's rise to global prominence, confronting difficult questions of nationalism and ethnocentrism. As an interdisciplinary program, Chinese Studies draws on faculty expertise from various departments and prepares students for post-graduate studies, China related employment opportunities, and future engagement with China.",
         "programs": [
             {
                 "programName": "B.A. in Chinese Studies",
@@ -363,7 +363,7 @@
         "honorsProgram": []
     },
     "Computer Science": {
-        "description": "",
+        "description": "The Department of Computer Science offers students numerous opportunities to develop quantitative reasoning, critical-thinking, problem-solving, and communication skills through its curriculum and extracurricular activities. More information can be found at the department\u2019s website: www.rhodes.edu/mathcs.",
         "programs": [
             {
                 "programName": "B.S. in Computer Science",
@@ -403,7 +403,7 @@
         ]
     },
     "Economics": {
-        "description": "",
+        "description": "The Economics Department, through its emphasis on logicaland quantitative analysis and communication skills, servesas prepares students interested in careers in business, law, medicine, government, non-profits, and international relations, as well as in academic roles.",
         "programs": [
             {
                 "programName": "B.A in Economics",
@@ -439,7 +439,7 @@
         ]
     },
     "Educational Studies": {
-        "description": "",
+        "description": "Educational Studies at Rhodes College strives to advance justice, democracy, and equity in underserved public schools, particularly in Memphis, through interdisciplinary programs, partnerships, scholarship, and advocacy.",
         "programs": [
             {
                 "programName": "B.A. Educational Studies",
@@ -658,7 +658,7 @@
         "honorsProgram": []
     },
     "History": {
-        "description": "",
+        "description": "The Department of History at Rhodes has a national reputation for preparing students to think critically about the historical forces that have shaped the world\u2019s civilizations and cultures, to see the links between the past and the present, to become clear and effective writers and speakers, and to apply their knowledge as thoughtful citizens of the world. A wide range of course offerings, internships, fellowships, and research opportunities empower students to prepare for success in any career path which they choose and to find their place within the ongoing human story. Decades\u2019 worth of data gathered by the Rhodes College Alumni Office shows how Rhodes History alumni have succeeded in an amazingly wide range of occupations from filmmaking and urban planning to museums and teaching at the university level. Our graduates work as members of the clergy, account executives, business managers, musicians, journalists, members of the US military, counselors, business analysts, marketers, librarians and archivists, coaches, IT specialists, pilots, social workers, brokers, Peace Corps veterans, real estate developers, non-profit executives, artists, flight attendants, restauranteurs, land use planners -- and that\u2019s just the beginning.",
         "programs": [
             {
                 "programName": "B.A. in History",
@@ -706,7 +706,7 @@
         ]
     },
     "Jewish, Islamic, and Middle Eastern Studies Program": {
-        "description": "",
+        "description": "Jewish, Islamic and Middle East Studies illuminates the general questions of our liberal arts and sciences curriculum from the purview of Jews, Muslims, and other Middle Easterners. The program allows students interested in Jewish and Islamic religion and Middle Eastern history, politics, and culture to focus on a deeper understanding of the contribution of Judaism and Islam to the development of world civilizations. Part of what distinguishes this program from others like it nationally is that it requires students to understand the entangled and interconnected histories, cultures, and politics of Jews, Muslims, and other religious groups over time and in different contexts, as well as the similarities and conflicts between these groups. Furthermore, this program seeks to incorporate college-wide conversations about integration and diversity on campus with the rigors of academic investigation. This program houses three different minors in (1) Jewish Studies, (2) Islamic and Middle East Studies, and (3) Jewish, Islamic and Middle East Studies.",
         "programs": [
             {
                 "programName": "B.A. in Jewish, Islamic, and Middle Eastern Studies",
@@ -764,7 +764,7 @@
         "honorsProgram": []
     },
     "Latin American and Latinx Studies": {
-        "description": "",
+        "description": "Through interdisciplinary and transdisciplinary work, Latin American and Latinx Studies majors and minors critically examine the wealth of experiences, cultural productions and histories of Latin America and the Latinx worlds. After an integrated Introduction to Latin American and Latinx Studies, the curriculum brings together courses in the fields of Anthropology, Sociology, Economics, Education, Health Equity, History, Modern Languages (Spanish and Portuguese), Music, International Studies, Urban Studies, and Psychology among others, and includes community-based learning opportunities in Memphis, in the U.S, and abroad.",
         "programs": [
             {
                 "programName": "B.A. in Latin American Studies",
@@ -802,7 +802,7 @@
         ]
     },
     "Mathematics and Statistics": {
-        "description": "",
+        "description": "The Department of Mathematics and Statistics offers students numerous opportunities to develop quantitative reasoning, critical-thinking, problem-solving, and communication skills through its curriculum and extracurricular activities.",
         "programs": [
             {
                 "programName": "B.S in Mathematics",
@@ -846,7 +846,7 @@
         ]
     },
     "Media Studies": {
-        "description": "",
+        "description": "The mission of the Media Studies Program is to enable students to become astute scholars, producers, and consumers of visual media. From film to TV to digital and social media, our worlds are saturated with and mediated by visual communications. Media Studies courses equip students with: 1) critical tools for critiquing visual media, 2) creative capabilities for producing digital art, and 3) practical communication skills for participating in globalized media networks. Interdisciplinary by design, the Media Studies Program is supported by faculty from three divisions\u2014Fine Arts, Humanities, and Social Sciences\u2014in order to cover media theories and practices in the broadest sense and stress digital literacy and fluency across multiple media. Its forward-thinking approach emphasizes interdisciplinarity, a globalized curriculum, and career readiness.",
         "programs": [
             {
                 "programName": "B.A. in Media Studies",
@@ -883,7 +883,7 @@
         "honorsProgram": []
     },
     "Music": {
-        "description": "",
+        "description": "To serve as a catalyst for life-long learning and appreciation for music. To generate a comprehensive, diverse, flexible program of excellence in music, appealing to students of all walks of life at the college. To help students develop aural, analytical and aesthetic intelligences and abilities, and prepare them for professional careers and/or graduate work in music, as desired. To create true appreciators of music as an art form and discipline, and to facilitate the human and spiritual growth of all who connect and engage with the department, whether by participating or observing.",
         "programs": [
             {
                 "programName": "B.A. in Music",
@@ -924,7 +924,7 @@
         ]
     },
     "Neuroscience": {
-        "description": "",
+        "description": "The Interdisciplinary Major in Neuroscience at Rhodes bridges the fields of Biology, Psychology, Chemistry, and Philosophy. The major provides students with an understanding of the methodological challenges and conceptual issues that lie at the heart of efforts to understand the function of the nervous system and its role in behavior.",
         "programs": [
             {
                 "programName": "B.S. in Neuroscience",
@@ -956,7 +956,7 @@
         ]
     },
     "Politics and Law": {
-        "description": "",
+        "description": "The Politics and Law Department offers a Political Science major that prepares students to address fundamental questions of equality, liberty, and justice; the history of political philosophy; the constitutional structure of government in the U.S., and the major institutions of national politics, urban politics, and public policy.",
         "programs": [
             {
                 "programName": "B.A. in Poltics & Law",
@@ -1008,7 +1008,7 @@
         ]
     },
     "Philosophy": {
-        "description": "",
+        "description": "Courses in the Department of Philosophy explore life\u2019s most interesting and fundamental questions: What does it mean to be human? To be a person? Who am I and how should I live? Does life have meaning? Does God exist? What does it mean to be free? What are our duties to others? What principles should govern our social and political life? What is the difference between belief and knowledge? Why are we prone to thinking and reasoning poorly? Our courses explore questions like these through the study of ethics, law, logical thinking, metaphysics, epistemology, political philosophy, and various controversies associated with race, gender, religion, politics, economics, science, technology, and artificial intelligence. We seek truth by asking questions, answering the questions, and questioning the answers, always with respect for the views and arguments of others. Philosophy courses will sharpen a student\u2019s analytical reading, thinking, and writing, all of which are indispensable skills prized by graduate schools, law schools, and employers.",
         "programs": [
             {
                 "programName": "B.A. in Philosophy",
@@ -1050,7 +1050,7 @@
         ]
     },
     "Physics": {
-        "description": "",
+        "description": "The Physics Department provides a comprehensive education in physics principles, experimental techniques, and theoretical analysis. It prepares students for further studies and careers in physics and related fields, emphasizing both fundamental physics knowledge and research experience.",
         "programs": [
             {
                 "programName": "B.S. in Physics",
@@ -1090,7 +1090,7 @@
         ]
     },
     "Psychology": {
-        "description": "",
+        "description": "The Department of Psychology helps students develop an understanding of human behavior and experience a variety of theoretical perspectives. The faculty specialize in a wide variety of topics, including neuroscience, clinical/counseling, cognitive, social, developmental, and educational psychology.",
         "programs": [
             {
                 "programName": "B.A. in Psychology",
@@ -1134,7 +1134,7 @@
         ]
     },
     "Religious Studies": {
-        "description": "",
+        "description": "The Department of Religious Studies promotes the academic study of religion by offering courses that explore the diverse aspects of religious traditions. Particular emphasis is given to the origins, history, and relevance of religion in contemporary life.",
         "programs": [
             {
                 "programName": "B.A. in Religious Studies",
@@ -1244,7 +1244,7 @@
         ]
     },
     "Urban Studies Program": {
-        "description": "The Urban Studies Program houses two majors \u2014 Urban Studies and Health Equity \u2014 that enable students to explore and understand urban experiences in their richness and complexity and to appreciate how urban social contexts shape human health. The program provides an interdisciplinary learning experience grounded in the liberal arts and connected to concerns of the region and the world. Through integrative teaching and research, students develop and apply the skills needed to analyze the dynamic processes and structures of urban life and health as well as the ways that cities contribute to global change. Students engage fully with Memphis and the diversity of the mid-south region, as they learn to situate them within a global context. The major combines coursework with urban field experiences, including internships, fellowships, and research with community partners.",
+        "description": "",
         "programs": [
             {
                 "programName": "B.A. in Health Equity",
