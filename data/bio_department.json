@@ -1,6 +1,6 @@
 {
     "departmentName": "Biology",
-    "programName": "Biology",
+    "departmentDescription": "As one of the most popular majors on campus, the Biology Department offers students opportunities to learn about all levels of biology, as well as modern methods of research and investigation. The study of biology prepares students for a wide range of career options as students can choose to concentrate their studies in General Biology (GB), Integrative Biology (IB), Environment, Ecology, and Behavior (EEB), and Biomedical Sciences (BMS).",
     "faculty": [
       {
         "name": "Michael D. Collins",

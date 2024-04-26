@@ -1,7 +1,7 @@
 {
     "departmentName": "Art and Art History",
-    "programName": "Art and Art History",
-    "faculty": [
+    "departmentDescription": "The Department of Art and Art History offers to the student, regardless of experience or major, the opportunity to develop a sensitivity to visual language through studio work and the study of the history of art.",
+        "faculty": [
       {
         "name": "David P. McCarthy",
         "title": "Chair, Professor",

@@ -1,6 +1,6 @@
 {
     "Africana Studies": {
-        "description": "",
+        "description": "The mission of the Africana Studies Program is to understand and appreciate the integral yet distinct experiences of people of African heritage throughout the world.",
         "programs": [
             {
                 "programName": "B. A in Africana Studies",
@@ -27,7 +27,7 @@
         "honorsProgram": []
     },
     "Asian Studies": {
-        "description": "",
+        "description": "The political, economic, and cultural importance of the nations of Asia grows every year and the Asian Studies Program promotes the understanding of Asia\u2019s historical, cultural, political, and economic role in the world.",
         "programs": [
             {
                 "programName": "N/A",
@@ -98,7 +98,7 @@
         ]
     },
     "Art and Art History": {
-        "description": "",
+        "description": "The Department of Art and Art History offers to the student, regardless of experience or major, the opportunity to develop a sensitivity to visual language through studio work and the study of the history of art.",
         "programs": [
             {
                 "programName": "B.A. in Art/ Art History",
@@ -155,7 +155,7 @@
         ]
     },
     "Biology": {
-        "description": "",
+        "description": "As one of the most popular majors on campus, the Biology Department offers students opportunities to learn about all levels of biology, as well as modern methods of research and investigation. The study of biology prepares students for a wide range of career options as students can choose to concentrate their studies in General Biology (GB), Integrative Biology (IB), Environment, Ecology, and Behavior (EEB), and Biomedical Sciences (BMS).",
         "programs": [
             {
                 "programName": "B.S. in Biology",
@@ -192,7 +192,7 @@
         ]
     },
     "Biochemistry and molecular Biology": {
-        "description": "",
+        "description": "Biochemistry and Molecular Biology (BMB) is an interdisciplinary major that allows students to study life at the molecular level under the guidance of faculty drawn from the departments of Biology, Chemistry, and Mathematics & Computer Science.",
         "programs": [
             {
                 "programName": "B.S. for Biochemistry and Molecular Biology",
@@ -244,7 +244,7 @@
         ]
     },
     "Business": {
-        "description": "",
+        "description": "The Business Department teaches students both theories and methods, as well as the broader social and historical perspectives of business practices in accounting, finance, marketing, and management.",
         "programs": [
             {
                 "programName": "B.A in Business",
@@ -491,7 +491,7 @@
         "honorsProgram": []
     },
     "Enviromental Science": {
-        "description": "",
+        "description": "The Environmental Studies & Sciences Program at Rhodes offers an innovative curriculum that allows students to combine study in social sciences, humanities, natural sciences, and fine arts.",
         "programs": [
             {
                 "programName": "B.S in Environmental Sciences",
@@ -539,7 +539,7 @@
         ]
     },
     "Enviromental Studies": {
-        "description": "",
+        "description": "The Environmental Studies & Sciences Program at Rhodes offers an innovative curriculum that allows students to combine study in social sciences, humanities, natural sciences, and fine arts.",
         "programs": [
             {
                 "programName": "B.S. in Environmental Studies",
@@ -652,7 +652,7 @@
         "honorsProgram": []
     },
     "Gender and Sexuality Studies": {
-        "description": "",
+        "description": "Gender and Sexuality Studies focuses on the ways in which gender and sexuality function as part of a dynamic system that shapes identity, structures knowledge, and determines the distribution of social and political power.",
         "programs": [],
         "minorRequirements": {},
         "honorsProgram": []

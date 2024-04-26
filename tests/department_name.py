@@ -43,7 +43,7 @@ departments = []
 for file_path in file_paths:
     with open(file_path, 'r') as file:
         data = json.load(file)
-        if 'faculty' in data:
+        if 'departmentName' in data:
             department_name = data['departmentName']
             departments.append(department_name)
 
