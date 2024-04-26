@@ -14,12 +14,12 @@ def clean_and_structure_data(data):
         # Initialize containers for this department
         structured_data[department_name] = {
             "description": department_info.get("description", ""),
-            "faculty": [],
+            #"faculty": [],
             "programs": [],
             "minorRequirements": [],
             "honorsProgram": []
         }
-        
+        '''
         # Clean and structure faculty information
         for faculty_member in department_info.get("faculty", []):
             department = faculty_member.get("department", department_name) if isinstance(faculty_member, dict) else department_name
@@ -38,7 +38,7 @@ def clean_and_structure_data(data):
                     "title": "",  # You can set default values for title and specialization if needed
                     "specialization": [],
                     "department": "" # Include department information
-                })
+                })'''
 
         
         # Clean and structure programs

@@ -36,24 +36,23 @@ file_paths = [
     "/Users/danyalbukhari/Rho-Bot2.0/data/Urban_studies_department.json"
 ]
 
-# List to store department names
-departments = []
+# List to store faculty information
+faculty_list = []
 
-# Read department names from each file
+# Read faculty information from each department file
 for file_path in file_paths:
     with open(file_path, 'r') as file:
         data = json.load(file)
-        if 'faculty' in data:
+        if 'faculty' in data and 'departmentName' in data:
             department_name = data['departmentName']
-            departments.append(department_name)
 
-# Clean up department names
-departments = [department.strip() for department in departments]
+            for faculty_member in data['faculty']:
+                faculty_member['departmentName'] = department_name
+                faculty_list.append(faculty_member)
 
-# Remove duplicates while preserving order
-departments = list(dict.fromkeys(departments))
+# Write faculty information to a new JSON file
+output_file_path = "/Users/danyalbukhari/Rho-Bot2.0/data/Faculty_Info.json"
+with open(output_file_path, 'w') as output_file:
+    json.dump(faculty_list, output_file, indent=4)
 
-# Sort the departments alphabetically
-departments.sort()
-
-print(departments)
+print("Faculty information extracted and saved to:", output_file_path)

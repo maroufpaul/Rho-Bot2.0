@@ -10,7 +10,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from pathlib import Path
 import json
 from rasa_sdk.events import UserUtteranceReverted
-from fuzzywuzzy import process
+from fuzzywuzzy import process, fuzz
 from rasa_sdk.events import SlotSet
 from transformers import pipeline
 import spacy
@@ -32,9 +32,19 @@ def load_data(department=None):
             if department:
                 department = department.lower()
                 closest_match = process.extractOne(department, data.keys())[0]
+                print("Closest Match: ",closest_match)
                 return {closest_match.lower(): data[closest_match]}
             else:
                 return {key.lower(): value for key, value in data.items()}
+    else:
+        return None
+    
+def load_faculty_data():
+    file_path = Path(__file__).parent.parent / "data/Faculty_Info.json"
+    if file_path.exists():
+        with open(file_path, "r", encoding="utf-8") as json_file:
+            data = json.load(json_file)
+            return data
     else:
         return None
 
@@ -88,38 +98,36 @@ class ActionFacultySpecialization(Action):
         return "action_faculty_specialization"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        department = tracker.get_slot('department')
         specialization = tracker.get_slot('specialization')
-
-        print(department)
 
         if specialization is None:
             dispatcher.utter_message(text="Please provide a specialization.")
             return []
 
-        department_data = load_data(department)
-        print(department_data)
+        faculty_data = load_faculty_data()
 
-        if department_data is None or not department_data:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
+        if faculty_data is None:
+            dispatcher.utter_message(text="Sorry, I couldn't find information about the faculty members.")
             return []
 
-        department_info = list(department_data.values())[0]  # Retrieve department info
+        matching_faculty = []
+        for faculty in faculty_data:
+            if "specialization" in faculty:
+                faculty_specializations = [s.strip().lower() for s in faculty["specialization"].split(",")]
+                closest_match, score = process.extractOne(specialization.lower(), faculty_specializations, scorer=fuzz.token_sort_ratio)
+                if score >= 60:
+                    department_name = faculty.get("departmentName", "Unknown Department")
+                    matching_faculty.append((faculty['name'], closest_match, department_name, score))
 
-        print(department_info)
-       
-        if department_info:
-            faculty_list = department_info.get("faculty", [])
-            # Fuzzy matching for specialization
-            closest_match, _ = process.extractOne(specialization.lower(), [faculty["specialization"].lower() for faculty in faculty_list])
-            for faculty in faculty_list:
-                if closest_match in faculty["specialization"].lower():
-                    dispatcher.utter_message(text=f"{faculty['name']} specializes in {faculty['specialization']}.")
-                    return []
-        
-        dispatcher.utter_message(text="I couldn't find a faculty member with that specialization.")
+        if matching_faculty:
+            dispatcher.utter_message(text=f"Here are the professors who specialize in {specialization}:")
+            for i, (name, match, department, score) in enumerate(sorted(matching_faculty, key=lambda x: x[3], reverse=True)[:3], start=1):
+                dispatcher.utter_message(text=f"{i}. {name} specializes in {match} and is in the {department} department. (Match score: {score}%)")
+        else:
+            dispatcher.utter_message(text="I couldn't find a faculty member with that specialization.")
+
         return []
-
+        
 class ActionRetrieveDepartmentChair(Action):
     def name(self) -> Text:
         return "action_retrieve_department_chair"
@@ -241,7 +249,6 @@ class ActionProvideMajorRequirements(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         department = tracker.get_slot("department")
-
         department_data = load_data(department)
 
 

@@ -1,0 +1,2430 @@
+[
+    {
+        "name": "Charles W. McKinney, Jr.",
+        "position": "Chair, Associate Professor of History",
+        "specialization": "History",
+        "departmentName": "Africana Studies"
+    },
+    {
+        "name": "Charles Hughes",
+        "position": "Director, Lynne and Henry Turley Memphis Center, Associate Professor",
+        "specialization": "History",
+        "departmentName": "Africana Studies"
+    },
+    {
+        "name": "Duane T. Loynes, Sr.",
+        "position": "Assistant Professor, Urban Studies and Africana Studies",
+        "specialization": "Urban Studies",
+        "departmentName": "Africana Studies"
+    },
+    {
+        "name": "Samson Ndanyi",
+        "position": "Assistant Professor, History and Africana Studies",
+        "specialization": "History",
+        "departmentName": "Africana Studies"
+    },
+    {
+        "name": "Evelyn Perry",
+        "position": "Associate Professor, Anthropology and Sociology",
+        "specialization": "Sociology",
+        "departmentName": "Africana Studies"
+    },
+    {
+        "name": "Earl Wright II",
+        "position": "Professor, Anthropology and Sociology",
+        "specialization": "Sociology",
+        "departmentName": "Africana Studies"
+    },
+    {
+        "name": "Shatavia Wynn",
+        "position": "Assistant Professor, Africana Studies and Religious Studies",
+        "specialization": "Religious Studies",
+        "departmentName": "Africana Studies"
+    },
+    {
+        "name": "Chien-Kai Chen",
+        "department": "Department of International Studies",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "Li Han",
+        "department": "Department of Modern Languages and Literature",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "John C. Kaltner",
+        "department": "Department of Religious Studies",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "Seok-Won Lee",
+        "department": "Department of History",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "David Mason",
+        "department": "Media Studies Program",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "Brooke Schedneck",
+        "department": "Department of Religious Studies",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "Yinyin Xue",
+        "department": "Department of Modern Languages and Literature",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "Shaolu Yu",
+        "department": "Urban Studies Program",
+        "position": "Chair",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "Lynn B. Zastoupil",
+        "department": "Department of History",
+        "departmentName": "Asian Studies"
+    },
+    {
+        "name": "David P. McCarthy",
+        "title": "Chair, Professor",
+        "joined": "1991",
+        "education": "B.A., Gettysburg College; Ph.D., University of Delaware",
+        "specialization": "Modern, contemporary, and American art.",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "A. Victor Coonin",
+        "title": "Professor",
+        "joined": "1995",
+        "education": "B.A., Oberlin College; M.A., Syracuse University; Ph.D., Rutgers University",
+        "specialization": "Medieval, Renaissance, and Baroque art history.",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Miriam G. Clinton",
+        "title": "Associate Professor",
+        "joined": "2015",
+        "education": "B.A., Yale University; M.A., Ph.D., University of Pennsylvania",
+        "specialization": "Ancient Art.",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Erin Harmon",
+        "title": "Associate Professor",
+        "joined": "2003",
+        "education": "B.A., San Diego State University; M.F.A., Rhode Island School of Design",
+        "specialization": "Painting and Drawing.",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Joel Parsons",
+        "title": "Assistant Professor, Director, Clough-Hanson Gallery",
+        "joined": "2014",
+        "education": "B.A., Rhodes College; M.F.A., School of the Art Institute of Chicago",
+        "specialization": "Sculpture and Performance.",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Karl Erickson",
+        "title": "Assistant Professor",
+        "joined": "2018",
+        "education": "B.F.A., Wayne State University; M.F.A., California Institute of the Arts",
+        "specialization": "Digital Arts and New Media.",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Raina Belleau",
+        "title": "Assistant Professor",
+        "joined": "2019",
+        "education": "B.F.A., Minneapolis College of Art and Design; M.F.A., Rhode Island School of Design",
+        "specialization": "Sculpture and Drawing.",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Rosanna Parrella Meindl",
+        "title": "Curator, Visual Resources Center",
+        "education": "B.A., Lewis and Clark College; M.A., University of Oregon",
+        "joined": "2014",
+        "specialization": "Asian Studies.",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Staff",
+        "title": "Christie Arnold",
+        "position": "Departmental Assistant",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Staff",
+        "title": "Ethan McVay",
+        "position": "Studio Technician",
+        "education": "B.F.A., University of Memphis",
+        "departmentName": "Art and Art History"
+    },
+    {
+        "name": "Michael D. Collins",
+        "position": "Professor",
+        "education": "B.S., University of Arizona; M.S., Florida State University; Ph.D., University of Tennessee",
+        "specialization": "Ecology, ornithology, wildlife biology",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Terry W. Hill",
+        "position": "Professor",
+        "education": "B.A., University of South Florida; M.S., Ph.D., University of Florida",
+        "specialization": "Cell biology, microbiology, biology of fungi",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "David Kabelik",
+        "position": "Professor",
+        "education": "H.B.Sc., University of Toronto; Ph.D., Arizona State University",
+        "specialization": "Neuroscience, endocrinology, physiology, animal behavior",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Mary E. Miller",
+        "position": "Professor",
+        "education": "B.A., University of Tennessee at Knoxville; Ph.D., University of Virginia",
+        "specialization": "Genetics, microbiology, cancer biology, cell biology",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Sarah Boyle",
+        "position": "Associate Professor",
+        "education": "B.A., College of William and Mary; Ph.D., Arizona State University",
+        "specialization": "Ecology, conservation biology, tropical field biology",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Kelly A. Dougherty",
+        "position": "Associate Professor",
+        "education": "B.S., West Chester University; Ph.D., Thomas Jefferson University",
+        "specialization": "Neuroscience, biophysics, neurophysiology",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Jonathan Fitz Gerald",
+        "position": "Associate Professor",
+        "education": "B.S., University of California at Irvine; Ph.D., University of Chicago",
+        "specialization": "Plant biology, development",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Elaine R. Frawley",
+        "position": "Associate Professor",
+        "education": "B.A., Ph.D., Washington University in St. Louis",
+        "specialization": "Microbiology, metabolism, bacterial physiology",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Bayly S. Wheeler",
+        "position": "Associate Professor",
+        "education": "B.S.E., University of Michigan; Ph.D., Duke University",
+        "specialization": "Molecular biology, genetics, genomics, microbiology",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Kelly Diamond",
+        "position": "Assistant Professor",
+        "education": "B.S., University of Central Florida; M.S., Ph.D. Clemson University",
+        "specialization": "Morphology, machine learning, biomechanics",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Liam Hunt",
+        "position": "Assistant Professor",
+        "education": "B.S., Ph.D. The University of Melbourne, Australia",
+        "specialization": "Molecular Biology, Skeletal Muscle Disease",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Kathryn A. LeCroy",
+        "position": "Assistant Professor",
+        "education": "B.S., Birmingham-Southern College; M.S. University of Pittsburgh; Ph.D. University of Virginia",
+        "specialization": "Conservation Biology, wild bee diversity, disease ecology, community science",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Sydney Moyo",
+        "position": "Assistant Professor",
+        "education": "B.S., Africa University; M.S. University of Zimbabwe; Rhodes University, Ph.D.",
+        "specialization": "Zoology, invertebrate biology, entomology",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Tanushree Pandit",
+        "position": "Assistant Professor",
+        "education": "B.S., M.S., RTM Nagpur University; Ph.D., Umea University",
+        "specialization": "Developmental neuroscience",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Qian Shen",
+        "position": "Assistant Professor",
+        "education": "B.E, China Agricultural University; M.S., Mississippi State University; Ph.D. Ohio State University",
+        "specialization": "Microbiology, Fungal pathogenesis",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "James Engman",
+        "position": "Visiting Assistant Professor",
+        "education": "B.S. Kent State University; B.S., M.S., Western Illinois University; Ph.D. University of Cincinnati",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Alix Matthews",
+        "position": "Visiting Assistant Professor",
+        "education": "B.S. Rhodes College; M.S., Ph.D. Arkansas State University",
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Tangela Allgood",
+        "position": "Staff",
+        "title": "Biology Department Administrative Assistant",
+        "year": 2022,
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Jordy Gentry",
+        "position": "Staff",
+        "title": "Biology Department Lab Supervisor for The Frazier Jelke Science Center",
+        "education": "B.S., University of Memphis",
+        "year": 2021,
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Justin A. Porter",
+        "position": "Staff",
+        "title": "Biology Department Lab Manager for Robertson Hall",
+        "education": "B.S., M.S., University of Georgia",
+        "year": 2017,
+        "departmentName": "Biology"
+    },
+    {
+        "name": "Terry Hill",
+        "department": "Department of Biology",
+        "departmentName": "Biochemistry and molecular Biology"
+    },
+    {
+        "name": "Larryn Peterson",
+        "department": "Department of Chemistry",
+        "position": "Chair",
+        "departmentName": "Biochemistry and molecular Biology"
+    },
+    {
+        "name": "Shana Stoddard",
+        "department": "Department of Chemistry",
+        "departmentName": "Biochemistry and molecular Biology"
+    },
+    {
+        "name": "Bayly Wheeler",
+        "department": "Department of Biology",
+        "departmentName": "Biochemistry and molecular Biology"
+    },
+    {
+        "name": "Wendy Bailey",
+        "position": "Associate Professor",
+        "education": "B.A., Washington University St Louis; M.B.A., University of Colorado Boulder; Ph.D., University of Pittsburgh",
+        "specialization": "Accounting",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Dee Birnbaum",
+        "position": "Associate Professor",
+        "education": "B.A., State University of New York at Stony Brook; M.B.A., Baruch College; M. Phil. and Ph.D., City University of New York",
+        "specialization": "General management, human resource management",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Kayla D. Booker",
+        "position": "Associate Professor",
+        "education": "B.B.A., M.P.A., and Ph.D., Jackson State University",
+        "specialization": "Accountancy",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Sujan M. Dan",
+        "position": "Associate Professor",
+        "education": "B.Tech, Kerala University, India; M.S. and Ph.D., Texas A&M University",
+        "specialization": "Marketing",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Denis Khantimirov",
+        "position": "Associate Professor",
+        "education": "B.A., North Ossetian State University, Russia; M.B.A., University of Nevada, Las Vegas; Ph.D., Old Dominion University",
+        "specialization": "Marketing",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Kelly P. Weeks",
+        "position": "Associate Professor",
+        "education": "B.A., Rhodes College; M.A. and Ph.D., University of Memphis",
+        "specialization": "Management",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Andrey Zagorchev",
+        "position": "Associate Professor",
+        "education": "B.S., M.S., Plovdiv University, Bulgaria; M.B.A., Wright State University; Ph.D., Lehigh University",
+        "specialization": "Finance",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Jade O. Planchon",
+        "position": "Assistant Professor",
+        "education": "B.A., Rhodes College; M.B.A., Columbia University; Ph.D., University of Memphis",
+        "specialization": "Finance",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Milton L. Lovell",
+        "position": "Part-Time Assistant Professor",
+        "education": "B.S. and J.D., University of Mississippi; LL.M., New York University School of Law",
+        "specialization": "Accountancy, taxation",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Sarah A. Cate",
+        "position": "Instructor",
+        "education": "B.A., Hendrix College; M.S., University of Memphis",
+        "specialization": "Accountancy",
+        "departmentName": "Business"
+    },
+    {
+        "name": "David Hopkins",
+        "position": "Part-Time Instructor",
+        "year": 2022,
+        "education": "B.P.A., Mississippi State University",
+        "specialization": "Accounting",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Steve Zatechka",
+        "position": "Part-Time Instructor",
+        "year": 2018,
+        "education": "B.S. and M.S., University of Nebraska-Lincoln; M.B.A., University of Memphis; Ph.D., University of Nebraska Medical Center",
+        "specialization": "Entrepreneurship",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Eric Mathews",
+        "position": "Entrepreneur in Residence",
+        "year": 2023,
+        "education": "B.S., Rhodes College; M.S., University of Memphis",
+        "specialization": "Entrepreneurship",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Hannah Guess",
+        "position": "Staff",
+        "title": "Departmental Assistant",
+        "year": 2020,
+        "education": "B.A. and M.A., University of Memphis",
+        "departmentName": "Business"
+    },
+    {
+        "name": "Loretta Jackson-Hayes",
+        "title": "Professor",
+        "joined": "2003",
+        "education": "B.S., Tougaloo College; Ph.D., University of Tennessee",
+        "specialization": "Pharmacology",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Darlene M. Loprete",
+        "title": "Chair, Professor",
+        "joined": "1990",
+        "education": "B.A., Clark University; Ph.D., University of Rhode Island",
+        "specialization": "Biochemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Jon Russ",
+        "title": "Professor",
+        "joined": "2004",
+        "education": "B.S., Corpus Christi State University; Ph.D., Texas A&M University",
+        "specialization": "Analytical Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "David Y. Jeter",
+        "title": "Professor Emeritus",
+        "joined": "1973",
+        "education": "B.S., Texas A&M University-Commerce; Ph.D., University of North Carolina, Chapel Hill",
+        "specialization": "Inorganic Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "William Eckenhoff",
+        "title": "Associate Professor",
+        "joined": "2015",
+        "education": "B.S., Allegheny College; Ph.D., Duquesne University",
+        "specialization": "Inorganic Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Larryn W. Peterson",
+        "title": "Associate Professor",
+        "joined": "2011",
+        "education": "B.A., Carroll College; Ph.D., University of Southern California",
+        "specialization": "Organic Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Roberto de la Salud Bea",
+        "title": "Associate Professor",
+        "joined": "2010",
+        "education": "B.S. and M.S., University of Valencia, Spain; Ph.D., University of Nebraska",
+        "specialization": "Organic Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Shana Stoddard",
+        "title": "Associate Professor",
+        "joined": "2015",
+        "education": "B.S., Prairie View A&M University; M.Ed., Freed-Hardeman University; Ph.D., University of Mississippi",
+        "specialization": "Biochemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Kimberly Brien",
+        "title": "Assistant Professor",
+        "joined": "2012",
+        "education": "B.S., Texas Lutheran University; M.S., Baylor University; Ph.D., Texas Christian University",
+        "specialization": "Organic Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Kavita Gaur",
+        "title": "Assistant Professor",
+        "joined": "2022",
+        "education": "B.S., Agra, U.P., India; M.S., Agra, U.P., India; Ph.D., University of Puerto Rico",
+        "specialization": "Bioinorganic Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Dana Horgen",
+        "title": "Assistant Professor",
+        "joined": "2014",
+        "education": "B.S., Saint Olaf College; Ph.D., Baylor University",
+        "specialization": "Organic Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Dhammika S. Muesse",
+        "title": "Assistant Professor",
+        "joined": "2007",
+        "education": "B.S. and M.S., University of Colombo; Ph.D., University of Memphis",
+        "specialization": "Analytical Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Miguel Angel M\u00e9ndez Polanco",
+        "title": "Assistant Professor",
+        "joined": "2021",
+        "education": "BSc, Universidad Aut\u00f3noma de Puebla (M\u00e9xico); Ph.D., University of Pennsylvania",
+        "specialization": "Physical Chemistry",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Karen Mosely",
+        "title": "Chemistry Instrument Technician and Chemical Safety Officer",
+        "education": "B.S., University of Memphis; M.S. University of Memphis",
+        "departmentName": "Chemistry"
+    },
+    {
+        "name": "Han Li",
+        "joined": "2008",
+        "title": "Associate Professor",
+        "position": "Chair",
+        "education": "B.A. Nanjing University; Ph.D. University of California, Irvine",
+        "specialization": "Literature and culture of Late Imperial China",
+        "departmentName": "Chinese Studies"
+    },
+    {
+        "name": "Yinyin Xue",
+        "joined": "2020",
+        "title": "Assistant Professor",
+        "education": "B.A. Sichuan International Studies University; M.A. Peking University; M.A. and Ph.D. University of Wisconsin-Madison",
+        "specialization": "Twentieth-century Chinese literature and culture",
+        "departmentName": "Chinese Studies"
+    },
+    {
+        "name": "Yang Qi",
+        "joined": "2019",
+        "title": "Instructor",
+        "education": "B.A. Zhejiang University; M.Ed. University at Buffalo-SUNY; PhD. University of Florida",
+        "specialization": "Teaching English to Speakers of Other Languages, Curriculum and Instruction",
+        "departmentName": "Chinese Studies"
+    },
+    {
+        "name": "Betsy Williams Sanders",
+        "title": "Professor",
+        "joined": "2007",
+        "education": "B.S., Millsaps College; M.S. and Ph.D., Vanderbilt University",
+        "specialization": "Computer graphics and animation",
+        "departmentName": "Computer Science"
+    },
+    {
+        "name": "Phillip B. Kirlin",
+        "title": "Associate Professor",
+        "joined": "2012",
+        "education": "B.S., University of Maryland; M.S. and Ph.D., University of Massachusetts Amherst",
+        "specialization": "Artificial intelligence, machine learning, music informatics",
+        "departmentName": "Computer Science"
+    },
+    {
+        "name": "D. Brian Larkins",
+        "title": "Associate Professor",
+        "joined": "2015",
+        "education": "B.S., M.S., Ph.D., The Ohio State University",
+        "specialization": "Parallel programming, Parallel computing, High Performance Computing, programming languages, network security",
+        "departmentName": "Computer Science"
+    },
+    {
+        "name": "Catherine E. Welsh",
+        "title": "Associate Professor",
+        "joined": "2013",
+        "education": "B.S., Ursinus College; M.S., Lehigh University; Ph.D., University of North Carolina-Chapel Hill",
+        "specialization": "Bioinformatics, Data Mining, computational genetics",
+        "departmentName": "Computer Science"
+    },
+    {
+        "name": "Marion Lang",
+        "title": "Assistant Professor",
+        "joined": "2019",
+        "education": "B.S., Indiana University of Pennsylvania; M.S., Ph.D., The Ohio State University",
+        "specialization": "Specification and verification of distributed systems, large-scale distributed data processing and analytics systems",
+        "departmentName": "Computer Science"
+    },
+    {
+        "name": "Matthew Superdock",
+        "title": "Assistant Professor",
+        "joined": "2021",
+        "education": "B.S., Princeton University; Ph.D., Carnegie Mellon University",
+        "specialization": "Advacned Algorithms, Type theory, formal verification, and automated reasoning",
+        "departmentName": "Computer Science"
+    },
+    {
+        "name": "Marshall K. Gramm",
+        "title": "Chair, Professor",
+        "joined": "2000",
+        "education": "B.A., Rice University; Ph.D., Texas A & M University",
+        "specialization": "Applied microeconomics",
+        "departmentName": "Economics"
+    },
+    {
+        "name": "C. Nicholas McKinney",
+        "title": "Robert D. McCallum Professor of Economics, Professor",
+        "joined": "2003",
+        "education": "B.A., B.S., Centenary College of Louisiana; Ph.D., Texas A & M University",
+        "specialization": "Experimental economics, applied microeconomics",
+        "departmentName": "Economics"
+    },
+    {
+        "name": "Courtney A. Collins",
+        "title": "Associate Professor",
+        "joined": "2013",
+        "education": "B.A., Rhodes College; Ph.D., Texas A&M University",
+        "specialization": "Applied economics",
+        "departmentName": "Economics"
+    },
+    {
+        "name": "Teresa Beckham Gramm",
+        "title": "Associate Professor",
+        "joined": "1999",
+        "education": "B.A., Agnes Scott College; Ph.D., University of North Carolina-Chapel Hill",
+        "specialization": "International economics",
+        "departmentName": "Economics"
+    },
+    {
+        "name": "Shameel Ahmad",
+        "title": "Assistant Professor",
+        "joined": "2019",
+        "education": "B.A., Stanford University; M.Sc. London School of Economics; M.A., M.Phil., Ph.D., Yale University",
+        "specialization": "Economic History",
+        "departmentName": "Economics"
+    },
+    {
+        "name": "Bruno D. Badia",
+        "title": "Assistant Professor",
+        "joined": "2015",
+        "education": "B.A., Federal University of Rio Grande do Sul, Brazil; M.A., Federal University of Minas Gerais, Brazil; Ph.D., Stony Brook University",
+        "specialization": "Industrial organization, game theory, applied microeconomics",
+        "departmentName": "Economics"
+    },
+    {
+        "name": "Jaqueline Oliveira",
+        "title": "Assistant Professor",
+        "joined": "2016",
+        "education": "B.A., Federal University of Minas Gerais, Brazil; M.Sc., University of Sao Paulo, Brazil; M.A., M.Phil., Ph.D., Yale University",
+        "specialization": "Development, labor, family and urban economics",
+        "departmentName": "Economics"
+    },
+    {
+        "name": "Hannah Guess",
+        "title": "Departmental Assistant",
+        "joined": "2020",
+        "education": "B.A. and M.A., University of Memphis",
+        "departmentName": "Economics"
+    },
+    {
+        "name": "Natalie K. Person",
+        "title": "Chair, Professor",
+        "joined": "1994",
+        "education": "B.A. University of Mississippi; M.S. and Ph.D. University of Memphis",
+        "specialization": "Cognitive psychology: learning technologies; educational psychology",
+        "departmentName": "Educational Studies"
+    },
+    {
+        "name": "Zachary Casey",
+        "ptitleosition": "Associate Professor",
+        "joined": "2014",
+        "education": "B.A.E. and M.A. Arizona State University; Ph.D. University of Minnesota",
+        "specialization": "Curriculum and Instruction, Multicultural Education, Critical Pedagogy, Teacher Education",
+        "departmentName": "Educational Studies"
+    },
+    {
+        "name": "Cara Djonko-Moore",
+        "title": "Associate Professor",
+        "joined": "2018",
+        "education": "B.A. Northwestern University, M.A. University of Pennsylvania, Ph.D. Temple University",
+        "specialization": "Early Childhood, Culturally Responsive Pedagogy",
+        "departmentName": "Educational Studies"
+    },
+    {
+        "name": "Laura Taylor",
+        "title": "Associate Professor",
+        "joined": "2017",
+        "education": "B.S. Cornell University; M.Ed. University of Saint Thomas; Ph.D. University of Texas at Austin",
+        "specialization": "Literacy Teaching and Learning; Critical Literacies; Educational Policy",
+        "departmentName": "Educational Studies"
+    },
+    {
+        "name": "Laura Kelly",
+        "title": "Assistant Professor",
+        "joined": "2018",
+        "education": "B.S. Freed-Hardeman University; M.Ed. Western Governors University; Ph.D. Arizona State University",
+        "specialization": "Elementary Literacy, Bilingual Education",
+        "departmentName": "Educational Studies"
+    },
+    {
+        "name": "Joseph Kelly",
+        "title": "Teacher Licensure Coordinator",
+        "joined": "2018",
+        "education": "B.A. Freed-Hardeman University; M.Div. Harding School of Theology; Ph.D. Southern Seminary",
+        "departmentName": "Educational Studies"
+    },
+    {
+        "name": "Amber Lewis",
+        "title": "Administrative Assistant",
+        "departmentName": "Educational Studies"
+    },
+    {
+        "name": "Raina Belleau",
+        "department": "Department of Art and Art History",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Erin Bodine",
+        "department": "Department of Mathematics",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Sarah Boyle",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Michael Collins",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Kelly Diamond",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Erin Dolgoy",
+        "department": "Department of Politics & Law; Department of Philosophy",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "William Eckenhoff",
+        "department": "Department of Chemistry",
+        "position": "Chair",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "James Engman",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Elaine Frawley",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Judith Haas",
+        "department": "Department of English",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Jeffrey Jackson",
+        "department": "Department of History",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Tait Keller",
+        "department": "Department of History",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Laura Loth",
+        "department": "Department of Modern Languages, French",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Sydney Moyo",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Elizabeth Pettinaroli",
+        "department": "Department of Modern Languages",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Brooke Schedneck",
+        "department": "Department of Religious Studies",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Kate Shields",
+        "department": "Environmental Studies & Sciences Program",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Rebecca Tuvel",
+        "department": "Department of Philosophy",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Shaolu Yu",
+        "department": "Urban Studies Program",
+        "departmentName": "Enviromental Science"
+    },
+    {
+        "name": "Raina Belleau",
+        "department": "Department of Art and Art History",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Erin Bodine",
+        "department": "Department of Mathematics",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Sarah Boyle",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Michael Collins",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Kelly Diamond",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Erin Dolgoy",
+        "department": "Department of Politics & Law; Department of Philosophy",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "William Eckenhoff",
+        "department": "Department of Chemistry",
+        "title": "Chair",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "James Engman",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Elaine Frawley",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Judith Haas",
+        "department": "Department of English",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Jeffrey Jackson",
+        "department": "Department of History",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Tait Keller",
+        "department": "Department of History",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Laura Loth",
+        "department": "Department of Modern Languages, French",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Sydney Moyo",
+        "department": "Department of Biology",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Elizabeth Pettinaroli",
+        "department": "Department of Modern Languages",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Brooke Schedneck",
+        "department": "Department of Religious Studies",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Kate Shields",
+        "department": "Environmental Studies & Sciences Program",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Rebecca Tuvel",
+        "department": "Department of Philosophy",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Shaolu Yu",
+        "department": "Urban Studies Program",
+        "departmentName": "Enviromental Studies"
+    },
+    {
+        "name": "Laura Loth",
+        "joined": "2009",
+        "title": "Associate Professor",
+        "education": "B.A. College of William and Mary; M.A. and Ph.D., University of Minnesota",
+        "specialization": "French and Francophone literature and film, Environmental Studies, Film Studies",
+        "departmentName": "French"
+    },
+    {
+        "name": "Stacey E. Battis",
+        "title": "Assistant Professor",
+        "joined": "2022",
+        "education": "B.A. Smith College; M.A. and Ph.D. University of California, Berkeley",
+        "specialization": "Early modern French literature, French and Francophone Studies, Gender and Sexuality Studies",
+        "departmentName": "French"
+    },
+    {
+        "name": "Abou-Bakar Mamah",
+        "joined": "2018",
+        "title": "Assistant Professor",
+        "education": "B.A. and M.A. University of Lom\u00e9, Togo; Ph.D. University of Minnesota",
+        "specialization": "French critical theory, Structuralism, French and Francophone Studies",
+        "departmentName": "French"
+    },
+    {
+        "name": "Sarah Finley",
+        "joined": "2020",
+        "title": "Instructor",
+        "education": "B.A. and M.Ed. Vanderbilt University",
+        "specialization": "French language and Francophone cultures",
+        "departmentName": "French"
+    },
+    {
+        "name": "Kathryn Holihan",
+        "joined": "2021",
+        "title": "Assistant Professor",
+        "education": "B.A. Oberlin College; Ph.D, University of Michigan",
+        "specialization": "Late-19th through 20th-century German Studies, Science Studies, Museum Studies",
+        "departmentName": "German Studies"
+    },
+    {
+        "name": "Nina Morais",
+        "joined": "2023",
+        "title": "Assistant Professor",
+        "education": "B.A. Federal University of Minas Gerais; M.A. Indiana University",
+        "specialization": "Transcultural, Transnational and Migration Studies; Germany-Africa and Germany-South America Relations; Contemporary German Theater and Film",
+        "departmentName": "German Studies"
+    },
+    {
+        "name": "Elizabeth Bridges",
+        "department": "Department of Modern Languages",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Zachary Casey",
+        "department": "Department of Education",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Kathleen Doyle",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Joy Brooke Fairfield",
+        "department": "Media Studies Program",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Rhiannon Graybill",
+        "department": "Department of Religious Studies",
+        "position": "Chair",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Judith Haas",
+        "department": "Department of English",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Kimberly Kasper",
+        "department": "Department of Anthropology and Sociology",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Mona Kreitner",
+        "department": "Department of Music",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Susan Kus",
+        "department": "Department of Anthropology and Sociology",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Han Li",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Jeanne Lopiparo",
+        "department": "Department of Anthropology and Sociology",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Laura Loth",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Shira Malkin",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "David McCarthy",
+        "department": "Department of Art",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Joel Parsons",
+        "department": "Director, Clough Hanson Gallery",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Evie Perry",
+        "department": "Department of Anthropology and Sociology",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Leslie Petty",
+        "department": "Department of English",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Rashna Richards",
+        "department": "Department of English",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Amy Risley",
+        "department": "Department of International Studies",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Vanessa Rogers",
+        "department": "Department of Music",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Brooke Schedneck",
+        "department": "Department of Religious Studies",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Elizabeth Thomas",
+        "department": "Department of Psychology and Urban Studies",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Rebecca Tuvel",
+        "department": "Department of Philosophy",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Marsha Walton",
+        "department": "Department of Psychology",
+        "departmentName": "Gender and Sexuality Studies"
+    },
+    {
+        "name": "Timothy S. Huebner",
+        "title": "Professor",
+        "joined": "1995",
+        "education": "B.A., University of Miami; M.A. and Ph.D., University of Florida",
+        "specialization": "U.S. South, nineteenth century, U.S. constitutional/legal history",
+        "departmentName": "History"
+    },
+    {
+        "name": "Jeffrey H. Jackson",
+        "title": "Professor",
+        "joined": "2000",
+        "education": "B.S., Vanderbilt University; Ph.D., University of Rochester",
+        "specialization": "Modern Europe, France, cultural history, natural disasters",
+        "departmentName": "History"
+    },
+    {
+        "name": "Jonathan Judaken",
+        "title": "Professor",
+        "joined": "2011",
+        "education": "B.A., University of California, San Diego; M.A. and Ph.D., University of California, Irvine",
+        "specialization": "Modern Europe, cultural and intellectual history",
+        "departmentName": "History"
+    },
+    {
+        "name": "Etty Terem",
+        "title": "Professor",
+        "joined": "2008",
+        "education": "B.A. and M.A., Tel Aviv University; Ph.D., Harvard University",
+        "specialization": "Modern Middle East and North Africa, Islamic law and society",
+        "departmentName": "History"
+    },
+    {
+        "name": "Lynn B. Zastoupil",
+        "title": "Professor",
+        "joined": "1988",
+        "education": "B.A., Dickinson State College; M.A., University of Texas; Ph.D., University of Minnesota",
+        "specialization": "Modern Britain, India, European intellectual history",
+        "departmentName": "History"
+    },
+    {
+        "name": "Michael J. LaRosa",
+        "title": "Associate Professor",
+        "joined": "1995",
+        "education": "B.A., George Washington University; M.A. and Ph.D., University of Miami",
+        "specialization": "Contemporary Latin America, Colombia, church history",
+        "departmentName": "History"
+    },
+    {
+        "name": "Seok-Won Lee",
+        "title": "Associate Professor",
+        "joined": "2011",
+        "education": "B.A. and M.A., Yonsei University; Ph.D., Cornell University",
+        "specialization": "Modern East Asia",
+        "departmentName": "History"
+    },
+    {
+        "name": "Charles W. McKinney, Jr.",
+        "title": "Associate Professor",
+        "joined": "2004",
+        "education": "B.A., Morehouse College; M.A. and Ph.D., Duke University",
+        "specialization": "African-American history, civil rights studies, twentieth-century United States",
+        "departmentName": "History"
+    },
+    {
+        "name": "Robert F. Saxe",
+        "title": "Associate Professor",
+        "joined": "2003",
+        "education": "B.A., Reed College; Ph.D., University of Illinois",
+        "specialization": "Twentieth-century United States, political history, war and society",
+        "departmentName": "History"
+    },
+    {
+        "name": "Tait S. Keller",
+        "title": "Associate Professor",
+        "joined": "2008",
+        "education": "B.A., University of Rochester; M.A. and Ph.D., Georgetown University",
+        "specialization": "Environmental history, modern Europe, Germany",
+        "departmentName": "History"
+    },
+    {
+        "name": "Sarah Ifft Decker",
+        "title": "Assistant Professor",
+        "joined": "2020",
+        "education": "B.A., Swarthmore College, M.A., The Jewish Theological Seminary, Ph.D., Yale University",
+        "specialization": "Medieval Mediterranean, Spain, economic, Jewish, women/gender",
+        "departmentName": "History"
+    },
+    {
+        "name": "Samson Ndanyi",
+        "title": "Assistant Professor",
+        "joined": "2018",
+        "education": "B.S. and M.S., Towson University; M.A., Morgan State University; Ph.D., Indiana University, Bloomington",
+        "specialization": "African history, African American studies, African diaspora studies, world history",
+        "departmentName": "History"
+    },
+    {
+        "name": "Etty Terem",
+        "department": "Department of History",
+        "role": "Chair",
+        "departmentName": "Jewish, Islamic, and Middle Eastern Studies Program"
+    },
+    {
+        "name": "Esen Kirdis",
+        "department": "Department of International Studies",
+        "departmentName": "Jewish, Islamic, and Middle Eastern Studies Program"
+    },
+    {
+        "name": "Jonathan Judaken",
+        "department": "Department of History",
+        "departmentName": "Jewish, Islamic, and Middle Eastern Studies Program"
+    },
+    {
+        "name": "John Kaltner",
+        "department": "Department of Religious Studies",
+        "departmentName": "Jewish, Islamic, and Middle Eastern Studies Program"
+    },
+    {
+        "name": "Raissa A von Doetinchem de Rande",
+        "department": "Department of Religious Studies",
+        "departmentName": "Jewish, Islamic, and Middle Eastern Studies Program"
+    },
+    {
+        "name": "Sarah Ifft Decker",
+        "department": "Department of History",
+        "departmentName": "Jewish, Islamic, and Middle Eastern Studies Program"
+    },
+    {
+        "name": "Elizabeth Pettinaroli",
+        "department": "Department of Modern Languages and Literatures",
+        "role": "Chair",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Ricardo Martins",
+        "joined": "2023",
+        "title": "Assistant Professor",
+        "education": "B.A. Universidade Federal de Minas Gerais; M.A. and Ph.D. Indiana University",
+        "specialization": "Mid-20th century - contemporary Transnational and Latin American literature and cinema, Brazilian Favelas, Videogames, Media Studies",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Bruno Badia",
+        "department": "Department of Economics",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Amy Benson",
+        "department": "English Department/Creative Writing",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Sarah Boyle",
+        "department": "Department of Biology",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Joy Brooke Fairfield",
+        "department": "Media Studies Program",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Eric Henager",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Andrea Jacobo",
+        "department": "Health Equity",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Laura Kelly",
+        "department": "Educational Studies",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Francisco Lara",
+        "department": "Department of Music",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Michael LaRosa",
+        "department": "Department of History",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Jeanne Lopiparo",
+        "department": "Department of Anthropology and Sociology",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Nina Morais",
+        "department": "German Studies",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Jaqueline Oliveira",
+        "department": "Department of Economics",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Amy Risley",
+        "department": "Department of International Studies",
+        "departmentName": "Latin American and Latinx Studies"
+    },
+    {
+        "name": "Christopher Mouron",
+        "joined": "2002",
+        "title": "Professor",
+        "education": "B.S., Lafayette College; M.S. and Ph.D., Texas Tech University",
+        "specialization": "Topology, continuum theory, discrete dynamical systems",
+        "departmentName": "Mathematics and Statistics"
+    },
+    {
+        "name": "Chris Seaton",
+        "joined": "2004",
+        "title": "Professor",
+        "education": "B.A., Kalamazoo College; Ph.D., University of Colorado at Boulder",
+        "specialization": "Differential geometry, differential topology, orbifolds, Lie groupoids, singular symplectic reduction, invariant theory",
+        "departmentName": "Mathematics and Statistics"
+    },
+    {
+        "name": "Ibrahim Abdelrazeq",
+        "joined": "2015",
+        "title": "Associate Professor",
+        "education": "B.S., Yarmouk University; M.S., New Mexico State University; Ph.D., University of Ottawa",
+        "specialization": "Time series analysis, financial and actuarial mathematics, parametric and nonparametric goodness of fit tests",
+        "departmentName": "Mathematics and Statistics"
+    },
+    {
+        "name": "Erin N. Bodine",
+        "joined": "2010",
+        "title": "Associate Professor",
+        "position": "E.C. Ellett Professorship of Mathematics and Computer Science",
+        "education": "B.S. and B.A., Harvey Mudd College; Ph.D., University of Tennessee, Knoxville",
+        "specialization": "Optimal control theory, mathematical ecology, differential equations, discrete difference equations, individual and agent based modeling",
+        "departmentName": "Mathematics and Statistics"
+    },
+    {
+        "name": "Kyle Dempsey",
+        "joined": "2023",
+        "title": "Assistant Professor",
+        "education": "B.S., Lambuth University; M.S. and Ph.D., University of Memphis",
+        "specialization": "Educational games, distance education, child sexual abuse prevention",
+        "departmentName": "Mathematics and Statistics"
+    },
+    {
+        "name": "Erika Parr",
+        "joined": "2021",
+        "title": "Assistant Professor",
+        "education": "B.A., University of Dallas; Ph.D., Arizona State University",
+        "specialization": "Mathematics education",
+        "departmentName": "Mathematics and Statistics"
+    },
+    {
+        "name": "Rashna Richards",
+        "department": "Department of English",
+        "position": "Chair",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "John Bass",
+        "department": "Department of Music",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Marshall Boswell",
+        "department": "Department of English",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Karl Erickson",
+        "department": "Department of Art",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Joy Broke Fairfield",
+        "department": "Media Studies Program",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Han Li",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Bradley Harris",
+        "department": "Media Studies Program",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Charles Hughes",
+        "department": "Urban Studies Program",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Sarah Ifft Decker",
+        "department": "Department of History",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Sasha Kostina",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Michael LaRosa",
+        "department": "Department of History",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Laura Loth",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "David Mason",
+        "department": "Media Studies Program",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "J. David Maxson",
+        "department": "Media Studies Program",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "David McCarthy",
+        "department": "Department of Art",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Samson Ndanyi",
+        "department": "Department of History",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Scott Newstok",
+        "department": "Department of English",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Clara Pascual-Argente",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Evelyn Perry",
+        "department": "Department of Anthropology and Sociology",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Rebecca Tuvel",
+        "department": "Department of Philosophy",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Earl Wright II",
+        "department": "Department of Anthropology and Sociology",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Yinyin Xue",
+        "department": "Department of Modern Languages and Literatures",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Shaolu Yu",
+        "department": "Urban Studies Program",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Nikolaos Zahariadis",
+        "department": "Department of International Studies",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Lynn Zastoupil",
+        "department": "Department of History",
+        "departmentName": "Media Studies"
+    },
+    {
+        "name": "Carole Choate Blankenship",
+        "title": "Chair",
+        "joined": "1990",
+        "education": [
+            "B.A., Rhodes College",
+            "M.M., D.M.A., University of Memphis"
+        ],
+        "specializations": [
+            "Voice",
+            "Senior Seminar",
+            "Opera Scenes"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "Courtenay L. Harter",
+        "title": "Associate Professor",
+        "joined": "2000",
+        "education": [
+            "B.F.A., Carnegie Mellon University",
+            "M.M., Northwestern University",
+            "Ph.D., University of Connecticut"
+        ],
+        "specializations": [
+            "Music Theory",
+            "Music & Psychology",
+            "Oboe/English Horn",
+            "Chamber Music"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "William M. Skoog",
+        "title": "Director of Choral Activities, Conducting",
+        "joined": "2009",
+        "education": [
+            "B.A., Gustavus Adolphus College",
+            "M.A., University of Denver",
+            "D.A., University of Northern Colorado"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "John B. Bass, III",
+        "title": "Associate Professor",
+        "joined": "2010",
+        "education": [
+            "B.M., University of Southern Mississippi",
+            "M.M., Ph.D., University of Memphis"
+        ],
+        "specializations": [
+            "African-American Studies",
+            "Jazz Studies",
+            "Improvisation",
+            "Guitar"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "Thomas E. Bryant",
+        "title": "Associate Professor",
+        "joined": "1987",
+        "education": [
+            "B.M., M.M., University of Georgia",
+            "D.M., Northwestern University"
+        ],
+        "specializations": [
+            "Piano",
+            "Collaborative Piano",
+            "Music Literature"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "Vanessa L. Rogers",
+        "title": "Associate Professor",
+        "joined": "2010",
+        "education": [
+            "B.M.E., Illinois Wesleyan University",
+            "M.A., Ph.D., University of Southern California"
+        ],
+        "specializations": [
+            "Music History",
+            "Music Literature"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "Jacob Sunshine",
+        "title": "Assistant Professor",
+        "joined": "2023",
+        "education": [
+            "B.A., Columbia University",
+            "M.A., Ph.D. A.B.D., Harvard University"
+        ],
+        "specializations": [
+            "Ethnomusicology",
+            "African/African-American Studies",
+            "Jazz Studies",
+            "Guitar"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "Mike Assad",
+        "title": "Adjunct Instructor",
+        "education": [
+            "B.M., University of Kentucky",
+            "M.M., University of Memphis"
+        ],
+        "specializations": [
+            "Percussion",
+            "World Drum Ensemble"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "Whitney Branan",
+        "title": "Adjunct Instructor",
+        "education": [
+            "B.A., Wagner College"
+        ],
+        "specializations": [
+            "Dance",
+            "Choreography"
+        ],
+        "departmentName": "Music"
+    },
+    {
+        "name": "Erika Pope",
+        "title": "Musical Arts Coordinator",
+        "joined": "2016",
+        "education": "B.A., Henderson State University",
+        "departmentName": "Music"
+    },
+    {
+        "name": "David Kabelik",
+        "title": "Professor",
+        "joined": "2009",
+        "education": [
+            "H.B.Sc., University of Toronto",
+            "Ph.D., Arizona State University"
+        ],
+        "specializations": [
+            "Neuroscience",
+            "Endocrinology",
+            "Physiology",
+            "Animal Behavior"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Kelly A. Dougherty",
+        "title": "Professor",
+        "joined": "2014",
+        "education": [
+            "B.S., West Chester University",
+            "Ph.D., Thomas Jefferson University"
+        ],
+        "specializations": [
+            "Neuroscience",
+            "Biophysics",
+            "Neurophysiology"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Jason Haberman",
+        "title": "Professor",
+        "joined": "2014",
+        "education": [
+            "B.A., University of Miami",
+            "M.A., Ph.D., University of California - Davis"
+        ],
+        "specializations": [
+            "Neuroscience: Visual Psychophysics",
+            "Object Recognition",
+            "Ensemble Perception"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Rebecca Klatzkin",
+        "title": "Professor",
+        "joined": "2011",
+        "education": [
+            "B.S., University of Richmond",
+            "Ph.D., University of North Carolina, Chapel Hill"
+        ],
+        "specializations": [
+            "Behavioral Neuroscience",
+            "Stress",
+            "Eating Behavior",
+            "Binge Eating Disorder"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Larryn W. Peterson",
+        "title": "Professor",
+        "joined": "2011",
+        "education": [
+            "B.A., Carroll College",
+            "Ph.D., University of Southern California"
+        ],
+        "specializations": [
+            "Organic Chemistry"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Carlos Lafourcade",
+        "title": "Associate Professor",
+        "joined": "2023",
+        "education": [
+            "Licenciate degree and Ph.D., University of Buenos Aires"
+        ],
+        "specializations": [
+            "Epilepsy",
+            "Stress",
+            "Cannabinoids"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Jared Millson",
+        "title": "Associate Professor",
+        "joined": "2021",
+        "education": [
+            "B.A., Boston University",
+            "Ph.D., Emory University"
+        ],
+        "specializations": [
+            "Philosophy of Cognitive Sciences"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Tanushree Pandit",
+        "title": "Associate Professor",
+        "joined": "2019",
+        "education": [
+            "B.S., M.S., RTM Nagpur University",
+            "Ph.D., Umea University"
+        ],
+        "specializations": [
+            "Developmental Neuroscience"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Laura Shannahan",
+        "title": "Associate Professor",
+        "joined": "2022",
+        "education": [
+            "B.S., University of Wisconsin at Madison",
+            "Ph.D., Northwestern University"
+        ],
+        "specializations": [
+            "Cognitive Neuroscience",
+            "Sleep",
+            "Sensory Systems"
+        ],
+        "departmentName": "Neuroscience"
+    },
+    {
+        "name": "Michael Nelson",
+        "title": "Fulmer Professor of Political Science",
+        "joined": "1991",
+        "education": [
+            "B.A., College of William and Mary",
+            "M.A. and Ph.D., The Johns Hopkins University"
+        ],
+        "specializations": [
+            "American Presidency",
+            "Southern Politics",
+            "American Politics"
+        ],
+        "departmentName": "Politics and Law"
+    },
+    {
+        "name": "Marcus D. Pohlmann",
+        "title": "Emeritus",
+        "joined": "1986",
+        "education": [
+            "B.A., Cornell College",
+            "M.A., M.Phil. and Ph.D., Columbia University"
+        ],
+        "specializations": [
+            "American Politics",
+            "Legal Studies",
+            "Education Policy",
+            "Black Political Thought"
+        ],
+        "departmentName": "Politics and Law"
+    },
+    {
+        "name": "Erin A. Dolgoy",
+        "title": "Associate Professor",
+        "joined": "2013",
+        "education": [
+            "M.A. and Ph.D., Michigan State University"
+        ],
+        "specializations": [
+            "Political Theory",
+            "Science and Technology Studies",
+            "American Politics"
+        ],
+        "departmentName": "Politics and Law"
+    },
+    {
+        "name": "Anna S. Eldridge",
+        "title": "Assistant Professor",
+        "joined": "2012",
+        "education": [
+            "B.A., Rhodes College",
+            "J.D., Duke University"
+        ],
+        "specializations": [
+            "Legal Studies",
+            "Internships",
+            "Pre-Law Advising"
+        ],
+        "departmentName": "Politics and Law"
+    },
+    {
+        "name": "Thomas Goodman",
+        "title": "Assistant Professor",
+        "joined": "2021",
+        "education": [
+            "B.S., Northeastern University",
+            "M.A., Ph.D., Boston College"
+        ],
+        "specializations": [
+            "American Politics",
+            "Congress",
+            "Campaigns and Elections"
+        ],
+        "departmentName": "Politics and Law"
+    },
+    {
+        "name": "Kyu Chul (Casey) Shin",
+        "title": "Assistant Professor",
+        "joined": "2021",
+        "education": [
+            "B.A., Ursinus College",
+            "Ph.D., West Virginia University"
+        ],
+        "specializations": [
+            "American Politics",
+            "Race and Ethnic Studies",
+            "Public Policy",
+            "Global Affairs"
+        ],
+        "departmentName": "Politics and Law"
+    },
+    {
+        "name": "Anna R. Smith",
+        "title": "Director of Mock Trial",
+        "joined": "2012",
+        "education": [
+            "B.A., Rhodes College",
+            "J.D., Duke University"
+        ],
+        "specializations": [
+            "Legal Studies",
+            "Internships"
+        ],
+        "departmentName": "Politics and Law"
+    },
+    {
+        "name": "Hannah Guess",
+        "title": "Departmental Assistant",
+        "joined": "2020",
+        "education": [
+            "B.A. and M.A., University of Memphis"
+        ],
+        "departmentName": "Politics and Law"
+    },
+    {
+        "name": "Daniel Cullen",
+        "title": "Professor",
+        "joined": "1988",
+        "education": [
+            "M.A., Dalhousie University",
+            "Ph.D., Boston College"
+        ],
+        "specializations": [
+            "Political and Moral Philosophy",
+            "Philosophy of Law",
+            "PPE (Philosophy, Politics, and Economics)",
+            "Contemporary Political Theory"
+        ],
+        "departmentName": "Philosophy"
+    },
+    {
+        "name": "Stephen Wirls",
+        "title": "Professor",
+        "joined": "1994",
+        "education": [
+            "B.A., Kenyon College",
+            "Ph.D., Cornell University"
+        ],
+        "specializations": [
+            "Modern Political Thought",
+            "Philosophy and Religion",
+            "Existentialism",
+            "PPE (Philosophy, Politics, and Economics)"
+        ],
+        "departmentName": "Philosophy"
+    },
+    {
+        "name": "Erin Dolgoy",
+        "title": "Associate Professor",
+        "joined": "2013",
+        "education": [
+            "H.B.A., University of Toronto",
+            "M.A., University of Alberta",
+            "Ph.D., Michigan State University"
+        ],
+        "specializations": [
+            "History of Political Thought",
+            "Science and Technology Policy",
+            "United States Politics"
+        ],
+        "departmentName": "Philosophy"
+    },
+    {
+        "name": "Rebecca Tuvel",
+        "title": "Associate Professor",
+        "joined": "2014",
+        "education": [
+            "B.A., McGill University",
+            "Ph.D., Vanderbilt University"
+        ],
+        "specializations": [
+            "Philosophy of Race, Sex, and Gender",
+            "Feminist Philosophy",
+            "Ethics",
+            "Bioethics",
+            "Animal Ethics"
+        ],
+        "website": "rebeccatuvel.com",
+        "departmentName": "Philosophy"
+    },
+    {
+        "name": "Jared Millson",
+        "title": "Assistant Professor",
+        "joined": "2021",
+        "education": [
+            "B.A., Boston University",
+            "Ph.D., Emory University"
+        ],
+        "specializations": [
+            "Epistemology",
+            "Logic",
+            "Philosophy of Language",
+            "Philosophy of Science",
+            "Philosophy of Mind"
+        ],
+        "website": "jamillson.com",
+        "departmentName": "Philosophy"
+    },
+    {
+        "name": "Christie Arnold",
+        "title": "Departmental Assistant",
+        "departmentName": "Philosophy"
+    },
+    {
+        "name": "Brent K. Hoffmeister",
+        "title": "Professor",
+        "joined": "1996",
+        "education": "B.A., Wabash College; Ph.D., Washington University",
+        "specialization": "Ultrasonics, medical physics",
+        "departmentName": "Physics"
+    },
+    {
+        "name": "Shubho Banerjee",
+        "title": "Professor",
+        "joined": "2002",
+        "education": "M.S., Indian Institute of Technology, Kanpur; Ph.D., Carnegie Mellon University",
+        "specialization": "Electrostatics, thermodynamics, theoretical physics",
+        "departmentName": "Physics"
+    },
+    {
+        "name": "Ann M. Viano",
+        "title": "Associate Professor and Chair",
+        "joined": "1999",
+        "education": "B.S., Santa Clara University; Ph.D., Washington University",
+        "specialization": "Materials science, solid-state physics, medical imaging, biophysics",
+        "departmentName": "Physics"
+    },
+    {
+        "name": "David S. N. Rupke",
+        "title": "Associate Professor",
+        "joined": "2010",
+        "education": "B.S., Calvin College; Ph.D., University of Maryland",
+        "specialization": "Observational and extragalactic astronomy",
+        "departmentName": "Physics"
+    },
+    {
+        "name": "Gregory B. Vieira",
+        "title": "Assistant Professor",
+        "joined": "2019",
+        "education": "B.S., University of Maryland; Ph.D., The Ohio State University",
+        "specialization": "Magnetic materials and devices",
+        "departmentName": "Physics"
+    },
+    {
+        "name": "Natalie Person",
+        "title": "Professor",
+        "joined": "1994",
+        "education": [
+            "B.A., University of Mississippi",
+            "Ph.D., University of Memphis"
+        ],
+        "specializations": [
+            "Cognitive",
+            "Learning Technologies",
+            "Educational Psychology"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Elizabeth Thomas",
+        "title": "Professor",
+        "joined": "2011",
+        "education": [
+            "B.A., Georgetown University",
+            "Ph.D., University of Illinois at Urbana-Champaign"
+        ],
+        "specializations": [
+            "Urban Studies",
+            "Community Psychology",
+            "Psychology and the Arts"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Katherine White",
+        "title": "Professor",
+        "joined": "2009",
+        "education": [
+            "B.A., Rhodes College",
+            "Ph.D., University of Florida"
+        ],
+        "specializations": [
+            "Cognitive",
+            "Language and Memory",
+            "Cognitive Aging"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Jason Haberman",
+        "title": "Associate Professor",
+        "joined": "2014",
+        "education": [
+            "B.A., University of Miami",
+            "M.A. and Ph.D., University of California - Davis"
+        ],
+        "specializations": [
+            "Neuroscience: Visual Psychophysics",
+            "Object Recognition",
+            "Ensemble Perception"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Kiren Khan",
+        "title": "Associate Professor",
+        "joined": "2017",
+        "education": [
+            "A.B., University of Pennsylvania",
+            "Ph.D., The Pennsylvania State University"
+        ],
+        "specializations": [
+            "Developmental Psychology",
+            "Narrative Development in Young Children"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Rebecca Klatzkin",
+        "title": "Associate Professor",
+        "joined": "2011",
+        "education": [
+            "B.S., University of Richmond",
+            "Ph.D., University of North Carolina, Chapel Hill"
+        ],
+        "specializations": [
+            "Behavioral Neuroscience: Stress",
+            "Eating Behavior",
+            "Binge Eating Disorder"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Geoffrey Maddox",
+        "title": "Associate Professor",
+        "joined": "2013",
+        "education": [
+            "B.A., University of Missouri",
+            "M.A., Ph.D., Washington University in St. Louis"
+        ],
+        "specializations": [
+            "Cognitive: Aging and Development"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Matthew Weeks",
+        "title": "Associate Professor",
+        "joined": "2001",
+        "education": [
+            "B.A., Kentucky Wesleyan College",
+            "Ph.D., University of Memphis"
+        ],
+        "specializations": [
+            "Social",
+            "Social Cognition",
+            "Stereotyping"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Amanda Hasselle",
+        "title": "Assistant Professor",
+        "joined": "2021",
+        "education": [
+            "B.A., Trinity University",
+            "M.S., Ph.D., University of Memphis"
+        ],
+        "specializations": [
+            "Clinical: Child and Family Studies"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Katherine (Kailey) Lawson",
+        "title": "Assistant Professor",
+        "joined": "2022",
+        "education": [
+            "B.A., Pomona College",
+            "M.A., Ph.D., University of California - Davis"
+        ],
+        "specializations": [
+            "Social-Personality: Nature, Development, and Assessment of Personality Traits"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Laura Shanahan",
+        "title": "Assistant Professor",
+        "joined": "2022",
+        "education": [
+            "B.S., University of Wisconsin, Madison",
+            "Ph.D., Northwestern University"
+        ],
+        "specializations": [
+            "Neuroscience: Cognitive Neuroscience",
+            "Sleep",
+            "Sensory Systems"
+        ],
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Anjeanette Tiamiyu",
+        "title": "Departmental Assistant",
+        "departmentName": "Psychology"
+    },
+    {
+        "name": "Patrick Gray",
+        "title": "Professor",
+        "joined": "2002",
+        "education": [
+            "B.A., Oglethorpe University",
+            "M.T.S., Ph.D., Emory University"
+        ],
+        "specializations": [
+            "New Testament",
+            "History of Biblical Interpretation",
+            "Greco-Roman Moral Philosophy"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Stephen R. Haynes",
+        "title": "Professor",
+        "joined": "1989",
+        "education": [
+            "B.A., Vanderbilt University",
+            "M.A., Florida State University",
+            "M.Div., Columbia Theological Seminary",
+            "Ph.D., Emory University"
+        ],
+        "specializations": [
+            "Holocaust Studies",
+            "Religion and Politics",
+            "Religion and Literature",
+            "Religion and Education"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Steven L. McKenzie",
+        "title": "Professor",
+        "joined": "1983",
+        "education": [
+            "B.A., M.Div., Abilene Christian University",
+            "Th.D., Harvard University"
+        ],
+        "specializations": [
+            "Old Testament",
+            "Hebrew"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Thomas Bremer",
+        "title": "Associate Professor",
+        "joined": "2001",
+        "education": [
+            "B.A., The Ohio State University",
+            "M.A., Ph.D., Princeton University"
+        ],
+        "specializations": [
+            "History of Religion in America"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "John C. Kaltner",
+        "title": "Associate Professor",
+        "joined": "1996",
+        "education": [
+            "B.A., State University of New York at Oswego",
+            "M.A., Maryknoll School of Theology",
+            "S.S.L., Pontifical Biblical Institute",
+            "Ph.D., Drew University"
+        ],
+        "specializations": [
+            "Biblical Studies",
+            "Islam"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Bernadette McNary-Zak",
+        "title": "Associate Professor",
+        "joined": "1999",
+        "education": [
+            "B.A., University of Rochester",
+            "M.A., Catholic University of America",
+            "Ph.D., University of Toronto"
+        ],
+        "specializations": [
+            "Early Christianity"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Sarah E. Rollens",
+        "title": "Associate Professor",
+        "joined": "2015",
+        "education": [
+            "B.A., University of North Carolina at Wilmington",
+            "M.A., University of Alberta",
+            "Ph.D., University of Toronto"
+        ],
+        "specializations": [
+            "New Testament",
+            "Early Christianity"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Brooke Schedneck",
+        "title": "Associate Professor",
+        "joined": "2017",
+        "education": [
+            "B.A., Boston University",
+            "M.T.S., Harvard University",
+            "Ph.D., Arizona State University"
+        ],
+        "specializations": [
+            "Asian Religions"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Raissa von Doetinchem de Rande",
+        "title": "Assistant Professor",
+        "joined": "2020",
+        "education": [
+            "M.A., University of Oxford",
+            "M.A.R., Yale University",
+            "M.A., Ph.D., Princeton University"
+        ],
+        "specializations": [
+            "Islamic Studies",
+            "Ethics"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Beck Henricksen",
+        "title": "Assistant Professor",
+        "joined": "2023",
+        "education": [
+            "B.S., B.A., Biola University",
+            "M.A., Yale Divinity School",
+            "M.A., Brown University",
+            "Ph.D., University of North Carolina at Chapel Hill"
+        ],
+        "specializations": [
+            "Gender and Sexuality Studies",
+            "Africana Studies"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Shatavia L. Wynn",
+        "title": "Assistant Professor",
+        "joined": "2022",
+        "education": [
+            "B.A., Claflin University",
+            "M.A., Yale University Divinity School",
+            "Ph.D., Vanderbilt University"
+        ],
+        "specializations": [
+            "African American Religion",
+            "Africana Studies"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Micah D. Greenstein",
+        "title": "Part-Time Faculty",
+        "joined": "2020",
+        "education": [
+            "B.A., Cornell University",
+            "M.P.A., Harvard University",
+            "Rabbinic Ordination, M.A.H.L., D.D., Hebrew Union College-Jewish Institute of Religion"
+        ],
+        "specializations": [
+            "Judaism"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Jonathan C. Lewis",
+        "title": "Part-Time Faculty",
+        "joined": "2021",
+        "education": [
+            "B.A., University of Georgia",
+            "M.Div., Duke Divinity School",
+            "D.Min., Memphis Theological Seminary"
+        ],
+        "specializations": [
+            "Religious Studies",
+            "Speech Communications",
+            "Pastoral Care and Counseling",
+            "Narrative Medicine"
+        ],
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Christie Arnold",
+        "title": "Departmental Assistant",
+        "departmentName": "Religious Studies"
+    },
+    {
+        "name": "Alexandra Kostina",
+        "joined": "1996",
+        "title": "Associate Professor",
+        "education": "M.A. Novgorod State University; Ph.D. Gornyi University/Russian State Pedagogical University",
+        "specialization": "Russian language, linguistics, and culture",
+        "departmentName": "Russian"
+    },
+    {
+        "name": "Kathleen Anne Doyle",
+        "joined": "1999",
+        "title": "Associate Professor",
+        "education": "B.A., Saint Xavier College, Chicago; M.A. and Ph.D., University of Chicago",
+        "specialization": "Spanish language, Modernism in Spain, Contemporary Peninsular Spanish literature, Gender and Sexuality Studies",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Eric Henager",
+        "joined": "1995",
+        "title": "Associate Professor",
+        "education": "B.A., Rhodes College; M.A. and Ph.D., University of Illinois",
+        "specialization": "Spanish language, Contemporary Latin American literatures and cultures, popular culture and literature, Latin American Studies",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Clara Pascual-Argente",
+        "joined": "2011",
+        "title": "Associate Professor",
+        "education": "B.A. and M.A. Universidad de Salamanca; Ph.D. Georgetown University",
+        "specialization": "Medieval and early modern Spanish literature, Film Studies",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Elizabeth Marcela Pettinaroli",
+        "joined": "2007",
+        "title": "Associate Professor",
+        "education": "B.A. Franklin and Marshall College; M.A. and Ph.D., University of Virginia",
+        "specialization": "Latin American literature, Ecocritical Studies, Urban and Environmental Studies, Bibliodiversity, Spanish language in socio-cultural contexts",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Alberto del Pozo Mart\u00ednez",
+        "joined": "2008",
+        "title": "Associate Professor",
+        "education": "Licenciado en Filolog\u00eda, Universidad de Zaragoza; M.A. and Ph.D. Vanderbilt University",
+        "specialization": "Modern Spanish American literature and Literary Theory",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Rachel No\u00ebl Bauer",
+        "joined": "2008",
+        "title": "Assistant Professor",
+        "education": "B.A. Duquesne University; M.A. Purdue University; Ph.D. Vanderbilt University",
+        "specialization": "Early Modern Spanish literature, Golden Age narrative, Don Quixote de la Mancha",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Juanita Bernal Benavides",
+        "joined": "2022",
+        "title": "Assistant Professor",
+        "education": "B.A. and M.A. Universidad de los Andes; Ph.D. University of Michigan",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Bruce M. Jackson, Jr.",
+        "joined": "2021",
+        "title": "Assistant Professor",
+        "education": "B.A. and M.A. Middle Tennessee State University; Ph.D. University of Tennessee, Knoxville",
+        "specialization": "Mid-19th to Mid-20th century Spanish Peninsular literature and culture, minority cultures in contemporary Spain",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Catherine Sundt",
+        "joined": "2012",
+        "title": "Assistant Professor",
+        "education": "B.A. Grand Valley State University; M.A. and Ph.D. The Ohio State University",
+        "specialization": "Modern Spanish literature and Urban literature",
+        "departmentName": "Spanish"
+    },
+    {
+        "name": "Hern\u00e1n Garrido",
+        "joined": "2016",
+        "title": "Instructor",
+        "education": "B.A. Andrews University; M.A. University of Mississippi",
+        "specialization": "Spanish language and Hispanic cultures",
+        "departmentName": "Spanish"
+    }
+]
