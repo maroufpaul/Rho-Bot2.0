@@ -39,4 +39,9 @@ rules:
   - intent: nlu_fallback
   - action: utter_fallback
 
+- rule: Retrieve department chair
+  steps:
+  - intent: ask_department_chair
+  - action: action_retrieve_department_chair
+
 

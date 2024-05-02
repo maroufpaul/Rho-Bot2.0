@@ -35,22 +35,38 @@ nlu:
     - I need information on [data analytics](specialization).
     - Who should I talk to about [artificial intelligence](specialization)?
     - Is there an expert in [parallel programming](specialization)?
-    - I’m looking for a professor who knows about [distributed systems](specialization).
+    - I'm looking for a professor who knows about [distributed systems](specialization).
     - Who in the department is known for [formal verification](specialization)?
     - Find me a faculty member with knowledge in [music informatics](specialization).
     - Who teaches [parallel computing](specialization) in [computer science](department)?
     - Who specializes in [machine learning](specialization) in the [computer science](department) department?
     - Who teaches [parallel computing](specialization)?
-    - Who specializes in [machine learning](specialization)?
+    - Who specializes in [Biochemistry](specialization)?
     - Can you tell me the professor for [data structures](specialization)?
-    - I want to know about the faculty in [cybersecurity](specialization).
+    - I want to know about the faculty in [Pharmacology](specialization)
     - [machine learning](specialization) professor
+    - who teaches [finance](specialization) 
     - [parallel computing](specialization) faculty member
-    - who teaches [machine learning](specialization)
-    - Can you tell me about faculty in [physics](department) who focus on [electrostatics](specialization)?
-    - who teaches [ultrasonics](specialization)?
-    - who specializes in [machine learning](specialization)?
-    - who teaches [computer vision](specialization)?
+    - Who teaches [islam](specialization)?
+    - Who specializes in [middle eastern studies](specialization)?
+    - Faculty members working on [islamic studies](specialization)
+    - who teaches [biology](specialization)
+    - who teaches [calculus](specialization)
+
+
+    
+- intent: ask_faculty_info
+  examples: |
+    - Tell me about Dr. [Philip Kilin](person)
+    - What courses does [Dr. Brian Larkins](person) teach?
+    - More information on [Dr. Betsy Sanders](person) please.
+    - Can you provide details about [Professor John Smith](person)?
+    - I need information on [Dr. Jane Doe](person)
+    - tell me more about prof [phillip kirlin](person)
+    - what does professor [larkins](person) do
+    - tell me more about the [dr. welsh](person)
+    - what does dr [Mathew superdock[(person) do
+    - what does   dr. [superdock] do
 
   #examples: |
     #- I am asking about [computer science](department)
@@ -79,6 +95,10 @@ nlu:
     - Who is the chair of the [CS](department) department?
     - Tell me who leads the [computer science](department) department.
     - Who is in charge of the [mathematics](department) department?
+    - Who is the chair of the [physics](department) department?
+    - chair of the [biology](department)
+    - who is the chair of the [history](department)
+    - who is hjhgd chair of the [Psychology](department)
 
 - intent: provide_feedback
   examples: |
@@ -141,12 +161,16 @@ nlu:
     - What are the major requirements for [Physics](department)?
     - Can you tell me the requirements to major in [Computer Science](department)?
     - Major requirements for [Physics](department) please
+    - Major information for [Anthropology](department)
+    - Major information for [Africana Studies](department)
 
 - intent: ask_minor_requirements
   examples: |
     - What are the minor requirements for [Physics](department)?
     - Can you tell me the requirements to minor in [Computer Science](department)?
     - Minor requirements for [Physics](department) please
+    - Minor requirements for [Africana Studies](department) 
+    - minor requirements for [economics](department)
 
 - intent: ask_link
   examples: |
@@ -192,6 +216,20 @@ nlu:
     - Show me the link for the [student handbook] (service).
     - link to [physics](service) website
     - link to [physics](service) department website
+
+- intent: ask_honor_program
+  examples: |
+    - What are the requirements for the Honor Program in [Music](department)?
+    - Could you provide information about the Honor Program in [Educational Studies](department)?
+    - I'm interested in learning about the Honor Program for [Neuroscience](department).
+    - Can you tell me more about the Honor Program available for [Chemistry](department) majors?
+    - Details about the Honor Program in [Psychology](department), please.
+    - What's involved in the Honor Program for [Gender & Sexuality Studies](department)?
+    - I'd like to know about the Honor Program for [Business](department) students.
+    - How can I apply for the Honor Program in [Anthropology & Sociology](department)?
+    - Could you provide information about the Honor Program in [Computer Science](department)?
+    - What are the benefits of joining the Honor Program for [Environmental Sciences](department)?
+
 
     
 

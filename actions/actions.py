@@ -14,7 +14,7 @@ from rasa_sdk.events import UserUtteranceReverted
 from rasa_sdk.events import SlotSet
 from transformers import pipeline
 import spacy
-from fuzzywuzzy import process
+from fuzzywuzzy import process, fuzz
 import requests
 from bs4 import BeautifulSoup
 
@@ -43,109 +43,133 @@ def load_data(department=None):
     else:
         return None
 
+def load_faculty_data():
+    file_path = Path(__file__).parent.parent / "data/Faculty_Info.json"
+    if file_path.exists():
+        with open(file_path, "r", encoding="utf-8") as json_file:
+            data = json.load(json_file)
+            return data
+    else:
+        return None
+
+
+
 class ActionRetrieveInformation(Action):
     def name(self) -> Text:
         return "action_retrieve_information"
 
-    def process_query(self, query: str):
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_message = tracker.latest_message.get('text').lower()
+
+        # Load department data
+        department_data = load_data()
+
+        # Process query to find the closest department match
+        department_name = self.process_query(user_message, department_data)
+
+        if department_name:
+            department_info = department_data.get(department_name, {})
+
+            if "description" in department_info:
+                dispatcher.utter_message(text=department_info["description"])
+            else:
+                dispatcher.utter_message(text=f"Sorry, I couldn't find a description for {department_name}.")
+        else:
+            dispatcher.utter_message(text="Sorry, I couldn't find relevant information for your query.")
+
+        return []
+
+    def process_query(self, query: str, department_data: Dict[str, Dict]) -> str:
         # List of department names
-        department_names = ["Computer_Science", "Physics"]
+        department_names = list(department_data.keys())
 
         # Convert query to lowercase for case-insensitive matching
         query_lower = query.lower()
 
         # Use fuzzy matching to find the closest match
         closest_match, _ = process.extractOne(query_lower, department_names)
-        return [closest_match]
+        return closest_match
 
-
-    def match_information(self, department_name, department_data):
-        found_info = []
-        department_data_lower = {key.lower(): value for key, value in department_data.items()}
-        if department_name.lower() in department_data_lower:
-            department_info = department_data_lower[department_name.lower()]
-            if "description" in department_info:
-                found_info.append(department_info["description"])
-            else:
-                for program in department_info.get("programs", []):
-                    found_info.append(program["programName"] + ": " + program["requirements"]["additionalCourses"])
-                found_info.append("Minor Requirements: " + department_info["minorRequirements"]["courses"])
-        return found_info
-
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        user_message = tracker.latest_message.get('text').lower()
-        department_name = self.process_query(user_message)
-        print(department_name)
-        print("hello")
-
-        if department_name:
-            found_info = self.match_information(department_name[0], UNIFIED_INDEX)
-            print("Found info is: ", found_info)
-            if found_info:
-                dispatcher.utter_message(text="\n".join(found_info))
-                return []
-        
-        dispatcher.utter_message(text="Sorry, I couldn't find relevant information for your query.")
-        return []
 
 class ActionFacultySpecialization(Action):
     def name(self) -> Text:
         return "action_faculty_specialization"
-
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        department = tracker.get_slot('department')
-        specialization = tracker.get_slot('specialization')
-
-        print(department)
-
-        if specialization is None:
-            dispatcher.utter_message(text="Please provide a specialization.")
-            return []
-
-        department_data = load_data(department)
-        print(department_data)
-
-        if department_data is None or not department_data:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
-            return []
-
-        department_info = list(department_data.values())[0]  # Retrieve department info
-
-        print(department_info)
-       
-        if department_info:
-            faculty_list = department_info.get("faculty", [])
-            # Fuzzy matching for specialization
-            closest_match, _ = process.extractOne(specialization.lower(), [faculty["specialization"].lower() for faculty in faculty_list])
-            for faculty in faculty_list:
-                if closest_match in faculty["specialization"].lower():
-                    dispatcher.utter_message(text=f"{faculty['name']} specializes in {faculty['specialization']}.")
-                    return []
-        
-        dispatcher.utter_message(text="I couldn't find a faculty member with that specialization.")
-        return []
-
-
-class ActionRetrieveDepartmentChair(Action):
-    def name(self) -> Text:
-        return "action_retrieve_department_chair"
-
+    
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        specialization = next(tracker.get_latest_entity_values("specialization"), None)
 
-        department = tracker.get_slot("department")
-
-        department_data = load_data(department)
-        if department_data is None or not department_data:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
+        if not specialization:
+            # Provide a list of related specializations if no specific specialization is provided
+            dispatcher.utter_message(text="Please provide a specialization or choose from the following related topics: machine learning, parallel computing, Islamic law, etc.")
             return []
 
-        department_info = list(department_data.values())[0]  # Retrieve department info
+        faculty_data = load_faculty_data()
+        print("hello")
+        
+        if faculty_data is None:
+            dispatcher.utter_message(text="Sorry, I couldn't find information about the faculty members.")
+            return []
 
-        chair_info = department_info.get("chair", "I don't know who it is.")
-        dispatcher.utter_message(text=f"The department chair for {department} is {chair_info}.")
+        matching_faculty = []
+        seen_names = set()  # To avoid duplicate entries
+        for faculty in faculty_data:
+            if "specialization" in faculty:
+                faculty_specializations = [s.strip().lower() for s in faculty["specialization"].split(",")]
+                for spec in faculty_specializations:
+                    score = fuzz.ratio(specialization.lower(), spec)
+                    if score >= 70:  # Adjust the threshold as needed
+                        name = faculty['name']
+                        if name not in seen_names:
+                            department_name = faculty.get("departmentName", "Unknown Department")
+                            matching_faculty.append((name, spec, department_name, score))
+                            seen_names.add(name)
+
+        if matching_faculty:
+            # Sort matching faculty by match score in descending order
+            matching_faculty = sorted(matching_faculty, key=lambda x: x[3], reverse=True)
+            dispatcher.utter_message(text=f"Here are the professors who specialize in {specialization}:")
+            for i, (name, match, department, score) in enumerate(matching_faculty[:3], start=1):
+                dispatcher.utter_message(text=f"{i}. {name} specializes in {match} and is in the {department} department. (Match score: {score}%)")
+        else:
+            dispatcher.utter_message(text="I couldn't find a faculty member with that specialization.")
+        
         return []
+
+
+class ActionFacultyInfo(Action):
+    def name(self) -> Text:
+        return "action_faculty_info"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        person_entity = next(tracker.get_latest_entity_values("person"), None)
+        faculty_data = load_faculty_data()
+
+        if faculty_data is None:
+            dispatcher.utter_message(text="Sorry, I couldn't find information about the faculty members.")
+            return []
+
+        if person_entity:
+            person_entity = person_entity.lower()
+            name_matches = process.extract(person_entity, [f['name'].lower() for f in faculty_data], scorer=fuzz.partial_ratio)
+            name_matches = [match for match in name_matches if match[1] >=60]  # Adjust the threshold as needed
+
+            if name_matches:
+                matching_faculty_name = name_matches[0][0]
+                matching_faculty = [f for f in faculty_data if f['name'].lower() == matching_faculty_name]
+                faculty = matching_faculty[0]
+                dispatcher.utter_message(text=f"Here's the information about {faculty['name']}:")
+                for key, value in faculty.items():
+                    if key != 'name':
+                        dispatcher.utter_message(text=f"{key.capitalize()}: {value}")
+            else:
+                dispatcher.utter_message(text=f"I couldn't find any information about {person_entity}.")
+        else:
+            dispatcher.utter_message(text="Please provide a faculty name to get their information.")
+
+        return []
+
 '''
 class ActionProvideCourseDetails(Action):
     def name(self) -> Text:
@@ -195,22 +219,36 @@ class ActionProvideMajorRequirements(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         department = tracker.get_slot("department")
-
         department_data = load_data(department)
 
-        if department_data is None or not department_data:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
-            return []
 
+        if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) about the {department} department.")
+            return []
+        
         department_info = list(department_data.values())[0]  # Retrieve department info
 
         if department_info:
             programs = department_info.get("programs", [])
-            for program in programs:
-                dispatcher.utter_message(text=f"Major Requirements for {program['programName']}: {program['requirements']['courses']}")
-            return []
+            if programs:
+                for program in programs:
+                    response = f"Major Requirements for {department} - {program['programName']}:"
+                    response += f"\nTotal Credits: {program['requirements'].get('totalCredits', 'N/A')}"
+                    courses = program['requirements'].get('courses', [])
+                    if courses:
+                        response += "\nCourses:"
+                        response += "\n".join(f"- {course}" for course in courses)
+                        response += "\n"
+                    else:
+                        response += "\nNo specific courses listed."
+                        response += "\n"
+                    dispatcher.utter_message(text=response)
+                return []
+            else:
+                dispatcher.utter_message(text=f"Sorry, I couldn't find major requirements for any programs in the {department} department.")
+        else:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) for the {department} department.")
 
-        dispatcher.utter_message(text="Sorry, I couldn't find major requirements for this department.")
         return []
 
 
@@ -224,18 +262,32 @@ class ActionProvideMinorRequirements(Action):
         department_data = load_data(department)
 
         if department_data is None or not department_data:
-            dispatcher.utter_message(text=f"Sorry, I couldn't find information about the {department} department.")
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) about the {department} department.")
             return []
-
+        
         department_info = list(department_data.values())[0]  # Retrieve department info
 
         if department_info:
-            minor_requirements = department_info.get("minorRequirements", {}).get("courses")
-            if minor_requirements:
-                dispatcher.utter_message(text=f"Minor Requirements: {minor_requirements}")
+            minorReq = department_info.get("minorRequirements", [])
+            if minorReq :
+                for minor in minorReq :
+                    response = f"Minor Requirements for {department.replace('_', ' ')}:\n"
+                    total_credits = minor.get("totalCredits", "")
+                    response += f"Total Credits: {total_credits}\n"
+                    courses = minor.get('courses', [])
+                    if courses:
+                        response += "\nCourses:"
+                        response += "\n".join(f"- {course}" for course in courses)
+                        response += "\n"
+                    else:
+                        response += "\nNo specific courses listed."
+                    dispatcher.utter_message(text=response)
                 return []
+            else:
+                dispatcher.utter_message(text=f"Sorry, {department} does not offer a minor")
+        else:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) for the {department} department.")
 
-        dispatcher.utter_message(text="Sorry, I couldn't find minor requirements for this department.")
         return []
 
 
@@ -336,6 +388,42 @@ class ActionProvideLink(Action):
             dispatcher.utter_message(text="Please specify which link you're looking for.")
 
         return []
+    
+class ActionProvideHonorProgramDetails(Action):
+    def name(self) -> Text:
+        return "action_provide_honor_program_details"
+    
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        department = tracker.get_slot("department")
+
+        department_data = load_data(department)
+
+        if department_data is None or not department_data:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) about the {department} department.")
+            return []
+        
+        department_info = list(department_data.values())[0]  # Retrieve department info
+
+        if department_info:
+            honors = department_info.get("honorsProgram", [])
+            if honors:
+                for honor in honors :
+                    response = f"Honors Requirements for {department.replace('_', ' ')}:\n"
+                    reqs = honor.get('requirements', [])
+                    if reqs:
+                        response += "\nRequirements:"
+                        response += "\n".join(f"- {req}" for req in reqs)
+                        response += "\n"
+                    else:
+                        response += "\nNo specific requirements listed."
+                    dispatcher.utter_message(text=response)
+                return []
+            else:
+                dispatcher.utter_message(text=f"Sorry, {department} does not offer an Honors Program")
+        else:
+            dispatcher.utter_message(text=f"Sorry, I couldn't find information (no data) for the {department} department.")
+
+        return []
 
 '''
 class ActionProvideLink(Action):
@@ -419,8 +507,9 @@ class ActionGetCourseInfo(Action):
 
         course_title = soup.find('h1').text.strip()
         course_description = soup.find('p').text.strip()
-        prerequisites_section = soup.find('h3', text='Prerequisites')
-        degree_requirements_section = soup.find('h3', text='Degree Requirements')
+        prerequisites_section = soup.find('h3', string='Prerequisites')
+        
+        degree_requirements_section = soup.find('h3', string='Degree Requirements')
 
         if prerequisites_section:
             prerequisites = prerequisites_section.find_next('div').find_all('a')
@@ -444,6 +533,48 @@ class ActionGetCourseInfo(Action):
         return []
 
 
+
+class ActionRetrieveDepartmentChair(Action):
+    def name(self) -> Text:
+        return "action_retrieve_department_chair"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        # Fetch the webpage
+        url = "https://sites.rhodes.edu/academic-affairs/department-chairs-program-chairs"
+        response = requests.get(url)
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        # Extract department-chair mappings
+        department_chairs = {}
+        table = soup.find("table")
+        rows = table.find_all("tr")
+        for row in rows[1:]:  # Skip header row
+            columns = row.find_all("td")
+            department = columns[0].text.strip()
+            chair = columns[1].text.strip()
+            department_chairs[department] = chair
+
+        # Extract department entity from user input
+        department_entity = next(tracker.get_latest_entity_values("department"), None)
+        if not department_entity:
+            dispatcher.utter_message("Sorry, I couldn't identify the department.")
+            return []
+
+        # Find the closest matching department
+        matched_department, score = process.extractOne(department_entity, department_chairs.keys())
+
+        if score >= 80:  # Adjust similarity threshold as needed
+            chair = department_chairs[matched_department]
+            dispatcher.utter_message(f"The chair of {matched_department} department is {chair}.")
+        else:
+            dispatcher.utter_message("Sorry, I couldn't find information about that department.")
+
+        return [SlotSet("department", matched_department)]  # Set the department slot for future tracking
+
+    
 
 
 

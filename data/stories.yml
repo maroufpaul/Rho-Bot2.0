@@ -17,24 +17,6 @@ stories:
   - intent: affirm
   - action: utter_what_else_can_i_do
 
-#- story: Adaptive bot challenge interaction
- # steps:
- # - intent: bot_challenge
- # - action: utter_iamabot
- # - action: utter_can_i_help
-
-
-
-- story: Faculty specialization inquiry flow
-  steps:
-  - intent: ask_department_description
-  - action: utter_ask_department
-  - action: utter_ask_specialization
-  - intent: ask_faculty_specialization
-    entities:
-    - specialization: machine learning
-  - action: action_faculty_specialization
-
 
 - story: Department description inquiry
   steps:
@@ -68,10 +50,26 @@ stories:
   - intent: get_course_info
   - action: action_get_course_info
 
+- story: Honor Program inquiry
+  steps:
+  - intent: ask_honor_program
+    entities:
+      - department: "department"
+  - action: action_provide_honor_program_details
+
+
+- story: Ask for faculty information
+  steps:
+    - intent: ask_faculty_info
+    - action: action_faculty_info
 
 
 
 
-  
 
-  
+
+
+
+
+
+

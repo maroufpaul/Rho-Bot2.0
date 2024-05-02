@@ -17,6 +17,9 @@ intents:
   - ask_minor_requirements
   - ask_link
   - get_course_info
+  - ask_faculty_info
+  - ask_honor_program
+
   
 
 entities:
@@ -26,6 +29,7 @@ entities:
   - subject
   - service
   - course_code
+  - person
 
 
 slots:
@@ -60,6 +64,11 @@ slots:
     influence_conversation: true
     mappings:
       - type: from_text
+  person:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: person
 
 
 
@@ -130,6 +139,8 @@ actions:
   - action_provide_link
   - action_set_link_context
   - action_get_course_info
+  - action_faculty_info
+  - action_provide_honor_program_details # New
   
 
 session_config:
